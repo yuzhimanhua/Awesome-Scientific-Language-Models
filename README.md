@@ -4,6 +4,10 @@
 
 A curated list of scientific language models
 
+**NOTE 1: To avoid ambiguity, when we talk about the number of parameters in a model, "Base" refers to 110M (i.e., BERT-Base) and "Large" refers to 340M (i.e., BERT-Large). Other numbers will be written explicitly.**
+
+**NOTE 2: In each subsection, papers are sorted chronologically. If a paper has a preprint (e.g., arXiv or bioRxiv) version, its publication date is according to the preprint service. Otherwise, its publication date is according to the conference proceeding or journal.**
+
 
 ## General
 ### Language
@@ -12,6 +16,12 @@ A curated list of scientific language models
 
 **(SciGPT2)** _Explaining Relationships Between Scientific Documents_ ```ACL 2021```     
 [[Paper](https://arxiv.org/abs/2002.00317)] [[GitHub](https://github.com/Kel-Lu/SciGen)] [[Model (117M)](https://drive.google.com/file/d/1AoNYnhvI6tensnrpQVc09KL1NWJ5MvFU/view)]
+
+**(CATTS)** _TLDR: Extreme Summarization of Scientific Documents_ ```EMNLP 2020 Findings```     
+[[Paper](https://arxiv.org/abs/2004.15011)] [[GitHub](https://github.com/allenai/scitldr)] [[Model (406M)](https://storage.cloud.google.com/skiff-models/scitldr/catts-xsum.tldr-aic.pt)]
+
+**(SciNewsBERT)** _SciClops: Detecting and Contextualizing Scientific Claims for Assisting Manual Fact-Checking_ ```CIKM 2021```     
+[[Paper](https://arxiv.org/abs/2110.13090)] [[Model (Base)](https://huggingface.co/psmeros/SciNewsBERT)]
 
 **(Galactica)** _Galactica: A Large Language Model for Science_ ```arXiv 2022```     
 [[Paper](https://arxiv.org/abs/2211.09085)]
@@ -98,10 +108,10 @@ Systematic Survey_](https://arxiv.org/abs/2110.05006) when writing some parts of
 [[Paper](https://arxiv.org/abs/2010.11784)] [[GitHub](https://github.com/cambridgeltl/sapbert)] [[Model (Base)](https://huggingface.co/cambridgeltl/SapBERT-from-PubMedBERT-fulltext)]
 
 **(ClinicalTransformer)** _Clinical Concept Extraction Using Transformers_ ```JAMIA 2020```     
-[[Paper](https://academic.oup.com/jamia/article-abstract/27/12/1935/5943218)] [[GitHub](https://github.com/uf-hobi-informatics-lab/ClinicalTransformerNER)] [[Model (Base, BERT)](https://transformer-models.s3.amazonaws.com/mimiciii_bert_10e_128b.zip)] [[Model (Base, RoBERTa)](https://transformer-models.s3.amazonaws.com/mimiciii_roberta_10e_128b.zip)] [[Model (Base, ALBERT)](https://transformer-models.s3.amazonaws.com/mimiciii_albert_10e_128b.zip)] [[Model (Base, ELECTRA)](https://transformer-models.s3.amazonaws.com/mimiciii_electra_5e_128b.zip)] [[Model (Base, XLNet)](https://transformer-models.s3.amazonaws.com/mimiciii_xlnet_5e_128b.zip)] [[Model (Base, Longformer)](https://transformer-models.s3.amazonaws.com/mimiciii_longformer_5e_128b.zip)] [[Model (Base, DeBERTa)](https://transformer-models.s3.amazonaws.com/mimiciii_deberta_10e_128b.tar.gz)]
+[[Paper](https://academic.oup.com/jamia/article-abstract/27/12/1935/5943218)] [[GitHub](https://github.com/uf-hobi-informatics-lab/ClinicalTransformerNER)] [[Model (BERT)](https://transformer-models.s3.amazonaws.com/mimiciii_bert_10e_128b.zip)] [[Model (RoBERTa)](https://transformer-models.s3.amazonaws.com/mimiciii_roberta_10e_128b.zip)] [[Model (ALBERT)](https://transformer-models.s3.amazonaws.com/mimiciii_albert_10e_128b.zip)] [[Model (ELECTRA)](https://transformer-models.s3.amazonaws.com/mimiciii_electra_5e_128b.zip)] [[Model (XLNet)](https://transformer-models.s3.amazonaws.com/mimiciii_xlnet_5e_128b.zip)] [[Model (Longformer)](https://transformer-models.s3.amazonaws.com/mimiciii_longformer_5e_128b.zip)] [[Model (DeBERTa)](https://transformer-models.s3.amazonaws.com/mimiciii_deberta_10e_128b.tar.gz)]
 
 **(BioRoBERTa)** _Pretrained Language Models for Biomedical and Clinical Tasks: Understanding and Extending the State-of-the-Art_ ```EMNLP 2020 Workshop```     
-[[Paper](https://aclanthology.org/2020.clinicalnlp-1.17)] [[GitHub](https://github.com/facebookresearch/bio-lm)] [[Model (Base)](https://dl.fbaipublicfiles.com/biolm/RoBERTa-base-PM-M3-Voc-train-longer-hf.tar.gz)] [[Model (Large)](https://dl.fbaipublicfiles.com/biolm/RoBERTa-large-PM-M3-Voc-hf.tar.gz)]
+[[Paper](https://aclanthology.org/2020.clinicalnlp-1.17)] [[GitHub](https://github.com/facebookresearch/bio-lm)] [[Model (125M)](https://dl.fbaipublicfiles.com/biolm/RoBERTa-base-PM-M3-Voc-train-longer-hf.tar.gz)] [[Model (355M)](https://dl.fbaipublicfiles.com/biolm/RoBERTa-large-PM-M3-Voc-hf.tar.gz)]
 
 **(RAD-BERT)** _Highly Accurate Classification of Chest Radiographic Reports Using a Deep Learning Natural Language Model Pre-trained on 3.8 Million Text Reports_ ```Bioinformatics 2020```     
 [[Paper](https://academic.oup.com/bioinformatics/article/36/21/5255/5875602)] [[GitHub](https://github.com/rAIdiance/bert-for-radiology)]
@@ -119,13 +129,13 @@ Systematic Survey_](https://arxiv.org/abs/2110.05006) when writing some parts of
 [[Paper](https://arxiv.org/abs/2106.03598)] [[GitHub](https://github.com/justinphan3110/SciFive)] [[Model (220M)](https://huggingface.co/razent/SciFive-base-Pubmed_PMC)] [[Model (770M)](https://huggingface.co/razent/SciFive-large-Pubmed_PMC)]
 
 **(BioALBERT)** _Benchmarking for Biomedical Natural Language Processing Tasks with a Domain Specific ALBERT_ ```BMC Bioinformatics 2022```     
-[[Paper](https://arxiv.org/abs/2107.04374)] [[GitHub](https://github.com/usmaann/BioALBERT)] [[Model (Base)](https://drive.google.com/file/d/1SIBd_-GETHhMiZ7BgMdDPEUDjOjtN_bH/view)] [[Model (Large)](https://drive.google.com/file/d/16KRtHf8Meze2Hcc4vK_GUNhG-9LY6_6P/view)]
+[[Paper](https://arxiv.org/abs/2107.04374)] [[GitHub](https://github.com/usmaann/BioALBERT)] [[Model (12M)](https://drive.google.com/file/d/1SIBd_-GETHhMiZ7BgMdDPEUDjOjtN_bH/view)] [[Model (18M)](https://drive.google.com/file/d/16KRtHf8Meze2Hcc4vK_GUNhG-9LY6_6P/view)]
 
 **(Clinical-Longformer)** _Clinical-Longformer and Clinical-BigBird: Transformers for Long Clinical Sequences_ ```arXiv 2021```     
-[[Paper](https://arxiv.org/abs/2201.11838)] [[GitHub](https://github.com/luoyuanlab/Clinical-Longformer)] [[Model (Base, Longformer)](https://huggingface.co/yikuan8/Clinical-Longformer)] [[Model (Base, BigBird)](https://huggingface.co/yikuan8/Clinical-BigBird)]
+[[Paper](https://arxiv.org/abs/2201.11838)] [[GitHub](https://github.com/luoyuanlab/Clinical-Longformer)] [[Model (Longformer)](https://huggingface.co/yikuan8/Clinical-Longformer)] [[Model (BigBird)](https://huggingface.co/yikuan8/Clinical-BigBird)]
 
 **(BioBART)** _BioBART: Pretraining and Evaluation of A Biomedical Generative Language Model_ ```ACL 2022 Workshop```     
-[[Paper](https://arxiv.org/abs/2204.03905)] [[GitHub](https://github.com/GanjinZero/BioBART)] [[Model (Base)](https://huggingface.co/GanjinZero/biobart-base)] [[Model (Large)](https://huggingface.co/GanjinZero/biobart-large)]
+[[Paper](https://arxiv.org/abs/2204.03905)] [[GitHub](https://github.com/GanjinZero/BioBART)] [[Model (140M)](https://huggingface.co/GanjinZero/biobart-base)] [[Model (406M)](https://huggingface.co/GanjinZero/biobart-large)]
 
 **(BioGPT)** _BioGPT: Generative Pre-trained Transformer for Biomedical Text Generation and Mining_ ```Briefings in Bioinformatics 2022```     
 [[Paper](https://arxiv.org/abs/2210.10341)] [[GitHub](https://github.com/microsoft/BioGPT)] [[Model (355M)](https://huggingface.co/microsoft/biogpt)] [[Model (1.5B)](https://huggingface.co/microsoft/BioGPT-Large)]
@@ -233,7 +243,7 @@ Systematic Survey_](https://arxiv.org/abs/2110.05006) when writing some parts of
 [[Paper](https://www.nature.com/articles/s41587-022-01618-2)]
 
 **(ProtTrans)** _ProtTrans: Towards Cracking the Language of Life's Code Through Self-Supervised Deep Learning and High Performance Computing_ ```TPAMI 2021```     
-[[Paper](https://arxiv.org/abs/2007.06225)] [[GitHub](https://github.com/agemagician/ProtTrans)] [[Model (Base, BERT)](https://huggingface.co/Rostlab/prot_bert)] [[Model (Base, ALBERT)](https://huggingface.co/Rostlab/prot_albert)] [[Model (Base, XLNet)](https://huggingface.co/Rostlab/prot_xlnet)] [[Model (3B, T5)](https://huggingface.co/Rostlab/prot_t5_xl_uniref50)] [[Model (11B, T5)](https://huggingface.co/Rostlab/prot_t5_xxl_uniref50)]
+[[Paper](https://arxiv.org/abs/2007.06225)] [[GitHub](https://github.com/agemagician/ProtTrans)] [[Model (Base, BERT)](https://huggingface.co/Rostlab/prot_bert)] [[Model (12M, ALBERT)](https://huggingface.co/Rostlab/prot_albert)] [[Model (Base, XLNet)](https://huggingface.co/Rostlab/prot_xlnet)] [[Model (3B, T5)](https://huggingface.co/Rostlab/prot_t5_xl_uniref50)] [[Model (11B, T5)](https://huggingface.co/Rostlab/prot_t5_xxl_uniref50)]
 
 **(DNABERT)** _DNABERT: Pre-trained Bidirectional Encoder Representations from Transformers Model for DNA-Language in Genome_ ```Bioinformatics 2021```     
 [[Paper](https://www.biorxiv.org/content/10.1101/2020.09.17.301879)] [[GitHub](https://github.com/jerryji1993/DNABERT)] [[Model (Base)](https://drive.google.com/file/d/1BJjqb5Dl2lNMg2warsFQ0-Xvn1xxfFXC/view)]
