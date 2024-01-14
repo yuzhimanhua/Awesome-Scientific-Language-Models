@@ -49,6 +49,87 @@
 
 
 
+
+
+## Mathematics
+### Language
+**(GenBERT)** _Injecting Numerical Reasoning Skills into Language Models_ ```ACL 2020```     
+[[Paper](https://arxiv.org/abs/2004.04487)] [[GitHub](https://github.com/ag1988/injecting_numeracy)]
+
+**(GPT-f)** _Generative Language Modeling for Automated Theorem Proving_ ```arXiv 2020```     
+[[Paper](https://arxiv.org/abs/2009.03393)]
+
+**(EPT)** _Point to the Expression: Solving Algebraic Word Problems using the Expression-Pointer Transformer Model_ ```NeurIPS 2020```     
+[[Paper](https://aclanthology.org/2020.emnlp-main.308)] [[GitHub](https://github.com/snucclab/EPT)]
+
+**(MATH-GPT)** _Measuring Mathematical Problem Solving with the MATH Dataset_ ```NeurIPS 2021```     
+[[Paper](https://arxiv.org/abs/2103.03874)] [[GitHub](https://github.com/hendrycks/math)]
+
+**(MathBERT)** _MathBERT: A Pre-trained Language Model for General NLP Tasks in Mathematics Education_ ```NeurIPS 2021 Workshop```     
+[[Paper](https://arxiv.org/abs/2106.07340)] [[GitHub](https://github.com/tbs17/MathBERT)] [[Model (Base)](https://huggingface.co/tbs17/MathBERT)]
+
+**(MWP-BERT)** _MWP-BERT: Numeracy-Augmented Pre-training for Math Word Problem Solving_ ```NAACL 2022 Findings```     
+[[Paper](https://arxiv.org/abs/2107.13435)] [[GitHub](https://github.com/LZhenwen/MWP-BERT)] [[Model (Base)](https://drive.google.com/drive/folders/1QC7b6dnUSbHLJQHJQNwecPNiQQoBFu8T)]
+
+**(BERT-TD with CL)** _Seeking Patterns, Not just Memorizing Procedures: Contrastive Learning for Solving Math Word Problems_ ```ACL 2022 Findings```     
+[[Paper](https://arxiv.org/abs/2110.08464)] [[GitHub](https://github.com/zwx980624/mwp-cl)]
+
+**(GSM8K-GPT)** _Training Verifiers to Solve Math Word Problems_ ```arXiv 2021```     
+[[Paper](https://arxiv.org/abs/2110.14168)] [[GitHub](https://github.com/openai/grade-school-math)]
+
+**(LAWT)** _Linear Algebra with Transformers_ ```TMLR 2022```     
+[[Paper](https://arxiv.org/abs/2112.01898)] [[GitHub](https://github.com/facebookresearch/LAWT)]
+
+**(RoBERTa-DeductReasoner)** _Learning to Reason Deductively: Math Word Problem Solving as Complex Relation Extraction_ ```ACL 2022```     
+[[Paper](https://arxiv.org/abs/2203.10316)] [[GitHub](https://github.com/allanj/Deductive-MWP)] [[Model (125M)](https://drive.google.com/file/d/1TAHbdCKar0gqFzOd76LIYMQyI6hPOmL0/view)]
+
+**(NaturalProver-GPT)** _NaturalProver: Grounded Mathematical Proof Generation with Language Models_ ```NeurIPS 2022```     
+[[Paper](https://arxiv.org/abs/2205.12910)] [[GitHub](https://github.com/wellecks/naturalprover)]
+
+**(Minerva)** _Solving Quantitative Reasoning Problems with Language Models_ ```NeurIPS 2022```     
+[[Paper](https://arxiv.org/abs/2206.14858)]
+
+**(Bhaskara)** _Lila: A Unified Benchmark for Mathematical Reasoning_ ```EMNLP 2022```     
+[[Paper](https://arxiv.org/abs/2210.17517)] [[GitHub](https://github.com/allenai/Lila)] [[Model (2.7B)](https://huggingface.co/allenai/bhaskara)]
+
+**(WizardMath)** _WizardMath: Empowering Mathematical Reasoning for Large Language Models via Reinforced Evol-Instruct_ ```arXiv 2023```     
+[[Paper](https://arxiv.org/abs/2308.09583)] [[GitHub](https://github.com/nlpxucan/WizardLM)] [[Model (7B)](https://huggingface.co/WizardLM/WizardMath-7B-V1.1)] [[Model (13B)](https://huggingface.co/WizardLM/WizardMath-13B-V1.0)] [[Model (70B)](https://huggingface.co/WizardLM/WizardMath-70B-V1.0)]
+
+**(ToRA)** _ToRA: A Tool-Integrated Reasoning Agent for Mathematical Problem Solving_ ```arXiv 2023```     
+[[Paper](https://arxiv.org/abs/2309.17452)] [[GitHub](https://github.com/microsoft/ToRA)] [[Model (7B)](https://huggingface.co/llm-agents/tora-7b-v1.0)] [[Model (13B)](https://huggingface.co/llm-agents/tora-13b-v1.0)] [[Model (70B)](https://huggingface.co/llm-agents/tora-70b-v1.0)]
+
+
+### Vision-Language
+**(Inter-GPS)** _Inter-GPS: Interpretable Geometry Problem Solving with Formal Language and Symbolic Reasoning_ ```ACL 2021```     
+[[Paper](https://arxiv.org/abs/2105.04165)] [[GitHub](https://github.com/lupantech/InterGPS)]
+
+**(Geoformer)** _UniGeo: Unifying Geometry Logical Reasoning via Reformulating Mathematical Expression_ ```EMNLP 2022```     
+[[Paper](https://arxiv.org/abs/2212.02746)] [[GitHub](https://github.com/chen-judge/UniGeo)] [[Model](https://drive.google.com/drive/folders/1NifdHLJe5U08u2Zb1sWL6C-8krpV2z2O)]
+
+**(SCA-GPS)** _A Symbolic Character-Aware Model for Solving Geometry Problems_ ```ACM MM 2023```     
+[[Paper](https://arxiv.org/abs/2308.02823)] [[GitHub](https://github.com/ning-mz/sca-gps)]
+
+**(UniMath-Flan-T5)** _UniMath: A Foundational and Multimodal Mathematical Reasoner_ ```EMNLP 2023```     
+[[Paper](https://aclanthology.org/2023.emnlp-main.440)]
+
+**(G-LLaVA)** _G-LLaVA: Solving Geometric Problem with Multi-Modal Large Language Model_ ```arXiv 2023```     
+[[Paper](https://arxiv.org/abs/2312.11370)] [[GitHub](https://github.com/pipilurj/G-LLaVA)]
+
+
+### Other Modalities (Table)
+**(TAPAS-MASKLM)** _TAPAS: Weakly Supervised Table Parsing via Pre-training_ ```ACL 2020```     
+[[Paper](https://arxiv.org/abs/2004.02349)] [[GitHub](https://github.com/google-research/tapas)] [[Model (Base)](https://storage.googleapis.com/tapas_models/2020_04_21/tapas_base.zip)] [[Model (Large)](https://storage.googleapis.com/tapas_models/2020_04_21/tapas_large.zip)]
+
+**(GraPPa)** _GraPPa: Grammar-Augmented Pre-Training for Table Semantic Parsing_ ```ICLR 2021```     
+[[Paper](https://arxiv.org/abs/2009.13845)] [[GitHub](https://github.com/taoyds/grappa)] [[Model (355M)](https://huggingface.co/Salesforce/grappa_large_jnt)]
+
+**(TAPEX)** _TAPEX: Table Pre-training via Learning a Neural SQL Executor_ ```ICLR 2022```     
+[[Paper](https://arxiv.org/abs/2107.07653)] [[GitHub](https://github.com/microsoft/Table-Pretraining)] [[Model (140M)](https://huggingface.co/microsoft/tapex-base)] [[Model (406M)](https://huggingface.co/microsoft/tapex-large)]
+
+
+
+
+
 ## Biology and Medicine
 **Acknowledgment: We referred to Wang et al.'s survey paper [_Pre-trained Language Models in Biomedical Domain: A
 Systematic Survey_](https://arxiv.org/abs/2110.05006) when writing some parts of this section.**
@@ -72,7 +153,7 @@ Systematic Survey_](https://arxiv.org/abs/2110.05006) when writing some parts of
 **(BEHRT)** _BEHRT: Transformer for Electronic Health Records_ ```Scientific Reports 2020```     
 [[Paper](https://arxiv.org/abs/1907.09538)] [[GitHub](https://github.com/deepmedicine/BEHRT)]
 
-**(EhrBERT)** _Fine-Tuning Bidirectional Encoder Representations From Transformers (BERT)–Based Models on Large-Scale Electronic Health Record Notes: An Empirical Study_ ```JMIR Medical Informatics 2019```     
+**(EhrBERT)** _Fine-Tuning Bidirectional Encoder Representations from Transformers (BERT)–Based Models on Large-Scale Electronic Health Record Notes: An Empirical Study_ ```JMIR Medical Informatics 2019```     
 [[Paper](https://medinform.jmir.org/2019/3/e14830)] [[GitHub](https://github.com/umassbento/ehrbert)]
 
 **(Clinical XLNet)** _Clinical XLNet: Modeling Sequential Clinical Notes and Predicting Prolonged Mechanical Ventilation_ ```EMNLP 2020 Workshop```     
@@ -96,14 +177,14 @@ Systematic Survey_](https://arxiv.org/abs/2110.05006) when writing some parts of
 **(MCBERT)** _Conceptualized Representation Learning for Chinese Biomedical Text Mining_ ```arXiv 2020```     
 [[Paper](https://arxiv.org/abs/2008.10813)] [[GitHub](https://github.com/alibaba-research/ChineseBLUE)] [[Model (Base)](https://drive.google.com/file/d/1ccXRvaeox5XCNP_aSk_ttLBY695Erlok/view)]
 
-**(BRLTM)** _Bidirectional Representation Learning From Transformers Using Multimodal Electronic Health Record Data to Predict Depression_ ```JBHI 2021```     
+**(BRLTM)** _Bidirectional Representation Learning from Transformers Using Multimodal Electronic Health Record Data to Predict Depression_ ```JBHI 2021```     
 [[Paper](https://arxiv.org/abs/2009.12656)] [[GitHub](https://github.com/lanyexiaosa/brltm)]
 
 **(BioRedditBERT)** _COMETA: A Corpus for Medical Entity Linking in the Social Media_ ```EMNLP 2020```     
 [[Paper](https://arxiv.org/abs/2010.03295)] [[GitHub](https://github.com/cambridgeltl/cometa)] [[Model (Base)](https://huggingface.co/cambridgeltl/BioRedditBERT-uncased)]
 
 **(BioMegatron)** _BioMegatron: Larger Biomedical Domain Language Model_ ```EMNLP 2020```     
-[[Paper](https://arxiv.org/abs/2010.06060)] [[GitHub](https://github.com/NVIDIA/NeMo)] [[Model (Large)](https://catalog.ngc.nvidia.com/orgs/nvidia/teams/nemo/models/biomegatron345m_biovocab_50k_uncased)]
+[[Paper](https://arxiv.org/abs/2010.06060)] [[GitHub](https://github.com/NVIDIA/NeMo)] [[Model (345M)](https://catalog.ngc.nvidia.com/orgs/nvidia/teams/nemo/models/biomegatron345m_biovocab_50k_uncased)]
 
 **(SapBERT)** _Self-Alignment Pretraining for Biomedical Entity Representations_ ```NAACL 2021```     
 [[Paper](https://arxiv.org/abs/2010.11784)] [[GitHub](https://github.com/cambridgeltl/sapbert)] [[Model (Base)](https://huggingface.co/cambridgeltl/SapBERT-from-PubMedBERT-fulltext)]
@@ -273,7 +354,7 @@ Systematic Survey_](https://arxiv.org/abs/2110.05006) when writing some parts of
 **(Ankh)** _Ankh: Optimized Protein Language Model Unlocks General-Purpose Modelling_ ```arXiv 2023```     
 [[Paper](https://arxiv.org/abs/2301.06568)] [[GitHub](https://github.com/agemagician/Ankh)] [[Model (450M)](https://huggingface.co/ElnaggarLab/ankh-base)] [[Model (1.1B)](https://huggingface.co/ElnaggarLab/ankh-large)]
 
-**(DNABERT-2)** _DNABERT-2: Efficient Foundation Model and Benchmark For Multi-Species Genome_ ```arXiv 2023```     
+**(DNABERT-2)** _DNABERT-2: Efficient Foundation Model and Benchmark for Multi-Species Genome_ ```arXiv 2023```     
 [[Paper](https://arxiv.org/abs/2306.15006)] [[GitHub](https://github.com/Zhihan1996/DNABERT_2)] [[Model (Base)](https://huggingface.co/zhihan1996/DNABERT-2-117M)]
 
 **(xTrimoPGLM)** _xTrimoPGLM: Unified 100B-Scale Pre-trained Transformer for Deciphering the Language of Protein_ ```bioRxiv 2023```     
