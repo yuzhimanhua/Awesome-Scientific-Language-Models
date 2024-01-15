@@ -62,9 +62,6 @@
 - **(EPT)** _Point to the Expression: Solving Algebraic Word Problems using the Expression-Pointer Transformer Model_ ```NeurIPS 2020```     
 [[Paper](https://aclanthology.org/2020.emnlp-main.308)] [[GitHub](https://github.com/snucclab/EPT)]
 
-- **(MATH-GPT)** _Measuring Mathematical Problem Solving with the MATH Dataset_ ```NeurIPS 2021```     
-[[Paper](https://arxiv.org/abs/2103.03874)] [[GitHub](https://github.com/hendrycks/math)]
-
 - **(MathBERT)** _MathBERT: A Pre-trained Language Model for General NLP Tasks in Mathematics Education_ ```NeurIPS 2021 Workshop```     
 [[Paper](https://arxiv.org/abs/2106.07340)] [[GitHub](https://github.com/tbs17/MathBERT)] [[Model (Base)](https://huggingface.co/tbs17/MathBERT)]
 
@@ -76,9 +73,6 @@
 
 - **(GSM8K-GPT)** _Training Verifiers to Solve Math Word Problems_ ```arXiv 2021```     
 [[Paper](https://arxiv.org/abs/2110.14168)] [[GitHub](https://github.com/openai/grade-school-math)]
-
-- **(LAWT)** _Linear Algebra with Transformers_ ```TMLR 2022```     
-[[Paper](https://arxiv.org/abs/2112.01898)] [[GitHub](https://github.com/facebookresearch/LAWT)]
 
 - **(DeductReasoner)** _Learning to Reason Deductively: Math Word Problem Solving as Complex Relation Extraction_ ```ACL 2022```     
 [[Paper](https://arxiv.org/abs/2203.10316)] [[GitHub](https://github.com/allanj/Deductive-MWP)] [[Model (125M)](https://drive.google.com/file/d/1TAHbdCKar0gqFzOd76LIYMQyI6hPOmL0/view)]
@@ -97,6 +91,9 @@
 
 - **(ToRA)** _ToRA: A Tool-Integrated Reasoning Agent for Mathematical Problem Solving_ ```arXiv 2023```     
 [[Paper](https://arxiv.org/abs/2309.17452)] [[GitHub](https://github.com/microsoft/ToRA)] [[Model (7B)](https://huggingface.co/llm-agents/tora-7b-v1.0)] [[Model (13B)](https://huggingface.co/llm-agents/tora-13b-v1.0)] [[Model (70B)](https://huggingface.co/llm-agents/tora-70b-v1.0)]
+
+- **(Llemma)** _Llemma: An Open Language Model For Mathematics_ ```arXiv 2023```     
+[[Paper](https://arxiv.org/abs/2310.10631)] [[GitHub](https://github.com/EleutherAI/math-lm)] [[Model (7B)](https://huggingface.co/EleutherAI/llemma_7b)] [[Model (34B)](https://huggingface.co/EleutherAI/llemma_34b)]
 
 
 ### Vision-Language
@@ -117,14 +114,35 @@
 
 
 ### Other Modalities (Table)
-- **(TAPAS-MASKLM)** _TAPAS: Weakly Supervised Table Parsing via Pre-training_ ```ACL 2020```     
+- **(TAPAS)** _TAPAS: Weakly Supervised Table Parsing via Pre-training_ ```ACL 2020```     
 [[Paper](https://arxiv.org/abs/2004.02349)] [[GitHub](https://github.com/google-research/tapas)] [[Model (Base)](https://storage.googleapis.com/tapas_models/2020_04_21/tapas_base.zip)] [[Model (Large)](https://storage.googleapis.com/tapas_models/2020_04_21/tapas_large.zip)]
+
+- **(TaBERT)** _TaBERT: Learning Contextual Representations for Natural Language Utterances and Structured Tables_ ```ACL 2020```     
+[[Paper](https://arxiv.org/abs/2005.08314)] [[GitHub](https://github.com/facebookresearch/TaBERT)] [[Model (Base)](https://drive.google.com/drive/folders/1fDW9rLssgDAv19OMcFGgFJ5iyd9p7flg)] [[Model (Large)](https://drive.google.com/drive/folders/1fDW9rLssgDAv19OMcFGgFJ5iyd9p7flg)]
 
 - **(GraPPa)** _GraPPa: Grammar-Augmented Pre-Training for Table Semantic Parsing_ ```ICLR 2021```     
 [[Paper](https://arxiv.org/abs/2009.13845)] [[GitHub](https://github.com/taoyds/grappa)] [[Model (355M)](https://huggingface.co/Salesforce/grappa_large_jnt)]
 
+- **(TUTA)** _TUTA: Tree-based Transformers for Generally Structured Table Pre-training_ ```KDD 2021```     
+[[Paper](https://arxiv.org/abs/2010.12537)] [[GitHub](https://github.com/microsoft/TUTA_table_understanding)]
+
+- **(RCI)** _Capturing Row and Column Semantics in Transformer Based Question Answering over Tables_ ```NAACL 2021```     
+[[Paper](https://arxiv.org/abs/2104.08303)] [[GitHub](https://github.com/IBM/row-column-intersection)] [[Model (12M)](https://huggingface.co/michaelrglass/albert-base-rci-wikisql-row)]
+
+- **(TABBIE)** _TABBIE: Pretrained Representations of Tabular Data_ ```NAACL 2021```     
+[[Paper](https://arxiv.org/abs/2105.02584)] [[GitHub](https://github.com/SFIG611/tabbie)]
+
 - **(TAPEX)** _TAPEX: Table Pre-training via Learning a Neural SQL Executor_ ```ICLR 2022```     
 [[Paper](https://arxiv.org/abs/2107.07653)] [[GitHub](https://github.com/microsoft/Table-Pretraining)] [[Model (140M)](https://huggingface.co/microsoft/tapex-base)] [[Model (406M)](https://huggingface.co/microsoft/tapex-large)]
+
+- **(FORTAP)** _FORTAP: Using Formulas for Numerical-Reasoning-Aware Table Pretraining_ ```ACL 2022```     
+[[Paper](https://arxiv.org/abs/2109.07323)] [[GitHub](https://github.com/microsoft/TUTA_table_understanding)]
+
+- **(OmniTab)** _OmniTab: Pretraining with Natural and Synthetic Data for Few-shot Table-based Question Answering_ ```NAACL 2022```     
+[[Paper](https://arxiv.org/abs/2207.03637)] [[GitHub](https://github.com/jzbjyb/OmniTab)] [[Model (406M)](https://huggingface.co/neulab/omnitab-large)]
+
+- **(ReasTAP)** _ReasTAP: Injecting Table Reasoning Skills During Pre-training via Synthetic Reasoning Examples_ ```EMNLP 2022```     
+[[Paper](https://arxiv.org/abs/2210.12374)] [[GitHub](https://github.com/Yale-LILY/ReasTAP)] [[Model (406M)](https://huggingface.co/Yale-LILY/reastap-large)]
 
 
 
