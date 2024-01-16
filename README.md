@@ -27,6 +27,9 @@
 - **(Galactica)** _Galactica: A Large Language Model for Science_ ```arXiv 2022```     
 [[Paper](https://arxiv.org/abs/2211.09085)]
 
+- **(FORGE)** _FORGE: Pre-Training Open Foundation Models for Science_ ```SC 2023```     
+[[Paper](https://doi.org/10.1145/3581784.3613215)] [[GitHub](https://github.com/at-aaims/forge)] [[Model (1.4B, General)](https://www.dropbox.com/sh/byr1ydik5n1ucod/AADOu_9C6AwVPTThTUFQ7yQba?dl=0)] [[Model (1.4B, Biology/Medicine)](https://www.dropbox.com/sh/41sqapgza3ok9q9/AADLgwTiHVU26ZeW_UQ8apyta?dl=0)] [[Model (1.4B, Chemistry)](https://www.dropbox.com/sh/1jn3n7099r8pzt8/AAAO6sOpFYG-G_qFI6C6CXVVa?dl=0)] [[Model (1.4B, Engineering)](https://www.dropbox.com/sh/ueki0n6y3v8gtkw/AAB6-3ml9slcbOonk6ccdD4Ua?dl=0)] [[Model (1.4B, Materials Science)](https://www.dropbox.com/sh/ngrr3bjulc76944/AABpm_OxA-GQPWzIPM4KpVKOa?dl=0)] [[Model (1.4B, Physics)](https://www.dropbox.com/sh/jxux4tplw5aw7kw/AAAdk334IEMbY7HJlJrWVzyfa?dl=0)] [[Model (1.4B, Social Science/Art)](https://www.dropbox.com/sh/54tuyslytqhpq1z/AAAc65c3TQWo2MyPoSiPxKI2a?dl=0)] [[Model (13B, General)](https://www.dropbox.com/sh/g53ot3dpqfsf6fr/AAB_RFeox2tbDKVFCH0QCw5pa?dl=0)] [[Model (22B, General)](https://www.dropbox.com/sh/7b9gbgcqdyph8v9/AABjNTaYu5PTjTMLb4-t6-PNa?dl=0)]
+
 
 ### Graph-Enhanced
 - **(SPECTER)** _SPECTER: Document-level Representation Learning using Citation-informed Transformers_ ```ACL 2020```     
@@ -36,7 +39,7 @@
 [[Paper](https://arxiv.org/abs/2103.02410)] [[GitHub](https://github.com/THUDM/OAG-BERT)]
 
 - **(ASPIRE)** _Multi-Vector Models with Textual Guidance for Fine-Grained Scientific Document Similarity_ ```NAACL 2022```     
-[[Paper](https://arxiv.org/abs/2111.08366)] [[GitHub](https://github.com/allenai/aspire)] [[Model (Base)](https://huggingface.co/allenai/aspire-contextualsentence-multim-compsci)]
+[[Paper](https://arxiv.org/abs/2111.08366)] [[GitHub](https://github.com/allenai/aspire)] [[Model (Base, Computer Science)](https://huggingface.co/allenai/aspire-contextualsentence-multim-compsci)] [[Model (Base, Biology/Medicine)](https://huggingface.co/allenai/aspire-contextualsentence-multim-biomed)]
 
 - **(SciNCL)** _Neighborhood Contrastive Learning for Scientific Document Representations with Citation Embeddings_ ```EMNLP 2022```     
 [[Paper](https://arxiv.org/abs/2202.06671)] [[GitHub](https://github.com/malteos/scincl)] [[Model (Base)](https://huggingface.co/malteos/scincl)]
@@ -143,6 +146,55 @@
 
 - **(ReasTAP)** _ReasTAP: Injecting Table Reasoning Skills During Pre-training via Synthetic Reasoning Examples_ ```EMNLP 2022```     
 [[Paper](https://arxiv.org/abs/2210.12374)] [[GitHub](https://github.com/Yale-LILY/ReasTAP)] [[Model (406M)](https://huggingface.co/Yale-LILY/reastap-large)]
+
+
+
+
+
+## Chemistry and Materials Science
+### Language
+- **(ChemBERT)** _Automated Chemical Reaction Extraction from Scientific Literature_ ```Journal of Chemical Information and Modeling 2022```     
+[[Paper](https://pubs.acs.org/doi/10.1021/acs.jcim.1c00284)] [[GitHub](https://github.com/jiangfeng1124/ChemRxnExtractor)] [[Model (Base)](https://huggingface.co/jiangg/chembert_cased)]
+
+- **(MatSciBERT)** _MatSciBERT: A Materials Domain Language Model for Text Mining and Information Extraction_ ```npj Computational Materials 2022```     
+[[Paper](https://arxiv.org/abs/2109.15290)] [[GitHub](https://github.com/M3RG-IITD/MatSciBERT)] [[Model (Base)](https://huggingface.co/m3rg-iitd/matscibert)]
+
+- **(MatBERT)** _Quantifying the Advantage of Domain-Specific Pre-training on Named Entity Recognition Tasks in Materials Science_ ```Patterns 2022```     
+[[Paper](https://doi.org/10.1016/j.patter.2022.100488)] [[GitHub](https://github.com/lbnlp/MatBERT)]
+
+- **(BatteryBERT)** _BatteryBERT: A Pretrained Language Model for Battery Database Enhancement_ ```Journal of Chemical Information and Modeling 2022```     
+[[Paper](https://pubs.acs.org/doi/10.1021/acs.jcim.2c00035)] [[GitHub](https://github.com/ShuHuang/batterybert)] [[Model (Base)](https://huggingface.co/batterydata/batterybert-cased)]
+
+- **(MaterialsBERT)** _A General-Purpose Material Property Data Extraction Pipeline from Large Polymer Corpora using Natural Language Processing_ ```npj Computational Materials 2023```     
+[[Paper](https://arxiv.org/abs/2209.13136)] [[Model (Base)](https://huggingface.co/pranav-s/MaterialsBERT)]
+
+- **(LLM-Prop)** _LLM-Prop: Predicting Physical and Electronic Properties of Crystalline Solids from Their Text Descriptions_ ```arXiv 2023```     
+[[Paper](https://arxiv.org/abs/2310.14029)] [[GitHub](https://github.com/vertaix/LLM-Prop)]
+
+
+### Vision-Language
+- **(MolScribe)** _MolScribe: Robust Molecular Structure Recognition with Image-To-Graph Generation_ ```Journal of Chemical Information and Modeling 2023```     
+[[Paper](https://arxiv.org/abs/2205.14311)] [[GitHub](https://github.com/thomas0809/MolScribe)] [[Model (88M)](https://huggingface.co/yujieq/MolScribe)]
+
+
+### Other Modalities (Molecule)
+- **(ChemBERTa)** _ChemBERTa: Large-Scale Self-Supervised Pretraining for Molecular Property Prediction_ ```NeurIPS 2020 Workshop```     
+[[Paper](https://arxiv.org/abs/2010.09885)] [[GitHub](https://github.com/seyonechithrananda/bert-loves-chemistry)] [[Model (125M)](https://huggingface.co/seyonec/ChemBERTa-zinc-base-v1)]
+
+- **(MoLFormer)** _Large-Scale Chemical Language Representations Capture Molecular Structure and Properties_ ```Nature Machine Intelligence 2022```     
+[[Paper](https://arxiv.org/abs/2106.09553)] [[GitHub](https://github.com/IBM/molformer)] [[Model](https://huggingface.co/ibm/MoLFormer-XL-both-10pct)]
+
+- **(Text2Mol)** _Text2Mol: Cross-Modal Molecule Retrieval with Natural Language Queries_ ```EMNLP 2021```     
+[[Paper](https://aclanthology.org/2021.emnlp-main.47)] [[GitHub](https://github.com/cnedwards/text2mol)]
+
+- **(Chemformer)** _Chemformer: A Pre-trained Transformer for Computational Chemistry_ ```Machine Learning: Science and Technology 2022```     
+[[Paper](https://chemrxiv.org/engage/chemrxiv/article-details/60ee8a3eb95bdd06d062074b)] [[GitHub](https://github.com/MolecularAI/Chemformer)] [[Model (45M)](https://az.app.box.com/s/7eci3nd9vy0xplqniitpk02rbg9q2zcq/folder/144881804954)] [[Model (230M)](https://az.app.box.com/s/7eci3nd9vy0xplqniitpk02rbg9q2zcq/folder/144881806154)]
+
+- **(MolT5)** _Translation between Molecules and Natural Language_ ```EMNLP 2022```     
+[[Paper](https://arxiv.org/abs/2204.11817)] [[GitHub](https://github.com/blender-nlp/MolT5)] [[Model (77M)](https://huggingface.co/laituan245/molt5-small)] [[Model (250M)](https://huggingface.co/laituan245/molt5-base)] [[Model (800M)](https://huggingface.co/laituan245/molt5-large)]
+
+- **(SPMM)** _Bidirectional Generation of Structure and Properties Through a Single Molecular Foundation Model_ ```arXiv 2022```     
+[[Paper](https://arxiv.org/abs/2211.10590)] [[GitHub](https://github.com/jinhojsk515/SPMM)]
 
 
 
@@ -339,9 +391,6 @@ Systematic Survey_](https://arxiv.org/abs/2110.05006) when writing some parts of
 
 
 ### Other Modalities (Protein, DNA)
-- **(ProGen)** _Large Language Models Generate Functional Protein Sequences across Diverse Families_ ```Nature Biotechnology 2023```     
-[[Paper](https://www.nature.com/articles/s41587-022-01618-2)]
-
 - **(ProtTrans)** _ProtTrans: Towards Cracking the Language of Life's Code Through Self-Supervised Deep Learning and High Performance Computing_ ```TPAMI 2021```     
 [[Paper](https://arxiv.org/abs/2007.06225)] [[GitHub](https://github.com/agemagician/ProtTrans)] [[Model (Base, BERT)](https://huggingface.co/Rostlab/prot_bert)] [[Model (12M, ALBERT)](https://huggingface.co/Rostlab/prot_albert)] [[Model (Base, XLNet)](https://huggingface.co/Rostlab/prot_xlnet)] [[Model (3B, T5)](https://huggingface.co/Rostlab/prot_t5_xl_uniref50)] [[Model (11B, T5)](https://huggingface.co/Rostlab/prot_t5_xxl_uniref50)]
 
@@ -362,6 +411,9 @@ Systematic Survey_](https://arxiv.org/abs/2110.05006) when writing some parts of
 
 - **(ProtGPT2)** _ProtGPT2 is a Deep Unsupervised Language Model for Protein Design_ ```Nature Communications 2022```     
 [[Paper](https://www.nature.com/articles/s41467-022-32007-7)] [[Model (738M)](https://huggingface.co/nferruz/ProtGPT2)]
+
+- **(ProGen)** _Large Language Models Generate Functional Protein Sequences across Diverse Families_ ```Nature Biotechnology 2023```     
+[[Paper](https://www.nature.com/articles/s41587-022-01618-2)]
 
 - **(ProGen2)** _ProGen2: Exploring the Boundaries of Protein Language Models_ ```Cell Systems 2023```     
 [[Paper](https://arxiv.org/abs/2206.13517)] [[GitHub](https://github.com/salesforce/progen)] [[Model (151M)](https://storage.googleapis.com/sfr-progen-research/checkpoints/progen2-small.tar.gz)] [[Model (764M)](https://storage.googleapis.com/sfr-progen-research/checkpoints/progen2-base.tar.gz)] [[Model (2.7B)](https://storage.googleapis.com/sfr-progen-research/checkpoints/progen2-large.tar.gz)] [[Model (6.4B)](https://storage.googleapis.com/sfr-progen-research/checkpoints/progen2-xlarge.tar.gz)]
