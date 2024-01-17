@@ -12,18 +12,18 @@
 
 ## Contents
 - [General](#general)
-  - [Language](#language)
+  - [Language](#general-language)
   - [Graph-Enhanced](#graph-enhanced)
 - [Mathematics](#mathematics)
-  - [Language](#language)
+  - [Language](#mathematics-language)
   - [Vision-Language](#vision-language)
   - [Other Modalities (Table)](#other-modalities-(table))
 - [Chemistry and Materials Science](#chemistry-and-materials-science)
-  - [Language](#language)
+  - [Language](#chemistry-language)
   - [Vision-Language](#vision-language)
   - [Other Modalities (Molecule)](#other-modalities-(molecule))
 - [Biology and Medicine](#biology-and-medicine)
-  - [Language](#language)
+  - [Language](#biology-language)
   - [Graph-Enhanced](#graph-enhanced)
   - [Vision-Language](#vision-language)
   - [Other Modalities (Protein, DNA)](#other-modalities-(protein,-dna))
@@ -33,7 +33,8 @@
 
 
 ## General
-### Language
+<h2 id="general-language">Language</h2>
+
 - **(SciBERT)** _SciBERT: A Pretrained Language Model for Scientific Text_ ```EMNLP 2019```     
 [[Paper](https://arxiv.org/abs/1903.10676)] [[GitHub](https://github.com/allenai/scibert)] [[Model (Base)](https://huggingface.co/allenai/scibert_scivocab_uncased)]
 
@@ -80,7 +81,8 @@
 
 
 ## Mathematics
-### Language
+<h2 id="mathematics-language">Language</h2>
+
 - **(GenBERT)** _Injecting Numerical Reasoning Skills into Language Models_ ```ACL 2020```     
 [[Paper](https://arxiv.org/abs/2004.04487)] [[GitHub](https://github.com/ag1988/injecting_numeracy)]
 
@@ -177,7 +179,8 @@
 
 
 ## Chemistry and Materials Science
-### Language
+<h2 id="chemistry-language">Language</h2>
+
 - **(ChemBERT)** _Automated Chemical Reaction Extraction from Scientific Literature_ ```Journal of Chemical Information and Modeling 2022```     
 [[Paper](https://pubs.acs.org/doi/10.1021/acs.jcim.1c00284)] [[GitHub](https://github.com/jiangfeng1124/ChemRxnExtractor)] [[Model (Base)](https://huggingface.co/jiangg/chembert_cased)]
 
@@ -247,7 +250,8 @@
 **Acknowledgment: We referred to Wang et al.'s survey paper [_Pre-trained Language Models in Biomedical Domain: A
 Systematic Survey_](https://arxiv.org/abs/2110.05006) when writing some parts of this section.**
 
-### Language
+<h2 id="biology-language">Language</h2>
+
 - **(BioBERT)** _BioBERT: A Pre-trained Biomedical Language Representation Model for Biomedical Text Mining_ ```Bioinformatics 2020```     
 [[Paper](https://arxiv.org/abs/1901.08746)] [[GitHub](https://github.com/dmis-lab/biobert)] [[Model (Base)](https://huggingface.co/dmis-lab/biobert-base-cased-v1.2)] [[Model (Large)](https://huggingface.co/dmis-lab/biobert-large-cased-v1.1)]
 
@@ -478,7 +482,8 @@ Systematic Survey_](https://arxiv.org/abs/2110.05006) when writing some parts of
 
 
 ## Geography, Geology, and Environmental Science
-### Language
+<h2 id="geography-language">Language</h2>
+
 - **(K2)** _K2: A Foundation Language Model for Geoscience Knowledge Understanding and Utilization_ ```WSDM 2024```     
 [[Paper](https://arxiv.org/abs/2306.05064)] [[GitHub](https://github.com/davendw49/k2)] [[Model (7B)](https://huggingface.co/daven3/k2-v1)]
 
