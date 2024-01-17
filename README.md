@@ -17,18 +17,20 @@
 - [Mathematics](#mathematics)
   - [Language](#mathematics-language)
   - [Vision-Language](#mathematics-vision-language)
-  - [Other Modalities (Table)](#mathematics-other-modalities-(table))
+  - [Other Modalities (Table)](#mathematics-other-modalities-table)
 - [Chemistry and Materials Science](#chemistry-and-materials-science)
   - [Language](#chemistry-language)
   - [Vision-Language](#chemistry-vision-language)
-  - [Other Modalities (Molecule)](#chemistry-other-modalities-(molecule))
+  - [Other Modalities (Molecule)](#chemistry-other-modalities-molecule)
 - [Biology and Medicine](#biology-and-medicine)
   - [Language](#biology-language)
   - [Graph-Enhanced](#biology-graph-enhanced)
   - [Vision-Language](#biology-vision-language)
-  - [Other Modalities (Protein, DNA)](#biology-other-modalities-(protein,-dna))
-- [Geography, Geology, and Environmental Science](#geography,-geology,-and-environmental-science)
+  - [Other Modalities (Protein, DNA)](#biology-other-modalities-protein-dna)
+- [Geography, Geology, and Environmental Science](#geography-geology-and-environmental-science)
   - [Language](#geography-language)
+  - [Graph-Enhanced](#geography-graph-enhanced)
+  - [Vision-Language](#geography-vision-language)
 
 
 
@@ -55,6 +57,9 @@
 - **(Galactica)** _Galactica: A Large Language Model for Science_ ```arXiv 2022```     
 [[Paper](https://arxiv.org/abs/2211.09085)]
 
+- **(DARWIN)** _DARWIN Series: Domain Specific Large Language Models for Natural Science_ ```arXiv 2023```     
+[[Paper](https://arxiv.org/abs/2308.13565)] [[GitHub](https://github.com/MasterAI-EAM/Darwin)] [[Model (7B)](https://aigreendynamics-my.sharepoint.com/:f:/g/personal/yuwei_greendynamics_com_au/Euu1OzZTOS5OsQvVTRNV_gcBa67ehvk6uN6hJIHnBLOkDg?e=x5wxfk)]
+
 - **(FORGE)** _FORGE: Pre-Training Open Foundation Models for Science_ ```SC 2023```     
 [[Paper](https://doi.org/10.1145/3581784.3613215)] [[GitHub](https://github.com/at-aaims/forge)] [[Model (1.4B, General)](https://www.dropbox.com/sh/byr1ydik5n1ucod/AADOu_9C6AwVPTThTUFQ7yQba?dl=0)] [[Model (1.4B, Biology/Medicine)](https://www.dropbox.com/sh/41sqapgza3ok9q9/AADLgwTiHVU26ZeW_UQ8apyta?dl=0)] [[Model (1.4B, Chemistry)](https://www.dropbox.com/sh/1jn3n7099r8pzt8/AAAO6sOpFYG-G_qFI6C6CXVVa?dl=0)] [[Model (1.4B, Engineering)](https://www.dropbox.com/sh/ueki0n6y3v8gtkw/AAB6-3ml9slcbOonk6ccdD4Ua?dl=0)] [[Model (1.4B, Materials Science)](https://www.dropbox.com/sh/ngrr3bjulc76944/AABpm_OxA-GQPWzIPM4KpVKOa?dl=0)] [[Model (1.4B, Physics)](https://www.dropbox.com/sh/jxux4tplw5aw7kw/AAAdk334IEMbY7HJlJrWVzyfa?dl=0)] [[Model (1.4B, Social Science/Art)](https://www.dropbox.com/sh/54tuyslytqhpq1z/AAAc65c3TQWo2MyPoSiPxKI2a?dl=0)] [[Model (13B, General)](https://www.dropbox.com/sh/g53ot3dpqfsf6fr/AAB_RFeox2tbDKVFCH0QCw5pa?dl=0)] [[Model (22B, General)](https://www.dropbox.com/sh/7b9gbgcqdyph8v9/AABjNTaYu5PTjTMLb4-t6-PNa?dl=0)]
 
@@ -68,13 +73,16 @@
 [[Paper](https://arxiv.org/abs/2103.02410)] [[GitHub](https://github.com/THUDM/OAG-BERT)]
 
 - **(ASPIRE)** _Multi-Vector Models with Textual Guidance for Fine-Grained Scientific Document Similarity_ ```NAACL 2022```     
-[[Paper](https://arxiv.org/abs/2111.08366)] [[GitHub](https://github.com/allenai/aspire)] [[Model (Base, Computer Science)](https://huggingface.co/allenai/aspire-contextualsentence-multim-compsci)] [[Model (Base, Biology/Medicine)](https://huggingface.co/allenai/aspire-contextualsentence-multim-biomed)]
+[[Paper](https://arxiv.org/abs/2111.08366)] [[GitHub](https://github.com/allenai/aspire)] [[Model (Base)](https://huggingface.co/allenai/aspire-sentence-embedder)]
 
 - **(SciNCL)** _Neighborhood Contrastive Learning for Scientific Document Representations with Citation Embeddings_ ```EMNLP 2022```     
 [[Paper](https://arxiv.org/abs/2202.06671)] [[GitHub](https://github.com/malteos/scincl)] [[Model (Base)](https://huggingface.co/malteos/scincl)]
 
 - **(SPECTER 2.0)** _SciRepEval: A Multi-Format Benchmark for Scientific Document Representations_ ```EMNLP 2023```     
 [[Paper](https://arxiv.org/abs/2211.13308)] [[GitHub](https://github.com/allenai/SPECTER2)] [[Model (113M)](https://huggingface.co/allenai/specter2)]
+
+- **(SciPatton)** _Patton: Language Model Pretraining on Text-Rich Networks_ ```ACL 2023```     
+[[Paper](https://arxiv.org/abs/2305.12268)] [[GitHub](https://github.com/PeterGriffinJin/Patton)]
 
 - **(SciMult)** _Pre-training Multi-task Contrastive Learning Models for Scientific Literature Understanding_ ```EMNLP 2023 Findings```     
 [[Paper](https://arxiv.org/abs/2305.14232)] [[GitHub](https://github.com/yuzhimanhua/SciMult)] [[Model (138M)](https://huggingface.co/yuz9yuz/SciMult)]
@@ -147,7 +155,7 @@
 [[Paper](https://arxiv.org/abs/2312.11370)] [[GitHub](https://github.com/pipilurj/G-LLaVA)]
 
 
-<h3 id="mathematics-other-modalities-(table)">Other Modalities (Table)</h3>
+<h3 id="mathematics-other-modalities-table">Other Modalities (Table)</h3>
 
 - **(TAPAS)** _TAPAS: Weakly Supervised Table Parsing via Pre-training_ ```ACL 2020```     
 [[Paper](https://arxiv.org/abs/2004.02349)] [[GitHub](https://github.com/google-research/tapas)] [[Model (Base)](https://storage.googleapis.com/tapas_models/2020_04_21/tapas_base.zip)] [[Model (Large)](https://storage.googleapis.com/tapas_models/2020_04_21/tapas_large.zip)]
@@ -211,7 +219,10 @@
 [[Paper](https://arxiv.org/abs/2205.14311)] [[GitHub](https://github.com/thomas0809/MolScribe)] [[Model (88M)](https://huggingface.co/yujieq/MolScribe)]
 
 
-<h3 id="chemistry-other-modalities-(molecule)">Other Modalities (Molecule)</h3>
+<h3 id="chemistry-other-modalities-molecule">Other Modalities (Molecule)</h3>
+
+- **(MAT)** _Molecule Attention Transformer_ ```NeurIPS 2019 Workshop```     
+[[Paper](https://arxiv.org/abs/2002.08264)] [[GitHub](https://github.com/ardigen/MAT)] [[Model (125M)](https://drive.google.com/file/d/11-TZj8tlnD7ykQGliO9bCrySJNBnYD2k/view)]
 
 - **(ChemBERTa)** _ChemBERTa: Large-Scale Self-Supervised Pretraining for Molecular Property Prediction_ ```NeurIPS 2020 Workshop```     
 [[Paper](https://arxiv.org/abs/2010.09885)] [[GitHub](https://github.com/seyonechithrananda/bert-loves-chemistry)] [[Model (125M)](https://huggingface.co/seyonec/ChemBERTa-zinc-base-v1)]
@@ -220,13 +231,13 @@
 [[Paper](https://arxiv.org/abs/2011.13230)] [[GitHub](https://github.com/BenevolentAI/MolBERT)] [[Model (Base)](https://ndownloader.figshare.com/files/25611290)]
 
 - **(RXNFP)** _Mapping the Space of Chemical Reactions Using Attention-Based Neural Networks_ ```Nature Machine Intelligence 2021```     
-[[Paper](https://arxiv.org/abs/2012.06051)] [[GitHub](https://github.com/rxn4chemistry/rxnfp)]
+[[Paper](https://arxiv.org/abs/2012.06051)] [[GitHub](https://github.com/rxn4chemistry/rxnfp)] [[Model (Base)](https://github.com/rxn4chemistry/rxnfp/tree/master/rxnfp/models/transformers/bert_pretrained)]
 
 - **(RXNMapper)** _Extraction of Organic Chemistry Grammar from Unsupervised Learning of Chemical Reactions_ ```Science Advances 2021```     
 [[Paper](https://www.science.org/doi/full/10.1126/sciadv.abe4166)] [[GitHub](https://github.com/rxn4chemistry/rxnmapper)]
 
 - **(MoLFormer)** _Large-Scale Chemical Language Representations Capture Molecular Structure and Properties_ ```Nature Machine Intelligence 2022```     
-[[Paper](https://arxiv.org/abs/2106.09553)] [[GitHub](https://github.com/IBM/molformer)]
+[[Paper](https://arxiv.org/abs/2106.09553)] [[GitHub](https://github.com/IBM/molformer)] [[Model (47M)](https://huggingface.co/katielink/MoLFormer-XL)]
 
 - **(Chemformer)** _Chemformer: A Pre-trained Transformer for Computational Chemistry_ ```Machine Learning: Science and Technology 2022```     
 [[Paper](https://chemrxiv.org/engage/chemrxiv/article-details/60ee8a3eb95bdd06d062074b)] [[GitHub](https://github.com/MolecularAI/Chemformer)] [[Model (45M)](https://az.app.box.com/s/7eci3nd9vy0xplqniitpk02rbg9q2zcq/folder/144881804954)] [[Model (230M)](https://az.app.box.com/s/7eci3nd9vy0xplqniitpk02rbg9q2zcq/folder/144881806154)]
@@ -237,17 +248,35 @@
 - **(Text2Mol)** _Text2Mol: Cross-Modal Molecule Retrieval with Natural Language Queries_ ```EMNLP 2021```     
 [[Paper](https://aclanthology.org/2021.emnlp-main.47)] [[GitHub](https://github.com/cnedwards/text2mol)]
 
+- **(KV-PLM)** _A Deep-learning System Bridging Molecule Structure and Biomedical Text with Comprehension Comparable to Human Professionals_ ```Nature Communications 2022```     
+[[Paper](https://www.nature.com/articles/s41467-022-28494-3)] [[GitHub](https://github.com/thunlp/KV-PLM)] [[Model (Base)](https://drive.google.com/drive/folders/1xig3-3JG63kR-Xqj1b9wkPEdxtfD_4IX)]
+
 - **(T5Chem)** _Unified Deep Learning Model for Multitask Reaction Predictions with Explanation_ ```Journal of Chemical Information and Modeling 2022```     
 [[Paper](https://pubs.acs.org/doi/10.1021/acs.jcim.1c01467)] [[GitHub](https://github.com/HelloJocelynLu/t5chem)]
 
 - **(MolT5)** _Translation between Molecules and Natural Language_ ```EMNLP 2022```     
 [[Paper](https://arxiv.org/abs/2204.11817)] [[GitHub](https://github.com/blender-nlp/MolT5)] [[Model (77M)](https://huggingface.co/laituan245/molt5-small)] [[Model (250M)](https://huggingface.co/laituan245/molt5-base)] [[Model (800M)](https://huggingface.co/laituan245/molt5-large)]
 
+- **(ChemGPT)** _Neural Scaling of Deep Chemical Models_ ```Nature Machine Intelligence 2023```     
+[[Paper](https://chemrxiv.org/engage/chemrxiv/article-details/627bddd544bdd532395fb4b5)] [[Model (4.7M)](https://huggingface.co/ncfrey/ChemGPT-4.7M)] [[Model (19M)](https://huggingface.co/ncfrey/ChemGPT-19M)] [[Model (1.2B)](https://huggingface.co/ncfrey/ChemGPT-1.2B)]
+
 - **(SPMM)** _Bidirectional Generation of Structure and Properties Through a Single Molecular Foundation Model_ ```arXiv 2022```     
 [[Paper](https://arxiv.org/abs/2211.10590)] [[GitHub](https://github.com/jinhojsk515/SPMM)]
 
+- **(MolGen)** _Domain-Agnostic Molecular Generation with Self-feedback_ ```arXiv 2023```     
+[[Paper](https://arxiv.org/abs/2301.11259)] [[GitHub](https://github.com/zjunlp/MolGen)] [[Model (7B)](https://huggingface.co/zjunlp/MolGen-7b)]
+
 - **(Text+Chem T5)** _Unifying Molecular and Textual Representations via Multi-task Language Modelling_ ```ICML 2023```     
-[[Paper](https://arxiv.org/abs/2301.12586)] [[GitHub](https://github.com/GT4SD/gt4sd-core)] [[Model (220M)](https://huggingface.co/GT4SD/multitask-text-and-chemistry-t5-base-standard)]
+[[Paper](https://arxiv.org/abs/2301.12586)] [[GitHub](https://github.com/GT4SD/gt4sd-core)] [[Model (60M)](https://huggingface.co/GT4SD/multitask-text-and-chemistry-t5-small-augm)] [[Model (220M)](https://huggingface.co/GT4SD/multitask-text-and-chemistry-t5-base-augm)]
+
+- **(CatBERTa)** _Catalyst Property Prediction with CatBERTa: Unveiling Feature Exploration Strategies through Large Language Models_ ```ACS Catalysis 2023```     
+[[Paper](https://arxiv.org/abs/2309.00563)] [[GitHub](https://github.com/hoon-ock/CatBERTa)]
+
+- **(InstructMol)** _InstructMol: Multi-Modal Integration for Building a Versatile and Reliable Molecular Assistant in Drug Discovery_ ```arXiv 2023```     
+[[Paper](https://arxiv.org/abs/2311.16208)] [[GitHub](https://github.com/IDEA-XL/InstructMol)]
+
+- **(PolyNC)** _PolyNC: A Natural and Chemical Language Model for the Prediction of Unified Polymer Properties_ ```Chemical Science 2024```     
+[[Paper](https://pubs.rsc.org/en/content/articlehtml/2022/wq/d3sc05079c)] [[GitHub](https://github.com/HKQiu/Unified_ML4Polymers)] [[Model (220M)](https://huggingface.co/hkqiu/PolyNC)]
 
 
 
@@ -391,6 +420,9 @@ Systematic Survey_](https://arxiv.org/abs/2110.05006) when writing some parts of
 - **(KeBioLM)** _Improving Biomedical Pretrained Language Models with Knowledge_ ```NAACL 2021 Workshop```     
 [[Paper](https://arxiv.org/abs/2104.10344)] [[GitHub](https://github.com/GanjinZero/KeBioLM)] [[Model (155M)](https://drive.google.com/file/d/1kMbTsc9rPpBc-6ezEHjMbQLljW3SUWG9/edit)]
 
+- **(MoP)** _Mixture-of-Partitions: Infusing Large Biomedical Knowledge Graphs into BERT_ ```EMNLP 2021```     
+[[Paper](https://arxiv.org/abs/2109.04810)] [[GitHub](https://github.com/cambridgeltl/mop)]
+
 - **(BioLinkBERT)** _LinkBERT: Pretraining Language Models with Document Links_ ```ACL 2022```     
 [[Paper](https://arxiv.org/abs/2203.15827)] [[GitHub](https://github.com/michiyasunaga/LinkBERT)] [[Model (Base)](https://huggingface.co/michiyasunaga/BioLinkBERT-base)] [[Model (Large)](https://huggingface.co/michiyasunaga/BioLinkBERT-large)]
 
@@ -446,7 +478,7 @@ Systematic Survey_](https://arxiv.org/abs/2110.05006) when writing some parts of
 [[Paper](https://arxiv.org/abs/2307.14334)] [[GitHub](https://github.com/kyegomez/Med-PaLM)]
 
 
-<h3 id="biology-other-modalities-(protein,-dna)">Other Modalities (Protein, DNA)</h3>
+<h3 id="biology-other-modalities-protein-dna">Other Modalities (Protein, DNA)</h3>
 
 - **(ProtTrans)** _ProtTrans: Towards Cracking the Language of Life's Code Through Self-Supervised Deep Learning and High Performance Computing_ ```TPAMI 2021```     
 [[Paper](https://arxiv.org/abs/2007.06225)] [[GitHub](https://github.com/agemagician/ProtTrans)] [[Model (Base, BERT)](https://huggingface.co/Rostlab/prot_bert)] [[Model (12M, ALBERT)](https://huggingface.co/Rostlab/prot_albert)] [[Model (Base, XLNet)](https://huggingface.co/Rostlab/prot_xlnet)] [[Model (3B, T5)](https://huggingface.co/Rostlab/prot_t5_xl_uniref50)] [[Model (11B, T5)](https://huggingface.co/Rostlab/prot_t5_xxl_uniref50)]
@@ -481,6 +513,9 @@ Systematic Survey_](https://arxiv.org/abs/2110.05006) when writing some parts of
 - **(Ankh)** _Ankh: Optimized Protein Language Model Unlocks General-Purpose Modelling_ ```arXiv 2023```     
 [[Paper](https://arxiv.org/abs/2301.06568)] [[GitHub](https://github.com/agemagician/Ankh)] [[Model (450M)](https://huggingface.co/ElnaggarLab/ankh-base)] [[Model (1.1B)](https://huggingface.co/ElnaggarLab/ankh-large)]
 
+- **(Geneformer)** _Transfer Learning Enables Predictions in Network Biology_ ```Nature 2023```     
+[[Paper](https://www.nature.com/articles/s41586-023-06139-9)] [[Model (10M)](https://huggingface.co/ctheodoris/Geneformer/blob/main/pytorch_model.bin)] [[Model (40M)](https://huggingface.co/ctheodoris/Geneformer/blob/main/geneformer-12L-30M/pytorch_model.bin)]
+
 - **(DNABERT-2)** _DNABERT-2: Efficient Foundation Model and Benchmark for Multi-Species Genome_ ```arXiv 2023```     
 [[Paper](https://arxiv.org/abs/2306.15006)] [[GitHub](https://github.com/Zhihan1996/DNABERT_2)] [[Model (Base)](https://huggingface.co/zhihan1996/DNABERT-2-117M)]
 
@@ -494,8 +529,35 @@ Systematic Survey_](https://arxiv.org/abs/2110.05006) when writing some parts of
 ## Geography, Geology, and Environmental Science
 <h3 id="geography-language">Language</h3>
 
+- **(ClimateBERT)** _ClimateBERT: A Pretrained Language Model for Climate-Related Text_ ```arXiv 2021```     
+[[Paper](https://arxiv.org/abs/2110.12010)] [[GitHub](https://github.com/climatebert/language-model)] [[Model (82M)](https://huggingface.co/climatebert/distilroberta-base-climate-f)]
+
+- **(SpaBERT)** _SpaBERT: A Pretrained Language Model from Geographic Data for Geo-Entity Representation_ ```EMNLP 2022 Findings```     
+[[Paper](https://arxiv.org/abs/2210.12213)] [[GitHub](https://github.com/zekun-li/spabert)] [[Model (Base)](https://drive.google.com/file/d/1l44FY3DtDxzM_YVh3RR6PJwKnl80IYWB/view)] [[Model (Large)](https://drive.google.com/file/d/1LeZayTR92R5bu9gH_cGCwef7nnMX35cR/view)]
+
 - **(K2)** _K2: A Foundation Language Model for Geoscience Knowledge Understanding and Utilization_ ```WSDM 2024```     
 [[Paper](https://arxiv.org/abs/2306.05064)] [[GitHub](https://github.com/davendw49/k2)] [[Model (7B)](https://huggingface.co/daven3/k2-v1)]
 
+- **(OceanGPT)** _OceanGPT: A Large Language Model for Ocean Science Tasks_ ```arXiv 2023```     
+[[Paper](https://arxiv.org/abs/2310.02031)] [[GitHub](https://github.com/zjunlp/KnowLM)] [[Model (7B)](https://huggingface.co/zjunlp/OceanGPT-7b)]
+
+- **(ClimateBERT-NetZero)** _ClimateBERT-NetZero: Detecting and Assessing Net Zero and Reduction Targets_ ```EMNLP 2023```     
+[[Paper](https://arxiv.org/abs/2310.08096)] [[Model (82M)](https://huggingface.co/climatebert/netzero-reduction)]
+
 - **(GeoGalactica)** _GeoGalactica: A Scientific Large Language Model in Geoscience_ ```arXiv 2024```     
 [[Paper](https://arxiv.org/abs/2401.00434)] [[GitHub](https://github.com/geobrain-ai/geogalactica)] [[Model (30B)](https://huggingface.co/geobrain-ai/geogalactica)]
+
+
+<h3 id="geography-graph-enhanced">Graph-Enhanced</h3>
+
+- **(ERNIE-GeoL)** _ERNIE-GeoL: A Geography-and-Language Pre-trained Model and its Applications in Baidu Maps_ ```KDD 2022```     
+[[Paper](https://arxiv.org/abs/2203.09127)]
+
+- **(PK-Chat)** _PK-Chat: Pointer Network Guided Knowledge Driven Generative Dialogue Model_ ```arXiv 2023```     
+[[Paper](https://arxiv.org/abs/2304.00592)] [[GitHub](https://github.com/iiot-tbb/Dialogue_DDE)] [[Model (132M)](https://pan.baidu.com/s/1bNzGnnRPMfT4jkD_UsNSYg?pwd=pa7h)]
+
+
+<h3 id="geography-vision-language">Vision-Language</h3>
+
+- **(MGeo)** _MGeo: Multi-Modal Geographic Pre-Training Method_ ```SIGIR 2023```     
+[[Paper](https://arxiv.org/abs/2301.04283)] [[GitHub](https://github.com/PhantomGrapes/MGeo)] [[Model](https://drive.google.com/file/d/1j6S52jkxks4UBsCU8ZgLroqksUYSz5x7/view)]
