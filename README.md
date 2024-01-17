@@ -13,27 +13,29 @@
 ## Contents
 - [General](#general)
   - [Language](#general-language)
-  - [Graph-Enhanced](#graph-enhanced)
+  - [Graph-Enhanced](#general-graph-enhanced)
 - [Mathematics](#mathematics)
   - [Language](#mathematics-language)
-  - [Vision-Language](#vision-language)
-  - [Other Modalities (Table)](#other-modalities-(table))
+  - [Vision-Language](#mathematics-vision-language)
+  - [Other Modalities (Table)](#mathematics-other-modalities-(table))
 - [Chemistry and Materials Science](#chemistry-and-materials-science)
   - [Language](#chemistry-language)
-  - [Vision-Language](#vision-language)
-  - [Other Modalities (Molecule)](#other-modalities-(molecule))
+  - [Vision-Language](#chemistry-vision-language)
+  - [Other Modalities (Molecule)](#chemistry-other-modalities-(molecule))
 - [Biology and Medicine](#biology-and-medicine)
   - [Language](#biology-language)
-  - [Graph-Enhanced](#graph-enhanced)
-  - [Vision-Language](#vision-language)
-  - [Other Modalities (Protein, DNA)](#other-modalities-(protein,-dna))
+  - [Graph-Enhanced](#biology-graph-enhanced)
+  - [Vision-Language](#biology-vision-language)
+  - [Other Modalities (Protein, DNA)](#biology-other-modalities-(protein,-dna))
+- [Geography, Geology, and Environmental Science](#geography,-geology,-and-environmental-science)
+  - [Language](#geography-language)
 
 
 
 
 
 ## General
-<h2 id="general-language">Language</h2>
+<h3 id="general-language">Language</h3>
 
 - **(SciBERT)** _SciBERT: A Pretrained Language Model for Scientific Text_ ```EMNLP 2019```     
 [[Paper](https://arxiv.org/abs/1903.10676)] [[GitHub](https://github.com/allenai/scibert)] [[Model (Base)](https://huggingface.co/allenai/scibert_scivocab_uncased)]
@@ -57,7 +59,8 @@
 [[Paper](https://doi.org/10.1145/3581784.3613215)] [[GitHub](https://github.com/at-aaims/forge)] [[Model (1.4B, General)](https://www.dropbox.com/sh/byr1ydik5n1ucod/AADOu_9C6AwVPTThTUFQ7yQba?dl=0)] [[Model (1.4B, Biology/Medicine)](https://www.dropbox.com/sh/41sqapgza3ok9q9/AADLgwTiHVU26ZeW_UQ8apyta?dl=0)] [[Model (1.4B, Chemistry)](https://www.dropbox.com/sh/1jn3n7099r8pzt8/AAAO6sOpFYG-G_qFI6C6CXVVa?dl=0)] [[Model (1.4B, Engineering)](https://www.dropbox.com/sh/ueki0n6y3v8gtkw/AAB6-3ml9slcbOonk6ccdD4Ua?dl=0)] [[Model (1.4B, Materials Science)](https://www.dropbox.com/sh/ngrr3bjulc76944/AABpm_OxA-GQPWzIPM4KpVKOa?dl=0)] [[Model (1.4B, Physics)](https://www.dropbox.com/sh/jxux4tplw5aw7kw/AAAdk334IEMbY7HJlJrWVzyfa?dl=0)] [[Model (1.4B, Social Science/Art)](https://www.dropbox.com/sh/54tuyslytqhpq1z/AAAc65c3TQWo2MyPoSiPxKI2a?dl=0)] [[Model (13B, General)](https://www.dropbox.com/sh/g53ot3dpqfsf6fr/AAB_RFeox2tbDKVFCH0QCw5pa?dl=0)] [[Model (22B, General)](https://www.dropbox.com/sh/7b9gbgcqdyph8v9/AABjNTaYu5PTjTMLb4-t6-PNa?dl=0)]
 
 
-### Graph-Enhanced
+<h3 id="general-graph-enhanced">Graph-Enhanced</h3>
+
 - **(SPECTER)** _SPECTER: Document-level Representation Learning using Citation-informed Transformers_ ```ACL 2020```     
 [[Paper](https://arxiv.org/abs/2004.07180)] [[GitHub](https://github.com/allenai/specter)] [[Model (Base)](https://huggingface.co/allenai/specter)]
 
@@ -81,7 +84,7 @@
 
 
 ## Mathematics
-<h2 id="mathematics-language">Language</h2>
+<h3 id="mathematics-language">Language</h3>
 
 - **(GenBERT)** _Injecting Numerical Reasoning Skills into Language Models_ ```ACL 2020```     
 [[Paper](https://arxiv.org/abs/2004.04487)] [[GitHub](https://github.com/ag1988/injecting_numeracy)]
@@ -126,7 +129,8 @@
 [[Paper](https://arxiv.org/abs/2310.10631)] [[GitHub](https://github.com/EleutherAI/math-lm)] [[Model (7B)](https://huggingface.co/EleutherAI/llemma_7b)] [[Model (34B)](https://huggingface.co/EleutherAI/llemma_34b)]
 
 
-### Vision-Language
+<h3 id="mathematics-vision-language">Vision-Language</h3>
+
 - **(Inter-GPS)** _Inter-GPS: Interpretable Geometry Problem Solving with Formal Language and Symbolic Reasoning_ ```ACL 2021```     
 [[Paper](https://arxiv.org/abs/2105.04165)] [[GitHub](https://github.com/lupantech/InterGPS)]
 
@@ -143,7 +147,8 @@
 [[Paper](https://arxiv.org/abs/2312.11370)] [[GitHub](https://github.com/pipilurj/G-LLaVA)]
 
 
-### Other Modalities (Table)
+<h3 id="mathematics-other-modalities-(table)">Other Modalities (Table)</h3>
+
 - **(TAPAS)** _TAPAS: Weakly Supervised Table Parsing via Pre-training_ ```ACL 2020```     
 [[Paper](https://arxiv.org/abs/2004.02349)] [[GitHub](https://github.com/google-research/tapas)] [[Model (Base)](https://storage.googleapis.com/tapas_models/2020_04_21/tapas_base.zip)] [[Model (Large)](https://storage.googleapis.com/tapas_models/2020_04_21/tapas_large.zip)]
 
@@ -179,7 +184,7 @@
 
 
 ## Chemistry and Materials Science
-<h2 id="chemistry-language">Language</h2>
+<h3 id="chemistry-language">Language</h3>
 
 - **(ChemBERT)** _Automated Chemical Reaction Extraction from Scientific Literature_ ```Journal of Chemical Information and Modeling 2022```     
 [[Paper](https://pubs.acs.org/doi/10.1021/acs.jcim.1c00284)] [[GitHub](https://github.com/jiangfeng1124/ChemRxnExtractor)] [[Model (Base)](https://huggingface.co/jiangg/chembert_cased)]
@@ -200,12 +205,14 @@
 [[Paper](https://arxiv.org/abs/2310.14029)] [[GitHub](https://github.com/vertaix/LLM-Prop)]
 
 
-### Vision-Language
+<h3 id="chemistry-vision-language">Vision-Language</h3>
+
 - **(MolScribe)** _MolScribe: Robust Molecular Structure Recognition with Image-To-Graph Generation_ ```Journal of Chemical Information and Modeling 2023```     
 [[Paper](https://arxiv.org/abs/2205.14311)] [[GitHub](https://github.com/thomas0809/MolScribe)] [[Model (88M)](https://huggingface.co/yujieq/MolScribe)]
 
 
-### Other Modalities (Molecule)
+<h3 id="chemistry-other-modalities-(molecule)">Other Modalities (Molecule)</h3>
+
 - **(ChemBERTa)** _ChemBERTa: Large-Scale Self-Supervised Pretraining for Molecular Property Prediction_ ```NeurIPS 2020 Workshop```     
 [[Paper](https://arxiv.org/abs/2010.09885)] [[GitHub](https://github.com/seyonechithrananda/bert-loves-chemistry)] [[Model (125M)](https://huggingface.co/seyonec/ChemBERTa-zinc-base-v1)]
 
@@ -250,7 +257,7 @@
 **Acknowledgment: We referred to Wang et al.'s survey paper [_Pre-trained Language Models in Biomedical Domain: A
 Systematic Survey_](https://arxiv.org/abs/2110.05006) when writing some parts of this section.**
 
-<h2 id="biology-language">Language</h2>
+<h3 id="biology-language">Language</h3>
 
 - **(BioBERT)** _BioBERT: A Pre-trained Biomedical Language Representation Model for Biomedical Text Mining_ ```Bioinformatics 2020```     
 [[Paper](https://arxiv.org/abs/1901.08746)] [[GitHub](https://github.com/dmis-lab/biobert)] [[Model (Base)](https://huggingface.co/dmis-lab/biobert-base-cased-v1.2)] [[Model (Large)](https://huggingface.co/dmis-lab/biobert-large-cased-v1.1)]
@@ -373,7 +380,8 @@ Systematic Survey_](https://arxiv.org/abs/2110.05006) when writing some parts of
 [[Paper](https://arxiv.org/abs/2311.09774)] [[GitHub](https://github.com/FreedomIntelligence/HuatuoGPT-II)] [[Model (7B)](https://huggingface.co/FreedomIntelligence/HuatuoGPT2-7B)] [[Model (13B)](https://huggingface.co/FreedomIntelligence/HuatuoGPT2-13B)] [[Model (34B)](https://huggingface.co/FreedomIntelligence/HuatuoGPT2-34B)]
 
 
-### Graph-Enhanced
+<h3 id="biology-graph-enhanced">Graph-Enhanced</h3>
+
 - **(G-BERT)** _Pre-training of Graph Augmented Transformers for Medication Recommendation_ ```IJCAI 2019```     
 [[Paper](https://arxiv.org/abs/1906.00346)] [[GitHub](https://github.com/jshang123/G-Bert)]
 
@@ -390,7 +398,8 @@ Systematic Survey_](https://arxiv.org/abs/2110.05006) when writing some parts of
 [[Paper](https://arxiv.org/abs/2210.09338)] [[GitHub](https://github.com/michiyasunaga/dragon)] [[Model (360M)](https://nlp.stanford.edu/projects/myasu/DRAGON/models/biomed_model.pt)]
 
 
-### Vision-Language
+<h3 id="biology-vision-language">Vision-Language</h3>
+
 - **(ConVIRT)** _Contrastive Learning of Medical Visual Representations from Paired Images and Text_ ```MLHC 2022```     
 [[Paper](https://arxiv.org/abs/2010.00747)] [[GitHub](https://github.com/yuhaozhang/convirt)]
 
@@ -437,7 +446,8 @@ Systematic Survey_](https://arxiv.org/abs/2110.05006) when writing some parts of
 [[Paper](https://arxiv.org/abs/2307.14334)] [[GitHub](https://github.com/kyegomez/Med-PaLM)]
 
 
-### Other Modalities (Protein, DNA)
+<h3 id="biology-other-modalities-(protein,-dna)">Other Modalities (Protein, DNA)</h3>
+
 - **(ProtTrans)** _ProtTrans: Towards Cracking the Language of Life's Code Through Self-Supervised Deep Learning and High Performance Computing_ ```TPAMI 2021```     
 [[Paper](https://arxiv.org/abs/2007.06225)] [[GitHub](https://github.com/agemagician/ProtTrans)] [[Model (Base, BERT)](https://huggingface.co/Rostlab/prot_bert)] [[Model (12M, ALBERT)](https://huggingface.co/Rostlab/prot_albert)] [[Model (Base, XLNet)](https://huggingface.co/Rostlab/prot_xlnet)] [[Model (3B, T5)](https://huggingface.co/Rostlab/prot_t5_xl_uniref50)] [[Model (11B, T5)](https://huggingface.co/Rostlab/prot_t5_xxl_uniref50)]
 
@@ -482,7 +492,7 @@ Systematic Survey_](https://arxiv.org/abs/2110.05006) when writing some parts of
 
 
 ## Geography, Geology, and Environmental Science
-<h2 id="geography-language">Language</h2>
+<h3 id="geography-language">Language</h3>
 
 - **(K2)** _K2: A Foundation Language Model for Geoscience Knowledge Understanding and Utilization_ ```WSDM 2024```     
 [[Paper](https://arxiv.org/abs/2306.05064)] [[GitHub](https://github.com/davendw49/k2)] [[Model (7B)](https://huggingface.co/daven3/k2-v1)]
