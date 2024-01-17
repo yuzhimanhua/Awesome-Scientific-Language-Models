@@ -181,20 +181,38 @@
 - **(ChemBERTa)** _ChemBERTa: Large-Scale Self-Supervised Pretraining for Molecular Property Prediction_ ```NeurIPS 2020 Workshop```     
 [[Paper](https://arxiv.org/abs/2010.09885)] [[GitHub](https://github.com/seyonechithrananda/bert-loves-chemistry)] [[Model (125M)](https://huggingface.co/seyonec/ChemBERTa-zinc-base-v1)]
 
+- **(MolBERT)** _Molecular Representation Learning with Language Models and Domain-Relevant Auxiliary Tasks_ ```NeurIPS 2020 Workshop```     
+[[Paper](https://arxiv.org/abs/2011.13230)] [[GitHub](https://github.com/BenevolentAI/MolBERT)] [[Model (Base)](https://ndownloader.figshare.com/files/25611290)]
+
+- **(RXNFP)** _Mapping the Space of Chemical Reactions Using Attention-Based Neural Networks_ ```Nature Machine Intelligence 2021```     
+[[Paper](https://arxiv.org/abs/2012.06051)] [[GitHub](https://github.com/rxn4chemistry/rxnfp)]
+
+- **(RXNMapper)** _Extraction of Organic Chemistry Grammar from Unsupervised Learning of Chemical Reactions_ ```Science Advances 2021```     
+[[Paper](https://www.science.org/doi/full/10.1126/sciadv.abe4166)] [[GitHub](https://github.com/rxn4chemistry/rxnmapper)]
+
 - **(MoLFormer)** _Large-Scale Chemical Language Representations Capture Molecular Structure and Properties_ ```Nature Machine Intelligence 2022```     
-[[Paper](https://arxiv.org/abs/2106.09553)] [[GitHub](https://github.com/IBM/molformer)] [[Model](https://huggingface.co/ibm/MoLFormer-XL-both-10pct)]
+[[Paper](https://arxiv.org/abs/2106.09553)] [[GitHub](https://github.com/IBM/molformer)]
+
+- **(Chemformer)** _Chemformer: A Pre-trained Transformer for Computational Chemistry_ ```Machine Learning: Science and Technology 2022```     
+[[Paper](https://chemrxiv.org/engage/chemrxiv/article-details/60ee8a3eb95bdd06d062074b)] [[GitHub](https://github.com/MolecularAI/Chemformer)] [[Model (45M)](https://az.app.box.com/s/7eci3nd9vy0xplqniitpk02rbg9q2zcq/folder/144881804954)] [[Model (230M)](https://az.app.box.com/s/7eci3nd9vy0xplqniitpk02rbg9q2zcq/folder/144881806154)]
+
+- **(MolGPT)** _MolGPT: Molecular Generation Using a Transformer-Decoder Model_ ```Journal of Chemical Information and Modeling 2022```     
+[[Paper](https://pubs.acs.org/doi/10.1021/acs.jcim.1c00600)] [[GitHub](https://github.com/devalab/molgpt)]
 
 - **(Text2Mol)** _Text2Mol: Cross-Modal Molecule Retrieval with Natural Language Queries_ ```EMNLP 2021```     
 [[Paper](https://aclanthology.org/2021.emnlp-main.47)] [[GitHub](https://github.com/cnedwards/text2mol)]
 
-- **(Chemformer)** _Chemformer: A Pre-trained Transformer for Computational Chemistry_ ```Machine Learning: Science and Technology 2022```     
-[[Paper](https://chemrxiv.org/engage/chemrxiv/article-details/60ee8a3eb95bdd06d062074b)] [[GitHub](https://github.com/MolecularAI/Chemformer)] [[Model (45M)](https://az.app.box.com/s/7eci3nd9vy0xplqniitpk02rbg9q2zcq/folder/144881804954)] [[Model (230M)](https://az.app.box.com/s/7eci3nd9vy0xplqniitpk02rbg9q2zcq/folder/144881806154)]
+- **(T5Chem)** _Unified Deep Learning Model for Multitask Reaction Predictions with Explanation_ ```Journal of Chemical Information and Modeling 2022```     
+[[Paper](https://pubs.acs.org/doi/10.1021/acs.jcim.1c01467)] [[GitHub](https://github.com/HelloJocelynLu/t5chem)]
 
 - **(MolT5)** _Translation between Molecules and Natural Language_ ```EMNLP 2022```     
 [[Paper](https://arxiv.org/abs/2204.11817)] [[GitHub](https://github.com/blender-nlp/MolT5)] [[Model (77M)](https://huggingface.co/laituan245/molt5-small)] [[Model (250M)](https://huggingface.co/laituan245/molt5-base)] [[Model (800M)](https://huggingface.co/laituan245/molt5-large)]
 
 - **(SPMM)** _Bidirectional Generation of Structure and Properties Through a Single Molecular Foundation Model_ ```arXiv 2022```     
 [[Paper](https://arxiv.org/abs/2211.10590)] [[GitHub](https://github.com/jinhojsk515/SPMM)]
+
+- **(Text+Chem T5)** _Unifying Molecular and Textual Representations via Multi-task Language Modelling_ ```ICML 2023```     
+[[Paper](https://arxiv.org/abs/2301.12586)] [[GitHub](https://github.com/GT4SD/gt4sd-core)] [[Model (220M)](https://huggingface.co/GT4SD/multitask-text-and-chemistry-t5-base-standard)]
 
 
 
