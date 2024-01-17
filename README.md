@@ -7,6 +7,31 @@
 **NOTE 2**: In each subsection, papers are sorted chronologically. If a paper has a preprint (e.g., arXiv or bioRxiv) version, its publication date is according to the preprint service. Otherwise, its publication date is according to the conference proceeding or journal.
 
 
+
+
+
+## Contents
+- [General](#general)
+  - [Language](#language)
+  - [Graph-Enhanced](#graph-enhanced)
+- [Mathematics](#mathematics)
+  - [Language](#language)
+  - [Vision-Language](#vision-language)
+  - [Other Modalities (Table)](#other-modalities-(table))
+- [Chemistry and Materials Science](#chemistry-and-materials-science)
+  - [Language](#language)
+  - [Vision-Language](#vision-language)
+  - [Other Modalities (Molecule)](#other-modalities-(molecule))
+- [Biology and Medicine](#biology-and-medicine)
+  - [Language](#language)
+  - [Graph-Enhanced](#graph-enhanced)
+  - [Vision-Language](#vision-language)
+  - [Other Modalities (Protein, DNA)](#other-modalities-(protein,-dna))
+
+
+
+
+
 ## General
 ### Language
 - **(SciBERT)** _SciBERT: A Pretrained Language Model for Scientific Text_ ```EMNLP 2019```     
@@ -448,3 +473,14 @@ Systematic Survey_](https://arxiv.org/abs/2110.05006) when writing some parts of
 - **(xTrimoPGLM)** _xTrimoPGLM: Unified 100B-Scale Pre-trained Transformer for Deciphering the Language of Protein_ ```bioRxiv 2023```     
 [[Paper](https://www.biorxiv.org/content/10.1101/2023.07.05.547496)]
 
+
+
+
+
+## Geography, Geology, and Environmental Science
+### Language
+- **(K2)** _K2: A Foundation Language Model for Geoscience Knowledge Understanding and Utilization_ ```WSDM 2024```     
+[[Paper](https://arxiv.org/abs/2306.05064)] [[GitHub](https://github.com/davendw49/k2)] [[Model (7B)](https://huggingface.co/daven3/k2-v1)]
+
+- **(GeoGalactica)** _GeoGalactica: A Scientific Large Language Model in Geoscience_ ```arXiv 2024```     
+[[Paper](https://arxiv.org/abs/2401.00434)] [[GitHub](https://github.com/geobrain-ai/geogalactica)] [[Model (30B)](https://huggingface.co/geobrain-ai/geogalactica)]
