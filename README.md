@@ -2,6 +2,8 @@
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
+A curated list of pre-trained language models in scientific domains (e.g., mathematics, chemistry, biology, medicine, materials science, and geoscience), covering different model sizes (from <100M to 70B parameters) and modalities (e.g., language, vision, molecule, protein, graph, and table). The repository will be continuously updated.
+
 **NOTE 1**: To avoid ambiguity, when we talk about the number of parameters in a model, "Base" refers to 110M (i.e., BERT-Base) and "Large" refers to 340M (i.e., BERT-Large). Other numbers will be written explicitly.
 
 **NOTE 2**: In each subsection, papers are sorted chronologically. If a paper has a preprint (e.g., arXiv or bioRxiv) version, its publication date is according to the preprint service. Otherwise, its publication date is according to the conference proceeding or journal.
@@ -149,7 +151,7 @@
 [[Paper](https://arxiv.org/abs/2308.02823)] [[GitHub](https://github.com/ning-mz/sca-gps)]
 
 - **(UniMath-Flan-T5)** _UniMath: A Foundational and Multimodal Mathematical Reasoner_ ```EMNLP 2023```     
-[[Paper](https://aclanthology.org/2023.emnlp-main.440)]
+[[Paper](https://aclanthology.org/2023.emnlp-main.440)] [[GitHub](https://github.com/Zhenwen-NLP/UniMath)]
 
 - **(G-LLaVA)** _G-LLaVA: Solving Geometric Problem with Multi-Modal Large Language Model_ ```arXiv 2023```     
 [[Paper](https://arxiv.org/abs/2312.11370)] [[GitHub](https://github.com/pipilurj/G-LLaVA)]
