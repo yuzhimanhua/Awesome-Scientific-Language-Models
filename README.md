@@ -533,14 +533,15 @@ Systematic Survey_](https://arxiv.org/abs/2110.05006) when writing some parts of
 - **(BioViL-T)** _Learning to Exploit Temporal Structure for Biomedical Vision-Language Processing_ ```CVPR 2023```     
 [[Paper](https://arxiv.org/abs/2301.04558)] [[GitHub](https://github.com/microsoft/hi-ml/tree/main/hi-ml-multimodal)]
 
+- **(BiomedCLIP)** _BiomedCLIP: A Multimodal Biomedical Foundation Model Pretrained from Fifteen Million Scientific Image-Text Pairs_ ```arXiv 2023```     
+[[Paper](https://arxiv.org/abs/2303.00915)] [[Model](https://huggingface.co/microsoft/BiomedCLIP-PubMedBERT_256-vit_base_patch16_224)]
+
 - **(RGRG)** _Interactive and Explainable Region-guided Radiology Report Generation_ ```CVPR 2023```     
 [[Paper](https://arxiv.org/abs/2304.08295)] [[GitHub](https://github.com/ttanida/rgrg)]
 
 - **(Med-PaLM M)** _Towards Generalist Biomedical AI_ ```arXiv 2023```     
 [[Paper](https://arxiv.org/abs/2307.14334)] [[GitHub](https://github.com/kyegomez/Med-PaLM)]
 
-- **(BiomedCLIP)** _BiomedCLIP: a multimodal biomedical foundation model pretrained from fifteen million scientific image-text pairs_ ```arXiv 2023```     
-[[Paper](https://arxiv.org/abs/2303.00915)] [[Model](https://huggingface.co/microsoft/BiomedCLIP-PubMedBERT_256-vit_base_patch16_224)]
 
 
 
