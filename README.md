@@ -539,6 +539,11 @@ Systematic Survey_](https://arxiv.org/abs/2110.05006) when writing some parts of
 - **(Med-PaLM M)** _Towards Generalist Biomedical AI_ ```arXiv 2023```     
 [[Paper](https://arxiv.org/abs/2307.14334)] [[GitHub](https://github.com/kyegomez/Med-PaLM)]
 
+- **(BiomedCLIP)** _BiomedCLIP: a multimodal biomedical foundation model pretrained from fifteen million scientific image-text pairs_ ```arXiv 2023```     
+[[Paper](https://arxiv.org/abs/2303.00915)] [[Model](https://huggingface.co/microsoft/BiomedCLIP-PubMedBERT_256-vit_base_patch16_224)]
+
+
+
 
 <h3 id="biology-other-modalities-protein-dna-rna">Other Modalities (Protein, DNA, RNA)</h3>
 
