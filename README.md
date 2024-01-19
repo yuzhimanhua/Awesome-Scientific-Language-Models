@@ -4,7 +4,7 @@
 
 A curated list of pre-trained language models in scientific domains (e.g., **mathematics**, **physics**, **chemistry**, **biology**, **medicine**, **materials science**, and **geoscience**), covering different model sizes (from **<100M** to **70B parameters**) and modalities (e.g., **language**, **vision**, **molecule**, **protein**, **graph**, and **table**). The repository will be continuously updated.
 
-**NOTE 1**: To avoid ambiguity, when we talk about the number of parameters in a model, "Base" refers to 110M (i.e., BERT-Base) and "Large" refers to 340M (i.e., BERT-Large). Other numbers will be written explicitly.
+**NOTE 1**: To avoid ambiguity, when we talk about the number of parameters in a model, "Base" refers to 110M (i.e., BERT-Base), and "Large" refers to 340M (i.e., BERT-Large). Other numbers will be written explicitly.
 
 **NOTE 2**: In each subsection, papers are sorted chronologically. If a paper has a preprint (e.g., arXiv or bioRxiv) version, its publication date is according to the preprint service. Otherwise, its publication date is according to the conference proceeding or journal.
 
@@ -46,7 +46,7 @@ A curated list of pre-trained language models in scientific domains (e.g., **mat
 - **(SciBERT)** _SciBERT: A Pretrained Language Model for Scientific Text_ ```EMNLP 2019```     
 [[Paper](https://arxiv.org/abs/1903.10676)] [[GitHub](https://github.com/allenai/scibert)] [[Model (Base)](https://huggingface.co/allenai/scibert_scivocab_uncased)]
 
-- **(SciGPT2)** _Explaining Relationships Between Scientific Documents_ ```ACL 2021```     
+- **(SciGPT2)** _Explaining Relationships between Scientific Documents_ ```ACL 2021```     
 [[Paper](https://arxiv.org/abs/2002.00317)] [[GitHub](https://github.com/Kel-Lu/SciGen)] [[Model (117M)](https://drive.google.com/file/d/1AoNYnhvI6tensnrpQVc09KL1NWJ5MvFU/view)]
 
 - **(CATTS)** _TLDR: Extreme Summarization of Scientific Documents_ ```EMNLP 2020 Findings```     
@@ -268,7 +268,7 @@ A curated list of pre-trained language models in scientific domains (e.g., **mat
 - **(MolBERT)** _Molecular Representation Learning with Language Models and Domain-Relevant Auxiliary Tasks_ ```arXiv 2020```     
 [[Paper](https://arxiv.org/abs/2011.13230)] [[GitHub](https://github.com/BenevolentAI/MolBERT)] [[Model (Base)](https://ndownloader.figshare.com/files/25611290)]
 
-- **(RXNFP)** _Mapping the Space of Chemical Reactions Using Attention-Based Neural Networks_ ```Nature Machine Intelligence 2021```     
+- **(RXNFP)** _Mapping the Space of Chemical Reactions using Attention-Based Neural Networks_ ```Nature Machine Intelligence 2021```     
 [[Paper](https://arxiv.org/abs/2012.06051)] [[GitHub](https://github.com/rxn4chemistry/rxnfp)] [[Model (Base)](https://github.com/rxn4chemistry/rxnfp/tree/master/rxnfp/models/transformers/bert_pretrained)]
 
 - **(RXNMapper)** _Extraction of Organic Chemistry Grammar from Unsupervised Learning of Chemical Reactions_ ```Science Advances 2021```     
@@ -280,7 +280,7 @@ A curated list of pre-trained language models in scientific domains (e.g., **mat
 - **(Chemformer)** _Chemformer: A Pre-trained Transformer for Computational Chemistry_ ```Machine Learning: Science and Technology 2022```     
 [[Paper](https://chemrxiv.org/engage/chemrxiv/article-details/60ee8a3eb95bdd06d062074b)] [[GitHub](https://github.com/MolecularAI/Chemformer)] [[Model (45M)](https://az.app.box.com/s/7eci3nd9vy0xplqniitpk02rbg9q2zcq/folder/144881804954)] [[Model (230M)](https://az.app.box.com/s/7eci3nd9vy0xplqniitpk02rbg9q2zcq/folder/144881806154)]
 
-- **(MolGPT)** _MolGPT: Molecular Generation Using a Transformer-Decoder Model_ ```Journal of Chemical Information and Modeling 2022```     
+- **(MolGPT)** _MolGPT: Molecular Generation using a Transformer-Decoder Model_ ```Journal of Chemical Information and Modeling 2022```     
 [[Paper](https://pubs.acs.org/doi/10.1021/acs.jcim.1c00600)] [[GitHub](https://github.com/devalab/molgpt)]
 
 - **(Text2Mol)** _Text2Mol: Cross-Modal Molecule Retrieval with Natural Language Queries_ ```EMNLP 2021```     
@@ -389,7 +389,7 @@ Systematic Survey_](https://arxiv.org/abs/2110.05006) when writing some parts of
 - **(MCBERT)** _Conceptualized Representation Learning for Chinese Biomedical Text Mining_ ```arXiv 2020```     
 [[Paper](https://arxiv.org/abs/2008.10813)] [[GitHub](https://github.com/alibaba-research/ChineseBLUE)] [[Model (Base)](https://drive.google.com/file/d/1ccXRvaeox5XCNP_aSk_ttLBY695Erlok/view)]
 
-- **(BRLTM)** _Bidirectional Representation Learning from Transformers Using Multimodal Electronic Health Record Data to Predict Depression_ ```JBHI 2021```     
+- **(BRLTM)** _Bidirectional Representation Learning from Transformers using Multimodal Electronic Health Record Data to Predict Depression_ ```JBHI 2021```     
 [[Paper](https://arxiv.org/abs/2009.12656)] [[GitHub](https://github.com/lanyexiaosa/brltm)]
 
 - **(BioRedditBERT)** _COMETA: A Corpus for Medical Entity Linking in the Social Media_ ```EMNLP 2020```     
@@ -401,13 +401,13 @@ Systematic Survey_](https://arxiv.org/abs/2110.05006) when writing some parts of
 - **(SapBERT)** _Self-Alignment Pretraining for Biomedical Entity Representations_ ```NAACL 2021```     
 [[Paper](https://arxiv.org/abs/2010.11784)] [[GitHub](https://github.com/cambridgeltl/sapbert)] [[Model (Base)](https://huggingface.co/cambridgeltl/SapBERT-from-PubMedBERT-fulltext)]
 
-- **(ClinicalTransformer)** _Clinical Concept Extraction Using Transformers_ ```JAMIA 2020```     
+- **(ClinicalTransformer)** _Clinical Concept Extraction using Transformers_ ```JAMIA 2020```     
 [[Paper](https://academic.oup.com/jamia/article-abstract/27/12/1935/5943218)] [[GitHub](https://github.com/uf-hobi-informatics-lab/ClinicalTransformerNER)] [[Model (Base, BERT)](https://transformer-models.s3.amazonaws.com/mimiciii_bert_10e_128b.zip)] [[Model (125M, RoBERTa)](https://transformer-models.s3.amazonaws.com/mimiciii_roberta_10e_128b.zip)] [[Model (12M, ALBERT)](https://transformer-models.s3.amazonaws.com/mimiciii_albert_10e_128b.zip)] [[Model (Base, ELECTRA)](https://transformer-models.s3.amazonaws.com/mimiciii_electra_5e_128b.zip)] [[Model (117M, XLNet)](https://transformer-models.s3.amazonaws.com/mimiciii_xlnet_5e_128b.zip)] [[Model (149M, Longformer)](https://transformer-models.s3.amazonaws.com/mimiciii_longformer_5e_128b.zip)] [[Model (139M, DeBERTa)](https://transformer-models.s3.amazonaws.com/mimiciii_deberta_10e_128b.tar.gz)]
 
 - **(BioRoBERTa)** _Pretrained Language Models for Biomedical and Clinical Tasks: Understanding and Extending the State-of-the-Art_ ```EMNLP 2020 Workshop```     
 [[Paper](https://aclanthology.org/2020.clinicalnlp-1.17)] [[GitHub](https://github.com/facebookresearch/bio-lm)] [[Model (125M)](https://dl.fbaipublicfiles.com/biolm/RoBERTa-base-PM-M3-Voc-train-longer-hf.tar.gz)] [[Model (355M)](https://dl.fbaipublicfiles.com/biolm/RoBERTa-large-PM-M3-Voc-hf.tar.gz)]
 
-- **(RAD-BERT)** _Highly Accurate Classification of Chest Radiographic Reports Using a Deep Learning Natural Language Model Pre-trained on 3.8 Million Text Reports_ ```Bioinformatics 2020```     
+- **(RAD-BERT)** _Highly Accurate Classification of Chest Radiographic Reports using a Deep Learning Natural Language Model Pre-trained on 3.8 Million Text Reports_ ```Bioinformatics 2020```     
 [[Paper](https://academic.oup.com/bioinformatics/article/36/21/5255/5875602)] [[GitHub](https://github.com/rAIdiance/bert-for-radiology)]
 
 - **(BioMedBERT)** _BioMedBERT: A Pre-trained Biomedical Language Model for QA and IR_ ```COLING 2020```     
@@ -440,7 +440,7 @@ Systematic Survey_](https://arxiv.org/abs/2110.05006) when writing some parts of
 - **(Med-PaLM)** _Large Language Models Encode Clinical Knowledge_ ```Nature 2023```     
 [[Paper](https://arxiv.org/abs/2212.13138)]
 
-- **(ChatDoctor)** _ChatDoctor: A Medical Chat Model Fine-Tuned on a Large Language Model Meta-AI (LLaMA) Using Medical Domain Knowledge_ ```Cureus 2023```     
+- **(ChatDoctor)** _ChatDoctor: A Medical Chat Model Fine-Tuned on a Large Language Model Meta-AI (LLaMA) using Medical Domain Knowledge_ ```Cureus 2023```     
 [[Paper](https://arxiv.org/abs/2303.14070)] [[GitHub](https://github.com/Kent0n-Li/ChatDoctor)]
 
 - **(DoctorGLM)** _DoctorGLM: Fine-tuning your Chinese Doctor is not a Herculean Task_ ```arXiv 2023```     
