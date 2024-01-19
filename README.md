@@ -137,13 +137,13 @@ A curated list of pre-trained language models in scientific domains (e.g., **mat
 - **(WizardMath)** _WizardMath: Empowering Mathematical Reasoning for Large Language Models via Reinforced Evol-Instruct_ ```arXiv 2023```     
 [[Paper](https://arxiv.org/abs/2308.09583)] [[GitHub](https://github.com/nlpxucan/WizardLM)] [[Model (7B)](https://huggingface.co/WizardLM/WizardMath-7B-V1.1)] [[Model (13B)](https://huggingface.co/WizardLM/WizardMath-13B-V1.0)] [[Model (70B)](https://huggingface.co/WizardLM/WizardMath-70B-V1.0)]
 
-- **(MAmmoTH)** _MAmmoTH: Building Math Generalist Models through Hybrid Instruction Tuning_ ```arXiv 2023```     
+- **(MAmmoTH)** _MAmmoTH: Building Math Generalist Models through Hybrid Instruction Tuning_ ```ICLR 2024```     
 [[Paper](https://arxiv.org/abs/2309.05653)] [[GitHub](https://github.com/TIGER-AI-Lab/MAmmoTH)] [[Model (7B)](https://huggingface.co/TIGER-Lab/MAmmoTH-7B)] [[Model (13B)](https://huggingface.co/TIGER-Lab/MAmmoTH-13B)] [[Model (70B)](https://huggingface.co/TIGER-Lab/MAmmoTH-70B)]
 
-- **(MetaMath)** _MetaMath: Bootstrap Your Own Mathematical Questions for Large Language Models_ ```arXiv 2023```     
+- **(MetaMath)** _MetaMath: Bootstrap Your Own Mathematical Questions for Large Language Models_ ```ICLR 2024```     
 [[Paper](https://arxiv.org/abs/2309.12284)] [[GitHub](https://github.com/meta-math/MetaMath)] [[Model (7B)](https://huggingface.co/meta-math/MetaMath-7B-V1.0)] [[Model (13B)](https://huggingface.co/meta-math/MetaMath-13B-V1.0)] [[Model (70B)](https://huggingface.co/meta-math/MetaMath-70B-V1.0)]
 
-- **(ToRA)** _ToRA: A Tool-Integrated Reasoning Agent for Mathematical Problem Solving_ ```arXiv 2023```     
+- **(ToRA)** _ToRA: A Tool-Integrated Reasoning Agent for Mathematical Problem Solving_ ```ICLR 2024```     
 [[Paper](https://arxiv.org/abs/2309.17452)] [[GitHub](https://github.com/microsoft/ToRA)] [[Model (7B)](https://huggingface.co/llm-agents/tora-7b-v1.0)] [[Model (13B)](https://huggingface.co/llm-agents/tora-13b-v1.0)] [[Model (70B)](https://huggingface.co/llm-agents/tora-70b-v1.0)]
 
 - **(Llemma)** _Llemma: An Open Language Model For Mathematics_ ```arXiv 2023```     
@@ -319,7 +319,7 @@ A curated list of pre-trained language models in scientific domains (e.g., **mat
 - **(CLAMP)** _Enhancing Activity Prediction Models in Drug Discovery with the Ability to Understand Human Language_ ```ICML 2023```     
 [[Paper](https://arxiv.org/abs/2303.03363)] [[GitHub](https://github.com/ml-jku/clamp)]
 
-- **(GIMLET)** _GIMLET: A Unified Graph-Text Model for Instruction-Based Molecule Zero-Shot Learning_ ```arXiv 2023```     
+- **(GIMLET)** _GIMLET: A Unified Graph-Text Model for Instruction-Based Molecule Zero-Shot Learning_ ```NeurIPS 2023```     
 [[Paper](https://arxiv.org/abs/2306.13089)] [[GitHub](https://github.com/zhao-ht/GIMLET)] [[Model (60M)](https://huggingface.co/haitengzhao/gimlet)]
 
 - **(MolFM)** _MolFM: A Multimodal Molecular Foundation Model_ ```arXiv 2023```     
@@ -356,7 +356,7 @@ Systematic Survey_](https://arxiv.org/abs/2110.05006) when writing some parts of
 - **(Bio+Clinical BERT)** _Publicly Available Clinical BERT Embeddings_ ```NAACL 2019 Workshop```     
 [[Paper](https://arxiv.org/abs/1904.03323)] [[GitHub](https://github.com/EmilyAlsentzer/clinicalBERT)] [[Model (Base)](https://huggingface.co/emilyalsentzer/Bio_ClinicalBERT)]
 
-- **(ClinicalBERT)** _ClinicalBERT: Modeling Clinical Notes and Predicting Hospital Readmission_ ```CHIL 2020 Workshop```     
+- **(ClinicalBERT)** _ClinicalBERT: Modeling Clinical Notes and Predicting Hospital Readmission_ ```arXiv 2019```     
 [[Paper](https://arxiv.org/abs/1904.05342)] [[GitHub](https://github.com/kexinhuang12345/clinicalBERT)] [[Model (Base)](https://drive.google.com/file/d/1X3WrKLwwRAVOaAfKQ_tkTi46gsPfY5EB/edit)]
 
 - **(BlueBERT, f.k.a. NCBI-BERT)** _Transfer Learning in Biomedical Natural Language Processing: An Evaluation of BERT and ELMo on Ten Benchmarking Datasets_ ```ACL 2019 Workshop```     
