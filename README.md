@@ -2,7 +2,7 @@
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 [![Stars](https://img.shields.io/github/stars/yuzhimanhua/Awesome-Scientific-Language-Models?style=social)](https://img.shields.io/github/stars/yuzhimanhua/Awesome-Scientific-Language-Models?style=social)
 
-[![Papers](https://img.shields.io/badge/PaperNumber-178-blue)](https://img.shields.io/badge/PaperNumber-178-blue)
+[![Papers](https://img.shields.io/badge/PaperNumber-179-blue)](https://img.shields.io/badge/PaperNumber-179-blue)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![PRWelcome](https://img.shields.io/badge/PRs-Welcome-red)](https://img.shields.io/badge/PRs-Welcome-red)
 
@@ -336,6 +336,9 @@ A curated list of pre-trained language models in scientific domains (e.g., **mat
 
 - **(GPT-MolBERTa)** _GPT-MolBERTa: GPT Molecular Features Language Model for Molecular Property Prediction_ ```arXiv 2023```     
 [[Paper](https://arxiv.org/abs/2310.03030)] [[GitHub](https://github.com/Suryanarayanan-Balaji/GPT-MolBERTa)] [[Model (82M, BERT)](https://drive.google.com/file/d/1b39vo6OZIa76VacZL50oT7mbO6Yue6l6/view)] [[Model (82M, RoBERTa)](https://drive.google.com/file/d/1_vKE6Rb9A7PU0PVTu3u1XlaqoPXsp9sJ/view)]
+
+- **(ActFound)** _A Foundation Model for Bioactivity Prediction using Pairwise Meta-learning_ ```bioRxiv 2023```     
+[[Paper](https://www.biorxiv.org/content/10.1101/2023.10.30.564861)] [[GitHub](https://github.com/BFeng14/ActFound)]
 
 - **(InstructMol)** _InstructMol: Multi-Modal Integration for Building a Versatile and Reliable Molecular Assistant in Drug Discovery_ ```arXiv 2023```     
 [[Paper](https://arxiv.org/abs/2311.16208)] [[GitHub](https://github.com/IDEA-XL/InstructMol)]
