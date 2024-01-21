@@ -12,7 +12,7 @@ A curated list of pre-trained language models in scientific domains (e.g., **mat
 
 **NOTE 2**: In each subsection, papers are sorted chronologically. If a paper has a preprint (e.g., arXiv or bioRxiv) version, its publication date is according to the preprint service. Otherwise, its publication date is according to the conference proceeding or journal.
 
-**NOTE 3**: We appreciate contributions. If you have any suggested papers, feel free to reach out to yuz9@illinois.edu or submit a [pull request](https://github.com/yuzhimanhua/Awesome-Scientific-Language-Models/pulls).
+**NOTE 3**: We appreciate contributions. If you have any suggested papers, feel free to reach out to yuz9@illinois.edu or submit a [pull request](https://github.com/yuzhimanhua/Awesome-Scientific-Language-Models/pulls). For format consistency, I will include a paper after (1) it has a version with author names AND (2) its GitHub and/or Hugging Face links are available.
 
 
 
@@ -336,6 +336,9 @@ A curated list of pre-trained language models in scientific domains (e.g., **mat
 
 - **(GPT-MolBERTa)** _GPT-MolBERTa: GPT Molecular Features Language Model for Molecular Property Prediction_ ```arXiv 2023```     
 [[Paper](https://arxiv.org/abs/2310.03030)] [[GitHub](https://github.com/Suryanarayanan-Balaji/GPT-MolBERTa)] [[Model (82M, BERT)](https://drive.google.com/file/d/1b39vo6OZIa76VacZL50oT7mbO6Yue6l6/view)] [[Model (82M, RoBERTa)](https://drive.google.com/file/d/1_vKE6Rb9A7PU0PVTu3u1XlaqoPXsp9sJ/view)]
+
+- **(MolCA)** _MolCA: Molecular Graph-Language Modeling with Cross-Modal Projector and Uni-Modal Adapter_ ```EMNLP 2023```     
+[[Paper](https://arxiv.org/abs/2310.12798)] [[GitHub](https://github.com/acharkq/MolCA)]
 
 - **(ActFound)** _A Foundation Model for Bioactivity Prediction using Pairwise Meta-learning_ ```bioRxiv 2023```     
 [[Paper](https://www.biorxiv.org/content/10.1101/2023.10.30.564861)] [[GitHub](https://github.com/BFeng14/ActFound)]
