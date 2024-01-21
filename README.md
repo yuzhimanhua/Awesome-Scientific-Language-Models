@@ -343,10 +343,14 @@ A curated list of pre-trained language models in scientific domains (e.g., **mat
 - **(InstructMol)** _InstructMol: Multi-Modal Integration for Building a Versatile and Reliable Molecular Assistant in Drug Discovery_ ```arXiv 2023```     
 [[Paper](https://arxiv.org/abs/2311.16208)] [[GitHub](https://github.com/IDEA-XL/InstructMol)]
 
+- **(MolCA)** _MolCA: Molecular Graph-Language Modeling with Cross-Modal Projector and Uni-Modal Adapter_ ```EMNLP 2023```     
+[[Paper](https://arxiv.org/abs/2310.12798)] [[GitHub](https://github.com/acharkq/MolCA)]
+
 - **(PolyNC)** _PolyNC: A Natural and Chemical Language Model for the Prediction of Unified Polymer Properties_ ```Chemical Science 2024```     
 [[Paper](https://pubs.rsc.org/en/content/articlehtml/2022/wq/d3sc05079c)] [[GitHub](https://github.com/HKQiu/Unified_ML4Polymers)] [[Model (220M)](https://huggingface.co/hkqiu/PolyNC)]
 
-
+- **(3D-MoLM)** _TOWARDS 3D MOLECULE-TEXT INTERPRETATION IN LANGUAGE MODELS_ ```ICLR 2024```     
+[[Paper](https://openreview.net/forum?id=xI4yNlkaqh)] [[GitHub](https://anonymous.4open.science/r/3D-MoLM)]
 
 
 
