@@ -225,6 +225,9 @@ A curated list of pre-trained language models in scientific domains (e.g., **mat
 - **(AstroLLaMA)** _AstroLLaMA: Towards Specialized Foundation Models in Astronomy_ ```arXiv 2023```     
 [[Paper](https://arxiv.org/abs/2309.06126)] [[Model (7B)](https://huggingface.co/universeTBD/astrollama)]
 
+- **(AstroLLaMA-Chat)** _AstroLLaMA-Chat: Scaling AstroLLaMA with Conversational and Diverse Datasets_ ```Research Notes of the AAS 2024```
+[[Paper](https://arxiv.org/abs/2401.01916)] [[Model (7B)](https://huggingface.co/spaces/universeTBD/astrollama-7b-chat-alpha)]
+
 
 
 
