@@ -225,7 +225,7 @@ A curated list of pre-trained language models in scientific domains (e.g., **mat
 - **(AstroLLaMA)** _AstroLLaMA: Towards Specialized Foundation Models in Astronomy_ ```arXiv 2023```     
 [[Paper](https://arxiv.org/abs/2309.06126)] [[Model (7B)](https://huggingface.co/universeTBD/astrollama)]
 
-- **(AstroLLaMA-Chat)** _AstroLLaMA-Chat: Scaling AstroLLaMA with Conversational and Diverse Datasets_ ```Research Notes of the AAS 2024```
+- **(AstroLLaMA-Chat)** _AstroLLaMA-Chat: Scaling AstroLLaMA with Conversational and Diverse Datasets_ ```Research Notes of the AAS 2024```     
 [[Paper](https://arxiv.org/abs/2401.01916)] [[Model (7B)](https://huggingface.co/spaces/universeTBD/astrollama-7b-chat-alpha)]
 
 
@@ -481,6 +481,9 @@ Systematic Survey_](https://arxiv.org/abs/2110.05006) when writing some parts of
 
 - **(DISC-MedLLM)** _DISC-MedLLM: Bridging General Large Language Models and Real-World Medical Consultation_ ```arXiv 2023```     
 [[Paper](https://arxiv.org/abs/2308.14346)] [[GitHub](https://github.com/FudanDISC/DISC-MedLLM)] [[Model (13B)](https://huggingface.co/Flmc/DISC-MedLLM)]
+
+- **(DRG-LLaMA)** _DRG-LLaMA: Tuning LLaMA Model to Predict Diagnosis-related Group for Hospitalized Patients_ ```npj Digital Medicine 2024```     
+[[Paper](https://arxiv.org/abs/2309.12625)] [[GitHub](https://github.com/hanyin88/DRG-LLaMA)]
 
 - **(HuatuoGPT-II)** _HuatuoGPT-II, One-stage Training for Medical Adaption of LLMs_ ```arXiv 2023```     
 [[Paper](https://arxiv.org/abs/2311.09774)] [[GitHub](https://github.com/FreedomIntelligence/HuatuoGPT-II)] [[Model (7B)](https://huggingface.co/FreedomIntelligence/HuatuoGPT2-7B)] [[Model (13B)](https://huggingface.co/FreedomIntelligence/HuatuoGPT2-13B)] [[Model (34B)](https://huggingface.co/FreedomIntelligence/HuatuoGPT2-34B)]
