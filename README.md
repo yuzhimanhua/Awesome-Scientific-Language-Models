@@ -2,7 +2,7 @@
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 [![Stars](https://img.shields.io/github/stars/yuzhimanhua/Awesome-Scientific-Language-Models?style=social)](https://img.shields.io/github/stars/yuzhimanhua/Awesome-Scientific-Language-Models?style=social)
 
-[![Papers](https://img.shields.io/badge/PaperNumber-180-blue)](https://img.shields.io/badge/PaperNumber-180-blue)
+[![Papers](https://img.shields.io/badge/PaperNumber-180-blue)](https://img.shields.io/badge/PaperNumber-185-blue)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![PRWelcome](https://img.shields.io/badge/PRs-Welcome-red)](https://img.shields.io/badge/PRs-Welcome-red)
 
@@ -584,8 +584,14 @@ Systematic Survey_](https://arxiv.org/abs/2110.05006) when writing some parts of
 - **(ESM-1v)** _Language Models Enable Zero-Shot Prediction of the Effects of Mutations on Protein Function_ ```NeurIPS 2021```     
 [[Paper](https://www.biorxiv.org/content/10.1101/2021.07.09.450648)] [[GitHub](https://github.com/facebookresearch/esm)] [[Model (650M)](https://dl.fbaipublicfiles.com/fair-esm/models/esm1v_t33_650M_UR90S_1.pt)]
 
+- **(RNABERT)** _Informative RNA-base Embedding for Functional RNA Structural Alignment and Clustering by Deep Representation Learning_ ```NAR Genomics and Bioinformatics 2022```     
+[[Paper](https://www.biorxiv.org/content/10.1101/2021.08.23.457433)] [[GitHub](https://github.com/mana438/RNABERT)]
+
 - **(ProteinBERT)** _ProteinBERT: A Universal Deep-Learning Model of Protein Sequence and Function_ ```Bioinformatics 2022```     
 [[Paper](https://academic.oup.com/bioinformatics/article/38/8/2102/6502274)] [[GitHub](https://github.com/nadavbra/protein_bert)] [[Model (16M)](https://huggingface.co/GrimSqueaker/proteinBERT)]
+
+- **(RNA-FM)** _Interpretable RNA Foundation Model from Unannotated Data for Highly Accurate RNA Structure and Function Predictions_ ```arXiv 2022```     
+[[Paper](https://arxiv.org/abs/2204.00300)] [[GitHub](https://github.com/ml4bio/RNA-FM)]
 
 - **(ESM-IF1)** _Learning Inverse Folding from Millions of Predicted Structures_ ```ICML 2022```     
 [[Paper](https://www.biorxiv.org/content/10.1101/2022.04.10.487779)] [[GitHub](https://github.com/facebookresearch/esm)] [[Model (124M)](https://dl.fbaipublicfiles.com/fair-esm/models/esm_if1_gvp4_t16_142M_UR50.pt)]
@@ -607,6 +613,9 @@ Systematic Survey_](https://arxiv.org/abs/2110.05006) when writing some parts of
 
 - **(ProtST)** _ProtST: Multi-Modality Learning of Protein Sequences and Biomedical Texts_ ```ICML 2023```     
 [[Paper](https://arxiv.org/abs/2301.12040)] [[GitHub](https://github.com/DeepGraphLearning/ProtST)]
+
+- **(RNA-MSM)** _Multiple Sequence-Alignment-Based RNA Language Model and its Application to Structural Inference_ ```Nucleic Acids Research 2024```     
+[[Paper](https://www.biorxiv.org/content/10.1101/2023.03.15.532863)] [[GitHub](https://github.com/yikunpku/RNA-MSM)]
 
 - **(Geneformer)** _Transfer Learning Enables Predictions in Network Biology_ ```Nature 2023```     
 [[Paper](https://www.nature.com/articles/s41586-023-06139-9)] [[Model (10M)](https://huggingface.co/ctheodoris/Geneformer/blob/main/pytorch_model.bin)] [[Model (40M)](https://huggingface.co/ctheodoris/Geneformer/blob/main/geneformer-12L-30M/pytorch_model.bin)]
