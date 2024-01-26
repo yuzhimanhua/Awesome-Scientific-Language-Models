@@ -2,7 +2,7 @@
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 [![Stars](https://img.shields.io/github/stars/yuzhimanhua/Awesome-Scientific-Language-Models?style=social)](https://img.shields.io/github/stars/yuzhimanhua/Awesome-Scientific-Language-Models?style=social)
 
-[![Papers](https://img.shields.io/badge/PaperNumber-180-blue)](https://img.shields.io/badge/PaperNumber-185-blue)
+[![Papers](https://img.shields.io/badge/PaperNumber-186-blue)](https://img.shields.io/badge/PaperNumber-186-blue)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![PRWelcome](https://img.shields.io/badge/PRs-Welcome-red)](https://img.shields.io/badge/PRs-Welcome-red)
 
@@ -634,6 +634,9 @@ Systematic Survey_](https://arxiv.org/abs/2110.05006) when writing some parts of
 
 - **(BioMedGPT)** _BioMedGPT: Open Multimodal Generative Pre-trained Transformer for BioMedicine_ ```arXiv 2023```     
 [[Paper](https://arxiv.org/abs/2308.09442)] [[GitHub](https://github.com/PharMolix/OpenBioMed)] [[Model (7B)](https://huggingface.co/PharMolix/BioMedGPT-LM-7B)] [[Model (10B)](https://huggingface.co/PharMolix/BioMedGPT-10B)]
+
+- **(CellPLM)** _CellPLM: Pre-training of Cell Language Model Beyond Single Cells_ ```ICLR 2024```     
+[[Paper](https://www.biorxiv.org/content/10.1101/2023.10.03.560734)] [[GitHub](https://github.com/OmicsML/CellPLM)] [[Model (82M)](https://www.dropbox.com/scl/fo/i5rmxgtqzg7iykt2e9uqm/h?rlkey=o8hi0xads9ol07o48jdityzv1&dl=0)]
 
 
 
