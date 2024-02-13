@@ -2,7 +2,7 @@
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 [![Stars](https://img.shields.io/github/stars/yuzhimanhua/Awesome-Scientific-Language-Models?style=social)](https://img.shields.io/github/stars/yuzhimanhua/Awesome-Scientific-Language-Models?style=social)
 
-[![Papers](https://img.shields.io/badge/PaperNumber-186-blue)](https://img.shields.io/badge/PaperNumber-186-blue)
+[![Papers](https://img.shields.io/badge/PaperNumber-188-blue)](https://img.shields.io/badge/PaperNumber-188-blue)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![PRWelcome](https://img.shields.io/badge/PRs-Welcome-red)](https://img.shields.io/badge/PRs-Welcome-red)
 
@@ -252,6 +252,12 @@ A curated list of pre-trained language models in scientific domains (e.g., **mat
 
 - **(LLM-Prop)** _LLM-Prop: Predicting Physical and Electronic Properties of Crystalline Solids from Their Text Descriptions_ ```arXiv 2023```     
 [[Paper](https://arxiv.org/abs/2310.14029)] [[GitHub](https://github.com/vertaix/LLM-Prop)]
+
+- **(CrystalLLM)** _Fine-Tuned Language Models Generate Stable Inorganic Materials as Text_ ```ICLR 2024```     
+[[Paper](https://arxiv.org/abs/2402.04379)] [[GitHub](https://github.com/facebookresearch/crystal-llm)]
+
+- **(ChemLLM)** _ChemLLM: A Chemical Large Language Model_ ```arXiv 2024```     
+[[Paper](https://arxiv.org/abs/2402.06852)] [[Model (7B)](https://huggingface.co/AI4Chem/ChemLLM-7B-Chat)]
 
 
 <h3 id="chemistry-vision-language">Vision-Language</h3>
