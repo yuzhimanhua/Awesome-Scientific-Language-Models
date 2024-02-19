@@ -2,7 +2,7 @@
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 [![Stars](https://img.shields.io/github/stars/yuzhimanhua/Awesome-Scientific-Language-Models?style=social)](https://img.shields.io/github/stars/yuzhimanhua/Awesome-Scientific-Language-Models?style=social)
 
-[![Papers](https://img.shields.io/badge/PaperNumber-188-blue)](https://img.shields.io/badge/PaperNumber-188-blue)
+[![Papers](https://img.shields.io/badge/PaperNumber-190-blue)](https://img.shields.io/badge/PaperNumber-190-blue)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![PRWelcome](https://img.shields.io/badge/PRs-Welcome-red)](https://img.shields.io/badge/PRs-Welcome-red)
 
@@ -63,6 +63,9 @@ A curated list of pre-trained language models in scientific domains (e.g., **mat
 
 - **(ScholarBERT)** _The Diminishing Returns of Masked Language Models to Science_ ```ACL 2023 Findings```     
 [[Paper](https://arxiv.org/abs/2205.11342)] [[Model (Large)](https://huggingface.co/globuslabs/ScholarBERT)] [[Model (770M)](https://huggingface.co/globuslabs/ScholarBERT-XL)]
+
+- **(AcademicRoBERTa)** _A Japanese Masked Language Model for Academic Domain_ ```COLING 2022 Workshop```     
+[[Paper](https://aclanthology.org/2022.sdp-1.16)] [[GitHub](https://github.com/EhimeNLP/AcademicRoBERTa)] [[Model (125M)](https://huggingface.co/EhimeNLP/AcademicRoBERTa)]
 
 - **(Galactica)** _Galactica: A Large Language Model for Science_ ```arXiv 2022```     
 [[Paper](https://arxiv.org/abs/2211.09085)]
@@ -374,10 +377,10 @@ Systematic Survey_](https://arxiv.org/abs/2110.05006) when writing some parts of
 - **(BioELMo)** _Probing Biomedical Embeddings from Language Models_ ```NAACL 2019 Workshop```     
 [[Paper](https://arxiv.org/abs/1904.02181)] [[GitHub](https://github.com/Andy-jqa/bioelmo)] [[Model (93M)](https://drive.google.com/file/d/1BQIuWGoZDVWppiz9Cst-ZqWd2mLiY2nc/view)]
 
-- **(Bio+Clinical BERT)** _Publicly Available Clinical BERT Embeddings_ ```NAACL 2019 Workshop```     
+- **(ClinicalBERT, Alsentzer et al.)** _Publicly Available Clinical BERT Embeddings_ ```NAACL 2019 Workshop```     
 [[Paper](https://arxiv.org/abs/1904.03323)] [[GitHub](https://github.com/EmilyAlsentzer/clinicalBERT)] [[Model (Base)](https://huggingface.co/emilyalsentzer/Bio_ClinicalBERT)]
 
-- **(ClinicalBERT)** _ClinicalBERT: Modeling Clinical Notes and Predicting Hospital Readmission_ ```arXiv 2019```     
+- **(ClinicalBERT, Huang et al.)** _ClinicalBERT: Modeling Clinical Notes and Predicting Hospital Readmission_ ```arXiv 2019```     
 [[Paper](https://arxiv.org/abs/1904.05342)] [[GitHub](https://github.com/kexinhuang12345/clinicalBERT)] [[Model (Base)](https://drive.google.com/file/d/1X3WrKLwwRAVOaAfKQ_tkTi46gsPfY5EB/edit)]
 
 - **(BlueBERT, f.k.a. NCBI-BERT)** _Transfer Learning in Biomedical Natural Language Processing: An Evaluation of BERT and ELMo on Ten Benchmarking Datasets_ ```ACL 2019 Workshop```     
@@ -496,6 +499,9 @@ Systematic Survey_](https://arxiv.org/abs/2110.05006) when writing some parts of
 
 - **(PLLaMa)** _PLLaMa: An Open-source Large Language Model for Plant Science_ ```arXiv 2024```     
 [[Paper](https://arxiv.org/abs/2401.01600)] [[GitHub](https://github.com/Xianjun-Yang/PLLaMa)] [[Model (7B)](https://huggingface.co/Xianjun/PLLaMa-7b-base)] [[Model (13B)](https://huggingface.co/Xianjun/PLLaMa-13b-base)]
+
+- **(BioMistral)** _BioMistral: A Collection of Open-Source Pretrained Large Language Models for Medical Domains_ ```arXiv 2024```     
+[[Paper](https://arxiv.org/abs/2402.10373)] [[Model (7B)](https://huggingface.co/BioMistral/BioMistral-7B)]
 
 
 <h3 id="biology-graph-enhanced">Graph-Enhanced</h3>
