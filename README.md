@@ -684,6 +684,7 @@ Systematic Survey_](https://arxiv.org/abs/2110.05006) when writing some parts of
 - **(PK-Chat)** _PK-Chat: Pointer Network Guided Knowledge Driven Generative Dialogue Model_ ```arXiv 2023```     
 [[Paper](https://arxiv.org/abs/2304.00592)] [[GitHub](https://github.com/iiot-tbb/Dialogue_DDE)] [[Model (132M)](https://pan.baidu.com/s/1bNzGnnRPMfT4jkD_UsNSYg?pwd=pa7h)]
 
+- **(COSMO)** _Bringing Back the Context: Camera Trap Species Identification as Link Prediction on Multimodal Knowledge Graphs_ ```arXiv 2023``` [[Paper](https://arxiv.org/pdf/2401.00608.pdf)] [[Github](https://github.com/OSU-NLP-Group/COSMO)] [[Model](https://huggingface.co/spaces/vardaan123/COSMO-demo/blob/main/species_class_model.pt)]
 
 <h3 id="geography-vision-language">Vision-Language</h3>
 
