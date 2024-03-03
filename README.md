@@ -2,7 +2,7 @@
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 [![Stars](https://img.shields.io/github/stars/yuzhimanhua/Awesome-Scientific-Language-Models?style=social)](https://img.shields.io/github/stars/yuzhimanhua/Awesome-Scientific-Language-Models?style=social)
 
-[![Papers](https://img.shields.io/badge/PaperNumber-190-blue)](https://img.shields.io/badge/PaperNumber-190-blue)
+[![Papers](https://img.shields.io/badge/PaperNumber-191-blue)](https://img.shields.io/badge/PaperNumber-191-blue)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![PRWelcome](https://img.shields.io/badge/PRs-Welcome-red)](https://img.shields.io/badge/PRs-Welcome-red)
 
@@ -578,8 +578,8 @@ Systematic Survey_](https://arxiv.org/abs/2110.05006) when writing some parts of
 - **(Med-PaLM M)** _Towards Generalist Biomedical AI_ ```arXiv 2023```     
 [[Paper](https://arxiv.org/abs/2307.14334)] [[GitHub](https://github.com/kyegomez/Med-PaLM)]
 
-
-
+- **(BioCLIP)** _BioCLIP: A Vision Foundation Model for the Tree of Life_ ```arXiv 2023```    
+[[Paper](https://arxiv.org/abs/2311.18803)] [[Github](https://github.com/Imageomics/BioCLIP)] [[Model](https://huggingface.co/imageomics/bioclip)]
 
 
 <h3 id="biology-other-modalities-protein-dna-rna">Other Modalities (Protein, DNA, RNA)</h3>
