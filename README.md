@@ -581,8 +581,8 @@ Systematic Survey_](https://arxiv.org/abs/2110.05006) when writing some parts of
 - **(Med-PaLM M)** _Towards Generalist Biomedical AI_ ```arXiv 2023```     
 [[Paper](https://arxiv.org/abs/2307.14334)] [[GitHub](https://github.com/kyegomez/Med-PaLM)]
 
-
-
+- **(BioCLIP)** _BioCLIP: A Vision Foundation Model for the Tree of Life_ ```arXiv 2023```    
+[[Paper](https://arxiv.org/abs/2311.18803)] [[Github](https://github.com/Imageomics/BioCLIP)] [[Model](https://huggingface.co/imageomics/bioclip)]
 
 
 <h3 id="biology-other-modalities-protein-dna-rna">Other Modalities (Protein, DNA, RNA)</h3>
