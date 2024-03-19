@@ -2,7 +2,7 @@
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 [![Stars](https://img.shields.io/github/stars/yuzhimanhua/Awesome-Scientific-Language-Models?style=social)](https://img.shields.io/github/stars/yuzhimanhua/Awesome-Scientific-Language-Models?style=social)
 
-[![Papers](https://img.shields.io/badge/PaperNumber-192-blue)](https://img.shields.io/badge/PaperNumber-192-blue)
+[![Papers](https://img.shields.io/badge/PaperNumber-193-blue)](https://img.shields.io/badge/PaperNumber-193-blue)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![PRWelcome](https://img.shields.io/badge/PRs-Welcome-red)](https://img.shields.io/badge/PRs-Welcome-red)
 
@@ -362,7 +362,10 @@ A curated list of pre-trained language models in scientific domains (e.g., **mat
 [[Paper](https://arxiv.org/abs/2311.16208)] [[GitHub](https://github.com/IDEA-XL/InstructMol)]
 
 - **(PolyNC)** _PolyNC: A Natural and Chemical Language Model for the Prediction of Unified Polymer Properties_ ```Chemical Science 2024```     
-[[Paper](https://pubs.rsc.org/en/content/articlehtml/2022/wq/d3sc05079c)] [[GitHub](https://github.com/HKQiu/Unified_ML4Polymers)] [[Model (220M)](https://huggingface.co/hkqiu/PolyNC)]
+[[Paper](https://pubs.rsc.org/en/Content/ArticleLanding/2023/SC/D3SC05079C)] [[GitHub](https://github.com/HKQiu/Unified_ML4Polymers)] [[Model (220M)](https://huggingface.co/hkqiu/PolyNC)]
+
+- **(3D-MoLM)** _Towards 3D Molecule-Text Interpretation in Language Models_ ```ICLR 2024```     
+[[Paper](https://arxiv.org/abs/2401.13923)] [[GitHub](https://github.com/lsh0520/3D-MoLM)] [[Model (7B)](https://huggingface.co/Sihangli/3D-MoLM)]
 
 
 
