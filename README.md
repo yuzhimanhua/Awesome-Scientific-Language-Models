@@ -259,6 +259,9 @@ A curated list of pre-trained language models in scientific domains (e.g., **mat
 - **(CrystalLLM)** _Fine-Tuned Language Models Generate Stable Inorganic Materials as Text_ ```ICLR 2024```     
 [[Paper](https://arxiv.org/abs/2402.04379)] [[GitHub](https://github.com/facebookresearch/crystal-llm)]
 
+- **(ChemDFM)** _ChemDFM: Dialogue Foundation Model for Chemistry_ ```arXiv 2024```     
+[[Paper](https://arxiv.org/abs/2401.14818)] [[GitHub](https://github.com/OpenDFM/ChemDFM)] [[Model (13B)](https://huggingface.co/OpenDFM/ChemDFM-13B-v1.0)]
+
 - **(ChemLLM)** _ChemLLM: A Chemical Large Language Model_ ```arXiv 2024```     
 [[Paper](https://arxiv.org/abs/2402.06852)] [[Model (7B)](https://huggingface.co/AI4Chem/ChemLLM-7B-Chat)]
 
