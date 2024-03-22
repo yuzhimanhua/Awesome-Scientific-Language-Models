@@ -2,7 +2,7 @@
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 [![Stars](https://img.shields.io/github/stars/yuzhimanhua/Awesome-Scientific-Language-Models?style=social)](https://img.shields.io/github/stars/yuzhimanhua/Awesome-Scientific-Language-Models?style=social)
 
-[![Papers](https://img.shields.io/badge/PaperNumber-193-blue)](https://img.shields.io/badge/PaperNumber-193-blue)
+[![Papers](https://img.shields.io/badge/PaperNumber-194-blue)](https://img.shields.io/badge/PaperNumber-194-blue)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![PRWelcome](https://img.shields.io/badge/PRs-Welcome-red)](https://img.shields.io/badge/PRs-Welcome-red)
 
@@ -255,6 +255,9 @@ A curated list of pre-trained language models in scientific domains (e.g., **mat
 
 - **(LLM-Prop)** _LLM-Prop: Predicting Physical and Electronic Properties of Crystalline Solids from Their Text Descriptions_ ```arXiv 2023```     
 [[Paper](https://arxiv.org/abs/2310.14029)] [[GitHub](https://github.com/vertaix/LLM-Prop)]
+
+- **(ChemDFM)** _ChemDFM: Dialogue Foundation Model for Chemistry_ ```arXiv 2024```     
+[[Paper](https://arxiv.org/abs/2401.14818)] [[GitHub](https://github.com/OpenDFM/ChemDFM)] [[Model (13B)](https://huggingface.co/OpenDFM/ChemDFM-13B-v1.0)]
 
 - **(CrystalLLM)** _Fine-Tuned Language Models Generate Stable Inorganic Materials as Text_ ```ICLR 2024```     
 [[Paper](https://arxiv.org/abs/2402.04379)] [[GitHub](https://github.com/facebookresearch/crystal-llm)]
