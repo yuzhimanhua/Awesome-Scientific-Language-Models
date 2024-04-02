@@ -155,7 +155,7 @@ A curated list of pre-trained language models in scientific domains (e.g., **mat
 - **(ToRA)** _ToRA: A Tool-Integrated Reasoning Agent for Mathematical Problem Solving_ ```ICLR 2024```     
 [[Paper](https://arxiv.org/abs/2309.17452)] [[GitHub](https://github.com/microsoft/ToRA)] [[Model (7B)](https://huggingface.co/llm-agents/tora-7b-v1.0)] [[Model (13B)](https://huggingface.co/llm-agents/tora-13b-v1.0)] [[Model (70B)](https://huggingface.co/llm-agents/tora-70b-v1.0)]
 
-- **(Llemma)** _Llemma: An Open Language Model For Mathematics_ ```arXiv 2023```     
+- **(Llemma)** _Llemma: An Open Language Model For Mathematics_ ```ICLR 2024```     
 [[Paper](https://arxiv.org/abs/2310.10631)] [[GitHub](https://github.com/EleutherAI/math-lm)] [[Model (7B)](https://huggingface.co/EleutherAI/llemma_7b)] [[Model (34B)](https://huggingface.co/EleutherAI/llemma_34b)]
 
 - **(OVM)** _Outcome-supervised Verifiers for Planning in Mathematical Reasoning_ ```arXiv 2023```     
@@ -212,7 +212,7 @@ A curated list of pre-trained language models in scientific domains (e.g., **mat
 - **(ReasTAP)** _ReasTAP: Injecting Table Reasoning Skills During Pre-training via Synthetic Reasoning Examples_ ```EMNLP 2022```     
 [[Paper](https://arxiv.org/abs/2210.12374)] [[GitHub](https://github.com/Yale-LILY/ReasTAP)] [[Model (406M)](https://huggingface.co/Yale-LILY/reastap-large)]
 
-- **(TableLlama)** _TableLlama: Towards Open Large Generalist Models for Tables_ ```arXiv 2023```     
+- **(TableLlama)** _TableLlama: Towards Open Large Generalist Models for Tables_ ```NAACL 2024```     
 [[Paper](https://arxiv.org/abs/2311.09206)] [[GitHub](https://github.com/OSU-NLP-Group/TableLlama)] [[Model (7B)](https://huggingface.co/osunlp/TableLlama)]
 
 
@@ -225,7 +225,7 @@ A curated list of pre-trained language models in scientific domains (e.g., **mat
 - **(astroBERT)** _Building astroBERT, a Language Model for Astronomy & Astrophysics_ ```arXiv 2021```     
 [[Paper](https://arxiv.org/abs/2112.00590)] [[Model (Base)](https://huggingface.co/adsabs/astroBERT)]
 
-- **(AstroLLaMA)** _AstroLLaMA: Towards Specialized Foundation Models in Astronomy_ ```arXiv 2023```     
+- **(AstroLLaMA)** _AstroLLaMA: Towards Specialized Foundation Models in Astronomy_ ```AACL 2023 Workshop```     
 [[Paper](https://arxiv.org/abs/2309.06126)] [[Model (7B)](https://huggingface.co/universeTBD/astrollama)]
 
 - **(AstroLLaMA-Chat)** _AstroLLaMA-Chat: Scaling AstroLLaMA with Conversational and Diverse Datasets_ ```Research Notes of the AAS 2024```     
@@ -271,7 +271,7 @@ A curated list of pre-trained language models in scientific domains (e.g., **mat
 - **(MolScribe)** _MolScribe: Robust Molecular Structure Recognition with Image-To-Graph Generation_ ```Journal of Chemical Information and Modeling 2023```     
 [[Paper](https://arxiv.org/abs/2205.14311)] [[GitHub](https://github.com/thomas0809/MolScribe)] [[Model (88M)](https://huggingface.co/yujieq/MolScribe)]
 
-- **(GIT-Mol)** _GIT-Mol: A Multi-modal Large Language Model for Molecular Science with Graph, Image, and Text_ ```arXiv 2023```     
+- **(GIT-Mol)** _GIT-Mol: A Multi-modal Large Language Model for Molecular Science with Graph, Image, and Text_ ```Computers in Biology and Medicine 2024```     
 [[Paper](https://arxiv.org/abs/2308.06911)] [[GitHub](https://github.com/ai-hpc-research-team/git-mol)]
 
 
@@ -325,13 +325,13 @@ A curated list of pre-trained language models in scientific domains (e.g., **mat
 - **(MFBERT)** _Large-Scale Distributed Training of Transformers for Chemical Fingerprinting_ ```Journal of Chemical Information and Modeling 2022```     
 [[Paper](https://pubs.acs.org/doi/10.1021/acs.jcim.2c00715)] [[GitHub](https://github.com/GouldGroup/MFBERT)]
 
-- **(SPMM)** _Bidirectional Generation of Structure and Properties Through a Single Molecular Foundation Model_ ```arXiv 2022```     
+- **(SPMM)** _Bidirectional Generation of Structure and Properties Through a Single Molecular Foundation Model_ ```Nature Communications 2024```     
 [[Paper](https://arxiv.org/abs/2211.10590)] [[GitHub](https://github.com/jinhojsk515/SPMM)]
 
 - **(MoleculeSTM)** _Multi-modal Molecule Structure-text Model for Text-based Retrieval and Editing_ ```Nature Machine Intelligence 2023```     
 [[Paper](https://arxiv.org/abs/2212.10789)] [[GitHub](https://github.com/chao1224/MoleculeSTM)]
 
-- **(MolGen)** _Domain-Agnostic Molecular Generation with Self-feedback_ ```arXiv 2023```     
+- **(MolGen)** _Domain-Agnostic Molecular Generation with Self-feedback_ ```ICLR 2024```     
 [[Paper](https://arxiv.org/abs/2301.11259)] [[GitHub](https://github.com/zjunlp/MolGen)] [[Model (7B)](https://huggingface.co/zjunlp/MolGen-7b)]
 
 - **(Text+Chem T5)** _Unifying Molecular and Textual Representations via Multi-task Language Modelling_ ```ICML 2023```     
@@ -464,9 +464,6 @@ Systematic Survey_](https://arxiv.org/abs/2110.05006) when writing some parts of
 - **(BioGPT)** _BioGPT: Generative Pre-trained Transformer for Biomedical Text Generation and Mining_ ```Briefings in Bioinformatics 2022```     
 [[Paper](https://arxiv.org/abs/2210.10341)] [[GitHub](https://github.com/microsoft/BioGPT)] [[Model (355M)](https://huggingface.co/microsoft/biogpt)] [[Model (1.5B)](https://huggingface.co/microsoft/BioGPT-Large)]
 
-- **(BioMedLM, f.k.a. PubMedGPT)** _BioMedLM: a Domain-Specific Large Language Model for Biomedical Text_     
-[[Blog](https://www.mosaicml.com/blog/introducing-pubmed-gpt)] [[GitHub](https://github.com/stanford-crfm/BioMedLM)] [[Model (2.7B)](https://huggingface.co/stanford-crfm/BioMedLM)]
-
 - **(Med-PaLM)** _Large Language Models Encode Clinical Knowledge_ ```Nature 2023```     
 [[Paper](https://arxiv.org/abs/2212.13138)]
 
@@ -508,6 +505,9 @@ Systematic Survey_](https://arxiv.org/abs/2110.05006) when writing some parts of
 
 - **(BioMistral)** _BioMistral: A Collection of Open-Source Pretrained Large Language Models for Medical Domains_ ```arXiv 2024```     
 [[Paper](https://arxiv.org/abs/2402.10373)] [[Model (7B)](https://huggingface.co/BioMistral/BioMistral-7B)]
+
+- **(BioMedLM, f.k.a. PubMedGPT)** _BioMedLM: a Domain-Specific Large Language Model for Biomedical Text_ ```arXiv 2024```     
+[[Paper](https://arxiv.org/abs/2403.18421)] [[GitHub](https://github.com/stanford-crfm/BioMedLM)] [[Model (2.7B)](https://huggingface.co/stanford-crfm/BioMedLM)]
 
 
 <h3 id="biology-graph-enhanced">Graph-Enhanced</h3>
@@ -581,7 +581,7 @@ Systematic Survey_](https://arxiv.org/abs/2110.05006) when writing some parts of
 - **(LLaVA-Med)** _LLaVA-Med: Training a Large Language-and-Vision Assistant for Biomedicine in One Day_ ```NeurIPS 2023```     
 [[Paper](https://arxiv.org/abs/2306.00890)] [[GitHub](https://github.com/microsoft/LLaVA-Med)]
 
-- **(Med-PaLM M)** _Towards Generalist Biomedical AI_ ```arXiv 2023```     
+- **(Med-PaLM M)** _Towards Generalist Biomedical AI_ ```NEJM AI 2024```     
 [[Paper](https://arxiv.org/abs/2307.14334)] [[GitHub](https://github.com/kyegomez/Med-PaLM)]
 
 - **(BioCLIP)** _BioCLIP: A Vision Foundation Model for the Tree of Life_ ```arXiv 2023```    
@@ -641,7 +641,7 @@ Systematic Survey_](https://arxiv.org/abs/2110.05006) when writing some parts of
 - **(CellLM)** _Large-Scale Cell Representation Learning via Divide-and-Conquer Contrastive Learning_ ```arXiv 2023```     
 [[Paper](https://arxiv.org/abs/2306.04371)] [[GitHub](https://github.com/PharMolix/OpenBioMed)]
 
-- **(DNABERT-2)** _DNABERT-2: Efficient Foundation Model and Benchmark for Multi-Species Genome_ ```arXiv 2023```     
+- **(DNABERT-2)** _DNABERT-2: Efficient Foundation Model and Benchmark for Multi-Species Genome_ ```ICLR 2024```     
 [[Paper](https://arxiv.org/abs/2306.15006)] [[GitHub](https://github.com/Zhihan1996/DNABERT_2)] [[Model (Base)](https://huggingface.co/zhihan1996/DNABERT-2-117M)]
 
 - **(xTrimoPGLM)** _xTrimoPGLM: Unified 100B-Scale Pre-trained Transformer for Deciphering the Language of Protein_ ```bioRxiv 2023```     
