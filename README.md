@@ -2,7 +2,7 @@
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 [![Stars](https://img.shields.io/github/stars/yuzhimanhua/Awesome-Scientific-Language-Models?style=social)](https://img.shields.io/github/stars/yuzhimanhua/Awesome-Scientific-Language-Models?style=social)
 
-[![Papers](https://img.shields.io/badge/PaperNumber-194-blue)](https://img.shields.io/badge/PaperNumber-194-blue)
+[![Papers](https://img.shields.io/badge/PaperNumber-205-blue)](https://img.shields.io/badge/PaperNumber-205-blue)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![PRWelcome](https://img.shields.io/badge/PRs-Welcome-red)](https://img.shields.io/badge/PRs-Welcome-red)
 
@@ -21,26 +21,30 @@ A curated list of pre-trained language models in scientific domains (e.g., **mat
 ## Contents
 - [General](#general)
   - [Language](#general-language)
-  - [Graph-Enhanced](#general-graph-enhanced)
+  - [Language + Graph](#general-language-graph)
 - [Mathematics](#mathematics)
   - [Language](#mathematics-language)
-  - [Vision-Language](#mathematics-vision-language)
+  - [Language + Vision](#mathematics-language-vision)
   - [Other Modalities (Table)](#mathematics-other-modalities-table)
 - [Physics](#physics)
   - [Language](#physics-language)
 - [Chemistry and Materials Science](#chemistry-and-materials-science)
   - [Language](#chemistry-language)
-  - [Vision-Language](#chemistry-vision-language)
-  - [Graph-Enhanced / Other Modalities (Molecule)](#chemistry-graph-enhanced-other-modalities-molecule)
+  - [Language + Vision](#chemistry-language-vision)
+  - [Language + Graph](#chemistry-language-graph-other-modalities-molecule)
+  - [Other Modalities (Molecule)](#chemistry-language-graph-other-modalities-molecule)
 - [Biology and Medicine](#biology-and-medicine)
   - [Language](#biology-language)
-  - [Graph-Enhanced](#biology-graph-enhanced)
-  - [Vision-Language](#biology-vision-language)
-  - [Other Modalities (Protein, DNA, RNA)](#biology-other-modalities-protein-dna-rna)
+  - [Language + Graph](#biology-language-graph)
+  - [Language + Vision](#biology-language-vision)
+  - [Other Modalities (Protein)](#biology-other-modalities-protein)
+  - [Other Modalities (DNA)](#biology-other-modalities-dna)
+  - [Other Modalities (RNA)](#biology-other-modalities-rna)
+  - [Other Modalities (Multiomics)](#biology-other-modalities-multiomics)
 - [Geography, Geology, and Environmental Science](#geography-geology-and-environmental-science)
   - [Language](#geography-language)
-  - [Graph-Enhanced](#geography-graph-enhanced)
-  - [Vision-Language](#geography-vision-language)
+  - [Language + Graph](#geography-language-graph)
+  - [Language + Vision](#geography-language-vision)
 
 
 
@@ -80,7 +84,7 @@ A curated list of pre-trained language models in scientific domains (e.g., **mat
 [[Paper](https://arxiv.org/abs/2401.07950)] [[GitHub](https://github.com/THUDM/SciGLM)]
 
 
-<h3 id="general-graph-enhanced">Graph-Enhanced</h3>
+<h3 id="general-language-graph">Language + Graph</h3>
 
 - **(SPECTER)** _SPECTER: Document-level Representation Learning using Citation-informed Transformers_ ```ACL 2020```     
 [[Paper](https://arxiv.org/abs/2004.07180)] [[GitHub](https://github.com/allenai/specter)] [[Model (Base)](https://huggingface.co/allenai/specter)]
@@ -162,7 +166,7 @@ A curated list of pre-trained language models in scientific domains (e.g., **mat
 [[Paper](https://arxiv.org/abs/2311.09724)] [[GitHub](https://github.com/FreedomIntelligence/OVM)] [[Model (7B)](https://huggingface.co/FreedomIntelligence/OVM-llama2-7b)]
 
 
-<h3 id="mathematics-vision-language">Vision-Language</h3>
+<h3 id="mathematics-language-vision">Language + Vision</h3>
 
 - **(Inter-GPS)** _Inter-GPS: Interpretable Geometry Problem Solving with Formal Language and Symbolic Reasoning_ ```ACL 2021```     
 [[Paper](https://arxiv.org/abs/2105.04165)] [[GitHub](https://github.com/lupantech/InterGPS)]
@@ -269,7 +273,7 @@ A curated list of pre-trained language models in scientific domains (e.g., **mat
 [[Paper](https://arxiv.org/abs/2402.09391)] [[GitHub](https://github.com/OSU-NLP-Group/LLM4Chem)] [[Model (7B)](https://huggingface.co/osunlp/LlaSMol-Mistral-7B)]
 
 
-<h3 id="chemistry-vision-language">Vision-Language</h3>
+<h3 id="chemistry-language-vision">Language + Vision</h3>
 
 - **(MolScribe)** _MolScribe: Robust Molecular Structure Recognition with Image-To-Graph Generation_ ```Journal of Chemical Information and Modeling 2023```     
 [[Paper](https://arxiv.org/abs/2205.14311)] [[GitHub](https://github.com/thomas0809/MolScribe)] [[Model (88M)](https://huggingface.co/yujieq/MolScribe)]
@@ -278,7 +282,7 @@ A curated list of pre-trained language models in scientific domains (e.g., **mat
 [[Paper](https://arxiv.org/abs/2308.06911)] [[GitHub](https://github.com/ai-hpc-research-team/git-mol)]
 
 
-<h3 id="chemistry-graph-enhanced-other-modalities-molecule">Graph-Enhanced / Other Modalities (Molecule)</h3>
+<h3 id="chemistry-language-graph-other-modalities-molecule">Language + Graph / Other Modalities (Molecule)</h3>
 
 - **(SMILES-BERT)** _SMILES-BERT: Large Scale Unsupervised Pre-Training for Molecular Property Prediction_ ```ACM BCB 2019```     
 [[Paper](https://dl.acm.org/doi/abs/10.1145/3307339.3342186)] [[GitHub](https://github.com/uta-smile/SMILES-BERT)]
@@ -459,7 +463,7 @@ Systematic Survey_](https://arxiv.org/abs/2110.05006) when writing some parts of
 [[Paper](https://arxiv.org/abs/2107.04374)] [[GitHub](https://github.com/usmaann/BioALBERT)] [[Model (12M)](https://drive.google.com/file/d/1SIBd_-GETHhMiZ7BgMdDPEUDjOjtN_bH/view)] [[Model (18M)](https://drive.google.com/file/d/16KRtHf8Meze2Hcc4vK_GUNhG-9LY6_6P/view)]
 
 - **(Clinical-Longformer)** _Clinical-Longformer and Clinical-BigBird: Transformers for Long Clinical Sequences_ ```arXiv 2021```     
-[[Paper](https://arxiv.org/abs/2201.11838)] [[GitHub](https://github.com/luoyuanlab/Clinical-Longformer)] [[Model (149M, Longformer)](https://huggingface.co/yikuan8/Clinical-Longformer)] [[Model (127M, BigBird)](https://huggingface.co/yikuan8/Clinical-BigBird)]
+[[Paper](https://arxiv.org/abs/2201.11838)] [[GitHub](https://github.com/luoyuanlab/Clinical-Longformer)] [[Model (149M, Longformer)](https://huggingface.co/yikuan8/Clinical-Longformer)] [[Model (Base, BigBird)](https://huggingface.co/yikuan8/Clinical-BigBird)]
 
 - **(BioBART)** _BioBART: Pretraining and Evaluation of A Biomedical Generative Language Model_ ```ACL 2022 Workshop```     
 [[Paper](https://arxiv.org/abs/2204.03905)] [[GitHub](https://github.com/GanjinZero/BioBART)] [[Model (140M)](https://huggingface.co/GanjinZero/biobart-base)] [[Model (406M)](https://huggingface.co/GanjinZero/biobart-large)]
@@ -488,6 +492,9 @@ Systematic Survey_](https://arxiv.org/abs/2110.05006) when writing some parts of
 - **(Med-PaLM 2)** _Towards Expert-Level Medical Question Answering with Large Language Models_ ```arXiv 2023```     
 [[Paper](https://arxiv.org/abs/2305.09617)]
 
+- **(GatorTronGPT)** _A Study of Generative Large Language Model for Medical Research and Healthcare_ ```arXiv 2023```     
+[[Paper](https://arxiv.org/abs/2305.13523)] [[GitHub](https://github.com/uf-hobi-informatics-lab/GatorTronGPT)] [[Model (345M)](https://huggingface.co/UFNLP/gatortronS)]
+
 - **(HuatuoGPT)** _HuatuoGPT, towards Taming Language Model to Be a Doctor_ ```EMNLP 2023 Findings```     
 [[Paper](https://arxiv.org/abs/2305.15075)] [[GitHub](https://github.com/FreedomIntelligence/HuatuoGPT)] [[Model (7B)](https://huggingface.co/FreedomIntelligence/HuatuoGPT-7B)] [[Model (13B)](https://huggingface.co/FreedomIntelligence/HuatuoGPT-13b-delta)]
 
@@ -513,7 +520,7 @@ Systematic Survey_](https://arxiv.org/abs/2110.05006) when writing some parts of
 [[Paper](https://arxiv.org/abs/2403.18421)] [[GitHub](https://github.com/stanford-crfm/BioMedLM)] [[Model (2.7B)](https://huggingface.co/stanford-crfm/BioMedLM)]
 
 
-<h3 id="biology-graph-enhanced">Graph-Enhanced</h3>
+<h3 id="biology-language-graph">Language + Graph</h3>
 
 - **(G-BERT)** _Pre-training of Graph Augmented Transformers for Medication Recommendation_ ```IJCAI 2019```     
 [[Paper](https://arxiv.org/abs/1906.00346)] [[GitHub](https://github.com/jshang123/G-Bert)]
@@ -534,7 +541,7 @@ Systematic Survey_](https://arxiv.org/abs/2110.05006) when writing some parts of
 [[Paper](https://arxiv.org/abs/2210.09338)] [[GitHub](https://github.com/michiyasunaga/dragon)] [[Model (360M)](https://nlp.stanford.edu/projects/myasu/DRAGON/models/biomed_model.pt)]
 
 
-<h3 id="biology-vision-language">Vision-Language</h3>
+<h3 id="biology-language-vision">Language + Vision</h3>
 
 - **(ConVIRT)** _Contrastive Learning of Medical Visual Representations from Paired Images and Text_ ```MLHC 2022```     
 [[Paper](https://arxiv.org/abs/2010.00747)] [[GitHub](https://github.com/yuhaozhang/convirt)]
@@ -591,13 +598,10 @@ Systematic Survey_](https://arxiv.org/abs/2110.05006) when writing some parts of
 [[Paper](https://arxiv.org/abs/2311.18803)] [[Github](https://github.com/Imageomics/BioCLIP)] [[Model](https://huggingface.co/imageomics/bioclip)]
 
 
-<h3 id="biology-other-modalities-protein-dna-rna">Other Modalities (Protein, DNA, RNA)</h3>
+<h3 id="biology-other-modalities-protein">Other Modalities (Protein)</h3>
 
 - **(ProtTrans)** _ProtTrans: Towards Cracking the Language of Life's Code Through Self-Supervised Deep Learning and High Performance Computing_ ```TPAMI 2021```     
 [[Paper](https://arxiv.org/abs/2007.06225)] [[GitHub](https://github.com/agemagician/ProtTrans)] [[Model (Base, BERT)](https://huggingface.co/Rostlab/prot_bert)] [[Model (12M, ALBERT)](https://huggingface.co/Rostlab/prot_albert)] [[Model (117M, XLNet)](https://huggingface.co/Rostlab/prot_xlnet)] [[Model (3B, T5)](https://huggingface.co/Rostlab/prot_t5_xl_uniref50)] [[Model (11B, T5)](https://huggingface.co/Rostlab/prot_t5_xxl_uniref50)]
-
-- **(DNABERT)** _DNABERT: Pre-trained Bidirectional Encoder Representations from Transformers Model for DNA-Language in Genome_ ```Bioinformatics 2021```     
-[[Paper](https://www.biorxiv.org/content/10.1101/2020.09.17.301879)] [[GitHub](https://github.com/jerryji1993/DNABERT)] [[Model (Base)](https://drive.google.com/file/d/1BJjqb5Dl2lNMg2warsFQ0-Xvn1xxfFXC/view)]
 
 - **(ESM-1b)** _Biological Structure and Function Emerge from Scaling Unsupervised Learning to 250 Million Protein Sequences_ ```PNAS 2021```     
 [[Paper](https://www.pnas.org/doi/10.1073/pnas.2016239118)] [[GitHub](https://github.com/facebookresearch/esm)] [[Model (650M)](https://dl.fbaipublicfiles.com/fair-esm/models/esm1b_t33_650M_UR50S.pt)]
@@ -605,14 +609,8 @@ Systematic Survey_](https://arxiv.org/abs/2110.05006) when writing some parts of
 - **(ESM-1v)** _Language Models Enable Zero-Shot Prediction of the Effects of Mutations on Protein Function_ ```NeurIPS 2021```     
 [[Paper](https://www.biorxiv.org/content/10.1101/2021.07.09.450648)] [[GitHub](https://github.com/facebookresearch/esm)] [[Model (650M)](https://dl.fbaipublicfiles.com/fair-esm/models/esm1v_t33_650M_UR90S_1.pt)]
 
-- **(RNABERT)** _Informative RNA-base Embedding for Functional RNA Structural Alignment and Clustering by Deep Representation Learning_ ```NAR Genomics and Bioinformatics 2022```     
-[[Paper](https://www.biorxiv.org/content/10.1101/2021.08.23.457433)] [[GitHub](https://github.com/mana438/RNABERT)]
-
 - **(ProteinBERT)** _ProteinBERT: A Universal Deep-Learning Model of Protein Sequence and Function_ ```Bioinformatics 2022```     
 [[Paper](https://academic.oup.com/bioinformatics/article/38/8/2102/6502274)] [[GitHub](https://github.com/nadavbra/protein_bert)] [[Model (16M)](https://huggingface.co/GrimSqueaker/proteinBERT)]
-
-- **(RNA-FM)** _Interpretable RNA Foundation Model from Unannotated Data for Highly Accurate RNA Structure and Function Predictions_ ```arXiv 2022```     
-[[Paper](https://arxiv.org/abs/2204.00300)] [[GitHub](https://github.com/ml4bio/RNA-FM)]
 
 - **(ESM-IF1)** _Learning Inverse Folding from Millions of Predicted Structures_ ```ICML 2022```     
 [[Paper](https://www.biorxiv.org/content/10.1101/2022.04.10.487779)] [[GitHub](https://github.com/facebookresearch/esm)] [[Model (124M)](https://dl.fbaipublicfiles.com/fair-esm/models/esm_if1_gvp4_t16_142M_UR50.pt)]
@@ -635,17 +633,8 @@ Systematic Survey_](https://arxiv.org/abs/2110.05006) when writing some parts of
 - **(ProtST)** _ProtST: Multi-Modality Learning of Protein Sequences and Biomedical Texts_ ```ICML 2023```     
 [[Paper](https://arxiv.org/abs/2301.12040)] [[GitHub](https://github.com/DeepGraphLearning/ProtST)]
 
-- **(RNA-MSM)** _Multiple Sequence-Alignment-Based RNA Language Model and its Application to Structural Inference_ ```Nucleic Acids Research 2024```     
-[[Paper](https://www.biorxiv.org/content/10.1101/2023.03.15.532863)] [[GitHub](https://github.com/yikunpku/RNA-MSM)]
-
-- **(Geneformer)** _Transfer Learning Enables Predictions in Network Biology_ ```Nature 2023```     
-[[Paper](https://www.nature.com/articles/s41586-023-06139-9)] [[Model (10M)](https://huggingface.co/ctheodoris/Geneformer/blob/main/pytorch_model.bin)] [[Model (40M)](https://huggingface.co/ctheodoris/Geneformer/blob/main/geneformer-12L-30M/pytorch_model.bin)]
-
-- **(CellLM)** _Large-Scale Cell Representation Learning via Divide-and-Conquer Contrastive Learning_ ```arXiv 2023```     
-[[Paper](https://arxiv.org/abs/2306.04371)] [[GitHub](https://github.com/PharMolix/OpenBioMed)]
-
-- **(DNABERT-2)** _DNABERT-2: Efficient Foundation Model and Benchmark for Multi-Species Genome_ ```ICLR 2024```     
-[[Paper](https://arxiv.org/abs/2306.15006)] [[GitHub](https://github.com/Zhihan1996/DNABERT_2)] [[Model (Base)](https://huggingface.co/zhihan1996/DNABERT-2-117M)]
+- **(LM-Design)** _Structure-informed Language Models Are Protein Designers_ ```ICML 2023```     
+[[Paper](https://arxiv.org/abs/2302.01649)] [[GitHub](https://github.com/BytedProtein/ByProt)] [[Model (650M)](https://zenodo.org/records/10046338/files/lm_design_esm2_650m.zip)]
 
 - **(xTrimoPGLM)** _xTrimoPGLM: Unified 100B-Scale Pre-trained Transformer for Deciphering the Language of Protein_ ```bioRxiv 2023```     
 [[Paper](https://www.biorxiv.org/content/10.1101/2023.07.05.547496)]
@@ -653,11 +642,68 @@ Systematic Survey_](https://arxiv.org/abs/2110.05006) when writing some parts of
 - **(Prot2Text)** _Prot2Text: Multimodal Protein's Function Generation with GNNs and Transformers_ ```AAAI 2024```     
 [[Paper](https://arxiv.org/abs/2307.14367)] [[GitHub](https://github.com/hadi-abdine/Prot2Text)] [[Model (256M)](https://1drv.ms/u/s!AhcBGHWGY2mukdh4KujJfOJ_PxvJog?e=C6x4E6)] [[Model (283M)](https://1drv.ms/u/s!AhcBGHWGY2mukdh1N1kfnmXBEar-Tw?e=fACWFt)] [[Model (398M)](https://1drv.ms/u/s!AhcBGHWGY2mukdh3yPy98rqWfYcTJA?e=ot1SX6)] [[Model (898M)](https://1drv.ms/u/s!AhcBGHWGY2mukdh2EL4iP_IoVKu1tg?e=PioL6B)]
 
+
+<h3 id="biology-other-modalities-dna">Other Modalities (DNA)</h3>
+
+- **(DNABERT)** _DNABERT: Pre-trained Bidirectional Encoder Representations from Transformers Model for DNA-Language in Genome_ ```Bioinformatics 2021```     
+[[Paper](https://www.biorxiv.org/content/10.1101/2020.09.17.301879)] [[GitHub](https://github.com/jerryji1993/DNABERT)] [[Model (Base)](https://drive.google.com/file/d/1BJjqb5Dl2lNMg2warsFQ0-Xvn1xxfFXC/view)]
+
+- **(Enformer)** _Effective Gene Expression Prediction from Sequence by Integrating Long-Range Interactions_ ```Nature Methods 2021```     
+[[Paper](https://www.nature.com/articles/s41592-021-01252-x)] [[GitHub](https://github.com/google-deepmind/deepmind-research/tree/master/enformer)] [[Model (249M)](https://huggingface.co/EleutherAI/enformer-preview)]
+
+- **(GenSLMs)** _GenSLMs: Genome-Scale Language Models Reveal SARS-CoV-2 Evolutionary Dynamics_ ```The International Journal of High Performance Computing Applications 2023```     
+[[Paper](https://www.biorxiv.org/content/10.1101/2022.10.10.511571)] [[GitHub](https://github.com/ramanathanlab/genslm)]
+
+- **(Nucleotide Transformer)** _The Nucleotide Transformer: Building and Evaluating Robust Foundation Models for Human Genomics_ ```bioRxiv 2023```     
+[[Paper](https://www.biorxiv.org/content/10.1101/2023.01.11.523679)] [[GitHub](https://github.com/instadeepai/nucleotide-transformer)] [[Model (50M)](https://huggingface.co/InstaDeepAI/nucleotide-transformer-v2-50m-multi-species)] [[Model (100M)](https://huggingface.co/InstaDeepAI/nucleotide-transformer-v2-100m-multi-species)] [[Model (250M)](https://huggingface.co/InstaDeepAI/nucleotide-transformer-v2-250m-multi-species)] [[Model (500M)](https://huggingface.co/InstaDeepAI/nucleotide-transformer-v2-500m-multi-species)]
+
+- **(GENA-LM)** _GENA-LM: A Family of Open-Source Foundational DNA Language Models for Long Sequences_ ```bioRxiv 2023```     
+[[Paper](https://www.biorxiv.org/content/10.1101/2023.06.12.544594)] [[GitHub](https://github.com/AIRI-Institute/GENA_LM)] [[Model (Base, BERT)](https://huggingface.co/AIRI-Institute/gena-lm-bert-base-t2t)] [[Model (Large, BERT)](https://huggingface.co/AIRI-Institute/gena-lm-bert-large-t2t)] [[Model (Base, BigBird)](https://huggingface.co/AIRI-Institute/gena-lm-bigbird-base-t2t)]
+
+- **(DNABERT-2)** _DNABERT-2: Efficient Foundation Model and Benchmark for Multi-Species Genome_ ```ICLR 2024```     
+[[Paper](https://arxiv.org/abs/2306.15006)] [[GitHub](https://github.com/Zhihan1996/DNABERT_2)] [[Model (Base)](https://huggingface.co/zhihan1996/DNABERT-2-117M)]
+
+- **(HyenaDNA)** _HyenaDNA: Long-Range Genomic Sequence Modeling at Single Nucleotide Resolution_ ```NeurIPS 2023```     
+[[Paper](https://arxiv.org/abs/2306.15794)] [[GitHub](https://github.com/HazyResearch/hyena-dna)] [[Model (0.4M)](https://huggingface.co/LongSafari/hyenadna-tiny-1k-seqlen-hf)] [[Model (3.3M)](https://huggingface.co/LongSafari/hyenadna-small-32k-seqlen-hf)] [[Model (6.6M)](https://huggingface.co/LongSafari/hyenadna-large-1m-seqlen-hf)]
+
+
+<h3 id="biology-other-modalities-rna">Other Modalities (RNA)</h3>
+
+- **(RNABERT)** _Informative RNA-base Embedding for Functional RNA Structural Alignment and Clustering by Deep Representation Learning_ ```NAR Genomics and Bioinformatics 2022```     
+[[Paper](https://www.biorxiv.org/content/10.1101/2021.08.23.457433)] [[GitHub](https://github.com/mana438/RNABERT)]
+
+- **(RNA-FM)** _Interpretable RNA Foundation Model from Unannotated Data for Highly Accurate RNA Structure and Function Predictions_ ```arXiv 2022```     
+[[Paper](https://arxiv.org/abs/2204.00300)] [[GitHub](https://github.com/ml4bio/RNA-FM)]
+
+- **(RNA-MSM)** _Multiple Sequence-Alignment-Based RNA Language Model and its Application to Structural Inference_ ```Nucleic Acids Research 2024```     
+[[Paper](https://www.biorxiv.org/content/10.1101/2023.03.15.532863)] [[GitHub](https://github.com/yikunpku/RNA-MSM)]
+
+
+<h3 id="biology-other-modalities-multiomics">Other Modalities (Multiomics)</h3>
+
+- **(scBERT)** _scBERT as a Large-scale Pretrained Deep Language Model for Cell Type Annotation of Single-cell RNA-seq Data_ ```Nature Machine Intelligence 2022```     
+[[Paper](https://www.biorxiv.org/content/10.1101/2021.12.05.471261)] [[GitHub](https://github.com/TencentAILabHealthcare/scBERT)]
+
+- **(scGPT)** _scGPT: Towards Building a Foundation Model for Single-Cell Multi-omics Using Generative AI_ ```Nature Methods 2024```     
+[[Paper](https://www.biorxiv.org/content/10.1101/2023.04.30.538439)] [[GitHub](https://github.com/bowang-lab/scGPT)]
+
+- **(scFoundation)** _Large Scale Foundation Model on Single-cell Transcriptomics_ ```bioRxiv 2023```     
+[[Paper](https://www.biorxiv.org/content/10.1101/2023.05.29.542705)] [[GitHub](https://github.com/biomap-research/scFoundation)] [[Model (100M)](https://hopebio2020-my.sharepoint.com/:f:/g/personal/dongsheng_biomap_com/Eh22AX78_AVDv6k6v4TZDikBXt33gaWXaz27U9b1SldgbA)]
+
+- **(Geneformer)** _Transfer Learning Enables Predictions in Network Biology_ ```Nature 2023```     
+[[Paper](https://www.nature.com/articles/s41586-023-06139-9)] [[Model (10M)](https://huggingface.co/ctheodoris/Geneformer/blob/main/pytorch_model.bin)] [[Model (40M)](https://huggingface.co/ctheodoris/Geneformer/blob/main/geneformer-12L-30M/pytorch_model.bin)]
+
+- **(CellLM)** _Large-Scale Cell Representation Learning via Divide-and-Conquer Contrastive Learning_ ```arXiv 2023```     
+[[Paper](https://arxiv.org/abs/2306.04371)] [[GitHub](https://github.com/PharMolix/OpenBioMed)]
+
 - **(BioMedGPT)** _BioMedGPT: Open Multimodal Generative Pre-trained Transformer for BioMedicine_ ```arXiv 2023```     
 [[Paper](https://arxiv.org/abs/2308.09442)] [[GitHub](https://github.com/PharMolix/OpenBioMed)] [[Model (7B)](https://huggingface.co/PharMolix/BioMedGPT-LM-7B)] [[Model (10B)](https://huggingface.co/PharMolix/BioMedGPT-10B)]
 
 - **(CellPLM)** _CellPLM: Pre-training of Cell Language Model Beyond Single Cells_ ```ICLR 2024```     
 [[Paper](https://www.biorxiv.org/content/10.1101/2023.10.03.560734)] [[GitHub](https://github.com/OmicsML/CellPLM)] [[Model (82M)](https://www.dropbox.com/scl/fo/i5rmxgtqzg7iykt2e9uqm/h?rlkey=o8hi0xads9ol07o48jdityzv1&dl=0)]
+
+- **(xTrimoGene)** _xTrimoGene: An Efficient and Scalable Representation Learner for Single-Cell RNA-Seq Data_ ```NeurIPS 2023```     
+[[Paper](https://arxiv.org/abs/2311.15156)] [[GitHub](https://github.com/biomap-research/scFoundation)]
 
 
 
@@ -685,7 +731,7 @@ Systematic Survey_](https://arxiv.org/abs/2110.05006) when writing some parts of
 [[Paper](https://arxiv.org/abs/2401.00434)] [[GitHub](https://github.com/geobrain-ai/geogalactica)] [[Model (30B)](https://huggingface.co/geobrain-ai/geogalactica)]
 
 
-<h3 id="geography-graph-enhanced">Graph-Enhanced</h3>
+<h3 id="geography-language-graph">Language + Graph</h3>
 
 - **(ERNIE-GeoL)** _ERNIE-GeoL: A Geography-and-Language Pre-trained Model and its Applications in Baidu Maps_ ```KDD 2022```     
 [[Paper](https://arxiv.org/abs/2203.09127)]
@@ -694,7 +740,7 @@ Systematic Survey_](https://arxiv.org/abs/2110.05006) when writing some parts of
 [[Paper](https://arxiv.org/abs/2304.00592)] [[GitHub](https://github.com/iiot-tbb/Dialogue_DDE)] [[Model (132M)](https://pan.baidu.com/s/1bNzGnnRPMfT4jkD_UsNSYg?pwd=pa7h)]
 
 
-<h3 id="geography-vision-language">Vision-Language</h3>
+<h3 id="geography-language-vision">Language + Vision</h3>
 
 - **(MGeo)** _MGeo: Multi-Modal Geographic Pre-Training Method_ ```SIGIR 2023```     
 [[Paper](https://arxiv.org/abs/2301.04283)] [[GitHub](https://github.com/PhantomGrapes/MGeo)]
