@@ -2,11 +2,11 @@
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 [![Stars](https://img.shields.io/github/stars/yuzhimanhua/Awesome-Scientific-Language-Models?style=social)](https://img.shields.io/github/stars/yuzhimanhua/Awesome-Scientific-Language-Models?style=social)
 
-[![Papers](https://img.shields.io/badge/PaperNumber-205-blue)](https://img.shields.io/badge/PaperNumber-205-blue)
+[![Papers](https://img.shields.io/badge/PaperNumber-210-blue)](https://img.shields.io/badge/PaperNumber-210-blue)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![PRWelcome](https://img.shields.io/badge/PRs-Welcome-red)](https://img.shields.io/badge/PRs-Welcome-red)
 
-A curated list of pre-trained language models in scientific domains (e.g., **mathematics**, **physics**, **chemistry**, **biology**, **medicine**, **materials science**, and **geoscience**), covering different model sizes (from **<100M** to **70B parameters**) and modalities (e.g., **language**, **vision**, **molecule**, **protein**, **graph**, and **table**). The repository will be continuously updated.
+A curated list of pre-trained language models in scientific domains (e.g., **mathematics**, **physics**, **chemistry**, **biology**, **medicine**, **materials science**, and **geoscience**), covering different model sizes (from **<100M** to **70B parameters**) and modalities (e.g., **language**, **vision**, **graph**, **molecule**, **protein**, **DNA**, and **climate time series**). The repository will be continuously updated.
 
 **NOTE 1**: To avoid ambiguity, when we talk about the number of parameters in a model, "Base" refers to 110M (i.e., BERT-Base), and "Large" refers to 340M (i.e., BERT-Large). Other numbers will be written explicitly.
 
@@ -45,6 +45,7 @@ A curated list of pre-trained language models in scientific domains (e.g., **mat
   - [Language](#geography-language)
   - [Language + Graph](#geography-language-graph)
   - [Language + Vision](#geography-language-vision)
+  - [Other Modalities (Climate Time Series)](#geography-other-modalities-climate-time-series)
 
 
 
@@ -591,6 +592,9 @@ Systematic Survey_](https://arxiv.org/abs/2110.05006) when writing some parts of
 - **(LLaVA-Med)** _LLaVA-Med: Training a Large Language-and-Vision Assistant for Biomedicine in One Day_ ```NeurIPS 2023```     
 [[Paper](https://arxiv.org/abs/2306.00890)] [[GitHub](https://github.com/microsoft/LLaVA-Med)]
 
+- **(MONET)** _Transparent Medical Image AI via an Image–Text Foundation Model Grounded in Medical Literature_ ```Nature Medicine 2024```     
+[[Paper](https://www.medrxiv.org/content/10.1101/2023.06.07.23291119)] [[GitHub](https://github.com/suinleelab/MONET)]
+
 - **(Med-PaLM M)** _Towards Generalist Biomedical AI_ ```NEJM AI 2024```     
 [[Paper](https://arxiv.org/abs/2307.14334)] [[GitHub](https://github.com/kyegomez/Med-PaLM)]
 
@@ -612,11 +616,11 @@ Systematic Survey_](https://arxiv.org/abs/2110.05006) when writing some parts of
 - **(ProteinBERT)** _ProteinBERT: A Universal Deep-Learning Model of Protein Sequence and Function_ ```Bioinformatics 2022```     
 [[Paper](https://academic.oup.com/bioinformatics/article/38/8/2102/6502274)] [[GitHub](https://github.com/nadavbra/protein_bert)] [[Model (16M)](https://huggingface.co/GrimSqueaker/proteinBERT)]
 
+- **(ProtGPT2)** _ProtGPT2 is a Deep Unsupervised Language Model for Protein Design_ ```Nature Communications 2022```     
+[[Paper](https://www.biorxiv.org/content/10.1101/2022.03.09.483666)] [[Model (738M)](https://huggingface.co/nferruz/ProtGPT2)]
+
 - **(ESM-IF1)** _Learning Inverse Folding from Millions of Predicted Structures_ ```ICML 2022```     
 [[Paper](https://www.biorxiv.org/content/10.1101/2022.04.10.487779)] [[GitHub](https://github.com/facebookresearch/esm)] [[Model (124M)](https://dl.fbaipublicfiles.com/fair-esm/models/esm_if1_gvp4_t16_142M_UR50.pt)]
-
-- **(ProtGPT2)** _ProtGPT2 is a Deep Unsupervised Language Model for Protein Design_ ```Nature Communications 2022```     
-[[Paper](https://www.nature.com/articles/s41467-022-32007-7)] [[Model (738M)](https://huggingface.co/nferruz/ProtGPT2)]
 
 - **(ProGen)** _Large Language Models Generate Functional Protein Sequences across Diverse Families_ ```Nature Biotechnology 2023```     
 [[Paper](https://www.nature.com/articles/s41587-022-01618-2)]
@@ -744,3 +748,18 @@ Systematic Survey_](https://arxiv.org/abs/2110.05006) when writing some parts of
 
 - **(MGeo)** _MGeo: Multi-Modal Geographic Pre-Training Method_ ```SIGIR 2023```     
 [[Paper](https://arxiv.org/abs/2301.04283)] [[GitHub](https://github.com/PhantomGrapes/MGeo)]
+
+
+<h3 id="geography-other-modalities-climate-time-series">Other Modalities (Climate Time Series)</h3>
+
+- **(Pangu-Weather)** _Accurate Medium-Range Global Weather Forecasting with 3D Neural Networks_ ```Nature 2023```     
+[[Paper](https://arxiv.org/abs/2211.02556)] [[GitHub](https://github.com/198808xc/Pangu-Weather)]
+
+- **(ClimaX)** _ClimaX: A Foundation Model for Weather and Climate_ ```ICML 2023```     
+[[Paper](https://arxiv.org/abs/2301.10343)] [[GitHub](https://github.com/microsoft/ClimaX)]
+
+- **(FengWu)** _FengWu: Pushing the Skillful Global Medium-Range Weather Forecast beyond 10 Days Lead_ ```arXiv 2023```     
+[[Paper](https://arxiv.org/abs/2304.02948)] [[GitHub](https://github.com/OpenEarthLab/FengWu)]
+
+- **(FuXi)** _FuXi: A Cascade Machine Learning Forecasting System for 15-day Global Weather Forecast_ ```npj Climate and Atmospheric Science 2023```     
+[[Paper](https://arxiv.org/abs/2306.12873)] [[GitHub](https://github.com/tpys/FuXi)]
