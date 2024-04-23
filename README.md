@@ -2,7 +2,7 @@
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 [![Stars](https://img.shields.io/github/stars/yuzhimanhua/Awesome-Scientific-Language-Models?style=social)](https://img.shields.io/github/stars/yuzhimanhua/Awesome-Scientific-Language-Models?style=social)
 
-[![Papers](https://img.shields.io/badge/PaperNumber-210-blue)](https://img.shields.io/badge/PaperNumber-210-blue)
+[![Papers](https://img.shields.io/badge/PaperNumber-211-blue)](https://img.shields.io/badge/PaperNumber-211-blue)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![PRWelcome](https://img.shields.io/badge/PRs-Welcome-red)](https://img.shields.io/badge/PRs-Welcome-red)
 
@@ -645,6 +645,9 @@ Systematic Survey_](https://arxiv.org/abs/2110.05006) when writing some parts of
 
 - **(Prot2Text)** _Prot2Text: Multimodal Protein's Function Generation with GNNs and Transformers_ ```AAAI 2024```     
 [[Paper](https://arxiv.org/abs/2307.14367)] [[GitHub](https://github.com/hadi-abdine/Prot2Text)] [[Model (256M)](https://1drv.ms/u/s!AhcBGHWGY2mukdh4KujJfOJ_PxvJog?e=C6x4E6)] [[Model (283M)](https://1drv.ms/u/s!AhcBGHWGY2mukdh1N1kfnmXBEar-Tw?e=fACWFt)] [[Model (398M)](https://1drv.ms/u/s!AhcBGHWGY2mukdh3yPy98rqWfYcTJA?e=ot1SX6)] [[Model (898M)](https://1drv.ms/u/s!AhcBGHWGY2mukdh2EL4iP_IoVKu1tg?e=PioL6B)]
+
+- **(SaProt)** _SaProt: Protein Language Modeling with Structure-Aware Vocabulary_ ```ICLR 2024```     
+[[Paper](https://www.biorxiv.org/content/10.1101/2023.10.01.560349)] [[GitHub](https://github.com/westlake-repl/SaProt)] [[Model (35M)](https://huggingface.co/westlake-repl/SaProt_35M_AF2)] [[Model (650M)](https://huggingface.co/westlake-repl/SaProt_650M_AF2)]
 
 
 <h3 id="biology-other-modalities-dna">Other Modalities (DNA)</h3>
