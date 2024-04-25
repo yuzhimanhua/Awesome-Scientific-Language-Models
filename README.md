@@ -6,7 +6,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![PRWelcome](https://img.shields.io/badge/PRs-Welcome-red)](https://img.shields.io/badge/PRs-Welcome-red)
 
-A curated list of pre-trained language models in scientific domains (e.g., **mathematics**, **physics**, **chemistry**, **biology**, **medicine**, **materials science**, and **geoscience**), covering different model sizes (from **<100M** to **70B parameters**) and modalities (e.g., **language**, **vision**, **graph**, **molecule**, **protein**, **DNA**, and **climate time series**). The repository will be continuously updated.
+A curated list of pre-trained language models in scientific domains (e.g., **mathematics**, **physics**, **chemistry**, **biology**, **medicine**, **materials science**, and **geoscience**), covering different model sizes (from **<100M** to **70B parameters**) and modalities (e.g., **language**, **vision**, **graph**, **molecule**, **protein**, **genome**, and **climate time series**). The repository will be continuously updated.
 
 **NOTE 1**: To avoid ambiguity, when we talk about the number of parameters in a model, "Base" refers to 110M (i.e., BERT-Base), and "Large" refers to 340M (i.e., BERT-Large). Other numbers will be written explicitly.
 
