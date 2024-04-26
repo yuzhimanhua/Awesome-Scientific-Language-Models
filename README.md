@@ -84,6 +84,9 @@ A curated list of pre-trained language models in scientific domains (e.g., **mat
 - **(SciGLM)** _SciGLM: Training Scientific Language Models with Self-Reflective Instruction Annotation and Tuning_ ```arXiv 2024```     
 [[Paper](https://arxiv.org/abs/2401.07950)] [[GitHub](https://github.com/THUDM/SciGLM)]
 
+- **(SciAgent)** _SciAgent: Tool-augmented Language Models for Scientific Reasoning_ ```arXiv 2024```     
+[[Paper](https://arxiv.org/abs/2402.11451)]
+
 
 <h3 id="general-language-graph">Language + Graph</h3>
 
