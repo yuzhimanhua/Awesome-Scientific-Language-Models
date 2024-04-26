@@ -118,9 +118,6 @@ A curated list of pre-trained language models in scientific domains (e.g., **mat
 - **(GenBERT)** _Injecting Numerical Reasoning Skills into Language Models_ ```ACL 2020```     
 [[Paper](https://arxiv.org/abs/2004.04487)] [[GitHub](https://github.com/ag1988/injecting_numeracy)]
 
-- **(GPT-f)** _Generative Language Modeling for Automated Theorem Proving_ ```arXiv 2020```     
-[[Paper](https://arxiv.org/abs/2009.03393)]
-
 - **(EPT)** _Point to the Expression: Solving Algebraic Word Problems using the Expression-Pointer Transformer Model_ ```NeurIPS 2020```     
 [[Paper](https://aclanthology.org/2020.emnlp-main.308)] [[GitHub](https://github.com/snucclab/EPT)]
 
@@ -510,6 +507,9 @@ Systematic Survey_](https://arxiv.org/abs/2110.05006) when writing some parts of
 
 - **(HuatuoGPT-II)** _HuatuoGPT-II, One-stage Training for Medical Adaption of LLMs_ ```arXiv 2023```     
 [[Paper](https://arxiv.org/abs/2311.09774)] [[GitHub](https://github.com/FreedomIntelligence/HuatuoGPT-II)] [[Model (7B)](https://huggingface.co/FreedomIntelligence/HuatuoGPT2-7B)] [[Model (13B)](https://huggingface.co/FreedomIntelligence/HuatuoGPT2-13B)] [[Model (34B)](https://huggingface.co/FreedomIntelligence/HuatuoGPT2-34B)]
+
+- **(MEDITRON)** _MEDITRON-70B: Scaling Medical Pretraining for Large Language Models_ ```arXiv 2023```     
+[[Paper](https://arxiv.org/abs/2311.16079)] [[GitHub](https://github.com/epfLLM/megatron-LLM)] [[Model (7B)](https://huggingface.co/epfl-llm/meditron-7b)] [[Model (70B)](https://huggingface.co/epfl-llm/meditron-70b)]
 
 - **(PLLaMa)** _PLLaMa: An Open-source Large Language Model for Plant Science_ ```arXiv 2024```     
 [[Paper](https://arxiv.org/abs/2401.01600)] [[GitHub](https://github.com/Xianjun-Yang/PLLaMa)] [[Model (7B)](https://huggingface.co/Xianjun/PLLaMa-7b-base)] [[Model (13B)](https://huggingface.co/Xianjun/PLLaMa-13b-base)]
