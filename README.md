@@ -2,7 +2,7 @@
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 [![Stars](https://img.shields.io/github/stars/yuzhimanhua/Awesome-Scientific-Language-Models?style=social)](https://img.shields.io/github/stars/yuzhimanhua/Awesome-Scientific-Language-Models?style=social)
 
-[![Papers](https://img.shields.io/badge/PaperNumber-211-blue)](https://img.shields.io/badge/PaperNumber-211-blue)
+[![Papers](https://img.shields.io/badge/PaperNumber-212-blue)](https://img.shields.io/badge/PaperNumber-212-blue)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![PRWelcome](https://img.shields.io/badge/PRs-Welcome-red)](https://img.shields.io/badge/PRs-Welcome-red)
 
@@ -519,6 +519,9 @@ Systematic Survey_](https://arxiv.org/abs/2110.05006) when writing some parts of
 
 - **(BioMedLM, f.k.a. PubMedGPT)** _BioMedLM: a Domain-Specific Large Language Model for Biomedical Text_ ```arXiv 2024```     
 [[Paper](https://arxiv.org/abs/2403.18421)] [[GitHub](https://github.com/stanford-crfm/BioMedLM)] [[Model (2.7B)](https://huggingface.co/stanford-crfm/BioMedLM)]
+
+- **(BMRetriever)** _BMRetriever: Tuning Large Language Models as Better Biomedical Text Retrievers_ ```arXiv 2024```     
+[[Paper](https://arxiv.org/abs/2404.18443)] [[GitHub](https://github.com/ritaranx/BMRetriever)] [[Model (410M)](https://huggingface.co/BMRetriever/BMRetriever-410M)] [[Model (1B)](https://huggingface.co/BMRetriever/BMRetriever-1B)] [[Model (2B)](https://huggingface.co/BMRetriever/BMRetriever-2B)] [[Model (7B)](https://huggingface.co/BMRetriever/BMRetriever-7B)]
 
 
 <h3 id="biology-language-graph">Language + Graph</h3>
