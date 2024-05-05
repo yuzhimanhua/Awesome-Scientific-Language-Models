@@ -118,7 +118,7 @@ A curated list of pre-trained language models in scientific domains (e.g., **mat
 - **(GenBERT)** _Injecting Numerical Reasoning Skills into Language Models_ ```ACL 2020```     
 [[Paper](https://arxiv.org/abs/2004.04487)] [[GitHub](https://github.com/ag1988/injecting_numeracy)]
 
-- **(EPT)** _Point to the Expression: Solving Algebraic Word Problems using the Expression-Pointer Transformer Model_ ```NeurIPS 2020```     
+- **(EPT)** _Point to the Expression: Solving Algebraic Word Problems using the Expression-Pointer Transformer Model_ ```EMNLP 2020```     
 [[Paper](https://aclanthology.org/2020.emnlp-main.308)] [[GitHub](https://github.com/snucclab/EPT)]
 
 - **(MathBERT)** _MathBERT: A Pre-trained Language Model for General NLP Tasks in Mathematics Education_ ```arXiv 2021```     
