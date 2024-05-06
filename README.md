@@ -2,7 +2,7 @@
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 [![Stars](https://img.shields.io/github/stars/yuzhimanhua/Awesome-Scientific-Language-Models?style=social)](https://img.shields.io/github/stars/yuzhimanhua/Awesome-Scientific-Language-Models?style=social)
 
-[![Papers](https://img.shields.io/badge/PaperNumber-212-blue)](https://img.shields.io/badge/PaperNumber-212-blue)
+[![Papers](https://img.shields.io/badge/PaperNumber-211-blue)](https://img.shields.io/badge/PaperNumber-211-blue)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![PRWelcome](https://img.shields.io/badge/PRs-Welcome-red)](https://img.shields.io/badge/PRs-Welcome-red)
 
@@ -118,9 +118,6 @@ A curated list of pre-trained language models in scientific domains (e.g., **mat
 - **(GenBERT)** _Injecting Numerical Reasoning Skills into Language Models_ ```ACL 2020```     
 [[Paper](https://arxiv.org/abs/2004.04487)] [[GitHub](https://github.com/ag1988/injecting_numeracy)]
 
-- **(EPT)** _Point to the Expression: Solving Algebraic Word Problems using the Expression-Pointer Transformer Model_ ```EMNLP 2020```     
-[[Paper](https://aclanthology.org/2020.emnlp-main.308)] [[GitHub](https://github.com/snucclab/EPT)]
-
 - **(MathBERT)** _MathBERT: A Pre-trained Language Model for General NLP Tasks in Mathematics Education_ ```arXiv 2021```     
 [[Paper](https://arxiv.org/abs/2106.07340)] [[GitHub](https://github.com/tbs17/MathBERT)] [[Model (Base)](https://huggingface.co/tbs17/MathBERT)]
 
@@ -160,7 +157,7 @@ A curated list of pre-trained language models in scientific domains (e.g., **mat
 - **(Llemma)** _Llemma: An Open Language Model For Mathematics_ ```ICLR 2024```     
 [[Paper](https://arxiv.org/abs/2310.10631)] [[GitHub](https://github.com/EleutherAI/math-lm)] [[Model (7B)](https://huggingface.co/EleutherAI/llemma_7b)] [[Model (34B)](https://huggingface.co/EleutherAI/llemma_34b)]
 
-- **(OVM)** _Outcome-supervised Verifiers for Planning in Mathematical Reasoning_ ```arXiv 2023```     
+- **(OVM)** _OVM, Outcome-supervised Value Models for Planning in Mathematical Reasoning_ ```NAACL 2024 Findings```     
 [[Paper](https://arxiv.org/abs/2311.09724)] [[GitHub](https://github.com/FreedomIntelligence/OVM)] [[Model (7B)](https://huggingface.co/FreedomIntelligence/OVM-llama2-7b)]
 
 
