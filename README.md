@@ -2,7 +2,7 @@
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 [![Stars](https://img.shields.io/github/stars/yuzhimanhua/Awesome-Scientific-Language-Models?style=social)](https://img.shields.io/github/stars/yuzhimanhua/Awesome-Scientific-Language-Models?style=social)
 
-[![Papers](https://img.shields.io/badge/PaperNumber-211-blue)](https://img.shields.io/badge/PaperNumber-211-blue)
+[![Papers](https://img.shields.io/badge/PaperNumber-212-blue)](https://img.shields.io/badge/PaperNumber-212-blue)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![PRWelcome](https://img.shields.io/badge/PRs-Welcome-red)](https://img.shields.io/badge/PRs-Welcome-red)
 
@@ -210,6 +210,9 @@ A curated list of pre-trained language models in scientific domains (e.g., **mat
 
 - **(ReasTAP)** _ReasTAP: Injecting Table Reasoning Skills During Pre-training via Synthetic Reasoning Examples_ ```EMNLP 2022```     
 [[Paper](https://arxiv.org/abs/2210.12374)] [[GitHub](https://github.com/Yale-LILY/ReasTAP)] [[Model (406M)](https://huggingface.co/Yale-LILY/reastap-large)]
+
+- **(Table-GPT)** _Table-GPT: Table-tuned GPT for Diverse Table Tasks_ ```arXiv 2023```     
+[[Paper](https://arxiv.org/abs/2310.09263)]
 
 - **(TableLlama)** _TableLlama: Towards Open Large Generalist Models for Tables_ ```NAACL 2024```     
 [[Paper](https://arxiv.org/abs/2311.09206)] [[GitHub](https://github.com/OSU-NLP-Group/TableLlama)] [[Model (7B)](https://huggingface.co/osunlp/TableLlama)]
