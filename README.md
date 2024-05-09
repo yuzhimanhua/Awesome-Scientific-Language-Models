@@ -2,7 +2,7 @@
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 [![Stars](https://img.shields.io/github/stars/yuzhimanhua/Awesome-Scientific-Language-Models?style=social)](https://img.shields.io/github/stars/yuzhimanhua/Awesome-Scientific-Language-Models?style=social)
 
-[![Papers](https://img.shields.io/badge/PaperNumber-212-blue)](https://img.shields.io/badge/PaperNumber-212-blue)
+[![Papers](https://img.shields.io/badge/PaperNumber-218-blue)](https://img.shields.io/badge/PaperNumber-218-blue)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![PRWelcome](https://img.shields.io/badge/PRs-Welcome-red)](https://img.shields.io/badge/PRs-Welcome-red)
 
@@ -30,9 +30,8 @@ A curated list of pre-trained language models in scientific domains (e.g., **mat
   - [Language](#physics-language)
 - [Chemistry and Materials Science](#chemistry-and-materials-science)
   - [Language](#chemistry-language)
-  - [Language + Graph](#chemistry-language-graph-other-modalities-molecule)
   - [Language + Vision](#chemistry-language-vision)
-  - [Other Modalities (Molecule)](#chemistry-language-graph-other-modalities-molecule)
+  - [Other Modalities (Molecule)](#chemistry-other-modalities-molecule)
 - [Biology and Medicine](#biology-and-medicine)
   - [Language](#biology-language)
   - [Language + Graph](#biology-language-graph)
@@ -73,7 +72,7 @@ A curated list of pre-trained language models in scientific domains (e.g., **mat
 [[Paper](https://aclanthology.org/2022.sdp-1.16)] [[GitHub](https://github.com/EhimeNLP/AcademicRoBERTa)] [[Model (125M)](https://huggingface.co/EhimeNLP/AcademicRoBERTa)]
 
 - **(Galactica)** _Galactica: A Large Language Model for Science_ ```arXiv 2022```     
-[[Paper](https://arxiv.org/abs/2211.09085)]
+[[Paper](https://arxiv.org/abs/2211.09085)] [[Model (125M)](https://huggingface.co/facebook/galactica-125m)] [[Model (1.3B)](https://huggingface.co/facebook/galactica-1.3b)] [[Model (6.7B)](https://huggingface.co/facebook/galactica-6.7b)] [[Model (30B)](https://huggingface.co/facebook/galactica-30b)] [[Model (120B)](https://huggingface.co/facebook/galactica-120b)]
 
 - **(DARWIN)** _DARWIN Series: Domain Specific Large Language Models for Natural Science_ ```arXiv 2023```     
 [[Paper](https://arxiv.org/abs/2308.13565)] [[GitHub](https://github.com/MasterAI-EAM/Darwin)] [[Model (7B)](https://aigreendynamics-my.sharepoint.com/:f:/g/personal/yuwei_greendynamics_com_au/Euu1OzZTOS5OsQvVTRNV_gcBa67ehvk6uN6hJIHnBLOkDg?e=x5wxfk)]
@@ -82,7 +81,7 @@ A curated list of pre-trained language models in scientific domains (e.g., **mat
 [[Paper](https://doi.org/10.1145/3581784.3613215)] [[GitHub](https://github.com/at-aaims/forge)] [[Model (1.4B, General)](https://www.dropbox.com/sh/byr1ydik5n1ucod/AADOu_9C6AwVPTThTUFQ7yQba?dl=0)] [[Model (1.4B, Biology/Medicine)](https://www.dropbox.com/sh/41sqapgza3ok9q9/AADLgwTiHVU26ZeW_UQ8apyta?dl=0)] [[Model (1.4B, Chemistry)](https://www.dropbox.com/sh/1jn3n7099r8pzt8/AAAO6sOpFYG-G_qFI6C6CXVVa?dl=0)] [[Model (1.4B, Engineering)](https://www.dropbox.com/sh/ueki0n6y3v8gtkw/AAB6-3ml9slcbOonk6ccdD4Ua?dl=0)] [[Model (1.4B, Materials Science)](https://www.dropbox.com/sh/ngrr3bjulc76944/AABpm_OxA-GQPWzIPM4KpVKOa?dl=0)] [[Model (1.4B, Physics)](https://www.dropbox.com/sh/jxux4tplw5aw7kw/AAAdk334IEMbY7HJlJrWVzyfa?dl=0)] [[Model (1.4B, Social Science/Art)](https://www.dropbox.com/sh/54tuyslytqhpq1z/AAAc65c3TQWo2MyPoSiPxKI2a?dl=0)] [[Model (13B, General)](https://www.dropbox.com/sh/g53ot3dpqfsf6fr/AAB_RFeox2tbDKVFCH0QCw5pa?dl=0)] [[Model (22B, General)](https://www.dropbox.com/sh/7b9gbgcqdyph8v9/AABjNTaYu5PTjTMLb4-t6-PNa?dl=0)]
 
 - **(SciGLM)** _SciGLM: Training Scientific Language Models with Self-Reflective Instruction Annotation and Tuning_ ```arXiv 2024```     
-[[Paper](https://arxiv.org/abs/2401.07950)] [[GitHub](https://github.com/THUDM/SciGLM)]
+[[Paper](https://arxiv.org/abs/2401.07950)] [[GitHub](https://github.com/THUDM/SciGLM)] [[Model (6B)](https://huggingface.co/zd21/SciGLM-6B)]
 
 
 <h3 id="general-language-graph">Language + Graph</h3>
@@ -146,19 +145,37 @@ A curated list of pre-trained language models in scientific domains (e.g., **mat
 [[Paper](https://arxiv.org/abs/2308.09583)] [[GitHub](https://github.com/nlpxucan/WizardLM)] [[Model (7B)](https://huggingface.co/WizardLM/WizardMath-7B-V1.1)] [[Model (13B)](https://huggingface.co/WizardLM/WizardMath-13B-V1.0)] [[Model (70B)](https://huggingface.co/WizardLM/WizardMath-70B-V1.0)]
 
 - **(MAmmoTH)** _MAmmoTH: Building Math Generalist Models through Hybrid Instruction Tuning_ ```ICLR 2024```     
-[[Paper](https://arxiv.org/abs/2309.05653)] [[GitHub](https://github.com/TIGER-AI-Lab/MAmmoTH)] [[Model (7B)](https://huggingface.co/TIGER-Lab/MAmmoTH-7B)] [[Model (13B)](https://huggingface.co/TIGER-Lab/MAmmoTH-13B)] [[Model (70B)](https://huggingface.co/TIGER-Lab/MAmmoTH-70B)]
+[[Paper](https://arxiv.org/abs/2309.05653)] [[GitHub](https://github.com/TIGER-AI-Lab/MAmmoTH)] [[Model (7B, LLaMA-2)](https://huggingface.co/TIGER-Lab/MAmmoTH-7B)] [[Model (7B, Mistral)](https://huggingface.co/TIGER-Lab/MAmmoTH-7B-Mistral)] [[Model (13B, LLaMA-2)](https://huggingface.co/TIGER-Lab/MAmmoTH-13B)] [[Model (70B, LLaMA-2)](https://huggingface.co/TIGER-Lab/MAmmoTH-70B)]
 
 - **(MetaMath)** _MetaMath: Bootstrap Your Own Mathematical Questions for Large Language Models_ ```ICLR 2024```     
-[[Paper](https://arxiv.org/abs/2309.12284)] [[GitHub](https://github.com/meta-math/MetaMath)] [[Model (7B)](https://huggingface.co/meta-math/MetaMath-7B-V1.0)] [[Model (13B)](https://huggingface.co/meta-math/MetaMath-13B-V1.0)] [[Model (70B)](https://huggingface.co/meta-math/MetaMath-70B-V1.0)]
+[[Paper](https://arxiv.org/abs/2309.12284)] [[GitHub](https://github.com/meta-math/MetaMath)] [[Model (7B, LLaMA-2)](https://huggingface.co/meta-math/MetaMath-7B-V1.0)] [[Model (7B, Mistral)](https://huggingface.co/meta-math/MetaMath-Mistral-7B)] [[Model (13B, LLaMA-2)](https://huggingface.co/meta-math/MetaMath-13B-V1.0)] [[Model (70B, LLaMA-2)](https://huggingface.co/meta-math/MetaMath-70B-V1.0)]
 
 - **(ToRA)** _ToRA: A Tool-Integrated Reasoning Agent for Mathematical Problem Solving_ ```ICLR 2024```     
 [[Paper](https://arxiv.org/abs/2309.17452)] [[GitHub](https://github.com/microsoft/ToRA)] [[Model (7B)](https://huggingface.co/llm-agents/tora-7b-v1.0)] [[Model (13B)](https://huggingface.co/llm-agents/tora-13b-v1.0)] [[Model (70B)](https://huggingface.co/llm-agents/tora-70b-v1.0)]
+
+- **(MathCoder)** _MathCoder: Seamless Code Integration in LLMs for Enhanced Mathematical Reasoning_ ```ICLR 2024```     
+[[Paper](https://arxiv.org/abs/2310.03731)] [[GitHub](https://github.com/mathllm/MathCoder)] [[Model (7B)](https://huggingface.co/MathLLM/MathCoder-L-7B)] [[Model (13B)](https://huggingface.co/MathLLM/MathCoder-L-13B)]
 
 - **(Llemma)** _Llemma: An Open Language Model For Mathematics_ ```ICLR 2024```     
 [[Paper](https://arxiv.org/abs/2310.10631)] [[GitHub](https://github.com/EleutherAI/math-lm)] [[Model (7B)](https://huggingface.co/EleutherAI/llemma_7b)] [[Model (34B)](https://huggingface.co/EleutherAI/llemma_34b)]
 
 - **(OVM)** _OVM, Outcome-supervised Value Models for Planning in Mathematical Reasoning_ ```NAACL 2024 Findings```     
-[[Paper](https://arxiv.org/abs/2311.09724)] [[GitHub](https://github.com/FreedomIntelligence/OVM)] [[Model (7B)](https://huggingface.co/FreedomIntelligence/OVM-llama2-7b)]
+[[Paper](https://arxiv.org/abs/2311.09724)] [[GitHub](https://github.com/FreedomIntelligence/OVM)] [[Model (7B, LLaMA-2)](https://huggingface.co/FreedomIntelligence/OVM-llama2-7b)] [[Model (7B, Mistral)](https://huggingface.co/FreedomIntelligence/OVM-Mistral-7b)]
+
+- **(DeepSeekMath)** _DeepSeekMath: Pushing the Limits of Mathematical Reasoning in Open Language Models_ ```arXiv 2024```     
+[[Paper](https://arxiv.org/abs/2402.03300)] [[GitHub](https://github.com/deepseek-ai/DeepSeek-Math)] [[Model (7B)](https://huggingface.co/deepseek-ai/deepseek-math-7b-base)]
+
+- **(InternLM-Math)** _InternLM-Math: Open Math Large Language Models Toward Verifiable Reasoning_ ```arXiv 2024```     
+[[Paper](https://arxiv.org/abs/2402.06332)] [[GitHub](https://github.com/InternLM/InternLM-Math)] [[Model (7B)](https://huggingface.co/internlm/internlm2-math-base-7b)] [[Model (20B)](https://huggingface.co/internlm/internlm2-math-base-20b)]
+
+- **(OpenMath)** _OpenMathInstruct-1: A 1.8 Million Math Instruction Tuning Dataset_ ```arXiv 2024```     
+[[Paper](https://arxiv.org/abs/2402.10176)] [[Model (7B, Mistral)](https://huggingface.co/nvidia/OpenMath-Mistral-7B-v0.1-hf)] [[Model (70B, LLaMA-2)](https://huggingface.co/nvidia/OpenMath-Llama-2-70b-hf)]
+
+- **(Rho-Math)** _Rho-1: Not All Tokens Are What You Need_ ```arXiv 2024```     
+[[Paper](https://arxiv.org/abs/2404.07965)] [[GitHub](https://github.com/microsoft/rho)] [[Model (1B)](https://huggingface.co/microsoft/rho-math-1b-v0.1)] [[Model (7B)](https://huggingface.co/microsoft/rho-math-7b-v0.1)]
+
+- **(MAmmoTH2)** _MAmmoTH2: Scaling Instructions from the Web_ ```arXiv 2024```     
+[[Paper](https://arxiv.org/abs/2405.03548)] [[GitHub](https://github.com/TIGER-AI-Lab/MAmmoTH2)] [[Model (7B, Mistral)](https://huggingface.co/TIGER-Lab/MAmmoTH2-7B)] [[Model (8B, LLaMA-3)](https://huggingface.co/TIGER-Lab/MAmmoTH2-8B)]
 
 
 <h3 id="mathematics-language-vision">Language + Vision</h3>
@@ -217,6 +234,9 @@ A curated list of pre-trained language models in scientific domains (e.g., **mat
 - **(TableLlama)** _TableLlama: Towards Open Large Generalist Models for Tables_ ```NAACL 2024```     
 [[Paper](https://arxiv.org/abs/2311.09206)] [[GitHub](https://github.com/OSU-NLP-Group/TableLlama)] [[Model (7B)](https://huggingface.co/osunlp/TableLlama)]
 
+- **(TableLLM)** _TableLLM: Enabling Tabular Data Manipulation by LLMs in Real Office Usage Scenarios_ ```arXiv 2024```     
+[[Paper](https://arxiv.org/abs/2403.19318)] [[GitHub](https://github.com/RUCKBReasoning/TableLLM)] [[Model (7B)](https://huggingface.co/RUCKBReasoning/TableLLM-7b)] [[Model (13B)](https://huggingface.co/RUCKBReasoning/TableLLM-13b)]
+
 
 
 
@@ -268,19 +288,16 @@ A curated list of pre-trained language models in scientific domains (e.g., **mat
 [[Paper](https://arxiv.org/abs/2402.06852)] [[Model (7B)](https://huggingface.co/AI4Chem/ChemLLM-7B-Chat)]
 
 - **(LlaSMol)** _LlaSMol: Advancing Large Language Models for Chemistry with a Large-Scale, Comprehensive, High-Quality Instruction Tuning Dataset_ ```arXiv 2024```     
-[[Paper](https://arxiv.org/abs/2402.09391)] [[GitHub](https://github.com/OSU-NLP-Group/LLM4Chem)] [[Model (7B)](https://huggingface.co/osunlp/LlaSMol-Mistral-7B)]
+[[Paper](https://arxiv.org/abs/2402.09391)] [[GitHub](https://github.com/OSU-NLP-Group/LLM4Chem)] [[Model (6.7B, Galactica)](https://huggingface.co/osunlp/LlaSMol-Galactica-6.7B)] [[Model (7B, LLaMA-2)](https://huggingface.co/osunlp/LlaSMol-Llama2-7B)] [[Model (7B, Mistral)](https://huggingface.co/osunlp/LlaSMol-Mistral-7B)]
 
 
 <h3 id="chemistry-language-vision">Language + Vision</h3>
-
-- **(MolScribe)** _MolScribe: Robust Molecular Structure Recognition with Image-To-Graph Generation_ ```Journal of Chemical Information and Modeling 2023```     
-[[Paper](https://arxiv.org/abs/2205.14311)] [[GitHub](https://github.com/thomas0809/MolScribe)] [[Model (88M)](https://huggingface.co/yujieq/MolScribe)]
 
 - **(GIT-Mol)** _GIT-Mol: A Multi-modal Large Language Model for Molecular Science with Graph, Image, and Text_ ```Computers in Biology and Medicine 2024```     
 [[Paper](https://arxiv.org/abs/2308.06911)] [[GitHub](https://github.com/ai-hpc-research-team/git-mol)]
 
 
-<h3 id="chemistry-language-graph-other-modalities-molecule">Language + Graph / Other Modalities (Molecule)</h3>
+<h3 id="chemistry-other-modalities-molecule">Other Modalities (Molecule)</h3>
 
 - **(SMILES-BERT)** _SMILES-BERT: Large Scale Unsupervised Pre-Training for Molecular Property Prediction_ ```ACM BCB 2019```     
 [[Paper](https://dl.acm.org/doi/abs/10.1145/3307339.3342186)] [[GitHub](https://github.com/uta-smile/SMILES-BERT)]
