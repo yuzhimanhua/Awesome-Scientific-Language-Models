@@ -2,7 +2,7 @@
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 [![Stars](https://img.shields.io/github/stars/yuzhimanhua/Awesome-Scientific-Language-Models?style=social)](https://img.shields.io/github/stars/yuzhimanhua/Awesome-Scientific-Language-Models?style=social)
 
-[![Papers](https://img.shields.io/badge/PaperNumber-218-blue)](https://img.shields.io/badge/PaperNumber-218-blue)
+[![Papers](https://img.shields.io/badge/PaperNumber-219-blue)](https://img.shields.io/badge/PaperNumber-219-blue)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![PRWelcome](https://img.shields.io/badge/PRs-Welcome-red)](https://img.shields.io/badge/PRs-Welcome-red)
 
@@ -78,7 +78,7 @@ A curated list of pre-trained language models in scientific domains (e.g., **mat
 - **(DARWIN)** _DARWIN Series: Domain Specific Large Language Models for Natural Science_ ```arXiv 2023```     
 [[Paper](https://arxiv.org/abs/2308.13565)] [[GitHub](https://github.com/MasterAI-EAM/Darwin)] [[Model (7B)](https://aigreendynamics-my.sharepoint.com/:f:/g/personal/yuwei_greendynamics_com_au/Euu1OzZTOS5OsQvVTRNV_gcBa67ehvk6uN6hJIHnBLOkDg?e=x5wxfk)]
 
-- **(FORGE)** _FORGE: Pre-Training Open Foundation Models for Science_ ```SC 2023```     
+- **(FORGE)** _FORGE: Pre-training Open Foundation Models for Science_ ```SC 2023```     
 [[Paper](https://doi.org/10.1145/3581784.3613215)] [[GitHub](https://github.com/at-aaims/forge)] [[Model (1.4B, General)](https://www.dropbox.com/sh/byr1ydik5n1ucod/AADOu_9C6AwVPTThTUFQ7yQba?dl=0)] [[Model (1.4B, Biology/Medicine)](https://www.dropbox.com/sh/41sqapgza3ok9q9/AADLgwTiHVU26ZeW_UQ8apyta?dl=0)] [[Model (1.4B, Chemistry)](https://www.dropbox.com/sh/1jn3n7099r8pzt8/AAAO6sOpFYG-G_qFI6C6CXVVa?dl=0)] [[Model (1.4B, Engineering)](https://www.dropbox.com/sh/ueki0n6y3v8gtkw/AAB6-3ml9slcbOonk6ccdD4Ua?dl=0)] [[Model (1.4B, Materials Science)](https://www.dropbox.com/sh/ngrr3bjulc76944/AABpm_OxA-GQPWzIPM4KpVKOa?dl=0)] [[Model (1.4B, Physics)](https://www.dropbox.com/sh/jxux4tplw5aw7kw/AAAdk334IEMbY7HJlJrWVzyfa?dl=0)] [[Model (1.4B, Social Science/Art)](https://www.dropbox.com/sh/54tuyslytqhpq1z/AAAc65c3TQWo2MyPoSiPxKI2a?dl=0)] [[Model (13B, General)](https://www.dropbox.com/sh/g53ot3dpqfsf6fr/AAB_RFeox2tbDKVFCH0QCw5pa?dl=0)] [[Model (22B, General)](https://www.dropbox.com/sh/7b9gbgcqdyph8v9/AABjNTaYu5PTjTMLb4-t6-PNa?dl=0)]
 
 - **(SciGLM)** _SciGLM: Training Scientific Language Models with Self-Reflective Instruction Annotation and Tuning_ ```arXiv 2024```     
@@ -172,9 +172,6 @@ A curated list of pre-trained language models in scientific domains (e.g., **mat
 - **(OpenMath)** _OpenMathInstruct-1: A 1.8 Million Math Instruction Tuning Dataset_ ```arXiv 2024```     
 [[Paper](https://arxiv.org/abs/2402.10176)] [[Model (7B, Mistral)](https://huggingface.co/nvidia/OpenMath-Mistral-7B-v0.1-hf)] [[Model (70B, LLaMA-2)](https://huggingface.co/nvidia/OpenMath-Llama-2-70b-hf)]
 
-- **(ChatGLM-Math)** _ChatGLM-Math: Improving Math Problem-Solving in Large Language Models with a Self-Critique Pipeline_ ```arXiv 2024```     
-[[Paper](https://arxiv.org/abs/2404.02893)] [[GitHub](https://github.com/THUDM/ChatGLM-Math)]
-
 - **(Rho-Math)** _Rho-1: Not All Tokens Are What You Need_ ```arXiv 2024```     
 [[Paper](https://arxiv.org/abs/2404.07965)] [[GitHub](https://github.com/microsoft/rho)] [[Model (1B)](https://huggingface.co/microsoft/rho-math-1b-v0.1)] [[Model (7B)](https://huggingface.co/microsoft/rho-math-7b-v0.1)]
 
@@ -208,7 +205,7 @@ A curated list of pre-trained language models in scientific domains (e.g., **mat
 - **(TaBERT)** _TaBERT: Learning Contextual Representations for Natural Language Utterances and Structured Tables_ ```ACL 2020```     
 [[Paper](https://arxiv.org/abs/2005.08314)] [[GitHub](https://github.com/facebookresearch/TaBERT)] [[Model (Base)](https://drive.google.com/drive/folders/1fDW9rLssgDAv19OMcFGgFJ5iyd9p7flg)] [[Model (Large)](https://drive.google.com/drive/folders/1fDW9rLssgDAv19OMcFGgFJ5iyd9p7flg)]
 
-- **(GraPPa)** _GraPPa: Grammar-Augmented Pre-Training for Table Semantic Parsing_ ```ICLR 2021```     
+- **(GraPPa)** _GraPPa: Grammar-Augmented Pre-training for Table Semantic Parsing_ ```ICLR 2021```     
 [[Paper](https://arxiv.org/abs/2009.13845)] [[GitHub](https://github.com/taoyds/grappa)] [[Model (355M)](https://huggingface.co/Salesforce/grappa_large_jnt)]
 
 - **(TUTA)** _TUTA: Tree-based Transformers for Generally Structured Table Pre-training_ ```KDD 2021```     
@@ -348,7 +345,7 @@ A curated list of pre-trained language models in scientific domains (e.g., **mat
 
 <h3 id="chemistry-other-modalities-molecule">Other Modalities (Molecule)</h3>
 
-- **(SMILES-BERT)** _SMILES-BERT: Large Scale Unsupervised Pre-Training for Molecular Property Prediction_ ```ACM BCB 2019```     
+- **(SMILES-BERT)** _SMILES-BERT: Large Scale Unsupervised Pre-training for Molecular Property Prediction_ ```ACM BCB 2019```     
 [[Paper](https://dl.acm.org/doi/abs/10.1145/3307339.3342186)] [[GitHub](https://github.com/uta-smile/SMILES-BERT)]
 
 - **(MAT)** _Molecule Attention Transformer_ ```arXiv 2020```     
@@ -577,7 +574,7 @@ Systematic Survey_](https://arxiv.org/abs/2110.05006) when writing some parts of
 - **(ConVIRT)** _Contrastive Learning of Medical Visual Representations from Paired Images and Text_ ```MLHC 2022```     
 [[Paper](https://arxiv.org/abs/2010.00747)] [[GitHub](https://github.com/yuhaozhang/convirt)]
 
-- **(MedViLL)** _Multi-modal Understanding and Generation for Medical Images and Text via Vision-Language Pre-Training_ ```JBHI 2022```     
+- **(MedViLL)** _Multi-modal Understanding and Generation for Medical Images and Text via Vision-Language Pre-training_ ```JBHI 2022```     
 [[Paper](https://arxiv.org/abs/2105.11333)] [[GitHub](https://github.com/SuperSupermoon/MedViLL)]
 
 - **(GLoRIA)** _GLoRIA: A Multimodal Global-Local Representation Learning Framework for Label-efficient Medical Image Recognition_ ```ICCV 2021```     
@@ -595,7 +592,7 @@ Systematic Survey_](https://arxiv.org/abs/2110.05006) when writing some parts of
 - **(LViT)** _LViT: Language meets Vision Transformer in Medical Image Segmentation_ ```TMI 2022```     
 [[Paper](https://arxiv.org/abs/2206.14718)] [[GitHub](https://github.com/HUANGLIZI/LViT)]
 
-- **(M3AE)** _Multi-Modal Masked Autoencoders for Medical Vision-and-Language Pre-Training_ ```MICCAI 2022```     
+- **(M3AE)** _Multi-Modal Masked Autoencoders for Medical Vision-and-Language Pre-training_ ```MICCAI 2022```     
 [[Paper](https://arxiv.org/abs/2209.07098)] [[GitHub](https://github.com/zhjohnchan/M3AE)]
 
 - **(ARL)** _Align, Reason and Learn: Enhancing Medical Vision-and-Language Pre-training with Knowledge_ ```ACM MM 2022```     
@@ -758,6 +755,9 @@ Systematic Survey_](https://arxiv.org/abs/2110.05006) when writing some parts of
 - **(ClimateBERT-NetZero)** _ClimateBERT-NetZero: Detecting and Assessing Net Zero and Reduction Targets_ ```EMNLP 2023```     
 [[Paper](https://arxiv.org/abs/2310.08096)] [[Model (82M)](https://huggingface.co/climatebert/netzero-reduction)]
 
+- **(GeoLM)** _GeoLM: Empowering Language Models for Geospatially Grounded Language Understanding_ ```EMNLP 2023```     
+[[Paper](https://arxiv.org/abs/2310.14478)] [[GitHub](https://github.com/knowledge-computing/geolm)]
+
 - **(GeoGalactica)** _GeoGalactica: A Scientific Large Language Model in Geoscience_ ```arXiv 2024```     
 [[Paper](https://arxiv.org/abs/2401.00434)] [[GitHub](https://github.com/geobrain-ai/geogalactica)] [[Model (30B)](https://huggingface.co/geobrain-ai/geogalactica)]
 
@@ -768,13 +768,16 @@ Systematic Survey_](https://arxiv.org/abs/2110.05006) when writing some parts of
 [[Paper](https://arxiv.org/abs/2203.09127)]
 
 - **(PK-Chat)** _PK-Chat: Pointer Network Guided Knowledge Driven Generative Dialogue Model_ ```arXiv 2023```     
-[[Paper](https://arxiv.org/abs/2304.00592)] [[GitHub](https://github.com/iiot-tbb/Dialogue_DDE)] [[Model (132M)](https://pan.baidu.com/s/1bNzGnnRPMfT4jkD_UsNSYg?pwd=pa7h)]
+[[Paper](https://arxiv.org/abs/2304.00592)] [[GitHub](https://github.com/iiot-tbb/Dialogue_DDE)]
 
 
 <h3 id="geography-language-vision">Language + Vision</h3>
 
-- **(MGeo)** _MGeo: Multi-Modal Geographic Pre-Training Method_ ```SIGIR 2023```     
+- **(MGeo)** _MGeo: Multi-Modal Geographic Pre-training Method_ ```SIGIR 2023```     
 [[Paper](https://arxiv.org/abs/2301.04283)] [[GitHub](https://github.com/PhantomGrapes/MGeo)]
+
+- **(UrbanCLIP)** _UrbanCLIP: Learning Text-Enhanced Urban Region Profiling with Contrastive Language-Image Pretraining from the Web_ ```SIGIR 2023```     
+[[Paper](https://arxiv.org/abs/2310.18340)] [[GitHub](https://github.com/stupidbuluchacha/urbanclip)]
 
 
 <h3 id="geography-other-modalities-climate-time-series">Other Modalities (Climate Time Series)</h3>
