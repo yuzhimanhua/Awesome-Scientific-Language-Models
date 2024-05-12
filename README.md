@@ -2,7 +2,7 @@
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 [![Stars](https://img.shields.io/github/stars/yuzhimanhua/Awesome-Scientific-Language-Models?style=social)](https://img.shields.io/github/stars/yuzhimanhua/Awesome-Scientific-Language-Models?style=social)
 
-[![Papers](https://img.shields.io/badge/PaperNumber-219-blue)](https://img.shields.io/badge/PaperNumber-219-blue)
+[![Papers](https://img.shields.io/badge/PaperNumber-218-blue)](https://img.shields.io/badge/PaperNumber-218-blue)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![PRWelcome](https://img.shields.io/badge/PRs-Welcome-red)](https://img.shields.io/badge/PRs-Welcome-red)
 
@@ -172,6 +172,9 @@ A curated list of pre-trained language models in scientific domains (e.g., **mat
 - **(OpenMath)** _OpenMathInstruct-1: A 1.8 Million Math Instruction Tuning Dataset_ ```arXiv 2024```     
 [[Paper](https://arxiv.org/abs/2402.10176)] [[Model (7B, Mistral)](https://huggingface.co/nvidia/OpenMath-Mistral-7B-v0.1-hf)] [[Model (70B, LLaMA-2)](https://huggingface.co/nvidia/OpenMath-Llama-2-70b-hf)]
 
+- **(ChatGLM-Math)** _ChatGLM-Math: Improving Math Problem-Solving in Large Language Models with a Self-Critique Pipeline_ ```arXiv 2024```     
+[[Paper](https://arxiv.org/abs/2404.02893)] [[GitHub](https://github.com/THUDM/ChatGLM-Math)]
+
 - **(Rho-Math)** _Rho-1: Not All Tokens Are What You Need_ ```arXiv 2024```     
 [[Paper](https://arxiv.org/abs/2404.07965)] [[GitHub](https://github.com/microsoft/rho)] [[Model (1B)](https://huggingface.co/microsoft/rho-math-1b-v0.1)] [[Model (7B)](https://huggingface.co/microsoft/rho-math-7b-v0.1)]
 
@@ -279,9 +282,6 @@ A curated list of pre-trained language models in scientific domains (e.g., **mat
 - **(CatBERTa)** _Catalyst Property Prediction with CatBERTa: Unveiling Feature Exploration Strategies through Large Language Models_ ```ACS Catalysis 2023```     
 [[Paper](https://arxiv.org/abs/2309.00563)] [[GitHub](https://github.com/hoon-ock/CatBERTa)]
 
-- **(GPT-MolBERTa)** _GPT-MolBERTa: GPT Molecular Features Language Model for Molecular Property Prediction_ ```arXiv 2023```     
-[[Paper](https://arxiv.org/abs/2310.03030)] [[GitHub](https://github.com/Suryanarayanan-Balaji/GPT-MolBERTa)] [[Model (82M, BERT)](https://drive.google.com/file/d/1b39vo6OZIa76VacZL50oT7mbO6Yue6l6/view)] [[Model (82M, RoBERTa)](https://drive.google.com/file/d/1_vKE6Rb9A7PU0PVTu3u1XlaqoPXsp9sJ/view)]
-
 - **(LLM-Prop)** _LLM-Prop: Predicting Physical and Electronic Properties of Crystalline Solids from Their Text Descriptions_ ```arXiv 2023```     
 [[Paper](https://arxiv.org/abs/2310.14029)] [[GitHub](https://github.com/vertaix/LLM-Prop)]
 
@@ -307,7 +307,7 @@ A curated list of pre-trained language models in scientific domains (e.g., **mat
 [[Paper](https://www.nature.com/articles/s41467-022-28494-3)] [[GitHub](https://github.com/thunlp/KV-PLM)] [[Model (Base)](https://drive.google.com/drive/folders/1xig3-3JG63kR-Xqj1b9wkPEdxtfD_4IX)]
 
 - **(MolT5)** _Translation between Molecules and Natural Language_ ```EMNLP 2022```     
-[[Paper](https://arxiv.org/abs/2204.11817)] [[GitHub](https://github.com/blender-nlp/MolT5)] [[Model (77M)](https://huggingface.co/laituan245/molt5-small)] [[Model (250M)](https://huggingface.co/laituan245/molt5-base)] [[Model (800M)](https://huggingface.co/laituan245/molt5-large)]
+[[Paper](https://arxiv.org/abs/2204.11817)] [[GitHub](https://github.com/blender-nlp/MolT5)] [[Model (60M)](https://huggingface.co/laituan245/molt5-small)] [[Model (220M)](https://huggingface.co/laituan245/molt5-base)] [[Model (770M)](https://huggingface.co/laituan245/molt5-large)]
 
 - **(MoMu)** _A Molecular Multimodal Foundation Model Associating Molecule Graphs with Natural Language_ ```arXiv 2022```     
 [[Paper](https://arxiv.org/abs/2209.05481)] [[GitHub](https://github.com/bingsu12/momu)]
@@ -529,6 +529,9 @@ Systematic Survey_](https://arxiv.org/abs/2110.05006) when writing some parts of
 - **(DRG-LLaMA)** _DRG-LLaMA: Tuning LLaMA Model to Predict Diagnosis-related Group for Hospitalized Patients_ ```npj Digital Medicine 2024```     
 [[Paper](https://arxiv.org/abs/2309.12625)] [[GitHub](https://github.com/hanyin88/DRG-LLaMA)]
 
+- **(BioT5)** _BioT5: Enriching Cross-modal Integration in Biology with Chemical Knowledge and Natural Language Associations_ ```EMNLP 2023```     
+[[Paper](https://arxiv.org/abs/2310.07276)] [[GitHub](https://github.com/QizhiPei/BioT5)] [[Model (220M)](https://huggingface.co/QizhiPei/biot5-base)]
+
 - **(HuatuoGPT-II)** _HuatuoGPT-II, One-stage Training for Medical Adaption of LLMs_ ```arXiv 2023```     
 [[Paper](https://arxiv.org/abs/2311.09774)] [[GitHub](https://github.com/FreedomIntelligence/HuatuoGPT-II)] [[Model (7B)](https://huggingface.co/FreedomIntelligence/HuatuoGPT2-7B)] [[Model (13B)](https://huggingface.co/FreedomIntelligence/HuatuoGPT2-13B)] [[Model (34B)](https://huggingface.co/FreedomIntelligence/HuatuoGPT2-34B)]
 
@@ -667,9 +670,6 @@ Systematic Survey_](https://arxiv.org/abs/2110.05006) when writing some parts of
 - **(LM-Design)** _Structure-informed Language Models Are Protein Designers_ ```ICML 2023```     
 [[Paper](https://arxiv.org/abs/2302.01649)] [[GitHub](https://github.com/BytedProtein/ByProt)] [[Model (650M)](https://zenodo.org/records/10046338/files/lm_design_esm2_650m.zip)]
 
-- **(xTrimoPGLM)** _xTrimoPGLM: Unified 100B-Scale Pre-trained Transformer for Deciphering the Language of Protein_ ```bioRxiv 2023```     
-[[Paper](https://www.biorxiv.org/content/10.1101/2023.07.05.547496)]
-
 - **(Prot2Text)** _Prot2Text: Multimodal Protein's Function Generation with GNNs and Transformers_ ```AAAI 2024```     
 [[Paper](https://arxiv.org/abs/2307.14367)] [[GitHub](https://github.com/hadi-abdine/Prot2Text)] [[Model (256M)](https://1drv.ms/u/s!AhcBGHWGY2mukdh4KujJfOJ_PxvJog?e=C6x4E6)] [[Model (283M)](https://1drv.ms/u/s!AhcBGHWGY2mukdh1N1kfnmXBEar-Tw?e=fACWFt)] [[Model (398M)](https://1drv.ms/u/s!AhcBGHWGY2mukdh3yPy98rqWfYcTJA?e=ot1SX6)] [[Model (898M)](https://1drv.ms/u/s!AhcBGHWGY2mukdh2EL4iP_IoVKu1tg?e=PioL6B)]
 
@@ -735,9 +735,6 @@ Systematic Survey_](https://arxiv.org/abs/2110.05006) when writing some parts of
 
 - **(CellPLM)** _CellPLM: Pre-training of Cell Language Model Beyond Single Cells_ ```ICLR 2024```     
 [[Paper](https://www.biorxiv.org/content/10.1101/2023.10.03.560734)] [[GitHub](https://github.com/OmicsML/CellPLM)] [[Model (82M)](https://www.dropbox.com/scl/fo/i5rmxgtqzg7iykt2e9uqm/h?rlkey=o8hi0xads9ol07o48jdityzv1&dl=0)]
-
-- **(xTrimoGene)** _xTrimoGene: An Efficient and Scalable Representation Learner for Single-Cell RNA-Seq Data_ ```NeurIPS 2023```     
-[[Paper](https://arxiv.org/abs/2311.15156)] [[GitHub](https://github.com/biomap-research/scFoundation)]
 
 
 
