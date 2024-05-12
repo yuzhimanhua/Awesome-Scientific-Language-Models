@@ -2,7 +2,7 @@
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 [![Stars](https://img.shields.io/github/stars/yuzhimanhua/Awesome-Scientific-Language-Models?style=social)](https://img.shields.io/github/stars/yuzhimanhua/Awesome-Scientific-Language-Models?style=social)
 
-[![Papers](https://img.shields.io/badge/PaperNumber-219-blue)](https://img.shields.io/badge/PaperNumber-219-blue)
+[![Papers](https://img.shields.io/badge/PaperNumber-221-blue)](https://img.shields.io/badge/PaperNumber-221-blue)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![PRWelcome](https://img.shields.io/badge/PRs-Welcome-red)](https://img.shields.io/badge/PRs-Welcome-red)
 
@@ -315,9 +315,6 @@ A curated list of pre-trained language models in scientific domains (e.g., **mat
 - **(Text+Chem T5)** _Unifying Molecular and Textual Representations via Multi-task Language Modelling_ ```ICML 2023```     
 [[Paper](https://arxiv.org/abs/2301.12586)] [[GitHub](https://github.com/GT4SD/gt4sd-core)] [[Model (60M)](https://huggingface.co/GT4SD/multitask-text-and-chemistry-t5-small-augm)] [[Model (220M)](https://huggingface.co/GT4SD/multitask-text-and-chemistry-t5-base-augm)]
 
-- **(CLAMP)** _Enhancing Activity Prediction Models in Drug Discovery with the Ability to Understand Human Language_ ```ICML 2023```     
-[[Paper](https://arxiv.org/abs/2303.03363)] [[GitHub](https://github.com/ml-jku/clamp)]
-
 - **(GIMLET)** _GIMLET: A Unified Graph-Text Model for Instruction-Based Molecule Zero-Shot Learning_ ```NeurIPS 2023```     
 [[Paper](https://arxiv.org/abs/2306.13089)] [[GitHub](https://github.com/zhao-ht/GIMLET)] [[Model (60M)](https://huggingface.co/haitengzhao/gimlet)]
 
@@ -330,11 +327,8 @@ A curated list of pre-trained language models in scientific domains (e.g., **mat
 - **(InstructMol)** _InstructMol: Multi-Modal Integration for Building a Versatile and Reliable Molecular Assistant in Drug Discovery_ ```arXiv 2023```     
 [[Paper](https://arxiv.org/abs/2311.16208)] [[GitHub](https://github.com/IDEA-XL/InstructMol)]
 
-- **(PolyNC)** _PolyNC: A Natural and Chemical Language Model for the Prediction of Unified Polymer Properties_ ```Chemical Science 2024```     
-[[Paper](https://pubs.rsc.org/en/Content/ArticleLanding/2023/SC/D3SC05079C)] [[GitHub](https://github.com/HKQiu/Unified_ML4Polymers)] [[Model (220M)](https://huggingface.co/hkqiu/PolyNC)]
-
 - **(3D-MoLM)** _Towards 3D Molecule-Text Interpretation in Language Models_ ```ICLR 2024```     
-[[Paper](https://arxiv.org/abs/2401.13923)] [[GitHub](https://github.com/lsh0520/3D-MoLM)] [[Model (7B)](https://huggingface.co/Sihangli/3D-MoLM)]
+[[Paper](https://arxiv.org/abs/2401.13923)] [[GitHub](https://github.com/lsh0520/3D-MoLM)]
 
 
 <h3 id="chemistry-language-vision">Language + Vision</h3>
@@ -381,17 +375,29 @@ A curated list of pre-trained language models in scientific domains (e.g., **mat
 - **(ChemGPT)** _Neural Scaling of Deep Chemical Models_ ```Nature Machine Intelligence 2023```     
 [[Paper](https://chemrxiv.org/engage/chemrxiv/article-details/627bddd544bdd532395fb4b5)] [[Model (4.7M)](https://huggingface.co/ncfrey/ChemGPT-4.7M)] [[Model (19M)](https://huggingface.co/ncfrey/ChemGPT-19M)] [[Model (1.2B)](https://huggingface.co/ncfrey/ChemGPT-1.2B)]
 
+- **(TransPolymer)** _TransPolymer: A Transformer-based Language Model for Polymer Property Predictions_ ```npj Computational Materials 2023```     
+[[Paper](https://arxiv.org/abs/2209.01307)] [[GitHub](https://github.com/ChangwenXu98/TransPolymer)]
+
+- **(polyBERT)** _polyBERT: A Chemical Language Model to Enable Fully Machine-Driven Ultrafast Polymer Informatics_ ```Nature Communications 2023```     
+[[Paper](https://arxiv.org/abs/2209.14803)] [[GitHub](https://github.com/Ramprasad-Group/polyBERT)] [[Model (86M)](https://huggingface.co/kuelumbus/polyBERT)]
+
 - **(MFBERT)** _Large-Scale Distributed Training of Transformers for Chemical Fingerprinting_ ```Journal of Chemical Information and Modeling 2022```     
 [[Paper](https://pubs.acs.org/doi/10.1021/acs.jcim.2c00715)] [[GitHub](https://github.com/GouldGroup/MFBERT)]
 
 - **(SPMM)** _Bidirectional Generation of Structure and Properties Through a Single Molecular Foundation Model_ ```Nature Communications 2024```     
 [[Paper](https://arxiv.org/abs/2211.10590)] [[GitHub](https://github.com/jinhojsk515/SPMM)]
 
+- **(BARTSmiles)** _BARTSmiles: Generative Masked Language Models for Molecular Representations_ ```arXiv 2022```     
+[[Paper](https://arxiv.org/abs/2211.16349)] [[GitHub](https://github.com/YerevaNN/BARTSmiles)] [[Model (406M)](https://huggingface.co/gayane/BARTSmiles)]
+
 - **(MolGen)** _Domain-Agnostic Molecular Generation with Self-feedback_ ```ICLR 2024```     
 [[Paper](https://arxiv.org/abs/2301.11259)] [[GitHub](https://github.com/zjunlp/MolGen)] [[Model (7B)](https://huggingface.co/zjunlp/MolGen-7b)]
 
 - **(ActFound)** _A Foundation Model for Bioactivity Prediction using Pairwise Meta-learning_ ```bioRxiv 2023```     
 [[Paper](https://www.biorxiv.org/content/10.1101/2023.10.30.564861)] [[GitHub](https://github.com/BFeng14/ActFound)]
+
+- **(PolyNC)** _PolyNC: A Natural and Chemical Language Model for the Prediction of Unified Polymer Properties_ ```Chemical Science 2024```     
+[[Paper](https://pubs.rsc.org/en/Content/ArticleLanding/2023/SC/D3SC05079C)] [[GitHub](https://github.com/HKQiu/Unified_ML4Polymers)] [[Model (220M)](https://huggingface.co/hkqiu/PolyNC)]
 
 
 
@@ -458,7 +464,7 @@ Systematic Survey_](https://arxiv.org/abs/2110.05006) when writing some parts of
 [[Paper](https://arxiv.org/abs/2010.11784)] [[GitHub](https://github.com/cambridgeltl/sapbert)] [[Model (Base)](https://huggingface.co/cambridgeltl/SapBERT-from-PubMedBERT-fulltext)]
 
 - **(ClinicalTransformer)** _Clinical Concept Extraction using Transformers_ ```JAMIA 2020```     
-[[Paper](https://academic.oup.com/jamia/article-abstract/27/12/1935/5943218)] [[GitHub](https://github.com/uf-hobi-informatics-lab/ClinicalTransformerNER)] [[Model (Base, BERT)](https://transformer-models.s3.amazonaws.com/mimiciii_bert_10e_128b.zip)] [[Model (125M, RoBERTa)](https://transformer-models.s3.amazonaws.com/mimiciii_roberta_10e_128b.zip)] [[Model (12M, ALBERT)](https://transformer-models.s3.amazonaws.com/mimiciii_albert_10e_128b.zip)] [[Model (Base, ELECTRA)](https://transformer-models.s3.amazonaws.com/mimiciii_electra_5e_128b.zip)] [[Model (117M, XLNet)](https://transformer-models.s3.amazonaws.com/mimiciii_xlnet_5e_128b.zip)] [[Model (149M, Longformer)](https://transformer-models.s3.amazonaws.com/mimiciii_longformer_5e_128b.zip)] [[Model (139M, DeBERTa)](https://transformer-models.s3.amazonaws.com/mimiciii_deberta_10e_128b.tar.gz)]
+[[Paper](https://academic.oup.com/jamia/article-abstract/27/12/1935/5943218)] [[GitHub](https://github.com/uf-hobi-informatics-lab/ClinicalTransformerNER)] [[Model (Base, BERT)](https://transformer-models.s3.amazonaws.com/mimiciii_bert_10e_128b.zip)] [[Model (125M, RoBERTa)](https://transformer-models.s3.amazonaws.com/mimiciii_roberta_10e_128b.zip)] [[Model (12M, ALBERT)](https://transformer-models.s3.amazonaws.com/mimiciii_albert_10e_128b.zip)] [[Model (Base, ELECTRA)](https://transformer-models.s3.amazonaws.com/mimiciii_electra_5e_128b.zip)] [[Model (117M, XLNet)](https://transformer-models.s3.amazonaws.com/mimiciii_xlnet_5e_128b.zip)] [[Model (149M, Longformer)](https://transformer-models.s3.amazonaws.com/mimiciii_longformer_5e_128b.zip)] [[Model (86M, DeBERTa)](https://transformer-models.s3.amazonaws.com/mimiciii_deberta_10e_128b.tar.gz)]
 
 - **(BioRoBERTa)** _Pretrained Language Models for Biomedical and Clinical Tasks: Understanding and Extending the State-of-the-Art_ ```EMNLP 2020 Workshop```     
 [[Paper](https://aclanthology.org/2020.clinicalnlp-1.17)] [[GitHub](https://github.com/facebookresearch/bio-lm)] [[Model (125M)](https://dl.fbaipublicfiles.com/biolm/RoBERTa-base-PM-M3-Voc-train-longer-hf.tar.gz)] [[Model (355M)](https://dl.fbaipublicfiles.com/biolm/RoBERTa-large-PM-M3-Voc-hf.tar.gz)]
