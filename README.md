@@ -315,7 +315,7 @@ A curated list of pre-trained language models in scientific domains (e.g., **mat
 - **(Text+Chem T5)** _Unifying Molecular and Textual Representations via Multi-task Language Modelling_ ```ICML 2023```     
 [[Paper](https://arxiv.org/abs/2301.12586)] [[GitHub](https://github.com/GT4SD/gt4sd-core)] [[Model (60M)](https://huggingface.co/GT4SD/multitask-text-and-chemistry-t5-small-augm)] [[Model (220M)](https://huggingface.co/GT4SD/multitask-text-and-chemistry-t5-base-augm)]
 
-- **(GIMLET)** _GIMLET: A Unified Graph-Text Model for Instruction-Based Molecule Zero-Shot Learning_ ```NeurIPS 2023```     
+- **(GIMLET)** _GIMLET: A Unified Graph-Text Model for Instruction-based Molecule Zero-Shot Learning_ ```NeurIPS 2023```     
 [[Paper](https://arxiv.org/abs/2306.13089)] [[GitHub](https://github.com/zhao-ht/GIMLET)] [[Model (60M)](https://huggingface.co/haitengzhao/gimlet)]
 
 - **(MolFM)** _MolFM: A Multimodal Molecular Foundation Model_ ```arXiv 2023```     
@@ -351,7 +351,7 @@ A curated list of pre-trained language models in scientific domains (e.g., **mat
 - **(MolBERT)** _Molecular Representation Learning with Language Models and Domain-Relevant Auxiliary Tasks_ ```arXiv 2020```     
 [[Paper](https://arxiv.org/abs/2011.13230)] [[GitHub](https://github.com/BenevolentAI/MolBERT)] [[Model (Base)](https://ndownloader.figshare.com/files/25611290)]
 
-- **(rxnfp)** _Mapping the Space of Chemical Reactions using Attention-Based Neural Networks_ ```Nature Machine Intelligence 2021```     
+- **(rxnfp)** _Mapping the Space of Chemical Reactions using Attention-based Neural Networks_ ```Nature Machine Intelligence 2021```     
 [[Paper](https://arxiv.org/abs/2012.06051)] [[GitHub](https://github.com/rxn4chemistry/rxnfp)] [[Model (Base)](https://github.com/rxn4chemistry/rxnfp/tree/master/rxnfp/models/transformers/bert_pretrained)]
 
 - **(RXNMapper)** _Extraction of Organic Chemistry Grammar from Unsupervised Learning of Chemical Reactions_ ```Science Advances 2021```     
@@ -391,10 +391,10 @@ A curated list of pre-trained language models in scientific domains (e.g., **mat
 [[Paper](https://arxiv.org/abs/2211.16349)] [[GitHub](https://github.com/YerevaNN/BARTSmiles)] [[Model (406M)](https://huggingface.co/gayane/BARTSmiles)]
 
 - **(MolGen)** _Domain-Agnostic Molecular Generation with Self-feedback_ ```ICLR 2024```     
-[[Paper](https://arxiv.org/abs/2301.11259)] [[GitHub](https://github.com/zjunlp/MolGen)] [[Model (7B)](https://huggingface.co/zjunlp/MolGen-7b)]
+[[Paper](https://arxiv.org/abs/2301.11259)] [[GitHub](https://github.com/zjunlp/MolGen)] [[Model (406M, BART)](https://huggingface.co/zjunlp/MolGen-large)] [[Model (7B, LLaMA)](https://huggingface.co/zjunlp/MolGen-7b)]
 
-- **(ActFound)** _A Foundation Model for Bioactivity Prediction using Pairwise Meta-learning_ ```bioRxiv 2023```     
-[[Paper](https://www.biorxiv.org/content/10.1101/2023.10.30.564861)] [[GitHub](https://github.com/BFeng14/ActFound)]
+- **(SELFormer)** _SELFormer: Molecular Representation Learning via SELFIES Language Models_ ```Machine Learning: Science and Technology 2023```     
+[[Paper](https://arxiv.org/abs/2304.04662)] [[GitHub](https://github.com/HUBioDataLab/SELFormer)] [[Model (58M)](https://drive.google.com/file/d/1zuVAKXCMc-HZHQo9y3Hu5zmQy51FGduI/view)] [[Model (87M)](https://drive.google.com/file/d/1zuVAKXCMc-HZHQo9y3Hu5zmQy51FGduI/view)]
 
 - **(PolyNC)** _PolyNC: A Natural and Chemical Language Model for the Prediction of Unified Polymer Properties_ ```Chemical Science 2024```     
 [[Paper](https://pubs.rsc.org/en/Content/ArticleLanding/2023/SC/D3SC05079C)] [[GitHub](https://github.com/HKQiu/Unified_ML4Polymers)] [[Model (220M)](https://huggingface.co/hkqiu/PolyNC)]
@@ -475,7 +475,7 @@ Systematic Survey_](https://arxiv.org/abs/2110.05006) when writing some parts of
 - **(BioMedBERT)** _BioMedBERT: A Pre-trained Biomedical Language Model for QA and IR_ ```COLING 2020```     
 [[Paper](https://aclanthology.org/2020.coling-main.59)] [[GitHub](https://github.com/BioMedBERT/biomedbert)]
 
-- **(LBERT)** _LBERT: Lexically Aware Transformer-Based Bidirectional Encoder Representation Model for Learning Universal Bio-Entity Relations_ ```Bioinformatics 2021```     
+- **(LBERT)** _LBERT: Lexically Aware Transformer-based Bidirectional Encoder Representation Model for Learning Universal Bio-Entity Relations_ ```Bioinformatics 2021```     
 [[Paper](https://academic.oup.com/bioinformatics/article/37/3/404/5893949)] [[GitHub](https://github.com/warikoone/LBERT)]
 
 - **(ELECTRAMed)** _ELECTRAMed: A New Pre-trained Language Representation Model for Biomedical NLP_ ```arXiv 2021```     
@@ -712,7 +712,7 @@ Systematic Survey_](https://arxiv.org/abs/2110.05006) when writing some parts of
 - **(RNA-FM)** _Interpretable RNA Foundation Model from Unannotated Data for Highly Accurate RNA Structure and Function Predictions_ ```arXiv 2022```     
 [[Paper](https://arxiv.org/abs/2204.00300)] [[GitHub](https://github.com/ml4bio/RNA-FM)]
 
-- **(RNA-MSM)** _Multiple Sequence-Alignment-Based RNA Language Model and its Application to Structural Inference_ ```Nucleic Acids Research 2024```     
+- **(RNA-MSM)** _Multiple Sequence-Alignment-based RNA Language Model and its Application to Structural Inference_ ```Nucleic Acids Research 2024```     
 [[Paper](https://www.biorxiv.org/content/10.1101/2023.03.15.532863)] [[GitHub](https://github.com/yikunpku/RNA-MSM)]
 
 
