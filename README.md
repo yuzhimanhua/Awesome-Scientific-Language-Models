@@ -2,7 +2,7 @@
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 [![Stars](https://img.shields.io/github/stars/yuzhimanhua/Awesome-Scientific-Language-Models?style=social)](https://img.shields.io/github/stars/yuzhimanhua/Awesome-Scientific-Language-Models?style=social)
 
-[![Papers](https://img.shields.io/badge/PaperNumber-221-blue)](https://img.shields.io/badge/PaperNumber-221-blue)
+[![Papers](https://img.shields.io/badge/PaperNumber-223-blue)](https://img.shields.io/badge/PaperNumber-223-blue)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![PRWelcome](https://img.shields.io/badge/PRs-Welcome-red)](https://img.shields.io/badge/PRs-Welcome-red)
 
@@ -752,6 +752,9 @@ Systematic Survey_](https://arxiv.org/abs/2110.05006) when writing some parts of
 - **(SpaBERT)** _SpaBERT: A Pretrained Language Model from Geographic Data for Geo-Entity Representation_ ```EMNLP 2022 Findings```     
 [[Paper](https://arxiv.org/abs/2210.12213)] [[GitHub](https://github.com/zekun-li/spabert)] [[Model (Base)](https://drive.google.com/file/d/1l44FY3DtDxzM_YVh3RR6PJwKnl80IYWB/view)] [[Model (Large)](https://drive.google.com/file/d/1LeZayTR92R5bu9gH_cGCwef7nnMX35cR/view)]
 
+- **(MGeo)** _MGeo: Multi-Modal Geographic Pre-training Method_ ```SIGIR 2023```     
+[[Paper](https://arxiv.org/abs/2301.04283)] [[GitHub](https://github.com/PhantomGrapes/MGeo)]
+
 - **(K2)** _K2: A Foundation Language Model for Geoscience Knowledge Understanding and Utilization_ ```WSDM 2024```     
 [[Paper](https://arxiv.org/abs/2306.05064)] [[GitHub](https://github.com/davendw49/k2)] [[Model (7B)](https://huggingface.co/daven3/k2-v1)]
 
@@ -779,14 +782,14 @@ Systematic Survey_](https://arxiv.org/abs/2110.05006) when writing some parts of
 
 <h3 id="geography-language-vision">Language + Vision</h3>
 
-- **(MGeo)** _MGeo: Multi-Modal Geographic Pre-training Method_ ```SIGIR 2023```     
-[[Paper](https://arxiv.org/abs/2301.04283)] [[GitHub](https://github.com/PhantomGrapes/MGeo)]
-
-- **(UrbanCLIP)** _UrbanCLIP: Learning Text-Enhanced Urban Region Profiling with Contrastive Language-Image Pretraining from the Web_ ```SIGIR 2023```     
+- **(UrbanCLIP)** _UrbanCLIP: Learning Text-Enhanced Urban Region Profiling with Contrastive Language-Image Pretraining from the Web_ ```WWW 2024```     
 [[Paper](https://arxiv.org/abs/2310.18340)] [[GitHub](https://github.com/stupidbuluchacha/urbanclip)]
 
 
 <h3 id="geography-other-modalities-climate-time-series">Other Modalities (Climate Time Series)</h3>
+
+- **(FourCastNet)** _FourCastNet: A Global Data-driven High-resolution Weather Model using Adaptive Fourier Neural Operators_ ```arXiv 2022```     
+[[Paper](https://arxiv.org/abs/2202.11214)] [[GitHub](https://github.com/NVlabs/FourCastNet)]
 
 - **(Pangu-Weather)** _Accurate Medium-Range Global Weather Forecasting with 3D Neural Networks_ ```Nature 2023```     
 [[Paper](https://arxiv.org/abs/2211.02556)] [[GitHub](https://github.com/198808xc/Pangu-Weather)]
@@ -796,6 +799,9 @@ Systematic Survey_](https://arxiv.org/abs/2110.05006) when writing some parts of
 
 - **(FengWu)** _FengWu: Pushing the Skillful Global Medium-Range Weather Forecast beyond 10 Days Lead_ ```arXiv 2023```     
 [[Paper](https://arxiv.org/abs/2304.02948)] [[GitHub](https://github.com/OpenEarthLab/FengWu)]
+
+- **(W-MAE)** _W-MAE: Pre-trained Weather Model with Masked Autoencoder for Multi-Variable Weather Forecasting_ ```arXiv 2023```     
+[[Paper](https://arxiv.org/abs/2304.08754)] [[GitHub](https://github.com/gufrannn/w-mae)]
 
 - **(FuXi)** _FuXi: A Cascade Machine Learning Forecasting System for 15-day Global Weather Forecast_ ```npj Climate and Atmospheric Science 2023```     
 [[Paper](https://arxiv.org/abs/2306.12873)] [[GitHub](https://github.com/tpys/FuXi)]
