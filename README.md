@@ -2,7 +2,7 @@
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 [![Stars](https://img.shields.io/github/stars/yuzhimanhua/Awesome-Scientific-Language-Models?style=social)](https://img.shields.io/github/stars/yuzhimanhua/Awesome-Scientific-Language-Models?style=social)
 
-[![Papers](https://img.shields.io/badge/PaperNumber-223-blue)](https://img.shields.io/badge/PaperNumber-223-blue)
+[![Papers](https://img.shields.io/badge/PaperNumber-226-blue)](https://img.shields.io/badge/PaperNumber-226-blue)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![PRWelcome](https://img.shields.io/badge/PRs-Welcome-red)](https://img.shields.io/badge/PRs-Welcome-red)
 
@@ -550,8 +550,14 @@ Systematic Survey_](https://arxiv.org/abs/2110.05006) when writing some parts of
 - **(BioMedLM, f.k.a. PubMedGPT)** _BioMedLM: a Domain-Specific Large Language Model for Biomedical Text_ ```arXiv 2024```     
 [[Paper](https://arxiv.org/abs/2403.18421)] [[GitHub](https://github.com/stanford-crfm/BioMedLM)] [[Model (2.7B)](https://huggingface.co/stanford-crfm/BioMedLM)]
 
+- **(Hippocrates)** _Hippocrates: An Open-Source Framework for Advancing Large Language Models in Healthcare_ ```arXiv 2024```     
+[[Paper](https://arxiv.org/abs/2404.16621)] [[Model (7B, LLaMA-2)](https://huggingface.co/emrecanacikgoz/hippollama)] [[Model (7B, Mistral)](https://huggingface.co/emrecanacikgoz/hippomistral)]
+
 - **(BMRetriever)** _BMRetriever: Tuning Large Language Models as Better Biomedical Text Retrievers_ ```arXiv 2024```     
 [[Paper](https://arxiv.org/abs/2404.18443)] [[GitHub](https://github.com/ritaranx/BMRetriever)] [[Model (410M)](https://huggingface.co/BMRetriever/BMRetriever-410M)] [[Model (1B)](https://huggingface.co/BMRetriever/BMRetriever-1B)] [[Model (2B)](https://huggingface.co/BMRetriever/BMRetriever-2B)] [[Model (7B)](https://huggingface.co/BMRetriever/BMRetriever-7B)]
+
+- **(Med-Gemini)** _Capabilities of Gemini Models in Medicine_ ```arXiv 2024```     
+[[Paper](https://arxiv.org/abs/2404.18416)]
 
 
 <h3 id="biology-language-graph">Language + Graph</h3>
@@ -633,6 +639,9 @@ Systematic Survey_](https://arxiv.org/abs/2110.05006) when writing some parts of
 
 - **(BioCLIP)** _BioCLIP: A Vision Foundation Model for the Tree of Life_ ```arXiv 2023```    
 [[Paper](https://arxiv.org/abs/2311.18803)] [[Github](https://github.com/Imageomics/BioCLIP)] [[Model](https://huggingface.co/imageomics/bioclip)]
+
+- **(Med-Gemini-2D/3D/Polygenic)** _Advancing Multimodal Medical Capabilities of Gemini_ ```arXiv 2024```     
+[[Paper](https://arxiv.org/abs/2405.03162)]
 
 
 <h3 id="biology-other-modalities-protein">Other Modalities (Protein)</h3>
