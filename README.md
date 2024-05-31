@@ -2,7 +2,7 @@
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 [![Stars](https://img.shields.io/github/stars/yuzhimanhua/Awesome-Scientific-Language-Models?style=social)](https://img.shields.io/github/stars/yuzhimanhua/Awesome-Scientific-Language-Models?style=social)
 
-[![Papers](https://img.shields.io/badge/PaperNumber-248-blue)](https://img.shields.io/badge/PaperNumber-248-blue)
+[![Papers](https://img.shields.io/badge/PaperNumber-252-blue)](https://img.shields.io/badge/PaperNumber-252-blue)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![PRWelcome](https://img.shields.io/badge/PRs-Welcome-red)](https://img.shields.io/badge/PRs-Welcome-red)
 
@@ -652,8 +652,14 @@ Systematic Survey_](https://arxiv.org/abs/2110.05006) when writing some parts of
 - **(RGRG)** _Interactive and Explainable Region-guided Radiology Report Generation_ ```CVPR 2023```     
 [[Paper](https://arxiv.org/abs/2304.08295)] [[GitHub](https://github.com/ttanida/rgrg)]
 
+- **(Med-UniC)** _Med-UniC: Unifying Cross-Lingual Medical Vision-Language Pre-Training by Diminishing Bias_ ```NeurIPS 2023```     
+[[Paper](https://arxiv.org/abs/2305.19894)] [[GitHub](https://github.com/SUSTechBruce/Med-UniC)]
+
 - **(LLaVA-Med)** _LLaVA-Med: Training a Large Language-and-Vision Assistant for Biomedicine in One Day_ ```NeurIPS 2023```     
 [[Paper](https://arxiv.org/abs/2306.00890)] [[GitHub](https://github.com/microsoft/LLaVA-Med)]
+
+- **(MI-Zero)** _Visual Language Pretrained Multiple Instance Zero-Shot Transfer for Histopathology Images_ ```CVPR 2023```     
+[[Paper](https://arxiv.org/abs/2306.07831)] [[GitHub](https://github.com/mahmoodlab/MI-Zero)]
 
 - **(XrayGPT)** _XrayGPT: Chest Radiographs Summarization using Medical Vision-Language Models_ ```arXiv 2023```     
 [[Paper](https://arxiv.org/abs/2306.07971)] [[GitHub](https://github.com/mbzuai-oryx/XrayGPT)]
@@ -661,11 +667,11 @@ Systematic Survey_](https://arxiv.org/abs/2110.05006) when writing some parts of
 - **(MONET)** _Transparent Medical Image AI via an Image–Text Foundation Model Grounded in Medical Literature_ ```Nature Medicine 2024```     
 [[Paper](https://www.medrxiv.org/content/10.1101/2023.06.07.23291119)] [[GitHub](https://github.com/suinleelab/MONET)]
 
-- **(MUMC)** _Masked Vision and Language Pre-training with Unimodal and Multimodal Contrastive Losses for Medical Visual Question Answering_ ```MICCAI 2023```     
-[[Paper](https://arxiv.org/abs/2307.05314)] [[GitHub](https://github.com/pengfeiliHEU/MUMC)]
-
 - **(QuiltNet)** _Quilt-1M: One Million Image-Text Pairs for Histopathology_ ```NeurIPS 2023```     
 [[Paper](https://arxiv.org/abs/2306.11207)] [[GitHub](https://github.com/wisdomikezogwo/quilt1m)]
+
+- **(MUMC)** _Masked Vision and Language Pre-training with Unimodal and Multimodal Contrastive Losses for Medical Visual Question Answering_ ```MICCAI 2023```     
+[[Paper](https://arxiv.org/abs/2307.05314)] [[GitHub](https://github.com/pengfeiliHEU/MUMC)]
 
 - **(M-FLAG)** _M-FLAG: Medical Vision-Language Pre-training with Frozen Language Models and Latent Space Geometry Optimization_ ```MICCAI 2023```     
 [[Paper](https://arxiv.org/abs/2307.08347)] [[GitHub](https://github.com/cheliu-computation/M-FLAG-MICCAI2023)]
@@ -682,6 +688,9 @@ Systematic Survey_](https://arxiv.org/abs/2110.05006) when writing some parts of
 - **(Med-Flamingo)** _Med-Flamingo: A Multimodal Medical Few-shot Learner_ ```ML4H 2023```     
 [[Paper](https://arxiv.org/abs/2307.15189)] [[GitHub](https://github.com/snap-stanford/med-flamingo)]
 
+- **(RadFM)** _Towards Generalist Foundation Model for Radiology by Leveraging Web-scale 2D&3D Medical Data_ ```arXiv 2023```     
+[[Paper](https://arxiv.org/abs/2308.02463)] [[GitHub](https://github.com/chaoyi-wu/RadFM)]
+
 - **(PLIP)** _A Visual–Language Foundation Model for Pathology Image Analysis using Medical Twitter_ ```Nature Medicine 2023```     
 [[Paper](https://www.nature.com/articles/s41591-023-02504-3)] [[GitHub](https://github.com/PathologyFoundation/plip)]
 
@@ -696,6 +705,9 @@ Systematic Survey_](https://arxiv.org/abs/2110.05006) when writing some parts of
 
 - **(BioCLIP)** _BioCLIP: A Vision Foundation Model for the Tree of Life_ ```arXiv 2023```    
 [[Paper](https://arxiv.org/abs/2311.18803)] [[Github](https://github.com/Imageomics/BioCLIP)] [[Model](https://huggingface.co/imageomics/bioclip)]
+
+- **(M3D)** _M3D: Advancing 3D Medical Image Analysis with Multi-Modal Large Language Models_ ```arXiv 2024```     
+[[Paper](https://arxiv.org/abs/2404.00578)] [[GitHub](https://github.com/BAAI-DCAI/M3D)]
 
 - **(Med-Gemini)** _Capabilities of Gemini Models in Medicine_ ```arXiv 2024```     
 [[Paper](https://arxiv.org/abs/2404.18416)]
