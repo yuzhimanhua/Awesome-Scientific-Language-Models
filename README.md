@@ -2,7 +2,7 @@
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 [![Stars](https://img.shields.io/github/stars/yuzhimanhua/Awesome-Scientific-Language-Models?style=social)](https://img.shields.io/github/stars/yuzhimanhua/Awesome-Scientific-Language-Models?style=social)
 
-[![Papers](https://img.shields.io/badge/PaperNumber-233-blue)](https://img.shields.io/badge/PaperNumber-233-blue)
+[![Papers](https://img.shields.io/badge/PaperNumber-248-blue)](https://img.shields.io/badge/PaperNumber-248-blue)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![PRWelcome](https://img.shields.io/badge/PRs-Welcome-red)](https://img.shields.io/badge/PRs-Welcome-red)
 
@@ -176,7 +176,7 @@ A curated list of pre-trained language models in scientific domains (e.g., **mat
 [[Paper](https://arxiv.org/abs/2404.07965)] [[GitHub](https://github.com/microsoft/rho)] [[Model (1B)](https://huggingface.co/microsoft/rho-math-1b-v0.1)] [[Model (7B)](https://huggingface.co/microsoft/rho-math-7b-v0.1)]
 
 - **(MAmmoTH2)** _MAmmoTH2: Scaling Instructions from the Web_ ```arXiv 2024```     
-[[Paper](https://arxiv.org/abs/2405.03548)] [[GitHub](https://github.com/TIGER-AI-Lab/MAmmoTH2)] [[Model (7B, Mistral)](https://huggingface.co/TIGER-Lab/MAmmoTH2-7B)] [[Model (8B, LLaMA-3)](https://huggingface.co/TIGER-Lab/MAmmoTH2-8B)] [[Model (8x7B, Mistral)](https://huggingface.co/TIGER-Lab/MAmmoTH2-8x7B)]
+[[Paper](https://arxiv.org/abs/2405.03548)] [[GitHub](https://github.com/TIGER-AI-Lab/MAmmoTH2)] [[Model (7B, Mistral)](https://huggingface.co/TIGER-Lab/MAmmoTH2-7B)] [[Model (8B, LLaMA-3)](https://huggingface.co/TIGER-Lab/MAmmoTH2-8B)] [[Model (8x7B, Mixtral)](https://huggingface.co/TIGER-Lab/MAmmoTH2-8x7B)]
 
 
 <h3 id="mathematics-language-vision">Language + Vision</h3>
@@ -481,13 +481,16 @@ Systematic Survey_](https://arxiv.org/abs/2110.05006) when writing some parts of
 - **(ELECTRAMed)** _ELECTRAMed: A New Pre-trained Language Representation Model for Biomedical NLP_ ```arXiv 2021```     
 [[Paper](https://arxiv.org/abs/2104.09585)] [[GitHub](https://github.com/gmpoli/electramed)] [[Model (Base)](https://huggingface.co/giacomomiolo/electramed_base_scivocab_1M)]
 
+- **(KeBioLM)** _Improving Biomedical Pretrained Language Models with Knowledge_ ```NAACL 2021 Workshop```     
+[[Paper](https://arxiv.org/abs/2104.10344)] [[GitHub](https://github.com/GanjinZero/KeBioLM)]
+
 - **(SciFive)** _SciFive: A Text-to-Text Transformer Model for Biomedical Literature_ ```arXiv 2021```     
 [[Paper](https://arxiv.org/abs/2106.03598)] [[GitHub](https://github.com/justinphan3110/SciFive)] [[Model (220M)](https://huggingface.co/razent/SciFive-base-Pubmed_PMC)] [[Model (770M)](https://huggingface.co/razent/SciFive-large-Pubmed_PMC)]
 
 - **(BioALBERT)** _Benchmarking for Biomedical Natural Language Processing Tasks with a Domain Specific ALBERT_ ```BMC Bioinformatics 2022```     
 [[Paper](https://arxiv.org/abs/2107.04374)] [[GitHub](https://github.com/usmaann/BioALBERT)] [[Model (12M)](https://drive.google.com/file/d/1SIBd_-GETHhMiZ7BgMdDPEUDjOjtN_bH/view)] [[Model (18M)](https://drive.google.com/file/d/16KRtHf8Meze2Hcc4vK_GUNhG-9LY6_6P/view)]
 
-- **(Clinical-Longformer)** _Clinical-Longformer and Clinical-BigBird: Transformers for Long Clinical Sequences_ ```arXiv 2021```     
+- **(Clinical-Longformer)** _Clinical-Longformer and Clinical-BigBird: Transformers for Long Clinical Sequences_ ```arXiv 2022```     
 [[Paper](https://arxiv.org/abs/2201.11838)] [[GitHub](https://github.com/luoyuanlab/Clinical-Longformer)] [[Model (149M, Longformer)](https://huggingface.co/yikuan8/Clinical-Longformer)] [[Model (Base, BigBird)](https://huggingface.co/yikuan8/Clinical-BigBird)]
 
 - **(BioBART)** _BioBART: Pretraining and Evaluation of A Biomedical Generative Language Model_ ```ACL 2022 Workshop```     
@@ -565,17 +568,14 @@ Systematic Survey_](https://arxiv.org/abs/2110.05006) when writing some parts of
 - **(BiMediX)** _BiMediX: Bilingual Medical Mixture of Experts LLM_ ```arXiv 2024```     
 [[Paper](https://arxiv.org/abs/2402.13253)] [[GitHub](https://github.com/mbzuai-oryx/BiMediX)] [[Model (8x7B)](https://huggingface.co/BiMediX/BiMediX-Bi)]
 
-- **(BioMedLM, f.k.a. PubMedGPT)** _BioMedLM: a Domain-Specific Large Language Model for Biomedical Text_ ```arXiv 2024```     
+- **(BioMedLM, f.k.a. PubMedGPT)** _BioMedLM: A 2.7B Parameter Language Model Trained On Biomedical Text_ ```arXiv 2024```     
 [[Paper](https://arxiv.org/abs/2403.18421)] [[GitHub](https://github.com/stanford-crfm/BioMedLM)] [[Model (2.7B)](https://huggingface.co/stanford-crfm/BioMedLM)]
 
 - **(Hippocrates)** _Hippocrates: An Open-Source Framework for Advancing Large Language Models in Healthcare_ ```arXiv 2024```     
 [[Paper](https://arxiv.org/abs/2404.16621)] [[Model (7B, LLaMA-2)](https://huggingface.co/emrecanacikgoz/hippollama)] [[Model (7B, Mistral)](https://huggingface.co/emrecanacikgoz/hippomistral)]
 
 - **(BMRetriever)** _BMRetriever: Tuning Large Language Models as Better Biomedical Text Retrievers_ ```arXiv 2024```     
-[[Paper](https://arxiv.org/abs/2404.18443)] [[GitHub](https://github.com/ritaranx/BMRetriever)] [[Model (410M)](https://huggingface.co/BMRetriever/BMRetriever-410M)] [[Model (1B)](https://huggingface.co/BMRetriever/BMRetriever-1B)] [[Model (2B)](https://huggingface.co/BMRetriever/BMRetriever-2B)] [[Model (7B)](https://huggingface.co/BMRetriever/BMRetriever-7B)]
-
-- **(Med-Gemini)** _Capabilities of Gemini Models in Medicine_ ```arXiv 2024```     
-[[Paper](https://arxiv.org/abs/2404.18416)]
+[[Paper](https://arxiv.org/abs/2404.18443)] [[GitHub](https://github.com/ritaranx/BMRetriever)] [[Model (410M, Pythia)](https://huggingface.co/BMRetriever/BMRetriever-410M)] [[Model (1B, Pythia)](https://huggingface.co/BMRetriever/BMRetriever-1B)] [[Model (2B, Gemma)](https://huggingface.co/BMRetriever/BMRetriever-2B)] [[Model (7B, Mistral)](https://huggingface.co/BMRetriever/BMRetriever-7B)]
 
 
 <h3 id="biology-language-graph">Language + Graph</h3>
@@ -585,9 +585,6 @@ Systematic Survey_](https://arxiv.org/abs/2110.05006) when writing some parts of
 
 - **(CODER)** _CODER: Knowledge Infused Cross-Lingual Medical Term Embedding for Term Normalization_ ```JBI 2022```     
 [[Paper](https://arxiv.org/abs/2011.02947)] [[GitHub](https://github.com/GanjinZero/CODER)] [[Model (Base)](https://huggingface.co/GanjinZero/coder_eng)]
-
-- **(KeBioLM)** _Improving Biomedical Pretrained Language Models with Knowledge_ ```NAACL 2021 Workshop```     
-[[Paper](https://arxiv.org/abs/2104.10344)] [[GitHub](https://github.com/GanjinZero/KeBioLM)] [[Model (155M)](https://drive.google.com/file/d/1kMbTsc9rPpBc-6ezEHjMbQLljW3SUWG9/edit)]
 
 - **(MoP)** _Mixture-of-Partitions: Infusing Large Biomedical Knowledge Graphs into BERT_ ```EMNLP 2021```     
 [[Paper](https://arxiv.org/abs/2109.04810)] [[GitHub](https://github.com/cambridgeltl/mop)]
@@ -603,6 +600,9 @@ Systematic Survey_](https://arxiv.org/abs/2110.05006) when writing some parts of
 
 - **(ConVIRT)** _Contrastive Learning of Medical Visual Representations from Paired Images and Text_ ```MLHC 2022```     
 [[Paper](https://arxiv.org/abs/2010.00747)] [[GitHub](https://github.com/yuhaozhang/convirt)]
+
+- **(MMBERT)** _MMBERT: Multimodal BERT Pretraining for Improved Medical VQA_ ```ISBI 2021```     
+[[Paper](https://arxiv.org/abs/2104.01394)] [[GitHub](https://github.com/VirajBagal/MMBERT)]
 
 - **(MedViLL)** _Multi-modal Understanding and Generation for Medical Images and Text via Vision-Language Pre-training_ ```JBHI 2022```     
 [[Paper](https://arxiv.org/abs/2105.11333)] [[GitHub](https://github.com/SuperSupermoon/MedViLL)]
@@ -643,20 +643,62 @@ Systematic Survey_](https://arxiv.org/abs/2110.05006) when writing some parts of
 - **(BiomedCLIP)** _BiomedCLIP: A Multimodal Biomedical Foundation Model Pretrained from Fifteen Million Scientific Image-Text Pairs_ ```arXiv 2023```     
 [[Paper](https://arxiv.org/abs/2303.00915)] [[Model](https://huggingface.co/microsoft/BiomedCLIP-PubMedBERT_256-vit_base_patch16_224)]
 
+- **(PMC-CLIP)** _PMC-CLIP: Contrastive Language-Image Pre-training using Biomedical Documents_ ```MICCAI 2023```     
+[[Paper](https://arxiv.org/abs/2303.07240)] [[GitHub](https://github.com/WeixiongLin/PMC-CLIP)]
+
+- **(Xplainer)** _Xplainer: From X-Ray Observations to Explainable Zero-Shot Diagnosis_ ```MICCAI 2023```     
+[[Paper](https://arxiv.org/abs/2303.13391)] [[GitHub](https://github.com/ChantalMP/Xplainer)]
+
 - **(RGRG)** _Interactive and Explainable Region-guided Radiology Report Generation_ ```CVPR 2023```     
 [[Paper](https://arxiv.org/abs/2304.08295)] [[GitHub](https://github.com/ttanida/rgrg)]
 
 - **(LLaVA-Med)** _LLaVA-Med: Training a Large Language-and-Vision Assistant for Biomedicine in One Day_ ```NeurIPS 2023```     
 [[Paper](https://arxiv.org/abs/2306.00890)] [[GitHub](https://github.com/microsoft/LLaVA-Med)]
 
+- **(XrayGPT)** _XrayGPT: Chest Radiographs Summarization using Medical Vision-Language Models_ ```arXiv 2023```     
+[[Paper](https://arxiv.org/abs/2306.07971)] [[GitHub](https://github.com/mbzuai-oryx/XrayGPT)]
+
 - **(MONET)** _Transparent Medical Image AI via an Image–Text Foundation Model Grounded in Medical Literature_ ```Nature Medicine 2024```     
 [[Paper](https://www.medrxiv.org/content/10.1101/2023.06.07.23291119)] [[GitHub](https://github.com/suinleelab/MONET)]
+
+- **(MUMC)** _Masked Vision and Language Pre-training with Unimodal and Multimodal Contrastive Losses for Medical Visual Question Answering_ ```MICCAI 2023```     
+[[Paper](https://arxiv.org/abs/2307.05314)] [[GitHub](https://github.com/pengfeiliHEU/MUMC)]
+
+- **(QuiltNet)** _Quilt-1M: One Million Image-Text Pairs for Histopathology_ ```NeurIPS 2023```     
+[[Paper](https://arxiv.org/abs/2306.11207)] [[GitHub](https://github.com/wisdomikezogwo/quilt1m)]
+
+- **(M-FLAG)** _M-FLAG: Medical Vision-Language Pre-training with Frozen Language Models and Latent Space Geometry Optimization_ ```MICCAI 2023```     
+[[Paper](https://arxiv.org/abs/2307.08347)] [[GitHub](https://github.com/cheliu-computation/M-FLAG-MICCAI2023)]
+
+- **(PRIOR)** _PRIOR: Prototype Representation Joint Learning from Medical Images and Reports_ ```ICCV 2023```     
+[[Paper](https://arxiv.org/abs/2307.12577)] [[GitHub](https://github.com/QtacierP/PRIOR)]
 
 - **(Med-PaLM M)** _Towards Generalist Biomedical AI_ ```NEJM AI 2024```     
 [[Paper](https://arxiv.org/abs/2307.14334)] [[GitHub](https://github.com/kyegomez/Med-PaLM)]
 
+- **(CITE)** _Text-Guided Foundation Model Adaptation for Pathological Image Classification_ ```MICCAI 2023```     
+[[Paper](https://arxiv.org/abs/2307.14901)] [[GitHub](https://github.com/openmedlab/CITE)]
+
+- **(Med-Flamingo)** _Med-Flamingo: A Multimodal Medical Few-shot Learner_ ```ML4H 2023```     
+[[Paper](https://arxiv.org/abs/2307.15189)] [[GitHub](https://github.com/snap-stanford/med-flamingo)]
+
+- **(PLIP)** _A Visual–Language Foundation Model for Pathology Image Analysis using Medical Twitter_ ```Nature Medicine 2023```     
+[[Paper](https://www.nature.com/articles/s41591-023-02504-3)] [[GitHub](https://github.com/PathologyFoundation/plip)]
+
+- **(MaCo)** _Enhancing Representation in Radiography-Reports Foundation Model: A Granular Alignment Algorithm Using Masked Contrastive Learning_ ```arXiv 2023```     
+[[Paper](https://arxiv.org/abs/2309.05904)] [[GitHub](https://github.com/SZUHvern/MaCo)]
+
+- **(CXR-CLIP)** _CXR-CLIP: Toward Large Scale Chest X-ray Language-Image Pre-training_ ```MICCAI 2023```     
+[[Paper](https://arxiv.org/abs/2310.13292)] [[GitHub](https://github.com/kakaobrain/cxr-clip)]
+
+- **(Qilin-Med-VL)** _Qilin-Med-VL: Towards Chinese Large Vision-Language Model for General Healthcare_ ```arXiv 2023```     
+[[Paper](https://arxiv.org/abs/2310.17956)] [[GitHub](https://github.com/williamliujl/Qilin-Med-VL)] [[Model](https://huggingface.co/williamliu/Qilin-Med-VL)]
+
 - **(BioCLIP)** _BioCLIP: A Vision Foundation Model for the Tree of Life_ ```arXiv 2023```    
 [[Paper](https://arxiv.org/abs/2311.18803)] [[Github](https://github.com/Imageomics/BioCLIP)] [[Model](https://huggingface.co/imageomics/bioclip)]
+
+- **(Med-Gemini)** _Capabilities of Gemini Models in Medicine_ ```arXiv 2024```     
+[[Paper](https://arxiv.org/abs/2404.18416)]
 
 - **(Med-Gemini-2D/3D/Polygenic)** _Advancing Multimodal Medical Capabilities of Gemini_ ```arXiv 2024```     
 [[Paper](https://arxiv.org/abs/2405.03162)]
@@ -699,6 +741,9 @@ Systematic Survey_](https://arxiv.org/abs/2110.05006) when writing some parts of
 
 - **(LM-Design)** _Structure-informed Language Models Are Protein Designers_ ```ICML 2023```     
 [[Paper](https://arxiv.org/abs/2302.01649)] [[GitHub](https://github.com/BytedProtein/ByProt)] [[Model (650M)](https://zenodo.org/records/10046338/files/lm_design_esm2_650m.zip)]
+
+- **(ProteinDT)** _A Text-Guided Protein Design Framework_ ```arXiv 2023```     
+[[Paper](https://arxiv.org/abs/2302.04611)] [[GitHub](https://github.com/chao1224/ProteinDT)]
 
 - **(Prot2Text)** _Prot2Text: Multimodal Protein's Function Generation with GNNs and Transformers_ ```AAAI 2024```     
 [[Paper](https://arxiv.org/abs/2307.14367)] [[GitHub](https://github.com/hadi-abdine/Prot2Text)] [[Model (256M)](https://1drv.ms/u/s!AhcBGHWGY2mukdh4KujJfOJ_PxvJog?e=C6x4E6)] [[Model (283M)](https://1drv.ms/u/s!AhcBGHWGY2mukdh1N1kfnmXBEar-Tw?e=fACWFt)] [[Model (398M)](https://1drv.ms/u/s!AhcBGHWGY2mukdh3yPy98rqWfYcTJA?e=ot1SX6)] [[Model (898M)](https://1drv.ms/u/s!AhcBGHWGY2mukdh2EL4iP_IoVKu1tg?e=PioL6B)]
@@ -751,7 +796,7 @@ Systematic Survey_](https://arxiv.org/abs/2110.05006) when writing some parts of
 - **(scBERT)** _scBERT as a Large-scale Pretrained Deep Language Model for Cell Type Annotation of Single-cell RNA-seq Data_ ```Nature Machine Intelligence 2022```     
 [[Paper](https://www.biorxiv.org/content/10.1101/2021.12.05.471261)] [[GitHub](https://github.com/TencentAILabHealthcare/scBERT)]
 
-- **(scGPT)** _scGPT: Towards Building a Foundation Model for Single-Cell Multi-omics Using Generative AI_ ```Nature Methods 2024```     
+- **(scGPT)** _scGPT: Towards Building a Foundation Model for Single-Cell Multi-omics using Generative AI_ ```Nature Methods 2024```     
 [[Paper](https://www.biorxiv.org/content/10.1101/2023.04.30.538439)] [[GitHub](https://github.com/bowang-lab/scGPT)]
 
 - **(scFoundation)** _Large Scale Foundation Model on Single-cell Transcriptomics_ ```bioRxiv 2023```     
