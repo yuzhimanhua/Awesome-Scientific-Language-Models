@@ -2,7 +2,7 @@
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 [![Stars](https://img.shields.io/github/stars/yuzhimanhua/Awesome-Scientific-Language-Models?style=social)](https://img.shields.io/github/stars/yuzhimanhua/Awesome-Scientific-Language-Models?style=social)
 
-[![Papers](https://img.shields.io/badge/PaperNumber-226-blue)](https://img.shields.io/badge/PaperNumber-226-blue)
+[![Papers](https://img.shields.io/badge/PaperNumber-233-blue)](https://img.shields.io/badge/PaperNumber-233-blue)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![PRWelcome](https://img.shields.io/badge/PRs-Welcome-red)](https://img.shields.io/badge/PRs-Welcome-red)
 
@@ -499,6 +499,9 @@ Systematic Survey_](https://arxiv.org/abs/2110.05006) when writing some parts of
 - **(Med-PaLM)** _Large Language Models Encode Clinical Knowledge_ ```Nature 2023```     
 [[Paper](https://arxiv.org/abs/2212.13138)]
 
+- **(GatorTron)** _A Large Language Model for Electronic Health Records_ ```npj Digital Medicine 2022```     
+[[Paper](https://www.nature.com/articles/s41746-022-00742-2)] [[GitHub](https://github.com/uf-hobi-informatics-lab/GatorTron)] [[Model (345M)](https://huggingface.co/UFNLP/gatortron-base)] [[Model (3.9B)](https://huggingface.co/UFNLP/gatortron-medium)] [[Model (8.9B)](https://huggingface.co/UFNLP/gatortron-large)]
+
 - **(ChatDoctor)** _ChatDoctor: A Medical Chat Model Fine-Tuned on a Large Language Model Meta-AI (LLaMA) using Medical Domain Knowledge_ ```Cureus 2023```     
 [[Paper](https://arxiv.org/abs/2303.14070)] [[GitHub](https://github.com/Kent0n-Li/ChatDoctor)]
 
@@ -511,14 +514,11 @@ Systematic Survey_](https://arxiv.org/abs/2110.05006) when writing some parts of
 - **(MedAlpaca)** _MedAlpaca - An Open-Source Collection of Medical Conversational AI Models and Training Data_ ```arXiv 2023```     
 [[Paper](https://arxiv.org/abs/2304.08247)] [[GitHub](https://github.com/kbressem/medAlpaca)] [[Model (7B)](https://huggingface.co/medalpaca/medalpaca-7b)] [[Model (13B)](https://huggingface.co/medalpaca/medalpaca-13b)]
 
-- **(PMC-LLaMA)** _PMC-LLaMA: Towards Building Open-source Language Models for Medicine_ ```arXiv 2023```     
+- **(PMC-LLaMA)** _PMC-LLaMA: Towards Building Open-source Language Models for Medicine_ ```JAMIA 2024```     
 [[Paper](https://arxiv.org/abs/2304.14454)] [[GitHub](https://github.com/chaoyi-wu/PMC-LLaMA)] [[Model (7B)](https://huggingface.co/chaoyi-wu/PMC_LLAMA_7B)] [[Model (13B)](https://huggingface.co/axiong/PMC_LLaMA_13B)]
 
 - **(Med-PaLM 2)** _Towards Expert-Level Medical Question Answering with Large Language Models_ ```arXiv 2023```     
 [[Paper](https://arxiv.org/abs/2305.09617)]
-
-- **(GatorTronGPT)** _A Study of Generative Large Language Model for Medical Research and Healthcare_ ```arXiv 2023```     
-[[Paper](https://arxiv.org/abs/2305.13523)] [[GitHub](https://github.com/uf-hobi-informatics-lab/GatorTronGPT)] [[Model (345M)](https://huggingface.co/UFNLP/gatortronS)]
 
 - **(HuatuoGPT)** _HuatuoGPT, towards Taming Language Model to Be a Doctor_ ```EMNLP 2023 Findings```     
 [[Paper](https://arxiv.org/abs/2305.15075)] [[GitHub](https://github.com/FreedomIntelligence/HuatuoGPT)] [[Model (7B)](https://huggingface.co/FreedomIntelligence/HuatuoGPT-7B)] [[Model (13B)](https://huggingface.co/FreedomIntelligence/HuatuoGPT-13b-delta)]
@@ -526,17 +526,29 @@ Systematic Survey_](https://arxiv.org/abs/2110.05006) when writing some parts of
 - **(MedCPT)** _MedCPT: Contrastive Pre-trained Transformers with Large-scale PubMed Search Logs for Zero-shot Biomedical Information Retrieval_ ```Bioinformatics 2023```     
 [[Paper](https://arxiv.org/abs/2307.00589)] [[GitHub](https://github.com/ncbi/MedCPT)] [[Model (Base)](https://huggingface.co/ncbi/MedCPT-Query-Encoder)]
 
+- **(Zhongjing)** _Zhongjing: Enhancing the Chinese Medical Capabilities of Large Language Model through Expert Feedback and Real-world Multi-turn Dialogue_ ```AAAI 2024```     
+[[Paper](https://arxiv.org/abs/2308.03549)] [[GitHub](https://github.com/SupritYoung/Zhongjing)] [[Model (13B)](https://huggingface.co/Suprit/Zhongjing-LLaMA-base)]
+
 - **(DISC-MedLLM)** _DISC-MedLLM: Bridging General Large Language Models and Real-World Medical Consultation_ ```arXiv 2023```     
 [[Paper](https://arxiv.org/abs/2308.14346)] [[GitHub](https://github.com/FudanDISC/DISC-MedLLM)] [[Model (13B)](https://huggingface.co/Flmc/DISC-MedLLM)]
 
 - **(DRG-LLaMA)** _DRG-LLaMA: Tuning LLaMA Model to Predict Diagnosis-related Group for Hospitalized Patients_ ```npj Digital Medicine 2024```     
 [[Paper](https://arxiv.org/abs/2309.12625)] [[GitHub](https://github.com/hanyin88/DRG-LLaMA)]
 
-- **(BioT5)** _BioT5: Enriching Cross-modal Integration in Biology with Chemical Knowledge and Natural Language Associations_ ```EMNLP 2023```     
-[[Paper](https://arxiv.org/abs/2310.07276)] [[GitHub](https://github.com/QizhiPei/BioT5)] [[Model (220M)](https://huggingface.co/QizhiPei/biot5-base)]
+- **(Qilin-Med)** _Qilin-Med: Multi-stage Knowledge Injection Advanced Medical Large Language Model_ ```arXiv 2023```     
+[[Paper](https://arxiv.org/abs/2310.09089)] [[GitHub](https://github.com/williamliujl/Qilin-Med)]
+
+- **(AlpaCare)** _AlpaCare: Instruction-tuned Large Language Models for Medical Application_ ```arXiv 2023```     
+[[Paper](https://arxiv.org/abs/2310.14558)] [[GitHub](https://github.com/XZhang97666/AlpaCare)] [[Model (7B, LLaMA)](https://huggingface.co/xz97/AlpaCare-llama1-7b)] [[Model (7B, LLaMA-2)](https://huggingface.co/xz97/AlpaCare-llama2-7b)] [[Model (13B, LLaMA)](https://huggingface.co/xz97/AlpaCare-llama-13b)] [[Model (13B, LLaMA-2)](https://huggingface.co/xz97/AlpaCare-llama2-13b)]
+
+- **(BianQue)** _BianQue: Balancing the Questioning and Suggestion Ability of Health LLMs with Multi-turn Health Conversations Polished by ChatGPT_ ```arXiv 2023```     
+[[Paper](https://arxiv.org/abs/2310.15896)] [[GitHub](https://github.com/scutcyr/BianQue)] [[Model (6B)](https://huggingface.co/scutcyr/BianQue-1.0)]
 
 - **(HuatuoGPT-II)** _HuatuoGPT-II, One-stage Training for Medical Adaption of LLMs_ ```arXiv 2023```     
 [[Paper](https://arxiv.org/abs/2311.09774)] [[GitHub](https://github.com/FreedomIntelligence/HuatuoGPT-II)] [[Model (7B)](https://huggingface.co/FreedomIntelligence/HuatuoGPT2-7B)] [[Model (13B)](https://huggingface.co/FreedomIntelligence/HuatuoGPT2-13B)] [[Model (34B)](https://huggingface.co/FreedomIntelligence/HuatuoGPT2-34B)]
+
+- **(Taiyi)** _Taiyi: A Bilingual Fine-Tuned Large Language Model for Diverse Biomedical Tasks_ ```JAMIA 2024```     
+[[Paper](https://arxiv.org/abs/2311.11608)] [[GitHub](https://github.com/DUTIR-BioNLP/Taiyi-LLM)] [[Model (7B)](https://huggingface.co/DUTIR-BioNLP/Taiyi-LLM)]
 
 - **(MEDITRON)** _MEDITRON-70B: Scaling Medical Pretraining for Large Language Models_ ```arXiv 2023```     
 [[Paper](https://arxiv.org/abs/2311.16079)] [[GitHub](https://github.com/epfLLM/megatron-LLM)] [[Model (7B)](https://huggingface.co/epfl-llm/meditron-7b)] [[Model (70B)](https://huggingface.co/epfl-llm/meditron-70b)]
@@ -546,6 +558,12 @@ Systematic Survey_](https://arxiv.org/abs/2110.05006) when writing some parts of
 
 - **(BioMistral)** _BioMistral: A Collection of Open-Source Pretrained Large Language Models for Medical Domains_ ```arXiv 2024```     
 [[Paper](https://arxiv.org/abs/2402.10373)] [[Model (7B)](https://huggingface.co/BioMistral/BioMistral-7B)]
+
+- **(Me LLaMA)** _Me LLaMA: Foundation Large Language Models for Medical Applications_ ```arXiv 2024```     
+[[Paper](https://arxiv.org/abs/2402.12749)] [[GitHub](https://github.com/BIDS-Xu-Lab/Me-LLaMA)]
+
+- **(BiMediX)** _BiMediX: Bilingual Medical Mixture of Experts LLM_ ```arXiv 2024```     
+[[Paper](https://arxiv.org/abs/2402.13253)] [[GitHub](https://github.com/mbzuai-oryx/BiMediX)] [[Model (8x7B)](https://huggingface.co/BiMediX/BiMediX-Bi)]
 
 - **(BioMedLM, f.k.a. PubMedGPT)** _BioMedLM: a Domain-Specific Large Language Model for Biomedical Text_ ```arXiv 2024```     
 [[Paper](https://arxiv.org/abs/2403.18421)] [[GitHub](https://github.com/stanford-crfm/BioMedLM)] [[Model (2.7B)](https://huggingface.co/stanford-crfm/BioMedLM)]
@@ -687,6 +705,9 @@ Systematic Survey_](https://arxiv.org/abs/2110.05006) when writing some parts of
 
 - **(SaProt)** _SaProt: Protein Language Modeling with Structure-Aware Vocabulary_ ```ICLR 2024```     
 [[Paper](https://www.biorxiv.org/content/10.1101/2023.10.01.560349)] [[GitHub](https://github.com/westlake-repl/SaProt)] [[Model (35M)](https://huggingface.co/westlake-repl/SaProt_35M_AF2)] [[Model (650M)](https://huggingface.co/westlake-repl/SaProt_650M_AF2)]
+
+- **(BioT5)** _BioT5: Enriching Cross-modal Integration in Biology with Chemical Knowledge and Natural Language Associations_ ```EMNLP 2023```     
+[[Paper](https://arxiv.org/abs/2310.07276)] [[GitHub](https://github.com/QizhiPei/BioT5)] [[Model (220M)](https://huggingface.co/QizhiPei/biot5-base)]
 
 
 <h3 id="biology-other-modalities-dna">Other Modalities (DNA)</h3>
