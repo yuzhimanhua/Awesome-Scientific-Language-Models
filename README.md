@@ -2,7 +2,7 @@
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 [![Stars](https://img.shields.io/github/stars/yuzhimanhua/Awesome-Scientific-Language-Models?style=social)](https://img.shields.io/github/stars/yuzhimanhua/Awesome-Scientific-Language-Models?style=social)
 
-[![Papers](https://img.shields.io/badge/PaperNumber-252-blue)](https://img.shields.io/badge/PaperNumber-252-blue)
+[![Papers](https://img.shields.io/badge/PaperNumber-250-blue)](https://img.shields.io/badge/PaperNumber-250-blue)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![PRWelcome](https://img.shields.io/badge/PRs-Welcome-red)](https://img.shields.io/badge/PRs-Welcome-red)
 
@@ -613,14 +613,8 @@ Systematic Survey_](https://arxiv.org/abs/2110.05006) when writing some parts of
 - **(LoVT)** _Joint Learning of Localized Representations from Medical Images and Reports_ ```ECCV 2022```     
 [[Paper](https://arxiv.org/abs/2112.02889)] [[GitHub](https://github.com/philip-mueller/lovt)]
 
-- **(CvT2DistilGPT2)** _Improving Chest X-Ray Report Generation by Leveraging Warm Starting_ ```Artificial Intelligence in Medicine 2023```     
-[[Paper](https://arxiv.org/abs/2201.09405)] [[GitHub](https://github.com/aehrc/cvt2distilgpt2)]
-
 - **(BioViL)** _Making the Most of Text Semantics to Improve Biomedical Vision-Language Processing_ ```ECCV 2022```     
 [[Paper](https://arxiv.org/abs/2204.09817)] [[GitHub](https://github.com/microsoft/hi-ml/tree/main/hi-ml-multimodal)]
-
-- **(LViT)** _LViT: Language meets Vision Transformer in Medical Image Segmentation_ ```TMI 2022```     
-[[Paper](https://arxiv.org/abs/2206.14718)] [[GitHub](https://github.com/HUANGLIZI/LViT)]
 
 - **(M3AE)** _Multi-Modal Masked Autoencoders for Medical Vision-and-Language Pre-training_ ```MICCAI 2022```     
 [[Paper](https://arxiv.org/abs/2209.07098)] [[GitHub](https://github.com/zhjohnchan/M3AE)]
