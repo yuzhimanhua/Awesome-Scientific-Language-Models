@@ -2,7 +2,7 @@
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 [![Stars](https://img.shields.io/github/stars/yuzhimanhua/Awesome-Scientific-Language-Models?style=social)](https://img.shields.io/github/stars/yuzhimanhua/Awesome-Scientific-Language-Models?style=social)
 
-[![Papers](https://img.shields.io/badge/PaperNumber-250-blue)](https://img.shields.io/badge/PaperNumber-250-blue)
+[![Papers](https://img.shields.io/badge/PaperNumber-256-blue)](https://img.shields.io/badge/PaperNumber-256-blue)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![PRWelcome](https://img.shields.io/badge/PRs-Welcome-red)](https://img.shields.io/badge/PRs-Welcome-red)
 
@@ -194,7 +194,7 @@ A curated list of pre-trained language models in scientific domains (e.g., **mat
 [[Paper](https://aclanthology.org/2023.emnlp-main.440)] [[GitHub](https://github.com/Zhenwen-NLP/UniMath)]
 
 - **(G-LLaVA)** _G-LLaVA: Solving Geometric Problem with Multi-Modal Large Language Model_ ```arXiv 2023```     
-[[Paper](https://arxiv.org/abs/2312.11370)] [[GitHub](https://github.com/pipilurj/G-LLaVA)]
+[[Paper](https://arxiv.org/abs/2312.11370)] [[GitHub](https://github.com/pipilurj/G-LLaVA)] [[Model (7B)](https://huggingface.co/renjiepi/G-LLaVA-7B)] [[Model (13B)](https://huggingface.co/renjiepi/G-LLaVA-13B)]
 
 
 <h3 id="mathematics-other-modalities-table">Other Modalities (Table)</h3>
@@ -650,7 +650,7 @@ Systematic Survey_](https://arxiv.org/abs/2110.05006) when writing some parts of
 [[Paper](https://arxiv.org/abs/2305.19894)] [[GitHub](https://github.com/SUSTechBruce/Med-UniC)]
 
 - **(LLaVA-Med)** _LLaVA-Med: Training a Large Language-and-Vision Assistant for Biomedicine in One Day_ ```NeurIPS 2023```     
-[[Paper](https://arxiv.org/abs/2306.00890)] [[GitHub](https://github.com/microsoft/LLaVA-Med)]
+[[Paper](https://arxiv.org/abs/2306.00890)] [[GitHub](https://github.com/microsoft/LLaVA-Med)] [[Model (7B)](https://huggingface.co/microsoft/llava-med-v1.5-mistral-7b)]
 
 - **(MI-Zero)** _Visual Language Pretrained Multiple Instance Zero-Shot Transfer for Histopathology Images_ ```CVPR 2023```     
 [[Paper](https://arxiv.org/abs/2306.07831)] [[GitHub](https://github.com/mahmoodlab/MI-Zero)]
@@ -715,11 +715,17 @@ Systematic Survey_](https://arxiv.org/abs/2110.05006) when writing some parts of
 - **(ProtTrans)** _ProtTrans: Towards Cracking the Language of Life's Code Through Self-Supervised Deep Learning and High Performance Computing_ ```TPAMI 2021```     
 [[Paper](https://arxiv.org/abs/2007.06225)] [[GitHub](https://github.com/agemagician/ProtTrans)] [[Model (Base, BERT)](https://huggingface.co/Rostlab/prot_bert)] [[Model (12M, ALBERT)](https://huggingface.co/Rostlab/prot_albert)] [[Model (Base, XLNet)](https://huggingface.co/Rostlab/prot_xlnet)] [[Model (3B, T5)](https://huggingface.co/Rostlab/prot_t5_xl_uniref50)] [[Model (11B, T5)](https://huggingface.co/Rostlab/prot_t5_xxl_uniref50)]
 
+- **(MSA Transformer)** _MSA Transformer_ ```ICML 2021```     
+[[Paper](https://www.biorxiv.org/content/10.1101/2021.02.12.430858)] [[GitHub](https://github.com/rmrao/msa-transformer)]
+
 - **(ESM-1b)** _Biological Structure and Function Emerge from Scaling Unsupervised Learning to 250 Million Protein Sequences_ ```PNAS 2021```     
 [[Paper](https://www.pnas.org/doi/10.1073/pnas.2016239118)] [[GitHub](https://github.com/facebookresearch/esm)] [[Model (650M)](https://dl.fbaipublicfiles.com/fair-esm/models/esm1b_t33_650M_UR50S.pt)]
 
 - **(ESM-1v)** _Language Models Enable Zero-Shot Prediction of the Effects of Mutations on Protein Function_ ```NeurIPS 2021```     
 [[Paper](https://www.biorxiv.org/content/10.1101/2021.07.09.450648)] [[GitHub](https://github.com/facebookresearch/esm)] [[Model (650M)](https://dl.fbaipublicfiles.com/fair-esm/models/esm1v_t33_650M_UR90S_1.pt)]
+
+- **(AminoBERT)** _Single-Sequence Protein Structure Prediction using a Language Model and Deep Learning_ ```Nature Biotechnology 2022```     
+[[Paper](https://www.biorxiv.org/content/10.1101/2021.08.02.454840)] [[GitHub](https://github.com/aqlaboratory/rgn2)]
 
 - **(ProteinBERT)** _ProteinBERT: A Universal Deep-Learning Model of Protein Sequence and Function_ ```Bioinformatics 2022```     
 [[Paper](https://academic.oup.com/bioinformatics/article/38/8/2102/6502274)] [[GitHub](https://github.com/nadavbra/protein_bert)] [[Model (16M)](https://huggingface.co/GrimSqueaker/proteinBERT)]
@@ -784,6 +790,9 @@ Systematic Survey_](https://arxiv.org/abs/2110.05006) when writing some parts of
 - **(HyenaDNA)** _HyenaDNA: Long-Range Genomic Sequence Modeling at Single Nucleotide Resolution_ ```NeurIPS 2023```     
 [[Paper](https://arxiv.org/abs/2306.15794)] [[GitHub](https://github.com/HazyResearch/hyena-dna)] [[Model (0.4M)](https://huggingface.co/LongSafari/hyenadna-tiny-1k-seqlen-hf)] [[Model (3.3M)](https://huggingface.co/LongSafari/hyenadna-small-32k-seqlen-hf)] [[Model (6.6M)](https://huggingface.co/LongSafari/hyenadna-large-1m-seqlen-hf)]
 
+- **(DNAGPT)** _DNAGPT: A Generalized Pre-trained Tool for Versatile DNA Sequence Analysis Tasks_ ```arXiv 2023```     
+[[Paper](https://arxiv.org/abs/2307.05628)] [[GitHub](https://github.com/TencentAILabHealthcare/DNAGPT)] [[Model (0.1B)](https://drive.google.com/file/d/15m6CH3zaMSqflOaf6ec5VPfiulg-Gh0u/view)] [[Model (3B)](https://drive.google.com/file/d/1pQ3Ai7C-ObzKkKTRwuf6eshVneKHzYEg/view)]
+
 
 <h3 id="biology-other-modalities-rna">Other Modalities (RNA)</h3>
 
@@ -793,8 +802,17 @@ Systematic Survey_](https://arxiv.org/abs/2110.05006) when writing some parts of
 - **(RNA-FM)** _Interpretable RNA Foundation Model from Unannotated Data for Highly Accurate RNA Structure and Function Predictions_ ```arXiv 2022```     
 [[Paper](https://arxiv.org/abs/2204.00300)] [[GitHub](https://github.com/ml4bio/RNA-FM)]
 
+- **(SpliceBERT)** _Self-Supervised Learning on Millions of Primary RNA Sequences from 72 Vertebrates Improves Sequence-Based RNA Splicing Prediction_ ```Briefings in Bioinformatics 2024```     
+[[Paper](https://www.biorxiv.org/content/10.1101/2023.01.31.526427)] [[GitHub](https://github.com/chenkenbio/SpliceBERT)] [[Model (19.4M)](https://zenodo.org/records/7995778)]
+
 - **(RNA-MSM)** _Multiple Sequence-Alignment-based RNA Language Model and its Application to Structural Inference_ ```Nucleic Acids Research 2024```     
 [[Paper](https://www.biorxiv.org/content/10.1101/2023.03.15.532863)] [[GitHub](https://github.com/yikunpku/RNA-MSM)]
+
+- **(CodonBERT)** _CodonBERT: Large Language Models for mRNA Design and Optimization_ ```bioRxiv 2023```     
+[[Paper](https://www.biorxiv.org/content/10.1101/2023.09.09.556981)] [[GitHub](https://github.com/Sanofi-Public/CodonBERT)]
+
+- **(UTR-LM)** _A 5' UTR Language Model for Decoding Untranslated Regions of mRNA and Function Predictions_ ```Nature Machine Intelligence 2024```     
+[[Paper](https://www.biorxiv.org/content/10.1101/2023.10.11.561938)] [[GitHub](https://github.com/a96123155/UTR-LM)]
 
 
 <h3 id="biology-other-modalities-multiomics">Other Modalities (Multiomics)</h3>
