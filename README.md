@@ -714,11 +714,11 @@ A curated list of pre-trained language models in scientific domains (e.g., **mat
 - **(ProtTrans)** _ProtTrans: Toward Understanding the Language of Life Through Self-Supervised Learning_ ```TPAMI 2021```     
 [[Paper](https://arxiv.org/abs/2007.06225)] [[GitHub](https://github.com/agemagician/ProtTrans)] [[Model (420M, BERT)](https://huggingface.co/Rostlab/prot_bert_bfd)] [[Model (224M, ALBERT)](https://huggingface.co/Rostlab/prot_albert)] [[Model (409M, XLNet)](https://huggingface.co/Rostlab/prot_xlnet)] [[Model (420M, ELECTRA)](https://huggingface.co/Rostlab/prot_electra_generator_bfd)] [[Model (3B, T5)](https://huggingface.co/Rostlab/prot_t5_xl_bfd)] [[Model (11B, T5)](https://huggingface.co/Rostlab/prot_t5_xxl_bfd)]
 
+- **(ESM-1b)** _Biological Structure and Function Emerge from Scaling Unsupervised Learning to 250 Million Protein Sequences_ ```PNAS 2021```     
+[[Paper](https://www.biorxiv.org/content/10.1101/622803)] [[GitHub](https://github.com/facebookresearch/esm)] [[Model (650M)](https://dl.fbaipublicfiles.com/fair-esm/models/esm1b_t33_650M_UR50S.pt)]
+
 - **(MSA Transformer)** _MSA Transformer_ ```ICML 2021```     
 [[Paper](https://www.biorxiv.org/content/10.1101/2021.02.12.430858)] [[GitHub](https://github.com/rmrao/msa-transformer)]
-
-- **(ESM-1b)** _Biological Structure and Function Emerge from Scaling Unsupervised Learning to 250 Million Protein Sequences_ ```PNAS 2021```     
-[[Paper](https://www.pnas.org/doi/10.1073/pnas.2016239118)] [[GitHub](https://github.com/facebookresearch/esm)] [[Model (650M)](https://dl.fbaipublicfiles.com/fair-esm/models/esm1b_t33_650M_UR50S.pt)]
 
 - **(ESM-1v)** _Language Models Enable Zero-Shot Prediction of the Effects of Mutations on Protein Function_ ```NeurIPS 2021```     
 [[Paper](https://www.biorxiv.org/content/10.1101/2021.07.09.450648)] [[GitHub](https://github.com/facebookresearch/esm)] [[Model (650M)](https://dl.fbaipublicfiles.com/fair-esm/models/esm1v_t33_650M_UR90S_1.pt)]
@@ -733,10 +733,10 @@ A curated list of pre-trained language models in scientific domains (e.g., **mat
 [[Paper](https://www.biorxiv.org/content/10.1101/2022.03.09.483666)] [[Model (738M)](https://huggingface.co/nferruz/ProtGPT2)]
 
 - **(ESM-IF1)** _Learning Inverse Folding from Millions of Predicted Structures_ ```ICML 2022```     
-[[Paper](https://www.biorxiv.org/content/10.1101/2022.04.10.487779)] [[GitHub](https://github.com/facebookresearch/esm)] [[Model (124M)](https://dl.fbaipublicfiles.com/fair-esm/models/esm_if1_gvp4_t16_142M_UR50.pt)]
+[[Paper](https://www.biorxiv.org/content/10.1101/2022.04.10.487779)] [[GitHub](https://github.com/facebookresearch/esm)] [[Model (142M)](https://dl.fbaipublicfiles.com/fair-esm/models/esm_if1_gvp4_t16_142M_UR50.pt)]
 
 - **(ProGen)** _Large Language Models Generate Functional Protein Sequences across Diverse Families_ ```Nature Biotechnology 2023```     
-[[Paper](https://www.nature.com/articles/s41587-022-01618-2)] [[GitHub](https://github.com/salesforce/progen)]
+[[Paper](https://www.nature.com/articles/s41587-022-01618-2)] [[GitHub](https://github.com/salesforce/progen)] [[Model (1.6B)](https://zenodo.org/records/7309036)]
 
 - **(ProGen2)** _ProGen2: Exploring the Boundaries of Protein Language Models_ ```Cell Systems 2023```     
 [[Paper](https://arxiv.org/abs/2206.13517)] [[GitHub](https://github.com/salesforce/progen)] [[Model (151M)](https://storage.googleapis.com/sfr-progen-research/checkpoints/progen2-small.tar.gz)] [[Model (764M)](https://storage.googleapis.com/sfr-progen-research/checkpoints/progen2-base.tar.gz)] [[Model (2.7B)](https://storage.googleapis.com/sfr-progen-research/checkpoints/progen2-large.tar.gz)] [[Model (6.4B)](https://storage.googleapis.com/sfr-progen-research/checkpoints/progen2-xlarge.tar.gz)]
@@ -751,7 +751,7 @@ A curated list of pre-trained language models in scientific domains (e.g., **mat
 [[Paper](https://arxiv.org/abs/2301.12040)] [[GitHub](https://github.com/DeepGraphLearning/ProtST)]
 
 - **(LM-Design)** _Structure-informed Language Models Are Protein Designers_ ```ICML 2023```     
-[[Paper](https://arxiv.org/abs/2302.01649)] [[GitHub](https://github.com/BytedProtein/ByProt)] [[Model (650M)](https://zenodo.org/records/10046338/files/lm_design_esm2_650m.zip)]
+[[Paper](https://arxiv.org/abs/2302.01649)] [[GitHub](https://github.com/BytedProtein/ByProt)] [[Model (659M)](https://zenodo.org/records/10046338/files/lm_design_esm2_650m.zip)]
 
 - **(ProteinDT)** _A Text-Guided Protein Design Framework_ ```arXiv 2023```     
 [[Paper](https://arxiv.org/abs/2302.04611)] [[GitHub](https://github.com/chao1224/ProteinDT)]
