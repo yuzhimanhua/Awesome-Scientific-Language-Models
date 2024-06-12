@@ -2,11 +2,11 @@
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 [![Stars](https://img.shields.io/github/stars/yuzhimanhua/Awesome-Scientific-Language-Models?style=social)](https://img.shields.io/github/stars/yuzhimanhua/Awesome-Scientific-Language-Models?style=social)
 
-[![Papers](https://img.shields.io/badge/PaperNumber-256-blue)](https://img.shields.io/badge/PaperNumber-256-blue)
+[![Papers](https://img.shields.io/badge/PaperNumber-257-blue)](https://img.shields.io/badge/PaperNumber-257-blue)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![PRWelcome](https://img.shields.io/badge/PRs-Welcome-red)](https://img.shields.io/badge/PRs-Welcome-red)
 
-A curated list of pre-trained language models in scientific domains (e.g., **mathematics**, **physics**, **chemistry**, **biology**, **medicine**, **materials science**, and **geoscience**), covering different model sizes (from **<100M** to **70B parameters**) and modalities (e.g., **language**, **vision**, **graph**, **molecule**, **protein**, **genome**, and **climate time series**). The repository will be continuously updated.
+A curated list of pre-trained language models in scientific domains (e.g., **mathematics**, **physics**, **chemistry**, **materials science**, **biology**, **medicine**, **geoscience**), covering different model sizes (from **100M** to **100B parameters**) and modalities (e.g., **language**, **graph**, **vision**, **table**, **molecule**, **protein**, **genome**, **climate time series**). The repository will be continuously updated.
 
 **NOTE 1**: To avoid ambiguity, when we talk about the number of parameters in a model, "Base" refers to 110M (i.e., BERT-Base), and "Large" refers to 340M (i.e., BERT-Large). Other numbers will be written explicitly.
 
@@ -765,6 +765,9 @@ A curated list of pre-trained language models in scientific domains (e.g., **mat
 - **(BioT5)** _BioT5: Enriching Cross-modal Integration in Biology with Chemical Knowledge and Natural Language Associations_ ```EMNLP 2023```     
 [[Paper](https://arxiv.org/abs/2310.07276)] [[GitHub](https://github.com/QizhiPei/BioT5)] [[Model (220M)](https://huggingface.co/QizhiPei/biot5-base)]
 
+- **(ProLLaMA)** _ProLLaMA: A Protein Large Language Model for Multi-Task Protein Language Processing_ ```arXiv 2024```     
+[[Paper](https://arxiv.org/abs/2402.16445)] [[GitHub](https://github.com/PKU-YuanGroup/ProLLaMA)] [[Model (7B)](https://huggingface.co/GreatCaptainNemo/ProLLaMA)]
+
 
 <h3 id="biology-other-modalities-dna">Other Modalities (DNA)</h3>
 
@@ -822,7 +825,7 @@ A curated list of pre-trained language models in scientific domains (e.g., **mat
 - **(scGPT)** _scGPT: Towards Building a Foundation Model for Single-Cell Multi-omics using Generative AI_ ```Nature Methods 2024```     
 [[Paper](https://www.biorxiv.org/content/10.1101/2023.04.30.538439)] [[GitHub](https://github.com/bowang-lab/scGPT)]
 
-- **(scFoundation)** _Large Scale Foundation Model on Single-cell Transcriptomics_ ```bioRxiv 2023```     
+- **(scFoundation)** _Large Scale Foundation Model on Single-cell Transcriptomics_ ```Nature Methods 2024```     
 [[Paper](https://www.biorxiv.org/content/10.1101/2023.05.29.542705)] [[GitHub](https://github.com/biomap-research/scFoundation)] [[Model (100M)](https://hopebio2020-my.sharepoint.com/:f:/g/personal/dongsheng_biomap_com/Eh22AX78_AVDv6k6v4TZDikBXt33gaWXaz27U9b1SldgbA)]
 
 - **(Geneformer)** _Transfer Learning Enables Predictions in Network Biology_ ```Nature 2023```     
