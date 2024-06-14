@@ -2,7 +2,7 @@
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 [![Stars](https://img.shields.io/github/stars/yuzhimanhua/Awesome-Scientific-Language-Models?style=social)](https://img.shields.io/github/stars/yuzhimanhua/Awesome-Scientific-Language-Models?style=social)
 
-[![Papers](https://img.shields.io/badge/PaperNumber-257-blue)](https://img.shields.io/badge/PaperNumber-257-blue)
+[![Papers](https://img.shields.io/badge/PaperNumber-256-blue)](https://img.shields.io/badge/PaperNumber-256-blue)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![PRWelcome](https://img.shields.io/badge/PRs-Welcome-red)](https://img.shields.io/badge/PRs-Welcome-red)
 
@@ -759,6 +759,9 @@ A curated list of pre-trained language models in scientific domains (e.g., **mat
 - **(Prot2Text)** _Prot2Text: Multimodal Protein's Function Generation with GNNs and Transformers_ ```AAAI 2024```     
 [[Paper](https://arxiv.org/abs/2307.14367)] [[GitHub](https://github.com/hadi-abdine/Prot2Text)] [[Model (256M)](https://1drv.ms/u/s!AhcBGHWGY2mukdh4KujJfOJ_PxvJog?e=C6x4E6)] [[Model (283M)](https://1drv.ms/u/s!AhcBGHWGY2mukdh1N1kfnmXBEar-Tw?e=fACWFt)] [[Model (398M)](https://1drv.ms/u/s!AhcBGHWGY2mukdh3yPy98rqWfYcTJA?e=ot1SX6)] [[Model (898M)](https://1drv.ms/u/s!AhcBGHWGY2mukdh2EL4iP_IoVKu1tg?e=PioL6B)]
 
+- **(BioMedGPT)** _BioMedGPT: Open Multimodal Generative Pre-trained Transformer for BioMedicine_ ```arXiv 2023```     
+[[Paper](https://arxiv.org/abs/2308.09442)] [[GitHub](https://github.com/PharMolix/OpenBioMed)] [[Model (10B)](https://huggingface.co/PharMolix/BioMedGPT-10B)]
+
 - **(SaProt)** _SaProt: Protein Language Modeling with Structure-Aware Vocabulary_ ```ICLR 2024```     
 [[Paper](https://www.biorxiv.org/content/10.1101/2023.10.01.560349)] [[GitHub](https://github.com/westlake-repl/SaProt)] [[Model (35M)](https://huggingface.co/westlake-repl/SaProt_35M_AF2)] [[Model (650M)](https://huggingface.co/westlake-repl/SaProt_650M_AF2)]
 
@@ -773,9 +776,6 @@ A curated list of pre-trained language models in scientific domains (e.g., **mat
 
 - **(DNABERT)** _DNABERT: Pre-trained Bidirectional Encoder Representations from Transformers Model for DNA-Language in Genome_ ```Bioinformatics 2021```     
 [[Paper](https://www.biorxiv.org/content/10.1101/2020.09.17.301879)] [[GitHub](https://github.com/jerryji1993/DNABERT)] [[Model (Base)](https://drive.google.com/file/d/1BJjqb5Dl2lNMg2warsFQ0-Xvn1xxfFXC/view)]
-
-- **(Enformer)** _Effective Gene Expression Prediction from Sequence by Integrating Long-Range Interactions_ ```Nature Methods 2021```     
-[[Paper](https://www.nature.com/articles/s41592-021-01252-x)] [[GitHub](https://github.com/google-deepmind/deepmind-research/tree/master/enformer)] [[Model (249M)](https://huggingface.co/EleutherAI/enformer-preview)]
 
 - **(GenSLMs)** _GenSLMs: Genome-Scale Language Models Reveal SARS-CoV-2 Evolutionary Dynamics_ ```The International Journal of High Performance Computing Applications 2023```     
 [[Paper](https://www.biorxiv.org/content/10.1101/2022.10.10.511571)] [[GitHub](https://github.com/ramanathanlab/genslm)]
@@ -833,9 +833,6 @@ A curated list of pre-trained language models in scientific domains (e.g., **mat
 
 - **(CellLM)** _Large-Scale Cell Representation Learning via Divide-and-Conquer Contrastive Learning_ ```arXiv 2023```     
 [[Paper](https://arxiv.org/abs/2306.04371)] [[GitHub](https://github.com/PharMolix/OpenBioMed)]
-
-- **(BioMedGPT)** _BioMedGPT: Open Multimodal Generative Pre-trained Transformer for BioMedicine_ ```arXiv 2023```     
-[[Paper](https://arxiv.org/abs/2308.09442)] [[GitHub](https://github.com/PharMolix/OpenBioMed)] [[Model (7B)](https://huggingface.co/PharMolix/BioMedGPT-LM-7B)] [[Model (10B)](https://huggingface.co/PharMolix/BioMedGPT-10B)]
 
 - **(CellPLM)** _CellPLM: Pre-training of Cell Language Model Beyond Single Cells_ ```ICLR 2024```     
 [[Paper](https://www.biorxiv.org/content/10.1101/2023.10.03.560734)] [[GitHub](https://github.com/OmicsML/CellPLM)] [[Model (82M)](https://www.dropbox.com/scl/fo/i5rmxgtqzg7iykt2e9uqm/h?rlkey=o8hi0xads9ol07o48jdityzv1&dl=0)]
