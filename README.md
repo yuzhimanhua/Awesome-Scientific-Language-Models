@@ -2,7 +2,7 @@
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 [![Stars](https://img.shields.io/github/stars/yuzhimanhua/Awesome-Scientific-Language-Models?style=social)](https://img.shields.io/github/stars/yuzhimanhua/Awesome-Scientific-Language-Models?style=social)
 
-[![Papers](https://img.shields.io/badge/PaperNumber-256-blue)](https://img.shields.io/badge/PaperNumber-256-blue)
+[![Papers](https://img.shields.io/badge/PaperNumber-257-blue)](https://img.shields.io/badge/PaperNumber-257-blue)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![PRWelcome](https://img.shields.io/badge/PRs-Welcome-red)](https://img.shields.io/badge/PRs-Welcome-red)
 
@@ -566,6 +566,9 @@ A curated list of pre-trained language models in scientific domains (e.g., **mat
 
 - **(BiMediX)** _BiMediX: Bilingual Medical Mixture of Experts LLM_ ```arXiv 2024```     
 [[Paper](https://arxiv.org/abs/2402.13253)] [[GitHub](https://github.com/mbzuai-oryx/BiMediX)] [[Model (8x7B)](https://huggingface.co/BiMediX/BiMediX-Bi)]
+
+- **(MMedLM)** _Towards Building Multilingual Language Model for Medicine_ ```arXiv 2024```     
+[[Paper](https://arxiv.org/abs/2402.13963)] [[GitHub](https://github.com/MAGIC-AI4Med/MMedLM)] [[Model (7B, InternLM)](https://huggingface.co/Henrychur/MMedLM)] [[Model (1.8B, InternLM2)](https://huggingface.co/Henrychur/MMedLM2-1_8B)] [[Model (7B, InternLM2)](https://huggingface.co/Henrychur/MMedLM2)] [[Model (8B, LLaMA-3)](https://huggingface.co/Henrychur/MMed-Llama-3-8B)]
 
 - **(BioMedLM, f.k.a. PubMedGPT)** _BioMedLM: A 2.7B Parameter Language Model Trained On Biomedical Text_ ```arXiv 2024```     
 [[Paper](https://arxiv.org/abs/2403.18421)] [[GitHub](https://github.com/stanford-crfm/BioMedLM)] [[Model (2.7B)](https://huggingface.co/stanford-crfm/BioMedLM)]
