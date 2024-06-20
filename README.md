@@ -619,16 +619,16 @@ A curated list of pre-trained language models in scientific domains (e.g., **mat
 [[Paper](https://arxiv.org/abs/2204.09817)] [[GitHub](https://github.com/microsoft/hi-ml/tree/main/hi-ml-multimodal)]
 
 - **(M3AE)** _Multi-Modal Masked Autoencoders for Medical Vision-and-Language Pre-training_ ```MICCAI 2022```     
-[[Paper](https://arxiv.org/abs/2209.07098)] [[GitHub](https://github.com/zhjohnchan/M3AE)]
+[[Paper](https://arxiv.org/abs/2209.07098)] [[GitHub](https://github.com/zhjohnchan/M3AE)] [[Model](https://drive.google.com/drive/folders/1b3_kiSHH8khOQaa7pPiX_ZQnUIBxeWWn)]
 
 - **(ARL)** _Align, Reason and Learn: Enhancing Medical Vision-and-Language Pre-training with Knowledge_ ```ACM MM 2022```     
 [[Paper](https://arxiv.org/abs/2209.07118)] [[GitHub](https://github.com/zhjohnchan/ARL)]
 
 - **(CheXzero)** _Expert-Level Detection of Pathologies from Unannotated Chest X-ray Images via Self-Supervised Learning_ ```Nature Biomedical Engineering 2022```     
-[[Paper](https://www.nature.com/articles/s41551-022-00936-9)] [[GitHub](https://github.com/rajpurkarlab/CheXzero)]
+[[Paper](https://www.nature.com/articles/s41551-022-00936-9)] [[GitHub](https://github.com/rajpurkarlab/CheXzero)] [[Model](https://drive.google.com/drive/folders/1makFLiEMbSleYltaRxw81aBhEDMpVwno)]
 
 - **(MGCA)** _Multi-Granularity Cross-modal Alignment for Generalized Medical Visual Representation Learning_ ```NeurIPS 2022```     
-[[Paper](https://arxiv.org/abs/2210.06044)] [[GitHub](https://github.com/HKU-MedAI/MGCA)]
+[[Paper](https://arxiv.org/abs/2210.06044)] [[GitHub](https://github.com/HKU-MedAI/MGCA)] [[Model](https://drive.google.com/drive/folders/15_mP9Lqq2H15R53qlKn3l_xzGVzi9jX9)]
 
 - **(MedCLIP)** _MedCLIP: Contrastive Learning from Unpaired Medical Images and Text_ ```EMNLP 2022```     
 [[Paper](https://arxiv.org/abs/2210.10163)] [[GitHub](https://github.com/RyanWangZf/MedCLIP)]
@@ -640,13 +640,13 @@ A curated list of pre-trained language models in scientific domains (e.g., **mat
 [[Paper](https://arxiv.org/abs/2303.00915)] [[Model](https://huggingface.co/microsoft/BiomedCLIP-PubMedBERT_256-vit_base_patch16_224)]
 
 - **(PMC-CLIP)** _PMC-CLIP: Contrastive Language-Image Pre-training using Biomedical Documents_ ```MICCAI 2023```     
-[[Paper](https://arxiv.org/abs/2303.07240)] [[GitHub](https://github.com/WeixiongLin/PMC-CLIP)]
+[[Paper](https://arxiv.org/abs/2303.07240)] [[GitHub](https://github.com/WeixiongLin/PMC-CLIP)] [[Model](https://huggingface.co/ryanyip7777/pmc_vit_l_14)]
 
 - **(Xplainer)** _Xplainer: From X-Ray Observations to Explainable Zero-Shot Diagnosis_ ```MICCAI 2023```     
 [[Paper](https://arxiv.org/abs/2303.13391)] [[GitHub](https://github.com/ChantalMP/Xplainer)]
 
 - **(RGRG)** _Interactive and Explainable Region-Guided Radiology Report Generation_ ```CVPR 2023```     
-[[Paper](https://arxiv.org/abs/2304.08295)] [[GitHub](https://github.com/ttanida/rgrg)]
+[[Paper](https://arxiv.org/abs/2304.08295)] [[GitHub](https://github.com/ttanida/rgrg)] [[Model](https://drive.google.com/file/d/1rDxqzOhjqydsOrITJrX0Rj1PAdMeP7Wy/view)]
 
 - **(Med-UniC)** _Med-UniC: Unifying Cross-Lingual Medical Vision-Language Pre-Training by Diminishing Bias_ ```NeurIPS 2023```     
 [[Paper](https://arxiv.org/abs/2305.19894)] [[GitHub](https://github.com/SUSTechBruce/Med-UniC)]
@@ -655,7 +655,7 @@ A curated list of pre-trained language models in scientific domains (e.g., **mat
 [[Paper](https://arxiv.org/abs/2306.00890)] [[GitHub](https://github.com/microsoft/LLaVA-Med)] [[Model (7B)](https://huggingface.co/microsoft/llava-med-v1.5-mistral-7b)]
 
 - **(MI-Zero)** _Visual Language Pretrained Multiple Instance Zero-Shot Transfer for Histopathology Images_ ```CVPR 2023```     
-[[Paper](https://arxiv.org/abs/2306.07831)] [[GitHub](https://github.com/mahmoodlab/MI-Zero)]
+[[Paper](https://arxiv.org/abs/2306.07831)] [[GitHub](https://github.com/mahmoodlab/MI-Zero)] [[Model](https://drive.google.com/drive/folders/1AR9agw2WLXes5wz26UTlT_mvJoUY38mQ)]
 
 - **(XrayGPT)** _XrayGPT: Chest Radiographs Summarization using Medical Vision-Language Models_ ```arXiv 2023```     
 [[Paper](https://arxiv.org/abs/2306.07971)] [[GitHub](https://github.com/mbzuai-oryx/XrayGPT)]
@@ -664,7 +664,7 @@ A curated list of pre-trained language models in scientific domains (e.g., **mat
 [[Paper](https://www.medrxiv.org/content/10.1101/2023.06.07.23291119)] [[GitHub](https://github.com/suinleelab/MONET)]
 
 - **(QuiltNet)** _Quilt-1M: One Million Image-Text Pairs for Histopathology_ ```NeurIPS 2023```     
-[[Paper](https://arxiv.org/abs/2306.11207)] [[GitHub](https://github.com/wisdomikezogwo/quilt1m)]
+[[Paper](https://arxiv.org/abs/2306.11207)] [[GitHub](https://github.com/wisdomikezogwo/quilt1m)] [[Model](https://huggingface.co/wisdomik/QuiltNet-B-16-PMB)]
 
 - **(MUMC)** _Masked Vision and Language Pre-training with Unimodal and Multimodal Contrastive Losses for Medical Visual Question Answering_ ```MICCAI 2023```     
 [[Paper](https://arxiv.org/abs/2307.05314)] [[GitHub](https://github.com/pengfeiliHEU/MUMC)]
@@ -685,10 +685,10 @@ A curated list of pre-trained language models in scientific domains (e.g., **mat
 [[Paper](https://arxiv.org/abs/2307.15189)] [[GitHub](https://github.com/snap-stanford/med-flamingo)]
 
 - **(RadFM)** _Towards Generalist Foundation Model for Radiology by Leveraging Web-scale 2D&3D Medical Data_ ```arXiv 2023```     
-[[Paper](https://arxiv.org/abs/2308.02463)] [[GitHub](https://github.com/chaoyi-wu/RadFM)]
+[[Paper](https://arxiv.org/abs/2308.02463)] [[GitHub](https://github.com/chaoyi-wu/RadFM)] [[Model](https://huggingface.co/chaoyi-wu/RadFM)]
 
 - **(PLIP)** _A Visual–Language Foundation Model for Pathology Image Analysis using Medical Twitter_ ```Nature Medicine 2023```     
-[[Paper](https://www.nature.com/articles/s41591-023-02504-3)] [[GitHub](https://github.com/PathologyFoundation/plip)]
+[[Paper](https://www.nature.com/articles/s41591-023-02504-3)] [[GitHub](https://github.com/PathologyFoundation/plip)] [[Model](https://huggingface.co/vinid/plip)]
 
 - **(MaCo)** _Enhancing Representation in Radiography-Reports Foundation Model: A Granular Alignment Algorithm Using Masked Contrastive Learning_ ```arXiv 2023```     
 [[Paper](https://arxiv.org/abs/2309.05904)] [[GitHub](https://github.com/SZUHvern/MaCo)]
@@ -703,7 +703,7 @@ A curated list of pre-trained language models in scientific domains (e.g., **mat
 [[Paper](https://arxiv.org/abs/2311.18803)] [[Github](https://github.com/Imageomics/BioCLIP)] [[Model](https://huggingface.co/imageomics/bioclip)]
 
 - **(M3D)** _M3D: Advancing 3D Medical Image Analysis with Multi-Modal Large Language Models_ ```arXiv 2024```     
-[[Paper](https://arxiv.org/abs/2404.00578)] [[GitHub](https://github.com/BAAI-DCAI/M3D)]
+[[Paper](https://arxiv.org/abs/2404.00578)] [[GitHub](https://github.com/BAAI-DCAI/M3D)] [[Model](https://huggingface.co/GoodBaiBai88/M3D-CLIP)]
 
 - **(Med-Gemini)** _Capabilities of Gemini Models in Medicine_ ```arXiv 2024```     
 [[Paper](https://arxiv.org/abs/2404.18416)]
