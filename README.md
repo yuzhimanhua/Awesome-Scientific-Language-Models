@@ -6,7 +6,9 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![PRWelcome](https://img.shields.io/badge/PRs-Welcome-red)](https://img.shields.io/badge/PRs-Welcome-red)
 
-A curated list of pre-trained language models in scientific domains (e.g., **mathematics**, **physics**, **chemistry**, **materials science**, **biology**, **medicine**, **geoscience**), covering different model sizes (from **100M** to **100B parameters**) and modalities (e.g., **language**, **graph**, **vision**, **table**, **molecule**, **protein**, **genome**, **climate time series**). The repository will be continuously updated.
+A curated list of pre-trained language models in scientific domains (e.g., **mathematics**, **physics**, **chemistry**, **materials science**, **biology**, **medicine**, **geoscience**), covering different model sizes (from **100M** to **100B parameters**) and modalities (e.g., **language**, **graph**, **vision**, **table**, **molecule**, **protein**, **genome**, **climate time series**). 
+
+The repository is part of our survey paper [**A Comprehensive Survey of Scientific Large Language Models and Their Applications in Scientific Discovery**](https://arxiv.org/abs/2406.10833) and will be continuously updated.
 
 **NOTE 1**: To avoid ambiguity, when we talk about the number of parameters in a model, "Base" refers to 110M (i.e., BERT-Base), and "Large" refers to 340M (i.e., BERT-Large). Other numbers will be written explicitly.
 
@@ -558,7 +560,7 @@ A curated list of pre-trained language models in scientific domains (e.g., **mat
 - **(PLLaMa)** _PLLaMa: An Open-source Large Language Model for Plant Science_ ```arXiv 2024```     
 [[Paper](https://arxiv.org/abs/2401.01600)] [[GitHub](https://github.com/Xianjun-Yang/PLLaMa)] [[Model (7B)](https://huggingface.co/Xianjun/PLLaMa-7b-base)] [[Model (13B)](https://huggingface.co/Xianjun/PLLaMa-13b-base)]
 
-- **(BioMistral)** _BioMistral: A Collection of Open-Source Pretrained Large Language Models for Medical Domains_ ```arXiv 2024```     
+- **(BioMistral)** _BioMistral: A Collection of Open-Source Pretrained Large Language Models for Medical Domains_ ```ACL 2024```     
 [[Paper](https://arxiv.org/abs/2402.10373)] [[Model (7B)](https://huggingface.co/BioMistral/BioMistral-7B)]
 
 - **(Me LLaMA)** _Me LLaMA: Foundation Large Language Models for Medical Applications_ ```arXiv 2024```     
@@ -699,8 +701,8 @@ A curated list of pre-trained language models in scientific domains (e.g., **mat
 - **(Qilin-Med-VL)** _Qilin-Med-VL: Towards Chinese Large Vision-Language Model for General Healthcare_ ```arXiv 2023```     
 [[Paper](https://arxiv.org/abs/2310.17956)] [[GitHub](https://github.com/williamliujl/Qilin-Med-VL)] [[Model](https://huggingface.co/williamliu/Qilin-Med-VL)]
 
-- **(BioCLIP)** _BioCLIP: A Vision Foundation Model for the Tree of Life_ ```arXiv 2023```    
-[[Paper](https://arxiv.org/abs/2311.18803)] [[Github](https://github.com/Imageomics/BioCLIP)] [[Model](https://huggingface.co/imageomics/bioclip)]
+- **(BioCLIP)** _BioCLIP: A Vision Foundation Model for the Tree of Life_ ```CVPR 2024```    
+[[Paper](https://arxiv.org/abs/2311.18803)] [[GitHub](https://github.com/Imageomics/BioCLIP)] [[Model](https://huggingface.co/imageomics/bioclip)]
 
 - **(M3D)** _M3D: Advancing 3D Medical Image Analysis with Multi-Modal Large Language Models_ ```arXiv 2024```     
 [[Paper](https://arxiv.org/abs/2404.00578)] [[GitHub](https://github.com/BAAI-DCAI/M3D)] [[Model](https://huggingface.co/GoodBaiBai88/M3D-CLIP)]
@@ -859,7 +861,7 @@ A curated list of pre-trained language models in scientific domains (e.g., **mat
 - **(K2)** _K2: A Foundation Language Model for Geoscience Knowledge Understanding and Utilization_ ```WSDM 2024```     
 [[Paper](https://arxiv.org/abs/2306.05064)] [[GitHub](https://github.com/davendw49/k2)] [[Model (7B)](https://huggingface.co/daven3/k2-v1)]
 
-- **(OceanGPT)** _OceanGPT: A Large Language Model for Ocean Science Tasks_ ```arXiv 2023```     
+- **(OceanGPT)** _OceanGPT: A Large Language Model for Ocean Science Tasks_ ```ACL 2024```     
 [[Paper](https://arxiv.org/abs/2310.02031)] [[GitHub](https://github.com/zjunlp/KnowLM)] [[Model (7B)](https://huggingface.co/zjunlp/OceanGPT-7b)]
 
 - **(ClimateBERT-NetZero)** _ClimateBERT-NetZero: Detecting and Assessing Net Zero and Reduction Targets_ ```EMNLP 2023```     
@@ -906,3 +908,18 @@ A curated list of pre-trained language models in scientific domains (e.g., **mat
 
 - **(FuXi)** _FuXi: A Cascade Machine Learning Forecasting System for 15-day Global Weather Forecast_ ```npj Climate and Atmospheric Science 2023```     
 [[Paper](https://arxiv.org/abs/2306.12873)] [[GitHub](https://github.com/tpys/FuXi)]
+
+
+
+
+
+## Citation
+If you find this repository useful, please cite the following paper:
+```
+@article{zhang2024comprehensive,
+  title={A Comprehensive Survey of Scientific Large Language Models and Their Applications in Scientific Discovery},
+  author={Zhang, Yu and Chen, Xiusi and Jin, Bowen and Wang, Sheng and Ji, Shuiwang and Wang, Wei and Han, Jiawei},
+  journal={arXiv preprint arXiv:2406.10833},
+  year={2024}
+}
+```
