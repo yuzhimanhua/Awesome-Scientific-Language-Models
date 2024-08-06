@@ -2,7 +2,7 @@
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 [![Stars](https://img.shields.io/github/stars/yuzhimanhua/Awesome-Scientific-Language-Models?style=social)](https://img.shields.io/github/stars/yuzhimanhua/Awesome-Scientific-Language-Models?style=social)
 
-[![Papers](https://img.shields.io/badge/PaperNumber-257-blue)](https://img.shields.io/badge/PaperNumber-257-blue)
+[![Papers](https://img.shields.io/badge/PaperNumber-261-blue)](https://img.shields.io/badge/PaperNumber-261-blue)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![PRWelcome](https://img.shields.io/badge/PRs-Welcome-red)](https://img.shields.io/badge/PRs-Welcome-red)
 
@@ -278,6 +278,9 @@ The repository is part of our survey paper [**A Comprehensive Survey of Scientif
 - **(MaterialsBERT)** _A General-Purpose Material Property Data Extraction Pipeline from Large Polymer Corpora using Natural Language Processing_ ```npj Computational Materials 2023```     
 [[Paper](https://arxiv.org/abs/2209.13136)] [[Model (Base)](https://huggingface.co/pranav-s/MaterialsBERT)]
 
+- **(Recycle-BERT)** _Recycle-BERT: Extracting Knowledge about Plastic Waste Recycling by Natural Language Processing_ ```ACS Sustainable Chemistry & Engineering 2023```     
+[[Paper](https://pubs.acs.org/doi/10.1021/acssuschemeng.3c03162)] [[GitHub](https://github.com/avanscholar/Recycle_BERT_QandA)]
+
 - **(CatBERTa)** _Catalyst Property Prediction with CatBERTa: Unveiling Feature Exploration Strategies through Large Language Models_ ```ACS Catalysis 2023```     
 [[Paper](https://arxiv.org/abs/2309.00563)] [[GitHub](https://github.com/hoon-ock/CatBERTa)]
 
@@ -357,7 +360,7 @@ The repository is part of our survey paper [**A Comprehensive Survey of Scientif
 [[Paper](https://arxiv.org/abs/2012.06051)] [[GitHub](https://github.com/rxn4chemistry/rxnfp)] [[Model (Base)](https://github.com/rxn4chemistry/rxnfp/tree/master/rxnfp/models/transformers/bert_pretrained)]
 
 - **(RXNMapper)** _Extraction of Organic Chemistry Grammar from Unsupervised Learning of Chemical Reactions_ ```Science Advances 2021```     
-[[Paper](https://www.science.org/doi/full/10.1126/sciadv.abe4166)] [[GitHub](https://github.com/rxn4chemistry/rxnmapper)]
+[[Paper](https://www.science.org/doi/10.1126/sciadv.abe4166)] [[GitHub](https://github.com/rxn4chemistry/rxnmapper)]
 
 - **(MoLFormer)** _Large-Scale Chemical Language Representations Capture Molecular Structure and Properties_ ```Nature Machine Intelligence 2022```     
 [[Paper](https://arxiv.org/abs/2106.09553)] [[GitHub](https://github.com/IBM/molformer)] [[Model (47M)](https://huggingface.co/katielink/MoLFormer-XL)]
@@ -376,6 +379,9 @@ The repository is part of our survey paper [**A Comprehensive Survey of Scientif
 
 - **(ChemGPT)** _Neural Scaling of Deep Chemical Models_ ```Nature Machine Intelligence 2023```     
 [[Paper](https://chemrxiv.org/engage/chemrxiv/article-details/627bddd544bdd532395fb4b5)] [[Model (4.7M)](https://huggingface.co/ncfrey/ChemGPT-4.7M)] [[Model (19M)](https://huggingface.co/ncfrey/ChemGPT-19M)] [[Model (1.2B)](https://huggingface.co/ncfrey/ChemGPT-1.2B)]
+
+- **(Uni-Mol)** _Uni-Mol: A Universal 3D Molecular Representation Learning Framework_ ```ICLR 2023```     
+[[Paper](https://chemrxiv.org/engage/chemrxiv/article-details/6402990d37e01856dc1d1581)] [[GitHub](https://github.com/deepmodeling/Uni-Mol)]
 
 - **(TransPolymer)** _TransPolymer: A Transformer-Based Language Model for Polymer Property Predictions_ ```npj Computational Materials 2023```     
 [[Paper](https://arxiv.org/abs/2209.01307)] [[GitHub](https://github.com/ChangwenXu98/TransPolymer)]
@@ -581,6 +587,9 @@ The repository is part of our survey paper [**A Comprehensive Survey of Scientif
 - **(BMRetriever)** _BMRetriever: Tuning Large Language Models as Better Biomedical Text Retrievers_ ```arXiv 2024```     
 [[Paper](https://arxiv.org/abs/2404.18443)] [[GitHub](https://github.com/ritaranx/BMRetriever)] [[Model (410M, Pythia)](https://huggingface.co/BMRetriever/BMRetriever-410M)] [[Model (1B, Pythia)](https://huggingface.co/BMRetriever/BMRetriever-1B)] [[Model (2B, Gemma)](https://huggingface.co/BMRetriever/BMRetriever-2B)] [[Model (7B, Mistral)](https://huggingface.co/BMRetriever/BMRetriever-7B)]
 
+- **(Panacea)** _Panacea: A Foundation Model for Clinical Trial Search, Summarization, Design, and Recruitment_ ```arXiv 2024```     
+[[Paper](https://arxiv.org/abs/2407.11007)] [[GitHub](https://github.com/linjc16/Panacea)]
+
 
 <h3 id="biology-language-graph">Language + Graph</h3>
 
@@ -712,6 +721,9 @@ The repository is part of our survey paper [**A Comprehensive Survey of Scientif
 
 - **(Med-Gemini-2D/3D/Polygenic)** _Advancing Multimodal Medical Capabilities of Gemini_ ```arXiv 2024```     
 [[Paper](https://arxiv.org/abs/2405.03162)]
+
+- **(Mammo-CLIP)** _Mammo-CLIP: A Vision Language Foundation Model to Enhance Data Efficiency and Robustness in Mammography_ ```MICCAI 2024```     
+[[Paper](https://arxiv.org/abs/2405.12255)] [[GitHub](https://github.com/batmanlab/Mammo-CLIP)] [[Model](https://huggingface.co/shawn24/Mammo-CLIP)]
 
 
 <h3 id="biology-other-modalities-protein">Other Modalities (Protein)</h3>
