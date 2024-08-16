@@ -231,7 +231,7 @@ The repository is part of our survey paper [**A Comprehensive Survey of Scientif
 - **(ReasTAP)** _ReasTAP: Injecting Table Reasoning Skills During Pre-training via Synthetic Reasoning Examples_ ```EMNLP 2022```     
 [[Paper](https://arxiv.org/abs/2210.12374)] [[GitHub](https://github.com/Yale-LILY/ReasTAP)] [[Model (406M)](https://huggingface.co/Yale-LILY/reastap-large)]
 
-- **(Table-GPT)** _Table-GPT: Table-tuned GPT for Diverse Table Tasks_ ```arXiv 2023```     
+- **(Table-GPT)** _Table-GPT: Table-tuned GPT for Diverse Table Tasks_ ```SIGMOD 2024```     
 [[Paper](https://arxiv.org/abs/2310.09263)]
 
 - **(TableLlama)** _TableLlama: Towards Open Large Generalist Models for Tables_ ```NAACL 2024```     
@@ -296,7 +296,7 @@ The repository is part of our survey paper [**A Comprehensive Survey of Scientif
 - **(ChemLLM)** _ChemLLM: A Chemical Large Language Model_ ```arXiv 2024```     
 [[Paper](https://arxiv.org/abs/2402.06852)] [[Model (7B)](https://huggingface.co/AI4Chem/ChemLLM-7B-Chat)]
 
-- **(LlaSMol)** _LlaSMol: Advancing Large Language Models for Chemistry with a Large-Scale, Comprehensive, High-Quality Instruction Tuning Dataset_ ```arXiv 2024```     
+- **(LlaSMol)** _LlaSMol: Advancing Large Language Models for Chemistry with a Large-Scale, Comprehensive, High-Quality Instruction Tuning Dataset_ ```COLM 2024```     
 [[Paper](https://arxiv.org/abs/2402.09391)] [[GitHub](https://github.com/OSU-NLP-Group/LLM4Chem)] [[Model (6.7B, Galactica)](https://huggingface.co/osunlp/LlaSMol-Galactica-6.7B)] [[Model (7B, LLaMA-2)](https://huggingface.co/osunlp/LlaSMol-Llama2-7B)] [[Model (7B, Mistral)](https://huggingface.co/osunlp/LlaSMol-Mistral-7B)]
 
 
@@ -395,7 +395,7 @@ The repository is part of our survey paper [**A Comprehensive Survey of Scientif
 - **(SPMM)** _Bidirectional Generation of Structure and Properties Through a Single Molecular Foundation Model_ ```Nature Communications 2024```     
 [[Paper](https://arxiv.org/abs/2211.10590)] [[GitHub](https://github.com/jinhojsk515/SPMM)]
 
-- **(BARTSmiles)** _BARTSmiles: Generative Masked Language Models for Molecular Representations_ ```arXiv 2022```     
+- **(BARTSmiles)** _BARTSmiles: Generative Masked Language Models for Molecular Representations_ ```Journal of Chemical Information and Modeling 2024```     
 [[Paper](https://arxiv.org/abs/2211.16349)] [[GitHub](https://github.com/YerevaNN/BARTSmiles)] [[Model (406M)](https://huggingface.co/gayane/BARTSmiles)]
 
 - **(MolGen)** _Domain-Agnostic Molecular Generation with Self-feedback_ ```ICLR 2024```     
@@ -569,7 +569,7 @@ The repository is part of our survey paper [**A Comprehensive Survey of Scientif
 - **(BioMistral)** _BioMistral: A Collection of Open-Source Pretrained Large Language Models for Medical Domains_ ```ACL 2024```     
 [[Paper](https://arxiv.org/abs/2402.10373)] [[Model (7B)](https://huggingface.co/BioMistral/BioMistral-7B)]
 
-- **(Me LLaMA)** _Me LLaMA: Foundation Large Language Models for Medical Applications_ ```arXiv 2024```     
+- **(Me-LLaMA)** _Me-LLaMA: Foundation Large Language Models for Medical Applications_ ```arXiv 2024```     
 [[Paper](https://arxiv.org/abs/2402.12749)] [[GitHub](https://github.com/BIDS-Xu-Lab/Me-LLaMA)]
 
 - **(BiMediX)** _BiMediX: Bilingual Medical Mixture of Experts LLM_ ```arXiv 2024```     
@@ -659,6 +659,9 @@ The repository is part of our survey paper [**A Comprehensive Survey of Scientif
 - **(RGRG)** _Interactive and Explainable Region-Guided Radiology Report Generation_ ```CVPR 2023```     
 [[Paper](https://arxiv.org/abs/2304.08295)] [[GitHub](https://github.com/ttanida/rgrg)] [[Model](https://drive.google.com/file/d/1rDxqzOhjqydsOrITJrX0Rj1PAdMeP7Wy/view)]
 
+- **(BiomedGPT)** _A Generalist Vision-Language Foundation Model for Diverse Biomedical Tasks_ ```Nature Medicine 2024```     
+[[Paper](https://arxiv.org/abs/2305.17100)] [[GitHub](https://github.com/taokz/BiomedGPT)] [[Model (33M)](https://www.dropbox.com/sh/cu2r5zkj2r0e6zu/AADZ-KHn-emsICawm9CM4MqVa?dl=0&e=1&preview=biomedgpt_tiny.pt)] [[Model (93M)](https://www.dropbox.com/sh/cu2r5zkj2r0e6zu/AADZ-KHn-emsICawm9CM4MqVa?dl=0&e=1&preview=biomedgpt_medium.pt)] [[Model (182M)](https://www.dropbox.com/sh/cu2r5zkj2r0e6zu/AADZ-KHn-emsICawm9CM4MqVa?dl=0&e=1&preview=biomedgpt_base.pt)]
+
 - **(Med-UniC)** _Med-UniC: Unifying Cross-Lingual Medical Vision-Language Pre-Training by Diminishing Bias_ ```NeurIPS 2023```     
 [[Paper](https://arxiv.org/abs/2305.19894)] [[GitHub](https://github.com/SUSTechBruce/Med-UniC)]
 
@@ -668,7 +671,7 @@ The repository is part of our survey paper [**A Comprehensive Survey of Scientif
 - **(MI-Zero)** _Visual Language Pretrained Multiple Instance Zero-Shot Transfer for Histopathology Images_ ```CVPR 2023```     
 [[Paper](https://arxiv.org/abs/2306.07831)] [[GitHub](https://github.com/mahmoodlab/MI-Zero)] [[Model](https://drive.google.com/drive/folders/1AR9agw2WLXes5wz26UTlT_mvJoUY38mQ)]
 
-- **(XrayGPT)** _XrayGPT: Chest Radiographs Summarization using Medical Vision-Language Models_ ```arXiv 2023```     
+- **(XrayGPT)** _XrayGPT: Chest Radiographs Summarization using Medical Vision-Language Models_ ```ACL 2024 Workshop```     
 [[Paper](https://arxiv.org/abs/2306.07971)] [[GitHub](https://github.com/mbzuai-oryx/XrayGPT)]
 
 - **(MONET)** _Transparent Medical Image AI via an Image–Text Foundation Model Grounded in Medical Literature_ ```Nature Medicine 2024```     
