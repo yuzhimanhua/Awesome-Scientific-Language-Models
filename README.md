@@ -2,7 +2,7 @@
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 [![Stars](https://img.shields.io/github/stars/yuzhimanhua/Awesome-Scientific-Language-Models?style=social)](https://img.shields.io/github/stars/yuzhimanhua/Awesome-Scientific-Language-Models?style=social)
 
-[![Papers](https://img.shields.io/badge/PaperNumber-262-blue)](https://img.shields.io/badge/PaperNumber-262-blue)
+[![Papers](https://img.shields.io/badge/PaperNumber-263-blue)](https://img.shields.io/badge/PaperNumber-263-blue)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![PRWelcome](https://img.shields.io/badge/PRs-Welcome-red)](https://img.shields.io/badge/PRs-Welcome-red)
 
@@ -255,6 +255,9 @@ The repository is part of our survey paper [**A Comprehensive Survey of Scientif
 
 - **(AstroLLaMA-Chat)** _AstroLLaMA-Chat: Scaling AstroLLaMA with Conversational and Diverse Datasets_ ```Research Notes of the AAS 2024```     
 [[Paper](https://arxiv.org/abs/2401.01916)] [[Model (7B)](https://huggingface.co/spaces/universeTBD/astrollama-7b-chat-alpha)]
+
+- **(PhysBERT)** _PhysBERT: A Text Embedding Model for Physics Scientific Literature_ ```arXiv 2024```     
+[[Paper](https://arxiv.org/abs/2408.09574)] [[Model (Base)](https://huggingface.co/thellert/physbert_cased)]
 
 
 
