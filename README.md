@@ -566,7 +566,7 @@ The repository is part of our survey paper [**A Comprehensive Survey of Scientif
 - **(PLLaMa)** _PLLaMa: An Open-source Large Language Model for Plant Science_ ```arXiv 2024```     
 [[Paper](https://arxiv.org/abs/2401.01600)] [[GitHub](https://github.com/Xianjun-Yang/PLLaMa)] [[Model (7B)](https://huggingface.co/Xianjun/PLLaMa-7b-base)] [[Model (13B)](https://huggingface.co/Xianjun/PLLaMa-13b-base)]
 
-- **(BioMistral)** _BioMistral: A Collection of Open-Source Pretrained Large Language Models for Medical Domains_ ```ACL 2024```     
+- **(BioMistral)** _BioMistral: A Collection of Open-Source Pretrained Large Language Models for Medical Domains_ ```ACL 2024 Findings```     
 [[Paper](https://arxiv.org/abs/2402.10373)] [[Model (7B)](https://huggingface.co/BioMistral/BioMistral-7B)]
 
 - **(Me-LLaMA)** _Me-LLaMA: Foundation Large Language Models for Medical Applications_ ```arXiv 2024```     
