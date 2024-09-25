@@ -2,7 +2,7 @@
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 [![Stars](https://img.shields.io/github/stars/yuzhimanhua/Awesome-Scientific-Language-Models?style=social)](https://img.shields.io/github/stars/yuzhimanhua/Awesome-Scientific-Language-Models?style=social)
 
-[![Papers](https://img.shields.io/badge/PaperNumber-263-blue)](https://img.shields.io/badge/PaperNumber-263-blue)
+[![Papers](https://img.shields.io/badge/PaperNumber-264-blue)](https://img.shields.io/badge/PaperNumber-264-blue)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![PRWelcome](https://img.shields.io/badge/PRs-Welcome-red)](https://img.shields.io/badge/PRs-Welcome-red)
 
@@ -179,6 +179,9 @@ The repository is part of our survey paper [**A Comprehensive Survey of Scientif
 
 - **(MAmmoTH2)** _MAmmoTH2: Scaling Instructions from the Web_ ```arXiv 2024```     
 [[Paper](https://arxiv.org/abs/2405.03548)] [[GitHub](https://github.com/TIGER-AI-Lab/MAmmoTH2)] [[Model (7B, Mistral)](https://huggingface.co/TIGER-Lab/MAmmoTH2-7B)] [[Model (8B, LLaMA-3)](https://huggingface.co/TIGER-Lab/MAmmoTH2-8B)] [[Model (8x7B, Mixtral)](https://huggingface.co/TIGER-Lab/MAmmoTH2-8x7B)]
+
+- **(TheoremLlama)** _TheoremLlama: Transforming General-Purpose LLMs into Lean4 Experts_ ```arXiv 2024```     
+[[Paper](https://arxiv.org/abs/2407.03203)] [[GitHub](https://github.com/RickySkywalker/TheoremLlama)] [[Model (8B)](https://huggingface.co/RickyDeSkywalker/TheoremLlama)]
 
 
 <h3 id="mathematics-language-vision">Language + Vision</h3>
