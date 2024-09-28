@@ -710,7 +710,7 @@ The repository is part of our survey paper [**A Comprehensive Survey of Scientif
 - **(PLIP)** _A Visual–Language Foundation Model for Pathology Image Analysis using Medical Twitter_ ```Nature Medicine 2023```     
 [[Paper](https://www.nature.com/articles/s41591-023-02504-3)] [[GitHub](https://github.com/PathologyFoundation/plip)] [[Model](https://huggingface.co/vinid/plip)]
 
-- **(MaCo)** _Enhancing Representation in Radiography-Reports Foundation Model: A Granular Alignment Algorithm Using Masked Contrastive Learning_ ```arXiv 2023```     
+- **(MaCo)** _Enhancing Representation in Radiography-Reports Foundation Model: A Granular Alignment Algorithm Using Masked Contrastive Learning_ ```Nature Communications 2024```     
 [[Paper](https://arxiv.org/abs/2309.05904)] [[GitHub](https://github.com/SZUHvern/MaCo)]
 
 - **(CXR-CLIP)** _CXR-CLIP: Toward Large Scale Chest X-ray Language-Image Pre-training_ ```MICCAI 2023```     
