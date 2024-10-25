@@ -2,7 +2,7 @@
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 [![Stars](https://img.shields.io/github/stars/yuzhimanhua/Awesome-Scientific-Language-Models?style=social)](https://img.shields.io/github/stars/yuzhimanhua/Awesome-Scientific-Language-Models?style=social)
 
-[![Papers](https://img.shields.io/badge/PaperNumber-264-blue)](https://img.shields.io/badge/PaperNumber-264-blue)
+[![Papers](https://img.shields.io/badge/PaperNumber-266-blue)](https://img.shields.io/badge/PaperNumber-266-blue)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![PRWelcome](https://img.shields.io/badge/PRs-Welcome-red)](https://img.shields.io/badge/PRs-Welcome-red)
 
@@ -334,6 +334,9 @@ The repository is part of our survey paper [**A Comprehensive Survey of Scientif
 
 - **(MolCA)** _MolCA: Molecular Graph-Language Modeling with Cross-Modal Projector and Uni-Modal Adapter_ ```EMNLP 2023```     
 [[Paper](https://arxiv.org/abs/2310.12798)] [[GitHub](https://github.com/acharkq/MolCA)]
+
+- **(MolLM)** _MolLM: A Unified Language Model for Integrating Biomedical Text with 2D and 3D Molecular Representations_ ```Bioinformatics 2024```     
+[[Paper](https://www.biorxiv.org/content/10.1101/2023.11.25.568656)] [[GitHub](https://github.com/gersteinlab/MolLM)]
 
 - **(InstructMol)** _InstructMol: Multi-Modal Integration for Building a Versatile and Reliable Molecular Assistant in Drug Discovery_ ```arXiv 2023```     
 [[Paper](https://arxiv.org/abs/2311.16208)] [[GitHub](https://github.com/IDEA-XL/InstructMol)]
@@ -862,6 +865,9 @@ The repository is part of our survey paper [**A Comprehensive Survey of Scientif
 
 - **(CellPLM)** _CellPLM: Pre-training of Cell Language Model Beyond Single Cells_ ```ICLR 2024```     
 [[Paper](https://www.biorxiv.org/content/10.1101/2023.10.03.560734)] [[GitHub](https://github.com/OmicsML/CellPLM)] [[Model (82M)](https://www.dropbox.com/scl/fo/i5rmxgtqzg7iykt2e9uqm/h?rlkey=o8hi0xads9ol07o48jdityzv1&dl=0)]
+
+- **(scMulan)** _scMulan: A Multitask Generative Pre-trained Language Model for Single-Cell Analysis_ ```bioRxiv 2024```     
+[[Paper](https://www.biorxiv.org/content/10.1101/2024.01.25.577152)] [[GitHub](https://github.com/SuperBianC/scMulan)]
 
 
 
