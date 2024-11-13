@@ -20,6 +20,14 @@ The repository is part of our survey paper [**A Comprehensive Survey of Scientif
 
 
 
+<p align="center">
+    <img src="intro.pdf" width="90%" style="align:center;"/>
+</p>
+
+
+
+
+
 ## Contents
 - [General](#general)
   - [Language](#general-language)
@@ -946,7 +954,8 @@ If you find this repository useful, please cite the following paper:
 @article{zhang2024comprehensive,
   title={A Comprehensive Survey of Scientific Large Language Models and Their Applications in Scientific Discovery},
   author={Zhang, Yu and Chen, Xiusi and Jin, Bowen and Wang, Sheng and Ji, Shuiwang and Wang, Wei and Han, Jiawei},
-  journal={arXiv preprint arXiv:2406.10833},
+  booktitle={EMNLP'24},
+  pages={8783--8817},
   year={2024}
 }
 ```
