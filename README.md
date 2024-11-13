@@ -21,7 +21,7 @@ The repository is part of our survey paper [**A Comprehensive Survey of Scientif
 
 
 <p align="center">
-    <img src="intro.pdf" width="90%" style="align:center;"/>
+    <img src="intro.svg" width="90%" style="align:center;"/>
 </p>
 
 
