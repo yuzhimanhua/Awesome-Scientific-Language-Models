@@ -91,7 +91,7 @@ The repository is part of our survey paper [**A Comprehensive Survey of Scientif
 - **(FORGE)** _FORGE: Pre-training Open Foundation Models for Science_ ```SC 2023```     
 [[Paper](https://doi.org/10.1145/3581784.3613215)] [[GitHub](https://github.com/at-aaims/forge)] [[Model (1.4B, General)](https://www.dropbox.com/sh/byr1ydik5n1ucod/AADOu_9C6AwVPTThTUFQ7yQba?dl=0)] [[Model (1.4B, Biology/Medicine)](https://www.dropbox.com/sh/41sqapgza3ok9q9/AADLgwTiHVU26ZeW_UQ8apyta?dl=0)] [[Model (1.4B, Chemistry)](https://www.dropbox.com/sh/1jn3n7099r8pzt8/AAAO6sOpFYG-G_qFI6C6CXVVa?dl=0)] [[Model (1.4B, Engineering)](https://www.dropbox.com/sh/ueki0n6y3v8gtkw/AAB6-3ml9slcbOonk6ccdD4Ua?dl=0)] [[Model (1.4B, Materials Science)](https://www.dropbox.com/sh/ngrr3bjulc76944/AABpm_OxA-GQPWzIPM4KpVKOa?dl=0)] [[Model (1.4B, Physics)](https://www.dropbox.com/sh/jxux4tplw5aw7kw/AAAdk334IEMbY7HJlJrWVzyfa?dl=0)] [[Model (1.4B, Social Science/Art)](https://www.dropbox.com/sh/54tuyslytqhpq1z/AAAc65c3TQWo2MyPoSiPxKI2a?dl=0)] [[Model (13B, General)](https://www.dropbox.com/sh/g53ot3dpqfsf6fr/AAB_RFeox2tbDKVFCH0QCw5pa?dl=0)] [[Model (22B, General)](https://www.dropbox.com/sh/7b9gbgcqdyph8v9/AABjNTaYu5PTjTMLb4-t6-PNa?dl=0)]
 
-- **(SciGLM)** _SciGLM: Training Scientific Language Models with Self-Reflective Instruction Annotation and Tuning_ ```arXiv 2024```     
+- **(SciGLM)** _SciInstruct: a Self-Reflective Instruction Annotated Dataset for Training Scientific Language Models_ ```NeurIPS 2024```     
 [[Paper](https://arxiv.org/abs/2401.07950)] [[GitHub](https://github.com/THUDM/SciGLM)] [[Model (6B)](https://huggingface.co/zd21/SciGLM-6B)]
 
 
@@ -179,16 +179,16 @@ The repository is part of our survey paper [**A Comprehensive Survey of Scientif
 - **(InternLM-Math)** _InternLM-Math: Open Math Large Language Models Toward Verifiable Reasoning_ ```arXiv 2024```     
 [[Paper](https://arxiv.org/abs/2402.06332)] [[GitHub](https://github.com/InternLM/InternLM-Math)] [[Model (7B)](https://huggingface.co/internlm/internlm2-math-base-7b)] [[Model (20B)](https://huggingface.co/internlm/internlm2-math-base-20b)]
 
-- **(OpenMath)** _OpenMathInstruct-1: A 1.8 Million Math Instruction Tuning Dataset_ ```arXiv 2024```     
+- **(OpenMath)** _OpenMathInstruct-1: A 1.8 Million Math Instruction Tuning Dataset_ ```NeurIPS 2024```     
 [[Paper](https://arxiv.org/abs/2402.10176)] [[Model (7B, Mistral)](https://huggingface.co/nvidia/OpenMath-Mistral-7B-v0.1-hf)] [[Model (70B, LLaMA-2)](https://huggingface.co/nvidia/OpenMath-Llama-2-70b-hf)]
 
-- **(Rho-Math)** _Rho-1: Not All Tokens Are What You Need_ ```arXiv 2024```     
+- **(Rho-Math)** _Rho-1: Not All Tokens Are What You Need_ ```NeurIPS 2024```     
 [[Paper](https://arxiv.org/abs/2404.07965)] [[GitHub](https://github.com/microsoft/rho)] [[Model (1B)](https://huggingface.co/microsoft/rho-math-1b-v0.1)] [[Model (7B)](https://huggingface.co/microsoft/rho-math-7b-v0.1)]
 
-- **(MAmmoTH2)** _MAmmoTH2: Scaling Instructions from the Web_ ```arXiv 2024```     
+- **(MAmmoTH2)** _MAmmoTH2: Scaling Instructions from the Web_ ```NeurIPS 2024```     
 [[Paper](https://arxiv.org/abs/2405.03548)] [[GitHub](https://github.com/TIGER-AI-Lab/MAmmoTH2)] [[Model (7B, Mistral)](https://huggingface.co/TIGER-Lab/MAmmoTH2-7B)] [[Model (8B, LLaMA-3)](https://huggingface.co/TIGER-Lab/MAmmoTH2-8B)] [[Model (8x7B, Mixtral)](https://huggingface.co/TIGER-Lab/MAmmoTH2-8x7B)]
 
-- **(TheoremLlama)** _TheoremLlama: Transforming General-Purpose LLMs into Lean4 Experts_ ```arXiv 2024```     
+- **(TheoremLlama)** _TheoremLlama: Transforming General-Purpose LLMs into Lean4 Experts_ ```EMNLP 2024```     
 [[Paper](https://arxiv.org/abs/2407.03203)] [[GitHub](https://github.com/RickySkywalker/TheoremLlama)] [[Model (8B)](https://huggingface.co/RickyDeSkywalker/TheoremLlama)]
 
 
@@ -267,7 +267,7 @@ The repository is part of our survey paper [**A Comprehensive Survey of Scientif
 - **(AstroLLaMA-Chat)** _AstroLLaMA-Chat: Scaling AstroLLaMA with Conversational and Diverse Datasets_ ```Research Notes of the AAS 2024```     
 [[Paper](https://arxiv.org/abs/2401.01916)] [[Model (7B)](https://huggingface.co/spaces/universeTBD/astrollama-7b-chat-alpha)]
 
-- **(PhysBERT)** _PhysBERT: A Text Embedding Model for Physics Scientific Literature_ ```arXiv 2024```     
+- **(PhysBERT)** _PhysBERT: A Text Embedding Model for Physics Scientific Literature_ ```APL Machine Learning 2024```     
 [[Paper](https://arxiv.org/abs/2408.09574)] [[Model (Base)](https://huggingface.co/thellert/physbert_cased)]
 
 - **(Astro-HEP-BERT)** _Astro-HEP-BERT: A Bidirectional Language Model for Studying the Meanings of Concepts in Astrophysics and High Energy Physics_ ```arXiv 2024```     
@@ -349,7 +349,7 @@ The repository is part of our survey paper [**A Comprehensive Survey of Scientif
 - **(MolLM)** _MolLM: A Unified Language Model for Integrating Biomedical Text with 2D and 3D Molecular Representations_ ```Bioinformatics 2024```     
 [[Paper](https://www.biorxiv.org/content/10.1101/2023.11.25.568656)] [[GitHub](https://github.com/gersteinlab/MolLM)]
 
-- **(InstructMol)** _InstructMol: Multi-Modal Integration for Building a Versatile and Reliable Molecular Assistant in Drug Discovery_ ```arXiv 2023```     
+- **(InstructMol)** _InstructMol: Multi-Modal Integration for Building a Versatile and Reliable Molecular Assistant in Drug Discovery_ ```COLING 2025```     
 [[Paper](https://arxiv.org/abs/2311.16208)] [[GitHub](https://github.com/IDEA-XL/InstructMol)]
 
 - **(3D-MoLM)** _Towards 3D Molecule-Text Interpretation in Language Models_ ```ICLR 2024```     
@@ -547,7 +547,7 @@ The repository is part of our survey paper [**A Comprehensive Survey of Scientif
 - **(PMC-LLaMA)** _PMC-LLaMA: Towards Building Open-source Language Models for Medicine_ ```JAMIA 2024```     
 [[Paper](https://arxiv.org/abs/2304.14454)] [[GitHub](https://github.com/chaoyi-wu/PMC-LLaMA)] [[Model (7B)](https://huggingface.co/chaoyi-wu/PMC_LLAMA_7B)] [[Model (13B)](https://huggingface.co/axiong/PMC_LLaMA_13B)]
 
-- **(Med-PaLM 2)** _Towards Expert-Level Medical Question Answering with Large Language Models_ ```arXiv 2023```     
+- **(Med-PaLM 2)** _Toward Expert-Level Medical Question Answering with Large Language Models_ ```Nature Medicine 2025```     
 [[Paper](https://arxiv.org/abs/2305.09617)]
 
 - **(HuatuoGPT)** _HuatuoGPT, towards Taming Language Model to Be a Doctor_ ```EMNLP 2023 Findings```     
@@ -574,7 +574,7 @@ The repository is part of our survey paper [**A Comprehensive Survey of Scientif
 - **(BianQue)** _BianQue: Balancing the Questioning and Suggestion Ability of Health LLMs with Multi-turn Health Conversations Polished by ChatGPT_ ```arXiv 2023```     
 [[Paper](https://arxiv.org/abs/2310.15896)] [[GitHub](https://github.com/scutcyr/BianQue)] [[Model (6B)](https://huggingface.co/scutcyr/BianQue-1.0)]
 
-- **(HuatuoGPT-II)** _HuatuoGPT-II, One-stage Training for Medical Adaption of LLMs_ ```arXiv 2023```     
+- **(HuatuoGPT-II)** _HuatuoGPT-II, One-stage Training for Medical Adaption of LLMs_ ```COLM 2024```     
 [[Paper](https://arxiv.org/abs/2311.09774)] [[GitHub](https://github.com/FreedomIntelligence/HuatuoGPT-II)] [[Model (7B)](https://huggingface.co/FreedomIntelligence/HuatuoGPT2-7B)] [[Model (13B)](https://huggingface.co/FreedomIntelligence/HuatuoGPT2-13B)] [[Model (34B)](https://huggingface.co/FreedomIntelligence/HuatuoGPT2-34B)]
 
 - **(Taiyi)** _Taiyi: A Bilingual Fine-Tuned Large Language Model for Diverse Biomedical Tasks_ ```JAMIA 2024```     
@@ -592,10 +592,10 @@ The repository is part of our survey paper [**A Comprehensive Survey of Scientif
 - **(Me-LLaMA)** _Me-LLaMA: Foundation Large Language Models for Medical Applications_ ```arXiv 2024```     
 [[Paper](https://arxiv.org/abs/2402.12749)] [[GitHub](https://github.com/BIDS-Xu-Lab/Me-LLaMA)]
 
-- **(BiMediX)** _BiMediX: Bilingual Medical Mixture of Experts LLM_ ```arXiv 2024```     
+- **(BiMediX)** _BiMediX: Bilingual Medical Mixture of Experts LLM_ ```EMNLP 2024 Findings```     
 [[Paper](https://arxiv.org/abs/2402.13253)] [[GitHub](https://github.com/mbzuai-oryx/BiMediX)] [[Model (8x7B)](https://huggingface.co/BiMediX/BiMediX-Bi)]
 
-- **(MMedLM)** _Towards Building Multilingual Language Model for Medicine_ ```arXiv 2024```     
+- **(MMedLM)** _Towards Building Multilingual Language Model for Medicine_ ```Nature Communications 2024```     
 [[Paper](https://arxiv.org/abs/2402.13963)] [[GitHub](https://github.com/MAGIC-AI4Med/MMedLM)] [[Model (7B, InternLM)](https://huggingface.co/Henrychur/MMedLM)] [[Model (1.8B, InternLM2)](https://huggingface.co/Henrychur/MMedLM2-1_8B)] [[Model (7B, InternLM2)](https://huggingface.co/Henrychur/MMedLM2)] [[Model (8B, LLaMA-3)](https://huggingface.co/Henrychur/MMed-Llama-3-8B)]
 
 - **(BioMedLM, f.k.a. PubMedGPT)** _BioMedLM: A 2.7B Parameter Language Model Trained On Biomedical Text_ ```arXiv 2024```     
@@ -604,7 +604,7 @@ The repository is part of our survey paper [**A Comprehensive Survey of Scientif
 - **(Hippocrates)** _Hippocrates: An Open-Source Framework for Advancing Large Language Models in Healthcare_ ```arXiv 2024```     
 [[Paper](https://arxiv.org/abs/2404.16621)] [[Model (7B, LLaMA-2)](https://huggingface.co/emrecanacikgoz/hippollama)] [[Model (7B, Mistral)](https://huggingface.co/emrecanacikgoz/hippomistral)]
 
-- **(BMRetriever)** _BMRetriever: Tuning Large Language Models as Better Biomedical Text Retrievers_ ```arXiv 2024```     
+- **(BMRetriever)** _BMRetriever: Tuning Large Language Models as Better Biomedical Text Retrievers_ ```EMNLP 2024```     
 [[Paper](https://arxiv.org/abs/2404.18443)] [[GitHub](https://github.com/ritaranx/BMRetriever)] [[Model (410M, Pythia)](https://huggingface.co/BMRetriever/BMRetriever-410M)] [[Model (1B, Pythia)](https://huggingface.co/BMRetriever/BMRetriever-1B)] [[Model (2B, Gemma)](https://huggingface.co/BMRetriever/BMRetriever-2B)] [[Model (7B, Mistral)](https://huggingface.co/BMRetriever/BMRetriever-7B)]
 
 - **(Panacea)** _Panacea: A Foundation Model for Clinical Trial Search, Summarization, Design, and Recruitment_ ```arXiv 2024```     
@@ -667,7 +667,7 @@ The repository is part of our survey paper [**A Comprehensive Survey of Scientif
 - **(BioViL-T)** _Learning to Exploit Temporal Structure for Biomedical Vision-Language Processing_ ```CVPR 2023```     
 [[Paper](https://arxiv.org/abs/2301.04558)] [[GitHub](https://github.com/microsoft/hi-ml/tree/main/hi-ml-multimodal)] [[Model](https://huggingface.co/microsoft/BiomedVLP-BioViL-T)]
 
-- **(BiomedCLIP)** _BiomedCLIP: A Multimodal Biomedical Foundation Model Pretrained from Fifteen Million Scientific Image-Text Pairs_ ```arXiv 2023```     
+- **(BiomedCLIP)** _BiomedCLIP: A Multimodal Biomedical Foundation Model Pretrained from Fifteen Million Scientific Image-Text Pairs_ ```NEJM AI 2024```     
 [[Paper](https://arxiv.org/abs/2303.00915)] [[Model](https://huggingface.co/microsoft/BiomedCLIP-PubMedBERT_256-vit_base_patch16_224)]
 
 - **(PMC-CLIP)** _PMC-CLIP: Contrastive Language-Image Pre-training using Biomedical Documents_ ```MICCAI 2023```     
@@ -820,7 +820,7 @@ The repository is part of our survey paper [**A Comprehensive Survey of Scientif
 - **(GenSLMs)** _GenSLMs: Genome-Scale Language Models Reveal SARS-CoV-2 Evolutionary Dynamics_ ```The International Journal of High Performance Computing Applications 2023```     
 [[Paper](https://www.biorxiv.org/content/10.1101/2022.10.10.511571)] [[GitHub](https://github.com/ramanathanlab/genslm)]
 
-- **(Nucleotide Transformer)** _The Nucleotide Transformer: Building and Evaluating Robust Foundation Models for Human Genomics_ ```bioRxiv 2023```     
+- **(Nucleotide Transformer)** _Nucleotide Transformer: Building and Evaluating Robust Foundation Models for Human Genomics_ ```Nature Methods 2024```     
 [[Paper](https://www.biorxiv.org/content/10.1101/2023.01.11.523679)] [[GitHub](https://github.com/instadeepai/nucleotide-transformer)] [[Model (50M)](https://huggingface.co/InstaDeepAI/nucleotide-transformer-v2-50m-multi-species)] [[Model (100M)](https://huggingface.co/InstaDeepAI/nucleotide-transformer-v2-100m-multi-species)] [[Model (250M)](https://huggingface.co/InstaDeepAI/nucleotide-transformer-v2-250m-multi-species)] [[Model (500M)](https://huggingface.co/InstaDeepAI/nucleotide-transformer-v2-500m-multi-species)]
 
 - **(GENA-LM)** _GENA-LM: A Family of Open-Source Foundational DNA Language Models for Long Sequences_ ```bioRxiv 2023```     
@@ -877,7 +877,7 @@ The repository is part of our survey paper [**A Comprehensive Survey of Scientif
 - **(CellPLM)** _CellPLM: Pre-training of Cell Language Model Beyond Single Cells_ ```ICLR 2024```     
 [[Paper](https://www.biorxiv.org/content/10.1101/2023.10.03.560734)] [[GitHub](https://github.com/OmicsML/CellPLM)] [[Model (82M)](https://www.dropbox.com/scl/fo/i5rmxgtqzg7iykt2e9uqm/h?rlkey=o8hi0xads9ol07o48jdityzv1&dl=0)]
 
-- **(scMulan)** _scMulan: A Multitask Generative Pre-trained Language Model for Single-Cell Analysis_ ```bioRxiv 2024```     
+- **(scMulan)** _scMulan: A Multitask Generative Pre-trained Language Model for Single-Cell Analysis_ ```RECOMB 2024```     
 [[Paper](https://www.biorxiv.org/content/10.1101/2024.01.25.577152)] [[GitHub](https://github.com/SuperBianC/scMulan)]
 
 
