@@ -954,7 +954,7 @@ The repository is part of our survey paper [**A Comprehensive Survey of Scientif
 ## Citation
 If you find this repository useful, please cite the following paper:
 ```
-@article{zhang2024comprehensive,
+@inproceedings{zhang2024comprehensive,
   title={A Comprehensive Survey of Scientific Large Language Models and Their Applications in Scientific Discovery},
   author={Zhang, Yu and Chen, Xiusi and Jin, Bowen and Wang, Sheng and Ji, Shuiwang and Wang, Wei and Han, Jiawei},
   booktitle={EMNLP'24},
