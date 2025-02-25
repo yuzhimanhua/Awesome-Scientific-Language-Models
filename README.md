@@ -2,7 +2,7 @@
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 [![Stars](https://img.shields.io/github/stars/yuzhimanhua/Awesome-Scientific-Language-Models?style=social)](https://img.shields.io/github/stars/yuzhimanhua/Awesome-Scientific-Language-Models?style=social)
 
-[![Papers](https://img.shields.io/badge/PaperNumber-267-blue)](https://img.shields.io/badge/PaperNumber-267-blue)
+[![Papers](https://img.shields.io/badge/PaperNumber-282-blue)](https://img.shields.io/badge/PaperNumber-282-blue)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![PRWelcome](https://img.shields.io/badge/PRs-Welcome-red)](https://img.shields.io/badge/PRs-Welcome-red)
 
@@ -14,7 +14,7 @@ The repository is part of our survey paper [**A Comprehensive Survey of Scientif
 
 **NOTE 2**: In each subsection, papers are sorted chronologically. If a paper has a preprint (e.g., arXiv or bioRxiv) version, its publication date is according to the preprint service. Otherwise, its publication date is according to the conference proceeding or journal.
 
-**NOTE 3**: We appreciate contributions. If you have any suggested papers, feel free to reach out to yuz9@illinois.edu or submit a [pull request](https://github.com/yuzhimanhua/Awesome-Scientific-Language-Models/pulls). For format consistency, we will include a paper after (1) it has a version with author names AND (2) its GitHub and/or Hugging Face links are available.
+**NOTE 3**: We appreciate contributions. If you have any suggested papers, feel free to reach out to yuzhang@tamu.edu or submit a [pull request](https://github.com/yuzhimanhua/Awesome-Scientific-Language-Models/pulls). For format consistency, we will include a paper after (1) it has a version with author names AND (2) its GitHub and/or Hugging Face links are available.
 
 
 
@@ -748,6 +748,9 @@ The repository is part of our survey paper [**A Comprehensive Survey of Scientif
 - **(Mammo-CLIP)** _Mammo-CLIP: A Vision Language Foundation Model to Enhance Data Efficiency and Robustness in Mammography_ ```MICCAI 2024```     
 [[Paper](https://arxiv.org/abs/2405.12255)] [[GitHub](https://github.com/batmanlab/Mammo-CLIP)] [[Model](https://huggingface.co/shawn24/Mammo-CLIP)]
 
+- **(BiomedParse)** _A Foundation Model for Joint Segmentation, Detection and Recognition of Biomedical Objects across Nine Modalities_ ```Nature Methods 2025```     
+[[Paper](https://arxiv.org/abs/2405.12971)] [[GitHub](https://github.com/microsoft/BiomedParse)] [[Model](https://huggingface.co/microsoft/BiomedParse)]
+
 
 <h3 id="biology-other-modalities-protein">Other Modalities (Protein)</h3>
 
@@ -796,6 +799,9 @@ The repository is part of our survey paper [**A Comprehensive Survey of Scientif
 - **(ProteinDT)** _A Text-Guided Protein Design Framework_ ```arXiv 2023```     
 [[Paper](https://arxiv.org/abs/2302.04611)] [[GitHub](https://github.com/chao1224/ProteinDT)]
 
+- **(gLM)** _Genomic Language Model Predicts Protein Co-Regulation and Function_ ```Nature Communications 2024```     
+[[Paper](https://www.biorxiv.org/content/10.1101/2023.04.07.536042)] [[GitHub](https://github.com/y-hwang/gLM)] [[Model (1B)](https://zenodo.org/records/7855545)]
+
 - **(Prot2Text)** _Prot2Text: Multimodal Protein's Function Generation with GNNs and Transformers_ ```AAAI 2024```     
 [[Paper](https://arxiv.org/abs/2307.14367)] [[GitHub](https://github.com/hadi-abdine/Prot2Text)] [[Model (256M)](https://1drv.ms/u/s!AhcBGHWGY2mukdh4KujJfOJ_PxvJog?e=C6x4E6)] [[Model (283M)](https://1drv.ms/u/s!AhcBGHWGY2mukdh1N1kfnmXBEar-Tw?e=fACWFt)] [[Model (398M)](https://1drv.ms/u/s!AhcBGHWGY2mukdh3yPy98rqWfYcTJA?e=ot1SX6)] [[Model (898M)](https://1drv.ms/u/s!AhcBGHWGY2mukdh2EL4iP_IoVKu1tg?e=PioL6B)]
 
@@ -808,8 +814,17 @@ The repository is part of our survey paper [**A Comprehensive Survey of Scientif
 - **(BioT5)** _BioT5: Enriching Cross-modal Integration in Biology with Chemical Knowledge and Natural Language Associations_ ```EMNLP 2023```     
 [[Paper](https://arxiv.org/abs/2310.07276)] [[GitHub](https://github.com/QizhiPei/BioT5)] [[Model (220M)](https://huggingface.co/QizhiPei/biot5-base)]
 
+- **(xTrimoPGLM)** _xTrimoPGLM: Unified 100B-Scale Pre-trained Transformer for Deciphering the Language of Protein_ ```arXiv 2024```     
+[[Paper](https://arxiv.org/abs/2401.06199)] [[GitHub](https://github.com/ONERAI/xTrimoPGLM)] [[Model (1B)](https://huggingface.co/Bo1015/proteinglm-1b-mlm)] [[Model (3B)](https://huggingface.co/Bo1015/proteinglm-3b-mlm)] [[Model (10B)](https://huggingface.co/Bo1015/proteinglm-10b-mlm)] [[Model (100B)](https://huggingface.co/Bo1015/proteinglm-100b-int4)]
+
 - **(ProLLaMA)** _ProLLaMA: A Protein Large Language Model for Multi-Task Protein Language Processing_ ```arXiv 2024```     
 [[Paper](https://arxiv.org/abs/2402.16445)] [[GitHub](https://github.com/PKU-YuanGroup/ProLLaMA)] [[Model (7B)](https://huggingface.co/GreatCaptainNemo/ProLLaMA)]
+
+- **(ProteinCLIP)** _ProteinCLIP: Enhancing Protein Language Models with Natural Language_ ```bioRxiv 2024```     
+[[Paper](https://www.biorxiv.org/content/10.1101/2024.05.14.594226)] [[GitHub](https://github.com/wukevin/proteinclip)]
+
+- **(ESM-3)** _Simulating 500 Million Years of Evolution with a Language Model_ ```Science 2025```     
+[[Paper](https://www.biorxiv.org/content/10.1101/2024.07.01.600583)] [[GitHub](https://github.com/evolutionaryscale/esm)] [[Model (98B)](https://huggingface.co/EvolutionaryScale/esm3-sm-open-v1)]
 
 
 <h3 id="biology-other-modalities-dna">Other Modalities (DNA)</h3>
@@ -823,7 +838,10 @@ The repository is part of our survey paper [**A Comprehensive Survey of Scientif
 - **(Nucleotide Transformer)** _Nucleotide Transformer: Building and Evaluating Robust Foundation Models for Human Genomics_ ```Nature Methods 2024```     
 [[Paper](https://www.biorxiv.org/content/10.1101/2023.01.11.523679)] [[GitHub](https://github.com/instadeepai/nucleotide-transformer)] [[Model (50M)](https://huggingface.co/InstaDeepAI/nucleotide-transformer-v2-50m-multi-species)] [[Model (100M)](https://huggingface.co/InstaDeepAI/nucleotide-transformer-v2-100m-multi-species)] [[Model (250M)](https://huggingface.co/InstaDeepAI/nucleotide-transformer-v2-250m-multi-species)] [[Model (500M)](https://huggingface.co/InstaDeepAI/nucleotide-transformer-v2-500m-multi-species)]
 
-- **(GENA-LM)** _GENA-LM: A Family of Open-Source Foundational DNA Language Models for Long Sequences_ ```bioRxiv 2023```     
+- **(SpeciesLM)** _Species-Aware DNA Language Models Capture Regulatory Elements and Their Evolution_ ```Genome Biology 2024```     
+[[Paper](https://www.biorxiv.org/content/10.1101/2023.01.26.525670)] [[GitHub](https://github.com/gagneurlab/SpeciesLM)] [[Model (89M)](https://huggingface.co/gagneurlab/SpeciesLM)]
+
+- **(GENA-LM)** _GENA-LM: A Family of Open-Source Foundational DNA Language Models for Long Sequences_ ```Nucleic Acids Research 2025```     
 [[Paper](https://www.biorxiv.org/content/10.1101/2023.06.12.544594)] [[GitHub](https://github.com/AIRI-Institute/GENA_LM)] [[Model (Base, BERT)](https://huggingface.co/AIRI-Institute/gena-lm-bert-base-t2t)] [[Model (Large, BERT)](https://huggingface.co/AIRI-Institute/gena-lm-bert-large-t2t)] [[Model (Base, BigBird)](https://huggingface.co/AIRI-Institute/gena-lm-bigbird-base-t2t)]
 
 - **(DNABERT-2)** _DNABERT-2: Efficient Foundation Model and Benchmark for Multi-Species Genome_ ```ICLR 2024```     
@@ -834,6 +852,18 @@ The repository is part of our survey paper [**A Comprehensive Survey of Scientif
 
 - **(DNAGPT)** _DNAGPT: A Generalized Pre-trained Tool for Versatile DNA Sequence Analysis Tasks_ ```arXiv 2023```     
 [[Paper](https://arxiv.org/abs/2307.05628)] [[GitHub](https://github.com/TencentAILabHealthcare/DNAGPT)] [[Model (0.1B)](https://drive.google.com/file/d/15m6CH3zaMSqflOaf6ec5VPfiulg-Gh0u/view)] [[Model (3B)](https://drive.google.com/file/d/1pQ3Ai7C-ObzKkKTRwuf6eshVneKHzYEg/view)]
+
+- **(GPN-MSA)** _GPN-MSA: An Alignment-Based DNA Language Model for Genome-Wide Variant Effect Prediction_ ```Nature Biotechnology 2025```     
+[[Paper](https://www.biorxiv.org/content/10.1101/2023.10.10.561776)] [[GitHub](https://github.com/songlab-cal/gpn/tree/main/analysis/gpn-msa_human)] [[Model (86M)](https://huggingface.co/songlab/gpn-msa-sapiens)]
+
+- **(ENBED)** _Understanding the Natural Language of DNA using Encoder-Decoder Foundation Models with Byte-level Precision_ ```Bioinformatics Advances 2024```     
+[[Paper](https://arxiv.org/abs/2311.02333)] [[GitHub](https://github.itap.purdue.edu/Clan-labs/ENBED)]
+
+- **(LucaOne)** _LucaOne: Generalized Biological Foundation Model with Unified Nucleic Acid and Protein Language_ ```bioRxiv 2024```     
+[[Paper](https://www.biorxiv.org/content/10.1101/2024.05.10.592927)] [[GitHub](https://github.com/LucaOne/LucaOne)]
+
+- **(AIDO.DNA)** _Accurate and General DNA Representations Emerge from Genome Foundation Models at Scale_ ```bioRxiv 2024```     
+[[Paper](https://www.biorxiv.org/content/10.1101/2024.12.01.625444)] [[GitHub](https://github.com/genbio-ai/AIDO)] [[Model (7B)](https://huggingface.co/genbio-ai/AIDO.DNA-7B)]
 
 
 <h3 id="biology-other-modalities-rna">Other Modalities (RNA)</h3>
@@ -850,11 +880,26 @@ The repository is part of our survey paper [**A Comprehensive Survey of Scientif
 - **(RNA-MSM)** _Multiple Sequence-Alignment-Based RNA Language Model and its Application to Structural Inference_ ```Nucleic Acids Research 2024```     
 [[Paper](https://www.biorxiv.org/content/10.1101/2023.03.15.532863)] [[GitHub](https://github.com/yikunpku/RNA-MSM)]
 
-- **(CodonBERT)** _CodonBERT: Large Language Models for mRNA Design and Optimization_ ```bioRxiv 2023```     
+- **(CodonBERT)** _CodonBERT Large Language Model for mRNA Vaccines_ ```Genome Research 2024```     
 [[Paper](https://www.biorxiv.org/content/10.1101/2023.09.09.556981)] [[GitHub](https://github.com/Sanofi-Public/CodonBERT)]
 
 - **(UTR-LM)** _A 5' UTR Language Model for Decoding Untranslated Regions of mRNA and Function Predictions_ ```Nature Machine Intelligence 2024```     
 [[Paper](https://www.biorxiv.org/content/10.1101/2023.10.11.561938)] [[GitHub](https://github.com/a96123155/UTR-LM)]
+
+- **(GenerRNA)** _GenerRNA: A Generative Pre-trained Language Model for de novo RNA Design_ ```PLoS One 2024```     
+[[Paper](https://www.biorxiv.org/content/10.1101/2024.02.01.578496)] [[Model (350M)](https://huggingface.co/pfnet/GenerRNA)]
+
+- **(RNAErnie)** _Multi-Purpose RNA Language Modelling with Motif-Aware Pretraining and Type-Guided Fine-Tuning_ ```Nature Machine Intelligence 2024```     
+[[Paper](https://www.nature.com/articles/s42256-024-00836-4)] [[GitHub](https://github.com/CatIIIIIIII/RNAErnie)] [[Model (105M)](https://huggingface.co/LLM-EDA/RNAErnie)]
+
+- **(RNA-TorsionBERT)** _RNA-TorsionBERT: Leveraging Language Models for RNA 3D Torsion Angles Prediction_ ```Bioinformatics 2025```     
+[[Paper](https://www.biorxiv.org/content/10.1101/2024.06.06.597803)] [[GitHub](https://github.com/EvryRNA/RNA-TorsionBERT)]
+
+- **(PlantRNA-FM)** _An Interpretable RNA Foundation Model for Exploring Functional RNA Motifs in Plants_ ```Nature Machine Intelligence 2024```     
+[[Paper](https://www.biorxiv.org/content/10.1101/2024.06.24.600509)] [[GitHub](https://github.com/yangheng95/PlantRNA-FM)] [[Model (35M)](https://huggingface.co/yangheng/PlantRNA-FM)]
+
+- **(AIDO.RNA)** _A Large-Scale Foundation Model for RNA Function and Structure Prediction_ ```bioRxiv 2024```     
+[[Paper](https://www.biorxiv.org/content/10.1101/2024.11.28.625345)] [[GitHub](https://github.com/genbio-ai/AIDO)] [[Model (1.6B)](https://huggingface.co/genbio-ai/AIDO.RNA-1.6B)]
 
 
 <h3 id="biology-other-modalities-multiomics">Other Modalities (Multiomics)</h3>
