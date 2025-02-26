@@ -2,7 +2,7 @@
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 [![Stars](https://img.shields.io/github/stars/yuzhimanhua/Awesome-Scientific-Language-Models?style=social)](https://img.shields.io/github/stars/yuzhimanhua/Awesome-Scientific-Language-Models?style=social)
 
-[![Papers](https://img.shields.io/badge/PaperNumber-282-blue)](https://img.shields.io/badge/PaperNumber-282-blue)
+[![Papers](https://img.shields.io/badge/PaperNumber-296-blue)](https://img.shields.io/badge/PaperNumber-296-blue)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![PRWelcome](https://img.shields.io/badge/PRs-Welcome-red)](https://img.shields.io/badge/PRs-Welcome-red)
 
@@ -93,6 +93,12 @@ The repository is part of our survey paper [**A Comprehensive Survey of Scientif
 
 - **(SciGLM)** _SciInstruct: a Self-Reflective Instruction Annotated Dataset for Training Scientific Language Models_ ```NeurIPS 2024```     
 [[Paper](https://arxiv.org/abs/2401.07950)] [[GitHub](https://github.com/THUDM/SciGLM)] [[Model (6B)](https://huggingface.co/zd21/SciGLM-6B)]
+
+- **(INDUS)** _INDUS: Effective and Efficient Language Models for Scientific Applications_ ```EMNLP 2024```     
+[[Paper](https://arxiv.org/abs/2405.10725)] [[Model (38M)](https://huggingface.co/nasa-impact/nasa-smd-ibm-distil-v0.1)] [[Model (125M)](https://huggingface.co/nasa-impact/nasa-smd-ibm-v0.1)]
+
+- **(SciDFM)** _SciDFM: A Large Language Model with Mixture-of-Experts for Science_ ```arXiv 2024```     
+[[Paper](https://arxiv.org/abs/2409.18412)] [[Model (18.2B)](https://huggingface.co/OpenDFM/SciDFM-MoE-A5.6B-v1.0)]
 
 
 <h3 id="general-language-graph">Language + Graph</h3>
@@ -315,6 +321,9 @@ The repository is part of our survey paper [**A Comprehensive Survey of Scientif
 
 - **(LlaSMol)** _LlaSMol: Advancing Large Language Models for Chemistry with a Large-Scale, Comprehensive, High-Quality Instruction Tuning Dataset_ ```COLM 2024```     
 [[Paper](https://arxiv.org/abs/2402.09391)] [[GitHub](https://github.com/OSU-NLP-Group/LLM4Chem)] [[Model (6.7B, Galactica)](https://huggingface.co/osunlp/LlaSMol-Galactica-6.7B)] [[Model (7B, LLaMA-2)](https://huggingface.co/osunlp/LlaSMol-Llama2-7B)] [[Model (7B, Mistral)](https://huggingface.co/osunlp/LlaSMol-Mistral-7B)]
+
+- **(KALE-LM)** _KALE-LM: Unleash The Power Of AI For Science Via Knowledge And Logic Enhanced Large Model_ ```arXiv 2024```     
+[[Paper](https://arxiv.org/abs/2409.18695)] [[Model (8B)](https://huggingface.co/USTC-KnowledgeComputingLab/Llama3-KALE-LM-Chem-1.5-8B)]
 
 
 <h3 id="chemistry-language-graph">Language + Graph</h3>
@@ -607,8 +616,14 @@ The repository is part of our survey paper [**A Comprehensive Survey of Scientif
 - **(BMRetriever)** _BMRetriever: Tuning Large Language Models as Better Biomedical Text Retrievers_ ```EMNLP 2024```     
 [[Paper](https://arxiv.org/abs/2404.18443)] [[GitHub](https://github.com/ritaranx/BMRetriever)] [[Model (410M, Pythia)](https://huggingface.co/BMRetriever/BMRetriever-410M)] [[Model (1B, Pythia)](https://huggingface.co/BMRetriever/BMRetriever-1B)] [[Model (2B, Gemma)](https://huggingface.co/BMRetriever/BMRetriever-2B)] [[Model (7B, Mistral)](https://huggingface.co/BMRetriever/BMRetriever-7B)]
 
+- **(UltraMedical)** _UltraMedical: Building Specialized Generalists in Biomedicine_ ```NeurIPS 2024```     
+[[Paper](https://arxiv.org/abs/2406.03949)] [[GitHub](https://github.com/TsinghuaC3I/UltraMedical)] [[Model (8B, LLaMA-3)](https://huggingface.co/TsinghuaC3I/Llama-3-8B-UltraMedical)] [[Model (70B, LLaMA-3)](https://huggingface.co/TsinghuaC3I/Llama-3-70B-UltraMedical)] [[Model (8B, LLaMA-3.1)](https://huggingface.co/TsinghuaC3I/Llama-3.1-8B-UltraMedical)]
+
 - **(Panacea)** _Panacea: A Foundation Model for Clinical Trial Search, Summarization, Design, and Recruitment_ ```arXiv 2024```     
-[[Paper](https://arxiv.org/abs/2407.11007)] [[GitHub](https://github.com/linjc16/Panacea)]
+[[Paper](https://arxiv.org/abs/2407.11007)] [[GitHub](https://github.com/linjc16/Panacea)] [[Model (7B)](https://huggingface.co/linjc16/Panacea-7B-Chat)]
+
+- **(HuatuoGPT-o1)** _HuatuoGPT-o1, Towards Medical Complex Reasoning with LLMs_ ```arXiv 2024```     
+[[Paper](https://arxiv.org/abs/2412.18925)] [[GitHub](https://github.com/FreedomIntelligence/HuatuoGPT-o1)] [[Model (8B, LLaMA-3.1)](https://huggingface.co/FreedomIntelligence/HuatuoGPT-o1-8B)] [[Model (70B, LLaMA-3.1)](https://huggingface.co/FreedomIntelligence/HuatuoGPT-o1-70B)] [[Model (7B, Qwen2.5)](https://huggingface.co/FreedomIntelligence/HuatuoGPT-o1-7B)] [[Model (72B, Qwen2.5)](https://huggingface.co/FreedomIntelligence/HuatuoGPT-o1-72B)]
 
 
 <h3 id="biology-language-graph">Language + Graph</h3>
@@ -750,6 +765,9 @@ The repository is part of our survey paper [**A Comprehensive Survey of Scientif
 
 - **(BiomedParse)** _A Foundation Model for Joint Segmentation, Detection and Recognition of Biomedical Objects across Nine Modalities_ ```Nature Methods 2025```     
 [[Paper](https://arxiv.org/abs/2405.12971)] [[GitHub](https://github.com/microsoft/BiomedParse)] [[Model](https://huggingface.co/microsoft/BiomedParse)]
+
+- **(HuatuoGPT-Vision)** _Towards Injecting Medical Visual Knowledge into Multimodal LLMs at Scale_ ```EMNLP 2024```     
+[[Paper](https://arxiv.org/abs/2406.19280)] [[GitHub](https://github.com/FreedomIntelligence/HuatuoGPT-Vision)] [[Model (7B)](https://huggingface.co/FreedomIntelligence/HuatuoGPT-Vision-7B)] [[Model (34B)](https://huggingface.co/FreedomIntelligence/HuatuoGPT-Vision-34B)]
 
 
 <h3 id="biology-other-modalities-protein">Other Modalities (Protein)</h3>
@@ -956,6 +974,15 @@ The repository is part of our survey paper [**A Comprehensive Survey of Scientif
 - **(GeoGalactica)** _GeoGalactica: A Scientific Large Language Model in Geoscience_ ```arXiv 2024```     
 [[Paper](https://arxiv.org/abs/2401.00434)] [[GitHub](https://github.com/geobrain-ai/geogalactica)] [[Model (30B)](https://huggingface.co/geobrain-ai/geogalactica)]
 
+- **(UrbanKGent)** _UrbanKGent: A Unified Large Language Model Agent Framework for Urban Knowledge Graph Construction_ ```NeurIPS 2024```     
+[[Paper](https://arxiv.org/abs/2402.06861)] [[GitHub](https://github.com/usail-hkust/UrbanKGent)] [[Model (7B, LLaMA-2)](https://huggingface.co/usail-hkust/UrbanKGent-7B)] [[Model (13B, LLaMA-2)](https://huggingface.co/usail-hkust/UrbanKGent-13B)] [[Model (8B, LLaMA-3)](https://huggingface.co/usail-hkust/UrbanKGent-8B)]
+
+- **(UrbanGPT)** _UrbanGPT: Spatio-Temporal Large Language Models_ ```KDD 2024```     
+[[Paper](https://arxiv.org/abs/2403.00813)] [[GitHub](https://github.com/HKUDS/UrbanGPT)] [[Model (7B)](https://huggingface.co/bjdwh/UrbanGPT)]
+
+- **(JiuZhou)** _JiuZhou: Open Foundation Language Models and Effective Pre-training Framework for Geoscience_ ```International Journal of Digital Earth 2025```     
+[[Paper](https://www.tandfonline.com/doi/full/10.1080/17538947.2025.2449708)] [[GitHub](https://github.com/THU-ESIS/JiuZhou)] [[Model (7B)](https://huggingface.co/itpossible/JiuZhou-Instruct-v0.2)]
+
 
 <h3 id="geography-language-graph">Language + Graph</h3>
 
@@ -967,6 +994,9 @@ The repository is part of our survey paper [**A Comprehensive Survey of Scientif
 
 
 <h3 id="geography-language-vision">Language + Vision</h3>
+
+- **(GeoCLIP)** _GeoCLIP: CLIP-Inspired Alignment between Locations and Images for Effective Worldwide Geo-localization_ ```NeurIPS 2023```     
+[[Paper](https://arxiv.org/abs/2309.16020)] [[GitHub](https://github.com/VicenteVivan/geo-clip)]
 
 - **(UrbanCLIP)** _UrbanCLIP: Learning Text-Enhanced Urban Region Profiling with Contrastive Language-Image Pretraining from the Web_ ```WWW 2024```     
 [[Paper](https://arxiv.org/abs/2310.18340)] [[GitHub](https://github.com/stupidbuluchacha/urbanclip)]
@@ -980,6 +1010,9 @@ The repository is part of our survey paper [**A Comprehensive Survey of Scientif
 - **(Pangu-Weather)** _Accurate Medium-Range Global Weather Forecasting with 3D Neural Networks_ ```Nature 2023```     
 [[Paper](https://arxiv.org/abs/2211.02556)] [[GitHub](https://github.com/198808xc/Pangu-Weather)]
 
+- **(GraphCast)** _Learning Skillful Medium-Range Global Weather Forecasting_ ```Science 2023```     
+[[Paper](https://arxiv.org/abs/2212.12794)] [[GitHub](https://github.com/google-deepmind/graphcast)]
+
 - **(ClimaX)** _ClimaX: A Foundation Model for Weather and Climate_ ```ICML 2023```     
 [[Paper](https://arxiv.org/abs/2301.10343)] [[GitHub](https://github.com/microsoft/ClimaX)]
 
@@ -991,6 +1024,15 @@ The repository is part of our survey paper [**A Comprehensive Survey of Scientif
 
 - **(FuXi)** _FuXi: A Cascade Machine Learning Forecasting System for 15-day Global Weather Forecast_ ```npj Climate and Atmospheric Science 2023```     
 [[Paper](https://arxiv.org/abs/2306.12873)] [[GitHub](https://github.com/tpys/FuXi)]
+
+- **(Stormer)** _Scaling Transformer Neural Networks for Skillful and Reliable Medium-Range Weather Forecasting_ ```NeurIPS 2024```     
+[[Paper](https://arxiv.org/abs/2312.03876)] [[GitHub](https://github.com/tung-nd/stormer)]
+
+- **(Aurora)** _A Foundation Model for the Earth System_ ```arXiv 2024```     
+[[Paper](https://arxiv.org/abs/2405.13063)] [[GitHub](https://github.com/microsoft/aurora)]
+
+- **(Prithvi WxC)** _Prithvi WxC: Foundation Model for Weather and Climate_ ```arXiv 2024```     
+[[Paper](https://arxiv.org/abs/2409.13598)] [[GitHub](https://github.com/NASA-IMPACT/Prithvi-WxC)] [[Model (2.3B)](https://huggingface.co/ibm-nasa-geospatial/Prithvi-WxC-1.0-2300M)]
 
 
 
