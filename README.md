@@ -833,7 +833,7 @@ The repository is part of our survey paper [**A Comprehensive Survey of Scientif
 [[Paper](https://arxiv.org/abs/2310.07276)] [[GitHub](https://github.com/QizhiPei/BioT5)] [[Model (220M)](https://huggingface.co/QizhiPei/biot5-base)]
 
 - **(xTrimoPGLM)** _xTrimoPGLM: Unified 100-Billion-Parameter Pretrained Transformer for Deciphering the Language of Proteins_ ```Nature Methods 2025```     
-[[Paper](https://arxiv.org/abs/2401.06199)] [[GitHub](https://github.com/ONERAI/xTrimoPGLM)] [[Model (1B)](https://huggingface.co/Bo1015/proteinglm-1b-mlm)] [[Model (3B)](https://huggingface.co/Bo1015/proteinglm-3b-mlm)] [[Model (10B)](https://huggingface.co/Bo1015/proteinglm-10b-mlm)] [[Model (100B)](https://huggingface.co/Bo1015/proteinglm-100b-int4)]
+[[Paper](https://www.nature.com/articles/s41592-025-02636-z)] [[GitHub](https://github.com/ONERAI/xTrimoPGLM)] [[Model (1B)](https://huggingface.co/Bo1015/proteinglm-1b-mlm)] [[Model (3B)](https://huggingface.co/Bo1015/proteinglm-3b-mlm)] [[Model (10B)](https://huggingface.co/Bo1015/proteinglm-10b-mlm)] [[Model (100B)](https://huggingface.co/Bo1015/proteinglm-100b-int4)]
 
 - **(ProLLaMA)** _ProLLaMA: A Protein Large Language Model for Multi-Task Protein Language Processing_ ```arXiv 2024```     
 [[Paper](https://arxiv.org/abs/2402.16445)] [[GitHub](https://github.com/PKU-YuanGroup/ProLLaMA)] [[Model (7B)](https://huggingface.co/GreatCaptainNemo/ProLLaMA)]
@@ -878,7 +878,7 @@ The repository is part of our survey paper [**A Comprehensive Survey of Scientif
 [[Paper](https://arxiv.org/abs/2311.02333)] [[GitHub](https://github.itap.purdue.edu/Clan-labs/ENBED)]
 
 - **(LucaOne)** _Generalized Biological Foundation Model with Unified Nucleic Acid and Protein Language_ ```Nature Machine Intelligence 2025```     
-[[Paper](https://www.biorxiv.org/content/10.1101/2024.05.10.592927)] [[GitHub](https://github.com/LucaOne/LucaOne)]
+[[Paper](https://www.nature.com/articles/s42256-025-01044-4)] [[GitHub](https://github.com/LucaOne/LucaOne)]
 
 - **(AIDO.DNA)** _Accurate and General DNA Representations Emerge from Genome Foundation Models at Scale_ ```bioRxiv 2024```     
 [[Paper](https://www.biorxiv.org/content/10.1101/2024.12.01.625444)] [[GitHub](https://github.com/genbio-ai/AIDO)] [[Model (7B)](https://huggingface.co/genbio-ai/AIDO.DNA-7B)]
