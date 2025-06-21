@@ -158,7 +158,7 @@ The repository is part of our survey paper [**A Comprehensive Survey of Scientif
 - **(Bhaskara)** _Lila: A Unified Benchmark for Mathematical Reasoning_ ```EMNLP 2022```     
 [[Paper](https://arxiv.org/abs/2210.17517)] [[GitHub](https://github.com/allenai/Lila)] [[Model (2.7B)](https://huggingface.co/allenai/bhaskara)]
 
-- **(WizardMath)** _WizardMath: Empowering Mathematical Reasoning for Large Language Models via Reinforced Evol-Instruct_ ```arXiv 2023```     
+- **(WizardMath)** _WizardMath: Empowering Mathematical Reasoning for Large Language Models via Reinforced Evol-Instruct_ ```ICLR 2025```     
 [[Paper](https://arxiv.org/abs/2308.09583)] [[GitHub](https://github.com/nlpxucan/WizardLM)] [[Model (7B)](https://huggingface.co/WizardLM/WizardMath-7B-V1.1)] [[Model (13B)](https://huggingface.co/WizardLM/WizardMath-13B-V1.0)] [[Model (70B)](https://huggingface.co/WizardLM/WizardMath-70B-V1.0)]
 
 - **(MAmmoTH)** _MAmmoTH: Building Math Generalist Models through Hybrid Instruction Tuning_ ```ICLR 2024```     
@@ -212,7 +212,7 @@ The repository is part of our survey paper [**A Comprehensive Survey of Scientif
 - **(UniMath-Flan-T5)** _UniMath: A Foundational and Multimodal Mathematical Reasoner_ ```EMNLP 2023```     
 [[Paper](https://aclanthology.org/2023.emnlp-main.440)] [[GitHub](https://github.com/Zhenwen-NLP/UniMath)]
 
-- **(G-LLaVA)** _G-LLaVA: Solving Geometric Problem with Multi-Modal Large Language Model_ ```arXiv 2023```     
+- **(G-LLaVA)** _G-LLaVA: Solving Geometric Problem with Multi-Modal Large Language Model_ ```ICLR 2025```     
 [[Paper](https://arxiv.org/abs/2312.11370)] [[GitHub](https://github.com/pipilurj/G-LLaVA)] [[Model (7B)](https://huggingface.co/renjiepi/G-LLaVA-7B)] [[Model (13B)](https://huggingface.co/renjiepi/G-LLaVA-13B)]
 
 
@@ -814,7 +814,7 @@ The repository is part of our survey paper [**A Comprehensive Survey of Scientif
 - **(LM-Design)** _Structure-informed Language Models Are Protein Designers_ ```ICML 2023```     
 [[Paper](https://arxiv.org/abs/2302.01649)] [[GitHub](https://github.com/BytedProtein/ByProt)] [[Model (659M)](https://zenodo.org/records/10046338/files/lm_design_esm2_650m.zip)]
 
-- **(ProteinDT)** _A Text-Guided Protein Design Framework_ ```arXiv 2023```     
+- **(ProteinDT)** _A Text-Guided Protein Design Framework_ ```Nature Machine Intelligence 2025```     
 [[Paper](https://arxiv.org/abs/2302.04611)] [[GitHub](https://github.com/chao1224/ProteinDT)]
 
 - **(gLM)** _Genomic Language Model Predicts Protein Co-Regulation and Function_ ```Nature Communications 2024```     
@@ -832,7 +832,7 @@ The repository is part of our survey paper [**A Comprehensive Survey of Scientif
 - **(BioT5)** _BioT5: Enriching Cross-modal Integration in Biology with Chemical Knowledge and Natural Language Associations_ ```EMNLP 2023```     
 [[Paper](https://arxiv.org/abs/2310.07276)] [[GitHub](https://github.com/QizhiPei/BioT5)] [[Model (220M)](https://huggingface.co/QizhiPei/biot5-base)]
 
-- **(xTrimoPGLM)** _xTrimoPGLM: Unified 100B-Scale Pre-trained Transformer for Deciphering the Language of Protein_ ```arXiv 2024```     
+- **(xTrimoPGLM)** _xTrimoPGLM: Unified 100-Billion-Parameter Pretrained Transformer for Deciphering the Language of Proteins_ ```Nature Methods 2025```     
 [[Paper](https://arxiv.org/abs/2401.06199)] [[GitHub](https://github.com/ONERAI/xTrimoPGLM)] [[Model (1B)](https://huggingface.co/Bo1015/proteinglm-1b-mlm)] [[Model (3B)](https://huggingface.co/Bo1015/proteinglm-3b-mlm)] [[Model (10B)](https://huggingface.co/Bo1015/proteinglm-10b-mlm)] [[Model (100B)](https://huggingface.co/Bo1015/proteinglm-100b-int4)]
 
 - **(ProLLaMA)** _ProLLaMA: A Protein Large Language Model for Multi-Task Protein Language Processing_ ```arXiv 2024```     
@@ -877,7 +877,7 @@ The repository is part of our survey paper [**A Comprehensive Survey of Scientif
 - **(ENBED)** _Understanding the Natural Language of DNA using Encoder-Decoder Foundation Models with Byte-level Precision_ ```Bioinformatics Advances 2024```     
 [[Paper](https://arxiv.org/abs/2311.02333)] [[GitHub](https://github.itap.purdue.edu/Clan-labs/ENBED)]
 
-- **(LucaOne)** _LucaOne: Generalized Biological Foundation Model with Unified Nucleic Acid and Protein Language_ ```bioRxiv 2024```     
+- **(LucaOne)** _Generalized Biological Foundation Model with Unified Nucleic Acid and Protein Language_ ```Nature Machine Intelligence 2025```     
 [[Paper](https://www.biorxiv.org/content/10.1101/2024.05.10.592927)] [[GitHub](https://github.com/LucaOne/LucaOne)]
 
 - **(AIDO.DNA)** _Accurate and General DNA Representations Emerge from Genome Foundation Models at Scale_ ```bioRxiv 2024```     
@@ -1028,7 +1028,7 @@ The repository is part of our survey paper [**A Comprehensive Survey of Scientif
 - **(Stormer)** _Scaling Transformer Neural Networks for Skillful and Reliable Medium-Range Weather Forecasting_ ```NeurIPS 2024```     
 [[Paper](https://arxiv.org/abs/2312.03876)] [[GitHub](https://github.com/tung-nd/stormer)]
 
-- **(Aurora)** _A Foundation Model for the Earth System_ ```arXiv 2024```     
+- **(Aurora)** _A Foundation Model for the Earth System_ ```Nature 2025```     
 [[Paper](https://arxiv.org/abs/2405.13063)] [[GitHub](https://github.com/microsoft/aurora)]
 
 - **(Prithvi WxC)** _Prithvi WxC: Foundation Model for Weather and Climate_ ```arXiv 2024```     
